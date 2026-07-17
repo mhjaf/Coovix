@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coovix | تفصيل السيارات المتميز</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Favicon for all devices -->
+<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="MyWebSite" />
+<link rel="manifest" href="/favicon/site.webmanifest" />
+
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Cairo', 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <button class="mobile-toggle" onclick="toggleMobileMenu()">
+                <i class="ph ph-list"></i>
+            </button>
+            <ul class="nav-links">
+                <li><button onclick="openModal()" class="btn btn-primary">احجز الآن</button></li>
+                <li>
+                    <div class="language-selector">
+                        <button class="language-btn" onclick="toggleLanguageMenu()">
+                            <span>AR</span>
+                            <i class="ph ph-caret-down"></i>
+                        </button>
+                        <div class="language-menu" id="languageMenu">
+                            <a href="index.html" class="lang-option">English</a>
+                            <a href="ar.html" class="lang-option">العربية</a>
+                            <a href="ku.html" class="lang-option">کوردی</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#location">الموقع</a></li>
+                <li><a href="#faq">الأسئلة الشائعة</a></li>
+                <li><a href="#membership">المنتجات</a></li>
+                <li><a href="#process">كيف يعمل</a></li>
+                <li><a href="#services">الخدمات</a></li>
+            </ul>
+            <a href="#" class="logo">Coovix <i class="ph-fill ph-car-profile"></i></a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <span class="hero-tag">مستقبل النظافة</span>
+                <h1>أكثر من مجرد <br><span class="gradient-text">غسيل سيارات</span></h1>
+                <p>اختبر منتجع السيارات النهائي. من الطلاء النانو سيراميك المتقدم إلى تفاصيل الداخلية اليدوية، نستعيد سيارتك إلى الكمال.</p>
+                <div class="hero-btns">
+                    <button onclick="openModal()" class="btn btn-primary">احجز الآن</button>
+                    <a href="#services" class="btn btn-outline">استكشف الخدمات</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-img-box">
+                    <img src="/car wash/1.jpg" alt="سيارة راقية">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- PROCESS SECTION -->
+    <section id="process" class="section-padding process-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2>كيف <span class="gradient-text">يعمل</span></h2>
+                <p>تضمن عملية Coovix المكونة من 4 خطوات تنظيفًا عميقًا خاليًا من الخدوش في كل مرة.</p>
+            </div>
+            <div class="process-card">
+                <div class="process-grid">
+                    <div class="process-step">
+                        <div class="step-icon"><i class="ph ph-drop"></i></div>
+                        <h4>1. النقع المسبق</h4>
+                        <p>رغوة متوازنة الأس الهيدروجيني تزيل الأوساخ.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-icon"><i class="ph ph-waves"></i></div>
+                        <h4>2. الغسيل الناعم</h4>
+                        <p>قطعة قماش ألياف دقيقة لطيفة تزيل الحطام.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-icon"><i class="ph ph-sparkle"></i></div>
+                        <h4>3. التلميع والختم</h4>
+                        <p>تلميع الرغوة ثلاثية الألوان والطلاء الشفاف.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-icon"><i class="ph ph-air-traffic-control"></i></div>
+                        <h4>4. التجفيف القسري</h4>
+                        <p>منفاخ الهواء المفلتر يزيل بقع الماء.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DETAILED SERVICES -->
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>خدمات <span class="gradient-text">متميزة</span></h2>
+            </div>
+
+            <div class="service-row">
+                <div class="service-content">
+                    <h3>الكمال <span class="text-accent">الخارجي</span></h3>
+                    <p>يتجاوز غسيلنا الخارجي المميز السطح. نستخدم صابونًا محايد الأس الهيدروجيني وعملية تجفيف متعددة المراحل.</p>
+                    <ul class="feature-list">
+                        <li><i class="ph-fill ph-check-circle"></i> غسيل يدوي بقفازات متميزة</li>
+                        <li><i class="ph-fill ph-check-circle"></i> تنظيف العجلات ولمعان الإطارات</li>
+                        <li><i class="ph-fill ph-check-circle"></i> تنظيف النوافذ الخارجية</li>
+                    </ul>
+                    <button onclick="openModal('Exterior')" class="btn btn-outline">احجز الخارجي</button>
+                </div>
+                <div class="service-img">
+                    <img src="/car wash/2.jpg" alt="رغوة السيارة">
+                </div>
+            </div>
+
+            <div class="service-row reverse">
+                <div class="service-content">
+                    <h3>استعادة <span class="text-accent">الداخلية</span></h3>
+                    <p>ادخل إلى ملاذ. نقوم بتفصيل كل بوصة من الداخل بدقة، وإزالة الغبار والبقع.</p>
+                    <ul class="feature-list">
+                        <li><i class="ph-fill ph-check-circle"></i> كنس كامل (صندوق وسجاد)</li>
+                        <li><i class="ph-fill ph-check-circle"></i> مسح لوحة القيادة والكونسول</li>
+                        <li><i class="ph-fill ph-check-circle"></i> تكييف الجلد</li>
+                    </ul>
+                    <button onclick="openModal('Interior')" class="btn btn-outline">احجز الداخلي</button>
+                </div>
+                <div class="service-img">
+                    <img src="/car wash/3.jpg" alt="داخل السيارة">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DETAILING PACKAGE -->
+    <section id="membership" class="section-padding detailing-section">
+        <div class="container">
+            <div class="package-wrapper">
+                <!-- Left Side - Package Info -->
+                <div class="package-info">
+                    <span class="detail-badge"><i class="ph-fill ph-sparkle"></i> باقة مميزة</span>
+                    <h2>باقة <span class="gradient-text">التفصيل الاحترافي</span></h2>
+                    <p class="package-desc">حل شامل للعناية بالسيارات مع منتجات متميزة لنتائج بجودة صالة العرض. كل ما تحتاجه سيارتك في باقة واحدة.</p>
+
+                    <div class="package-highlights">
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-shield-checkered"></i>
+                            <span>طلاء سيراميك</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-sun"></i>
+                            <span>شمع كارنوبا</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-paint-bucket"></i>
+                            <span>مانع تسرب الطلاء</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-armchair"></i>
+                            <span>العناية بالجلد</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-tire"></i>
+                            <span>تلميع الإطارات</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-browsers"></i>
+                            <span>طلاء الزجاج</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side - Package Card -->
+                <div class="package-card">
+                    <div class="package-ribbon">باقة كاملة</div>
+                    <div class="package-icon">
+                        <i class="ph-fill ph-car"></i>
+                    </div>
+                    <h3>التفصيل النهائي</h3>
+                    <p class="package-tagline">حوّل سيارتك إلى حالة صالة العرض</p>
+
+                    <ul class="package-features">
+                        <li><i class="ph-fill ph-check-circle"></i> حماية نانو سيراميك 9H</li>
+                        <li><i class="ph-fill ph-check-circle"></i> تشطيب شمع كارنوبا البرازيلي</li>
+                        <li><i class="ph-fill ph-check-circle"></i> تنظيف عميق للداخلية</li>
+                        <li><i class="ph-fill ph-check-circle"></i> ترطيب وحماية الجلد</li>
+                        <li><i class="ph-fill ph-check-circle"></i> تفصيل الإطارات والعجلات</li>
+                        <li><i class="ph-fill ph-check-circle"></i> معالجة الزجاج المقاوم للماء</li>
+                        <li><i class="ph-fill ph-check-circle"></i> تنظيف حجرة المحرك</li>
+                        <li><i class="ph-fill ph-check-circle"></i> تصحيح الطلاء ومانع التسرب</li>
+                    </ul>
+
+                    <div class="package-duration">
+                        <i class="ph ph-clock"></i>
+                        <span>الحماية تدوم حتى سنتين</span>
+                    </div>
+
+                    <button onclick="openModal('Professional Detailing Package')" class="btn btn-primary btn-full">
+                        <i class="ph ph-calendar-check"></i> احجز هذه الباقة
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>الأسئلة <span class="gradient-text">الشائعة</span></h2>
+            </div>
+            <details class="faq-item">
+                <summary>كم من الوقت يستغرق غسيل السيارة؟ <i class="ph ph-caret-down"></i></summary>
+                <div class="faq-content">يستغرق غسيل النفق السريع حوالي 15 دقيقة. يمكن أن يستغرق تفصيل الداخلية من 45 دقيقة إلى ساعتين.</div>
+            </details>
+            <details class="faq-item">
+                <summary>هل الغسيل آمن لطلاء سيارتي؟ <i class="ph ph-caret-down"></i></summary>
+                <div class="faq-content">تمامًا. نستخدم تقنية "اللمسة الناعمة" مع فرش رغوة خلية مغلقة يتم تشحيمها باستمرار.</div>
+            </details>
+        </div>
+    </section>
+
+    <!-- LOCATION SECTION -->
+    <section id="location" class="location-section">
+        <div class="location-header">
+            <div class="container">
+                <span class="location-badge"><i class="ph-fill ph-map-pin"></i> اعثر علينا</span>
+                <h2>قم بزيارة <span class="gradient-text">Coovix</span></h2>
+                <p>تعال واختبر مستقبل العناية بالسيارات</p>
+            </div>
+        </div>
+        <div class="map-center-container">
+            <div class="map-medium">
+                <iframe
+                    class="map-frame"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074644.2815829106!2d34.76292590000001!3d35.5037639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40090675168d57f5%3A0x18d1cbbe61767ce8!2sKurdistan%20Region!5e0!3m2!1sar!2s!4v1738329600000!5m2!1sar!2s"
+                    title="هەرێمی کوردستان">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROFESSIONAL FOOTER -->
+    <footer id="contact" class="footer">
+        <!-- Footer Top - CTA Section -->
+        <div class="footer-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <div class="cta-text">
+                        <h3>هل أنت جاهز لتجربة العناية المتميزة بالسيارات؟</h3>
+                        <p>احجز موعدك اليوم وامنح سيارتك العناية التي تستحقها.</p>
+                    </div>
+                    <button onclick="openModal()" class="btn btn-primary btn-glow">
+                        <i class="ph ph-calendar-check"></i> احجز موعد
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Main -->
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-grid-pro">
+                    <!-- Brand Column -->
+                    <div class="footer-brand">
+                        <a href="#" class="footer-logo">
+                            <i class="ph-fill ph-car-profile"></i>
+                            <span>Coovix</span>
+                        </a>
+                        <p class="brand-tagline">تفصيل السيارات المتميز</p>
+                        <p class="brand-desc">استمتع بأفضل رعاية للسيارات. نحن نجمع بين التكنولوجيا المتطورة والحرفية الدقيقة لتقديم نتائج بجودة صالات العرض.</p>
+                    </div>
+
+                    <!-- Services -->
+                    <div class="footer-links-col">
+                        <h4>الخدمات</h4>
+                        <ul class="footer-nav">
+                            <li><a href="#"><i class="ph ph-caret-right"></i> غسيل سريع</a></li>
+                            <li><a href="#"><i class="ph ph-caret-right"></i> تفصيل كامل</a></li>
+                            <li><a href="#"><i class="ph ph-caret-right"></i> طلاء سيراميك</a></li>
+                            <li><a href="#"><i class="ph ph-caret-right"></i> تنظيف داخلي</a></li>
+                            <li><a href="#"><i class="ph ph-caret-right"></i> حماية الطلاء</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="footer-contact-col">
+                        <h4>اتصل بنا</h4>
+                        <div class="contact-list">
+                            <div class="contact-item">
+                                <div class="contact-text">
+                                    <span>الهاتف: <span dir="ltr">+964 750 765 0999</span></span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-text">
+                                    <span>البريد الإلكتروني: info@coovix.com</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links" style="margin-top: 20px;">
+                            <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="social-link">
+                                <i class="ph-fill ph-facebook-logo"></i>
+                            </a>
+                            <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="social-link">
+                                <i class="ph-fill ph-instagram-logo"></i>
+                            </a>
+                            <a href="https://tiktok.com" target="_blank" aria-label="TikTok" class="social-link">
+                                <i class="ph-fill ph-tiktok-logo"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <div class="copyright" style="text-align: center; width: 100%;">
+                        <p>&copy; 2026 Coovix لغسيل السيارات. جميع الحقوق محفوظة.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top-btn" id="scrollTopBtn" onclick="scrollToTop()" aria-label="العودة للأعلى">
+        <i class="ph ph-caret-up"></i>
+    </button>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/9647507650999" class="whatsapp-btn" target="_blank" aria-label="تواصل عبر واتساب">
+        <i class="ph-fill ph-whatsapp-logo"></i>
+        <span class="whatsapp-tooltip">تواصل معنا</span>
+    </a>
+
+    <!-- BOOKING MODAL -->
+    <div class="modal-overlay" id="bookingModal">
+        <div class="modal-box">
+            <button class="close-modal" onclick="closeModal()"><i class="ph ph-x"></i></button>
+            <h2><i class="ph-fill ph-calendar-check"></i> حجز موعد</h2>
+            <p>حدد خدمتك والتاريخ المفضل.</p>
+
+            <form id="bookingForm">
+                <input type="text" name="name" placeholder="الاسم الكامل" required>
+                <input type="tel" name="phone" placeholder="رقم الهاتف" required>
+                <select name="category" id="categorySelect" required>
+                    <option value="" disabled selected>اختر الفئة</option>
+                    <!-- Categories loaded from database -->
+                </select>
+                <select name="car_type" id="carTypeSelect" required>
+                    <option value="" disabled selected>اختر نوع السيارة</option>
+                    <!-- Car types loaded from database -->
+                </select>
+                <select name="wash_type" id="washTypeSelect" required style="display: none;">
+                    <option value="" disabled selected>اختر نوع الغسيل</option>
+                    <!-- Wash types loaded from database -->
+                </select>
+                <select name="service_id" id="serviceSelect" required>
+                    <option value="" disabled selected>اختر الخدمة</option>
+                    <!-- Services loaded from database -->
+                </select>
+                <input type="date" id="bookingDate" name="date" required>
+                <select id="bookingTime" name="time" required>
+                    <option value="" disabled selected>اختر الوقت</option>
+                    <option value="08:00">08:00 صباحًا</option>
+                    <option value="08:30">08:30 صباحًا</option>
+                    <option value="09:00">09:00 صباحًا</option>
+                    <option value="09:30">09:30 صباحًا</option>
+                    <option value="10:00">10:00 صباحًا</option>
+                    <option value="10:30">10:30 صباحًا</option>
+                    <option value="11:00">11:00 صباحًا</option>
+                    <option value="11:30">11:30 صباحًا</option>
+                    <option value="12:00">12:00 ظهرًا</option>
+                    <option value="12:30">12:30 ظهرًا</option>
+                    <option value="13:00">01:00 مساءً</option>
+                    <option value="13:30">01:30 مساءً</option>
+                    <option value="14:00">02:00 مساءً</option>
+                    <option value="14:30">02:30 مساءً</option>
+                    <option value="15:00">03:00 مساءً</option>
+                    <option value="15:30">03:30 مساءً</option>
+                    <option value="16:00">04:00 مساءً</option>
+                    <option value="16:30">04:30 مساءً</option>
+                    <option value="17:00">05:00 مساءً</option>
+                    <option value="17:30">05:30 مساءً</option>
+                    <option value="18:00">06:00 مساءً</option>
+                    <option value="18:30">06:30 مساءً</option>
+                    <option value="19:00">07:00 مساءً</option>
+                    <option value="19:30">07:30 مساءً</option>
+                </select>
+                <textarea name="note" placeholder="ملاحظات إضافية (اختياري)" rows="3"></textarea>
+                <div id="dayOffWarning" class="day-off-warning" style="display: none;">
+                    <i class="ph-fill ph-warning-circle"></i>
+                    <div>
+                        <strong>هذا اليوم غير متاح للحجز!</strong>
+                        <p>نحن مغلقون في هذا اليوم. يرجى اختيار تاريخ آخر.</p>
+                    </div>
+                </div>
+                <div id="priceDisplay" class="price-display" style="display: none;">
+                    <strong>السعر:</strong> <span id="priceAmount">0</span>
+                </div>
+                <div id="bookingMessage" class="booking-message"></div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="ph-bold ph-check-circle"></i> تأكيد الحجز
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

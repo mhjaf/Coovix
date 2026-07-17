@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Coovix - رؤيةٌ بلا حدودٍ للحلولِ التكنولوجية</title>
+    <meta name="description" content="Coovix - شركة رائدة في تطوير الويب في كردستان، العراق. خبراء في تطبيقات الموبايل، البرمجيات المخصصة، تطوير React/Vue، والحلول الرقمية للشركات.">
+    <meta name="keywords" content="تطوير الويب, تطبيقات الموبايل, برمجيات مخصصة, React, Vue, Angular, Flutter, كردستان, العراق, أربيل, برمجة, حلول رقمية">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Coovix">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Coovix - حلول ذكية لكل رؤية">
+    <meta property="og:description" content="شركة رائدة في تطوير الويب في كردستان، العراق. خبراء في تطبيقات الموبايل، البرمجيات المخصصة، والحلول الرقمية للشركات.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://coovix.com">
+    <meta property="og:image" content="https://coovix.com/logo.png">
+    <meta property="og:site_name" content="Coovix">
+    <meta property="og:locale" content="ar_IQ">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Coovix - حلول ذكية لكل رؤية">
+    <meta name="twitter:description" content="شركة رائدة في تطوير الويب في كردستان، العراق. خبراء في تطبيقات الموبايل والحلول الرقمية.">
+    <meta name="twitter:image" content="https://coovix.com/logo.png">
+
+    
+    <!-- Business Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "CODIVA",
+      "description": "شركة برمجة احترافية تقدم خدمات تطوير الويب، تطبيقات الموبايل، وحلول البرمجيات المخصصة.",
+      "url": "https://codiva.com",
+      "logo": "https://codiva.com/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+964-750-765-0999",
+        "contactType": "customer service",
+        "areaServed": "IQ",
+        "availableLanguage": ["en", "ar", "ku"]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Kurdistan",
+        "addressCountry": "Iraq"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/coovix",
+        "https://www.facebook.com/share/188UQedKkT/?mibextid=wwXIfr",
+        "https://www.instagram.com/coovix.tech?igsh=MWFtYWpobThsZ2Zydg%3D%3D&utm_source=qr"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "CODIVA Team"
+      },
+      "foundingDate": "2021",
+      "serviceArea": {
+        "@type": "Place",
+        "name": "Kurdistan, Iraq"
+      }
+    }
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Favicon for all devices -->
+<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="MyWebSite" />
+<link rel="manifest" href="/favicon/site.webmanifest" />    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/Projects/menu/detail-style.css">
+
+</head>
+<body>
+     <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <img src="/logo.png" alt="loading">
+            <p>جاري التحميل<span class="loading-dots"></span></p>
+        </div>
+    </div>
+
+    <div class="cursor" id="cursor" aria-hidden="true"></div>
+
+    <div class="scroll-indicator" id="scrollIndicator" aria-hidden="true"></div>
+
+    <div class="particles" id="particles" aria-hidden="true"></div>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/+9647507650999" 
+           class="whatsapp-button" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           aria-label="اتصل بنا عبر الواتساب"
+           title="تحدث معنا على الواتساب">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        </a>
+        
+        <button class="back-to-top" id="backToTop" aria-label="العودة إلى الأعلى">
+            <i class="fas fa-arrow-up" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo" aria-label="الصفحة الرئيسية Coovix">
+                <img src="/logo.png" alt="شعار Coovix">
+            </a>
+
+            <nav class="nav-menu" role="navigation">
+                <a href="/ar.html#about" class="nav-link">من نحن</a>
+                <span class="nav-separator">|</span>
+                <a href="/Projects/ar-projects-index.html" class="nav-link">مشاريعنا</a>
+                <span class="nav-separator">|</span>
+                <a href="/ar.html#services" class="nav-link">خدماتنا</a>
+                <span class="nav-separator">|</span>
+                <a href="/ar.html#website-creation" class="nav-link">المواقع</a>
+                <span class="nav-separator">|</span>
+                <a href="/ar.html#mobile-app" class="nav-link">تطبيقات الموبايل</a>
+                <span class="nav-separator">|</span>
+                <a href="/ar.html#contact" class="nav-link">اتصل بنا</a>
+                <span class="nav-separator">|</span>
+                <div class="language-switcher">
+                    <div class="language-dropdown">
+                        <button class="language-toggle" aria-label="اختر اللغة">
+                            <span class="current-lang">العربية</span>
+                            <i class="fas fa-chevron-down dropdown-arrow"></i>
+                        </button>
+                        <div class="language-options">
+                            <a href="/Projects/menu/menu-detail.html" class="lang-option" data-lang="en">
+                                <span class="lang-name">English</span>
+                                <img src="/icon/us.png" alt="English" class="lang-icon">
+                            </a>
+                            <a href="/Projects/menu/kr-menu-detail.html" class="lang-option" data-lang="ku">
+                                <span class="lang-name">كوردى</span>
+                                <img src="/icon/kr.png" alt="كوردى" class="lang-icon">
+                            </a>
+                            <a href="/Projects/menu/ar-menu-detail.html" class="lang-option active" data-lang="ar">
+                                <span class="lang-name">العربية</span>
+                                <img src="/icon/ar.png" alt="العربية" class="lang-icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Demo Section -->
+    <section class="demo-section">
+        <div class="demo-container">
+            <h2 class="section-title">استكشف عروض القوائم التوضيحية</h2>
+            <p class="section-subtitle">جرب أنماط وتصاميم مختلفة لمطعمك</p>
+            
+            <div class="demo-grid">
+                <a href="https://codiva.co/20259597/demo-menu/Hzbr" class="demo-card" target="_blank">
+                    <div class="demo-image">
+                        <i class="fas fa-hamburger"></i>
+                    </div>
+                    <div class="demo-info">
+                        <h3>النموذج ١</h3>
+                    </div>
+                </a>
+
+                <a href="https://codiva.co/20259597/demo-menu/demo-kurdish" class="demo-card" target="_blank">
+                    <div class="demo-image">
+                        <i class="fas fa-pizza-slice"></i>
+                    </div>
+                    <div class="demo-info">
+                        <h3>النموذج ٢</h3>
+                    </div>
+                </a>
+
+                <a href="https://codiva.co/20259597/qrcode/menu1" class="demo-card" target="_blank">
+                    <div class="demo-image">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <div class="demo-info">
+                        <h3>النموذج ٣</h3>
+                    </div>
+                </a>
+
+                <a href="https://www.codiva.co/20259597/menu/champions_saladbar%26cafe/index.html?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn6A2c3acB2smoGI3hbpfWyQUwBYVGgzucCN6Kar0LPVpS0SDO7IbFzoDlQCA_aem_nZtOAe5Iwj7at8Tvwo_BZA" class="demo-card" target="_blank">
+                    <div class="demo-image">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="demo-info">
+                        <h3>النموذج ٤</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Packages Section -->
+    <section class="pricing-section">
+        <div class="pricing-container">
+            <h2 class="section-title">اختر باقتك</h2>
+            <p class="section-subtitle">السعر المبدئي: 239$ (مرة واحدة) أو 22$ شهريًا.</p>
+
+            <div class="pricing-grid">
+                <!-- Standard Package -->
+                <div class="pricing-card" data-package="standard">
+                    <div class="package-header">
+                        <div class="package-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 class="package-name">Standard</h3>
+                        <p class="package-desc"> للمطاعم الصغيرة</p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> <span>اختيار أي تصميم من النماذج</span></li>
+                        <li><i class="fas fa-check"></i> <span>QR Code</span></li>
+                        <li><i class="fas fa-check"></i> <span>لغات غير محدودة</span></li>
+                        <li><i class="fas fa-check"></i> <span>أقسام وقائمة الطعام</span></li>
+                        <li><i class="fas fa-check"></i> <span>متوافق مع كل الهواتف</span></li>
+                        <li><i class="fas fa-check"></i> <span>معلومات المطعم</span></li>
+
+                    </ul>
+                </div>
+
+                <!-- Gold Package -->
+                <div class="pricing-card " data-package="gold">
+                    <div class="package-header">
+                        <div class="package-icon">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <h3 class="package-name">Gold</h3>
+                        <p class="package-desc">للمطاعم المتنامية</p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> <span>خاصية حجز الطاولات</span></li>
+                        <li><i class="fas fa-check"></i> <span>خاصية تقييم المطعم</span></li>
+                        <li><i class="fas fa-check"></i> <span>تواصل عبر واتساب</span></li>
+                        <li><i class="fas fa-check"></i> <span>اولوية في الدعم</span></li>
+
+                    </ul>
+                </div>
+
+                <!-- Platinum Package -->
+                <div class="pricing-card" data-package="platinum">
+                    <div class="package-header">
+                        <div class="package-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3 class="package-name">Platinum</h3>
+                        <p class="package-desc">حل متكامل للمطاعم</p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> <span>نظام طلبات أونلاين</span></li>
+                        <li><i class="fas fa-check"></i> <span>لوحة تحكم كاملة</span></li>
+                        <li><i class="fas fa-check"></i> <span>تقارير وتحليلات</span></li>
+                        <li><i class="fas fa-check"></i> <span>تخصيص لهوية الزبون</span></li>
+                        <li><i class="fas fa-check"></i> <span>دعم ٢٤/٧</span></li>
+                    </ul>
+                </div>
+
+                <!-- Titanium Package -->
+                <div class="pricing-card" data-package="titanium">
+                    <div class="package-header">
+                        <div class="package-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="package-name">Custom branding</h3>
+                        <p class="package-desc">مصمم خصيصًا لعلامتك التجارية</p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> <span>خاص بعلامتك التجارية</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+        <div class="faq-container">
+            <h2 class="section-title">الأسئلة الشائعة</h2>
+            <p class="section-subtitle">إجابات سريعة على الأسئلة الشائعة</p>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>هل يمكنني تحديث عناصر القائمة والأسعار في أي وقت؟</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>نعم. لديك تحكم كامل من خلال لوحة الإدارة لإضافة أو تعديل أو حذف عناصر القائمة، وتحديث الأسعار، وتغيير الأوصاف أو الصور فوراً — دون الحاجة لأي مهارات تقنية.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>هل يمكن للعملاء مسح رمز QR لعرض القائمة على هواتفهم؟</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>بالتأكيد. كل قائمة تحصل على رمز QR فريد يمكن للعملاء مسحه بكاميرا هواتفهم. تظهر القائمة فوراً في المتصفح — دون الحاجة لتحميل أي تطبيق.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>هل تدعم القائمة الرقمية لغات متعددة؟</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>نعم. يمكنك إعداد قائمتك بلغات متعددة ليتمكن العملاء من التبديل بينها بسهولة. هذا مثالي للمطاعم التي تخدم عملاء متنوعين أو دوليين.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" style="padding: 80px 0;">
+        <div class="contact-container" style="max-width: 1400px; margin: 0 auto; padding: 0 2rem;">
+            <div class="website-cta-box reveal active">
+                <div class="cta-content">
+                    <h3>مهتم بنظام قائمة مخصص؟</h3>
+                    <div class="cta-buttons">
+                        <a href="/ar.html#contact" class="btn-primary">
+                            <span>اتصل بنا</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footerar">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>الخدمات</h3>
+                <ul>
+                    <li><a href="/ar.html#website-creation">تطوير الويب</a></li>
+                    <li><a href="/ar.html#mobile-app">تطبيقات الجوال</a></li>
+                    <li><a href="/ar.html#services">أنظمة الخادم</a></li>
+                    <li><a href="/Projects/menu/ar-menu-detail.html">قائمة المطاعم</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>الشركة</h3>
+                <ul>
+                    <li><a href="/ar.html#about">من نحن</a></li>
+                    <li><a href="/Projects/ar-projects-index.html">مشاريعنا</a></li>
+                    <li><a href="/privacy/ar-privacy-policy.html">سياسة الخصوصية</a></li>
+                    <li><a href="/terms/ar-terms.html">شروط الخدمة</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>تابعنا</h3>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+9647507650999">+964 750 765 0999</a></p>
+                    <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:info@coovix.com">info@coovix.com</a></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/company/coovix/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/share/188UQedKkT/?mibextid=wwXIfr" target="_blank" aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/coovix.tech?igsh=MWFtYWpobThsZ2Zydg%3D%3D&utm_source=qr" target="_blank" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2026 Coovix. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/Projects/menu/detail-script.js"></script>
+    <script src="/script.js"></script>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const item = btn.parentElement;
+                const isActive = item.classList.contains('active');
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+                if (!isActive) item.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>

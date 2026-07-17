@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coovix | وردەکاری ئۆتۆمبێلی تایبەت</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;600;700;900&family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Favicon for all devices -->
+<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="MyWebSite" />
+<link rel="manifest" href="/favicon/site.webmanifest" />
+
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Noto Sans Arabic', 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <button class="mobile-toggle" onclick="toggleMobileMenu()">
+                <i class="ph ph-list"></i>
+            </button>
+            <ul class="nav-links">
+                <li><button onclick="openModal()" class="btn btn-primary">ئێستا بکە</button></li>
+                <li>
+                    <div class="language-selector">
+                        <button class="language-btn" onclick="toggleLanguageMenu()">
+                            <span>KU</span>
+                            <i class="ph ph-caret-down"></i>
+                        </button>
+                        <div class="language-menu" id="languageMenu">
+                            <a href="index.html" class="lang-option">English</a>
+                            <a href="ar.html" class="lang-option">العربية</a>
+                            <a href="ku.html" class="lang-option">کوردی</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#location">شوێن</a></li>
+                <li><a href="#faq">پرسیارە باوەکان</a></li>
+                <li><a href="#membership">بەرهەمەکان</a></li>
+                <li><a href="#process">چۆن کاردەکات</a></li>
+                <li><a href="#services">خزمەتگوزارییەکان</a></li>
+            </ul>
+            <a href="#" class="logo">Coovix <i class="ph-fill ph-car-profile"></i></a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <span class="hero-tag">داهاتووی پاکی</span>
+                <h1>زیاتر لە تەنها <br><span class="gradient-text">شۆردنەوەی ئۆتۆمبێل</span></h1>
+                <p>ئەزموونی سپای ئۆتۆمبێلی کۆتایی. لە پۆشینی نانۆ سێرامیکی پێشکەوتوو تا وردکاری ناوەوەی دەستی، ئێمە ئۆتۆمبێلەکەت دەگەڕێنینەوە بۆ تەواوی نمایشگا.</p>
+                <div class="hero-btns">
+                    <button onclick="openModal()" class="btn btn-primary">ئێستا بکە</button>
+                    <a href="#services" class="btn btn-outline">خزمەتگوزارییەکان بگەڕێ</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-img-box">
+                    <img src="/car wash/1.jpg" alt="ئۆتۆمبێلی بەرز">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- PROCESS SECTION -->
+    <section id="process" class="section-padding process-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2>چۆن <span class="gradient-text">کاردەکات</span></h2>
+                <p>پرۆسەی ٤ هەنگاوی Coovix دڵنیایی لە پاککردنەوەیەکی قووڵی بێ خراپان دەکات لە هەر جارێکدا.</p>
+            </div>
+            <div class="process-card">
+                <div class="process-grid">
+                    <div class="process-step">
+                        <div class="step-icon"><i class="ph ph-drop"></i></div>
+                        <h4>١. خیساندنی پێشوەخت</h4>
+                        <p>کەفی هاوسەنگی pH خۆڵ دەشکێنێت.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-icon"><i class="ph ph-waves"></i></div>
+                        <h4>٢. شۆردنەوەی نەرم</h4>
+                        <p>پارچە قوماشی نەرمی مایکرۆفایبەر پاشماوە لادەدات.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-icon"><i class="ph ph-sparkle"></i></div>
+                        <h4>٣. پۆلیش و مۆری</h4>
+                        <p>پۆلیشی کەفی سێ ڕەنگ و پۆشینی ڕوون.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-icon"><i class="ph ph-air-traffic-control"></i></div>
+                        <h4>٤. وشککردنەوەی زۆر</h4>
+                        <p>فووکەری هەوای پاڵاوتن لەکەکانی ئاو لادەدات.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DETAILED SERVICES -->
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>خزمەتگوزارییە <span class="gradient-text">تایبەتەکان</span></h2>
+            </div>
+
+            <div class="service-row">
+                <div class="service-content">
+                    <h3>تەواوی <span class="text-accent">دەرەوە</span></h3>
+                    <p>شۆردنەوەی دەرەوەی نموونەیمان لە ڕووی دەرەوە تێدەپەڕێت. ئێمە سابوونی بێلایەن pH و پرۆسەی وشککردنەوەی چەند قۆناغێک بەکاردەهێنین.</p>
+                    <ul class="feature-list">
+                        <li><i class="ph-fill ph-check-circle"></i> شۆردنەوەی دەستی بە دەستکێشی تایبەت</li>
+                        <li><i class="ph-fill ph-check-circle"></i> پاککردنەوەی چەرخ و برقەی تایەر</li>
+                        <li><i class="ph-fill ph-check-circle"></i> پاککردنەوەی پەنجەرەی دەرەوە</li>
+                    </ul>
+                    <button onclick="openModal('Exterior')" class="btn btn-outline">دەرەوە بکە</button>
+                </div>
+                <div class="service-img">
+                    <img src="/car wash/2.jpg" alt="کەفی ئۆتۆمبێل">
+                </div>
+            </div>
+
+            <div class="service-row reverse">
+                <div class="service-content">
+                    <h3>گەڕانەوە <span class="text-accent">ناوەوە</span></h3>
+                    <p>بچۆ ژوورەوە بۆ پەناگایەک. ئێمە بە وردی هەر ئینچێک لە ناوەوە وردەکاری دەکەین، خۆڵ و لەکە لادەدەین.</p>
+                    <ul class="feature-list">
+                        <li><i class="ph-fill ph-check-circle"></i> ڤاکیومی تەواو (سندووق و تەختە)</li>
+                        <li><i class="ph-fill ph-check-circle"></i> سڕینەوەی داشبۆرد و کۆنسۆڵ</li>
+                        <li><i class="ph-fill ph-check-circle"></i> نەرمکردنی چەرم</li>
+                    </ul>
+                    <button onclick="openModal('Interior')" class="btn btn-outline">ناوەوە بکە</button>
+                </div>
+                <div class="service-img">
+                    <img src="/car wash/3.jpg" alt="ناوەوەی ئۆتۆمبێل">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DETAILING PACKAGE -->
+    <section id="membership" class="section-padding detailing-section">
+        <div class="container">
+            <div class="package-wrapper">
+                <!-- Left Side - Package Info -->
+                <div class="package-info">
+                    <span class="detail-badge"><i class="ph-fill ph-sparkle"></i> پاکێجی پریمیۆم</span>
+                    <h2>پاکێجی <span class="gradient-text">پۆلیش کردنی پیشەیی</span></h2>
+                    <p class="package-desc">چارەسەری تەواوی چاودێری ئۆتۆمبێل بە بەرهەمە پریمیۆمەکان بۆ ئەنجامی وەک نمایشگا. هەموو ئەوەی ئۆتۆمبێلەکەت پێویستی پێیەتی لە یەک پاکێجدا.</p>
+
+                    <div class="package-highlights">
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-shield-checkered"></i>
+                            <span>پۆشینی سیرامیک</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-sun"></i>
+                            <span>مۆمی کارناوبا</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-paint-bucket"></i>
+                            <span>داخستنی بۆیە</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-armchair"></i>
+                            <span>چاودێری چەرم</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-tire"></i>
+                            <span>ڕازاندنەوەی تایە</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-browsers"></i>
+                            <span>پۆشینی شووشە</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side - Package Card -->
+                <div class="package-card">
+                    <div class="package-ribbon">پاکێجی تەواو</div>
+                    <div class="package-icon">
+                        <i class="ph-fill ph-car"></i>
+                    </div>
+                    <h3>پۆلیشی کۆتایی</h3>
+                    <p class="package-tagline">ئۆتۆمبێلەکەت بگۆڕە بۆ دۆخی نمایشگا</p>
+
+                    <ul class="package-features">
+                        <li><i class="ph-fill ph-check-circle"></i> پاراستنی نانۆ-سیرامیک 9H</li>
+                        <li><i class="ph-fill ph-check-circle"></i> مۆمی کارناوبای برازیلی</li>
+                        <li><i class="ph-fill ph-check-circle"></i> پاککردنەوەی قووڵی ناوەوە</li>
+                        <li><i class="ph-fill ph-check-circle"></i> نەرمکردن و پاراستنی چەرم</li>
+                        <li><i class="ph-fill ph-check-circle"></i> پۆلیشی تایە و ویل</li>
+                        <li><i class="ph-fill ph-check-circle"></i> چارەسەری شووشەی ئاوڕاو</li>
+                        <li><i class="ph-fill ph-check-circle"></i> پاککردنی ژوری مەکینە</li>
+                        <li><i class="ph-fill ph-check-circle"></i> چاککردنی بۆیە و داخستن</li>
+                    </ul>
+
+                    <div class="package-duration">
+                        <i class="ph ph-clock"></i>
+                        <span>پاراستن تا ٢ ساڵ بەردەوام دەبێت</span>
+                    </div>
+
+                    <button onclick="openModal('Professional Detailing Package')" class="btn btn-primary btn-full">
+                        <i class="ph ph-calendar-check"></i> ئەم پاکێجە ببەستە
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>پرسیارە <span class="gradient-text">باوەکان</span></h2>
+            </div>
+            <details class="faq-item">
+                <summary>چەند کات دەخایەنێت شۆردنەوەی ئۆتۆمبێل؟ <i class="ph ph-caret-down"></i></summary>
+                <div class="faq-content">شۆردنەوەی خێرای تونێلمان نزیکەی ١٥ خولەک دەخایەنێت. وردکاری ناوەوە دەتوانێت لە ٤٥ خولەک تا ٢ کاتژمێر بخایەنێت.</div>
+            </details>
+            <details class="faq-item">
+                <summary>ئایا شۆردنەوە سەلامەتە بۆ بۆیای ئۆتۆمبێلەکەم؟ <i class="ph ph-caret-down"></i></summary>
+                <div class="faq-content">بەتەواوی. ئێمە تەکنەلۆژیای "لامسەی نەرم" بە فرچەی کەفی خانەی داخراو بەکاردەهێنین کە بەردەوام چەوراندن دەکرێن.</div>
+            </details>
+        </div>
+    </section>
+
+    <!-- LOCATION SECTION -->
+    <section id="location" class="location-section">
+        <div class="location-header">
+            <div class="container">
+                <span class="location-badge"><i class="ph-fill ph-map-pin"></i> بمدۆزەوە</span>
+                <h2>سەردانی <span class="gradient-text">Coovix</span> بکە</h2>
+                <p>وەرە ئەزموونی داهاتووی چاودێری ئۆتۆمبێل بکە</p>
+            </div>
+        </div>
+        <div class="map-center-container">
+            <div class="map-medium">
+                <iframe
+                    class="map-frame"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074644.2815829106!2d34.76292590000001!3d35.5037639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40090675168d57f5%3A0x18d1cbbe61767ce8!2sKurdistan%20Region!5e0!3m2!1sku!2s!4v1738329600000!5m2!1sku!2s"
+                    title="هەرێمی کوردستان">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROFESSIONAL FOOTER -->
+    <footer id="contact" class="footer">
+        <!-- Footer Top - CTA Section -->
+        <div class="footer-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <div class="cta-text">
+                        <h3>ئامادەیت بۆ ئەزموونی چاودێری پڕیمیۆم ئۆتۆمبێل؟</h3>
+                        <p>ئەمڕۆ کاتت دابنێ و ئۆتۆمبێلەکەت ئەو چاودێریە پێبدە کە شایستەیەتی.</p>
+                    </div>
+                    <button onclick="openModal()" class="btn btn-primary btn-glow">
+                        <i class="ph ph-calendar-check"></i> کات دابنێ
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Main -->
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-grid-pro">
+                    <!-- Brand Column -->
+                    <div class="footer-brand">
+                        <a href="#" class="footer-logo">
+                            <i class="ph-fill ph-car-profile"></i>
+                            <span>Coovix</span>
+                        </a>
+                        <p class="brand-tagline">وردکاری پڕیمیۆمی ئۆتۆمبێل</p>
+                        <p class="brand-desc">باشترین چاودێری ئۆتۆمبێل ئەزموون بکە. ئێمە تەکنەلۆژیای پێشکەوتوو لەگەڵ پیشەسازی ورد یەکدەخەین بۆ گەیاندنی ئەنجامی کوالیتی نمایشخانە.</p>
+                    </div>
+
+                    <!-- Services -->
+                    <div class="footer-links-col">
+                        <h4>خزمەتگوزارییەکان</h4>
+                        <ul class="footer-nav">
+                            <li><a href="#"><i class="ph ph-caret-right"></i> شۆردنی خێرا</a></li>
+                            <li><a href="#"><i class="ph ph-caret-right"></i> وردکاری تەواو</a></li>
+                            <li><a href="#"><i class="ph ph-caret-right"></i> پۆشینی سێرامیک</a></li>
+                            <li><a href="#"><i class="ph ph-caret-right"></i> پاککردنەوەی ناوەوە</a></li>
+                            <li><a href="#"><i class="ph ph-caret-right"></i> پاراستنی بۆیە</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="footer-contact-col">
+                        <h4>پەیوەندیمان پێوە بکە</h4>
+                        <div class="contact-list">
+                            <div class="contact-item">
+
+                                <div class="contact-text">
+                                    <span>تەلەفۆن: <span dir="ltr">+964 750 765 0999</span></span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+
+                                <div class="contact-text">
+                                    <span>ئیمەیڵ: info@coovix.com</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links" style="margin-top: 20px;">
+                            <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="social-link">
+                                <i class="ph-fill ph-facebook-logo"></i>
+                            </a>
+                            <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="social-link">
+                                <i class="ph-fill ph-instagram-logo"></i>
+                            </a>
+                            <a href="https://tiktok.com" target="_blank" aria-label="TikTok" class="social-link">
+                                <i class="ph-fill ph-tiktok-logo"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <div class="copyright" style="text-align: center; width: 100%;">
+                        <p>&copy; ٢٠٢٦ Coovix شۆردنەوەی ئۆتۆمبێل. هەموو مافەکان پارێزراون.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top-btn" id="scrollTopBtn" onclick="scrollToTop()" aria-label="بگەڕێوە سەرەوە">
+        <i class="ph ph-caret-up"></i>
+    </button>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/9647507650999" class="whatsapp-btn" target="_blank" aria-label="گفتوگۆ لە واتساپ">
+        <i class="ph-fill ph-whatsapp-logo"></i>
+        <span class="whatsapp-tooltip">پەیوەندیمان پێوە بکە</span>
+    </a>
+
+    <!-- BOOKING MODAL -->
+    <div class="modal-overlay" id="bookingModal">
+        <div class="modal-box">
+            <button class="close-modal" onclick="closeModal()"><i class="ph ph-x"></i></button>
+            <h2><i class="ph-fill ph-calendar-check"></i> کاتی دابنێ</h2>
+            <p>خزمەتگوزاری و بەرواری دڵخوازت هەڵبژێرە.</p>
+
+            <form id="bookingForm">
+                <input type="text" name="name" placeholder="ناوی تەواو" required>
+                <input type="tel" name="phone" placeholder="ژمارەی تەلەفۆن" required>
+                <select name="category" id="categorySelect" required>
+                    <option value="" disabled selected>جۆر هەڵبژێرە</option>
+                    <!-- Categories loaded from database -->
+                </select>
+                <select name="car_type" id="carTypeSelect" required>
+                    <option value="" disabled selected>جۆری ئۆتۆمبێل هەڵبژێرە</option>
+                    <!-- Car types loaded from database -->
+                </select>
+                <select name="wash_type" id="washTypeSelect" required style="display: none;">
+                    <option value="" disabled selected>جۆری شۆردن هەڵبژێرە</option>
+                    <!-- Wash types loaded from database -->
+                </select>
+                <select name="service_id" id="serviceSelect" required>
+                    <option value="" disabled selected>خزمەتگوزاری هەڵبژێرە</option>
+                    <!-- Services loaded from database -->
+                </select>
+                <input type="date" id="bookingDate" name="date" required>
+                <select id="bookingTime" name="time" required>
+                    <option value="" disabled selected>کات هەڵبژێرە</option>
+                    <option value="08:00">08:00 بەیانی</option>
+                    <option value="08:30">08:30 بەیانی</option>
+                    <option value="09:00">09:00 بەیانی</option>
+                    <option value="09:30">09:30 بەیانی</option>
+                    <option value="10:00">10:00 بەیانی</option>
+                    <option value="10:30">10:30 بەیانی</option>
+                    <option value="11:00">11:00 بەیانی</option>
+                    <option value="11:30">11:30 بەیانی</option>
+                    <option value="12:00">12:00 نیوەڕۆ</option>
+                    <option value="12:30">12:30 نیوەڕۆ</option>
+                    <option value="13:00">01:00 دوانیوەڕۆ</option>
+                    <option value="13:30">01:30 دوانیوەڕۆ</option>
+                    <option value="14:00">02:00 دوانیوەڕۆ</option>
+                    <option value="14:30">02:30 دوانیوەڕۆ</option>
+                    <option value="15:00">03:00 دوانیوەڕۆ</option>
+                    <option value="15:30">03:30 دوانیوەڕۆ</option>
+                    <option value="16:00">04:00 دوانیوەڕۆ</option>
+                    <option value="16:30">04:30 دوانیوەڕۆ</option>
+                    <option value="17:00">05:00 ئێوارە</option>
+                    <option value="17:30">05:30 ئێوارە</option>
+                    <option value="18:00">06:00 ئێوارە</option>
+                    <option value="18:30">06:30 ئێوارە</option>
+                    <option value="19:00">07:00 ئێوارە</option>
+                    <option value="19:30">07:30 ئێوارە</option>
+                </select>
+                <textarea name="note" placeholder="تێبینییە زیادەکان (دڵخواز)" rows="3"></textarea>                <div id="dayOffWarning" class="day-off-warning" style="display: none;">
+                    <i class="ph-fill ph-warning-circle"></i>
+                    <div>
+                        <strong>ئەم ڕۆژە بەردەست نییە بۆ حەجزکردن!</strong>
+                        <p>ئێمە لەم ڕۆژەدا داخراوین. تکایە ڕۆژیکی تر هەڵبژێرە.</p>
+                    </div>
+                </div>                <div id="priceDisplay" class="price-display" style="display: none;">
+                    <strong>نرخ:</strong> <span id="priceAmount">0</span>
+                </div>
+                <div id="bookingMessage" class="booking-message"></div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="ph-bold ph-check-circle"></i> کاتژمێر دڵنیابکەرەوە
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

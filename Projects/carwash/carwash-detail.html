@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Car Wash Management - Coovix</title>
+    <meta name="description" content="Professional car wash management system by Coovix. Complete solution to manage bookings, customers, payments, and staff for your car wash business.">
+    <meta name="keywords" content="car wash management, booking system, customer management, payment processing, Kurdistan, Iraq, Coovix">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Coovix">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Car Wash Management - Coovix">
+    <meta property="og:description" content="Complete solution to manage bookings, customers, payments, and staff for your car wash business.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://coovix.com/Projects/carwash/carwash-detail.html">
+    <meta property="og:image" content="https://coovix.com/logo.png">
+    <meta property="og:site_name" content="Coovix">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Car Wash Management - Coovix">
+    <meta name="twitter:description" content="Complete solution to manage bookings, customers, payments, and staff for your car wash business.">
+    <meta name="twitter:image" content="https://coovix.com/logo.png">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Favicon for all devices -->
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Coovix" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/Projects/carwash/carwash-style.css">
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <img src="/logo.png" alt="loading">
+            <p>Loading<span class="loading-dots"></span></p>
+        </div>
+    </div>
+
+    <div class="cursor" id="cursor" aria-hidden="true"></div>
+
+    <div class="scroll-indicator" id="scrollIndicator" aria-hidden="true"></div>
+
+    <div class="particles" id="particles" aria-hidden="true"></div>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/+9647507650999"
+           class="whatsapp-button"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Contact us on WhatsApp"
+           title="Chat with us on WhatsApp">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        </a>
+
+        <button class="back-to-top" id="backToTop" aria-label="Back to top">
+            <i class="fas fa-arrow-up" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <header class="header">
+        <div class="nav-container">
+            <a href="/index.html" class="logo" aria-label="Coovix Home">
+                <img src="/logo.png" alt="Coovix Logo" class="logoo">
+            </a>
+
+            <nav class="nav-menu" role="navigation">
+                <a href="/index.html#about" class="nav-link">About Us</a>
+                <span class="nav-separator">|</span>
+                <a href="/Projects/projects-index.html" class="nav-link">Our Projects</a>
+                <span class="nav-separator">|</span>
+                <a href="/index.html#services" class="nav-link">Our Services</a>
+                <span class="nav-separator">|</span>
+                <a href="/index.html#website-creation" class="nav-link">Website</a>
+                <span class="nav-separator">|</span>
+                <a href="/index.html#mobile-app" class="nav-link">Mobile App</a>
+                <span class="nav-separator">|</span>
+                <a href="/index.html#contact" class="nav-link">Contact</a>
+                <span class="nav-separator">|</span>
+                <div class="language-switcher">
+                    <div class="language-dropdown">
+                        <button class="language-toggle" aria-label="Select Language">
+                            <span class="current-lang">
+                                English
+                            </span>
+                            <i class="fas fa-chevron-down dropdown-arrow"></i>
+                        </button>
+                        <div class="language-options">
+                            <a href="/Projects/carwash/carwash-detail.html" class="lang-option active" data-lang="en">
+                                <span class="lang-name">English</span>
+                                <img src="/icon/us.png" alt="English" class="lang-icon">
+                            </a>
+                            <a href="/Projects/carwash/kr-carwash-detail.html" class="lang-option" data-lang="ku">
+                                <span class="lang-name">كوردى</span>
+                                <img src="/icon/kr.png" alt="كوردى" class="lang-icon">
+                            </a>
+                            <a href="/Projects/carwash/ar-carwash-detail.html" class="lang-option" data-lang="ar">
+                                <span class="lang-name">العربية</span>
+                                <img src="/icon/ar.png" alt="العربية" class="lang-icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="carwash-hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Car Wash Management System</h1>
+                <p>Complete solution to manage bookings, customers, payments, and staff for your car wash business.</p>
+                <ul class="hero-features">
+                    <li><i class="fas fa-check-circle"></i> Online booking system</li>
+                    <li><i class="fas fa-check-circle"></i> Customer & staff management</li>
+                    <li><i class="fas fa-check-circle"></i> Real-time analytics dashboard</li>
+                </ul>
+                <a href="/car wash/index.html" class="demo-btn" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>View Demo</span>
+                </a>
+            </div>
+            <div class="hero-images">
+                <div class="hero-img-wrapper img-1">
+                    <img src="/Projects/carwash/carwash.png" alt="Car Wash Dashboard">
+                </div>
+                <div class="hero-img-wrapper img-2">
+                    <img src="/Projects/carwash/carwash1.png" alt="Car Wash Dashboard View">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem & Solution -->
+    <section class="ps-section">
+        <div class="ps-bg-glow"></div>
+        <div class="ps-container">
+            <div class="section-title">
+                <h2>Problem & Solution</h2>
+                <p>See the difference a management system makes</p>
+            </div>
+            <div class="ps-grid">
+                <div class="ps-col ps-problems">
+                    <div class="ps-col-label">
+                        <span class="ps-dot-red"></span>
+                        Without System
+                    </div>
+                    <div class="ps-card-stack">
+                        <div class="ps-card ps-card-problem">
+                            <span class="ps-num">01</span>
+                            <div class="ps-card-body">
+                                <h4><i class="fas fa-phone-alt ps-body-icon"></i> Phone-Based Booking</h4>
+                                <p>Customers wait on hold, bookings get lost, double reservations happen daily</p>
+                            </div>
+                        </div>
+                        <div class="ps-card ps-card-problem">
+                            <span class="ps-num">02</span>
+                            <div class="ps-card-body">
+                                <h4><i class="fas fa-sticky-note ps-body-icon"></i> Paper Records</h4>
+                                <p>Handwritten logs, missing receipts, no way to search past transactions</p>
+                            </div>
+                        </div>
+                        <div class="ps-card ps-card-problem">
+                            <span class="ps-num">03</span>
+                            <div class="ps-card-body">
+                                <h4><i class="fas fa-question-circle ps-body-icon"></i> Guessing Revenue</h4>
+                                <p>No clear picture of daily earnings, popular services, or busy hours</p>
+                            </div>
+                        </div>
+                        <div class="ps-card ps-card-problem">
+                            <span class="ps-num">04</span>
+                            <div class="ps-card-body">
+                                <h4><i class="fas fa-user-clock ps-body-icon"></i> Staff Confusion</h4>
+                                <p>Unclear schedules, missed tasks, no accountability tracking</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ps-center-line">
+                    <div class="ps-center-track"></div>
+                    <div class="ps-center-badge">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="ps-center-track"></div>
+                </div>
+                <div class="ps-col ps-solutions">
+                    <div class="ps-col-label">
+                        <span class="ps-dot-green"></span>
+                        With Our System
+                    </div>
+                    <div class="ps-card-stack">
+                        <div class="ps-card ps-card-solution">
+                            <span class="ps-num">01</span>
+                            <div class="ps-card-body">
+                                <h4><i class="fas fa-calendar-check ps-body-icon"></i> Smart Online Booking</h4>
+                                <p>24/7 automated scheduling with real-time availability and instant confirmations</p>
+                            </div>
+                        </div>
+                        <div class="ps-card ps-card-solution">
+                            <span class="ps-num">02</span>
+                            <div class="ps-card-body">
+                                <h4><i class="fas fa-database ps-body-icon"></i> Digital Records</h4>
+                                <p>Searchable history, automatic invoices, complete customer profiles</p>
+                            </div>
+                        </div>
+                        <div class="ps-card ps-card-solution">
+                            <span class="ps-num">03</span>
+                            <div class="ps-card-body">
+                                <h4><i class="fas fa-chart-bar ps-body-icon"></i> Live Analytics</h4>
+                                <p>Real-time revenue dashboard, service reports, and peak hour insights</p>
+                            </div>
+                        </div>
+                        <div class="ps-card ps-card-solution">
+                            <span class="ps-num">04</span>
+                            <div class="ps-card-body">
+                                <h4><i class="fas fa-cogs ps-body-icon"></i> Systems Management</h4>
+                                <p>Centralized control over operations, inventory, and workflow in one platform</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section">
+        <div class="section-container">
+            <div class="section-title">
+                <h2>Features</h2>
+                <p>Everything you need to run your car wash business</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-calendar-check"></i></div>
+                    <div class="feature-text">
+                        <h4>Smart Booking</h4>
+                        <p>24/7 online appointments with auto reminders</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                    <div class="feature-text">
+                        <h4>Analytics</h4>
+                        <p>Revenue, services & peak hours data</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-user-tie"></i></div>
+                    <div class="feature-text">
+                        <h4>Staff</h4>
+                        <p>Schedules & task assignment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section alt">
+        <div class="section-container">
+            <div class="section-title">
+                <h2>Wash Services</h2>
+                <p>Configure different wash packages for your customers</p>
+            </div>
+            <div class="services-list">
+                <div class="service-item">
+                    <div class="service-icon blue"><i class="fas fa-spray-can"></i></div>
+                    <div class="service-info"><h4>Basic Wash</h4><p>Quick exterior cleaning</p></div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon pink"><i class="fas fa-car-alt"></i></div>
+                    <div class="service-info"><h4>Premium</h4><p>Full exterior + wheels</p></div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon cyan"><i class="fas fa-gem"></i></div>
+                    <div class="service-info"><h4>Deluxe</h4><p>Interior & exterior</p></div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon orange"><i class="fas fa-crown"></i></div>
+                    <div class="service-info"><h4>VIP</h4><p>Full detailing + wax</p></div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon green"><i class="fas fa-couch"></i></div>
+                    <div class="service-info"><h4>Interior</h4><p>Deep interior clean</p></div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon purple"><i class="fas fa-magic"></i></div>
+                    <div class="service-info"><h4>Detail</h4><p>Professional detailing</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section">
+        <div class="section-container">
+            <div class="section-title">
+                <h2>Plans</h2>
+                <p>Choose the right plan for your business</p>
+            </div>
+            <div class="pricing-grid two-cards">
+                <div class="pricing-card">
+                    <div class="pricing-tag">Flexible</div>
+                    <div class="pricing-name">Monthly</div>
+                    <div class="pricing-desc">Pay as you go, cancel anytime</div>
+                    <ul class="pricing-list">
+                        <li><i class="fas fa-check"></i> All features included</li>
+                        <li><i class="fas fa-check"></i> Online booking system</li>
+                        <li><i class="fas fa-check"></i> Customer management</li>
+                        <li><i class="fas fa-check"></i> Staff management</li>
+                        <li><i class="fas fa-check"></i> Analytics dashboard</li>
+                        <li><i class="fas fa-check"></i> Priority support</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-tag">Best Value</div>
+                    <div class="pricing-name">One-Time</div>
+                    <div class="pricing-desc">Pay once, own forever</div>
+                    <ul class="pricing-list">
+                        <li><i class="fas fa-check"></i> All features included</li>
+                        <li><i class="fas fa-check"></i> Lifetime access</li>
+                        <li><i class="fas fa-check"></i> Free updates</li>
+                        <li><i class="fas fa-check"></i> Source code access</li>
+                        <li><i class="fas fa-check"></i> Custom branding</li>
+                        <li><i class="fas fa-check"></i> Priority support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section alt">
+        <div class="section-container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can customers choose their wash package and add extras when booking?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes. Customers can browse all your wash packages (Basic, Premium, VIP, etc.), see what's included in each one, and add extra services like interior cleaning or waxing — all before confirming their booking.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How does the system handle busy hours and queue management?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The system automatically manages time slots based on your capacity. During peak hours, it prevents overbooking and shows only available slots to customers. You can also set custom limits per time slot.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I track daily revenue and see which wash packages are most popular?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely. The analytics dashboard gives you real-time data on daily, weekly, and monthly revenue. You can see your most popular packages, peak hours, and employee performance — all in one place.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="website-cta-box reveal active">
+                <div class="cta-content">
+                    <h3>Ready to Get Started?</h3>
+                    <p>Contact us to discuss your car wash management needs</p>
+                    <div class="cta-buttons">
+                        <a href="/index.html#contact" class="btn-primary">
+                            <span>Contact Us</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="/index.html#website-creation">Web Development</a></li>
+                    <li><a href="/index.html#mobile-app">Mobile Applications</a></li>
+                    <li><a href="/index.html#services">Backend Systems</a></li>
+                    <li><a href="/Projects/menu/menu-detail.html">Restaurant Menu</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="/index.html#about">About Us</a></li>
+                    <li><a href="/Projects/projects-index.html">Our Projects</a></li>
+                    <li><a href="/privacy/privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="/terms/terms-of-service.html">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+9647507650999">+964 750 765 0999</a></p>
+                    <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:info@coovix.com">info@coovix.com</a></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/company/coovix/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/share/188UQedKkT/?mibextid=wwXIfr" target="_blank" aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/coovix.tech?igsh=MWFtYWpobThsZ2Zydg%3D%3D&utm_source=qr" target="_blank" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2026 Coovix. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/Projects/projects-script.js"></script>
+    <script src="/script.js"></script>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const item = btn.parentElement;
+                const isActive = item.classList.contains('active');
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+                if (!isActive) item.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+# Security Headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+# Block access to sensitive files
+<FilesMatch "\.(sql|log|env|bak|old|orig|tmp)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Block access to the error file
+<Files "error">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Block access to .claude directory
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^\.claude(/|$) - [F,L]
+</IfModule>
+
+# Disable directory browsing
+Options -Indexes
+
+# Disable server signature
+ServerSignature Off
+
+# Block access to database directory
+<IfModule mod_rewrite.c>
+    RewriteRule ^database(/|$) - [F,L]
+</IfModule>
+
+# PHP security settings
+<IfModule mod_php.c>
+    php_flag display_errors off
+    php_flag log_errors on
+    php_value error_reporting 32767
+</IfModule>

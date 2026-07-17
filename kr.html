@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Coovix - دیدێکی بێ سنوور بۆ چارەسەری تەکنەلۆجییەکان</title>
+    <meta name="description"
+        content="Coovix - کۆمپانیای پێشەنگ لە گەشەپێدانی وێب لە کوردستان، عێراق. شارەزای ئەپی مۆبایل، نەرمەکاڵای تایبەت، گەشەپێدانی React/Vue، و چارەسەری دیجیتاڵی بۆ بازرگانیەکان.">
+    <meta name="keywords"
+        content="گەشەپێدانی وێب، ئەپی مۆبایل، نەرمەکاڵای تایبەت، React، Vue، Angular، Flutter، کوردستان، عێراق، هەولێر، پڕۆگرامکردن، چارەسەری دیجیتاڵ">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Coovix">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Coovix - چارەسەری پیشەیی گەشەپێدانی وێب">
+    <meta property="og:description"
+        content="کۆمپانیای پێشەنگ لە گەشەپێدانی وێب لە کوردستان، عێراق. شارەزای ئەپی مۆبایل، نەرمەکاڵای تایبەت، و چارەسەری دیجیتاڵی بۆ بازرگانیەکان.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://coovix.com">
+    <meta property="og:image" content="https://coovix.com/logo.png">
+    <meta property="og:site_name" content="Coovix">
+    <meta property="og:locale" content="ku_IQ">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Coovix - چارەسەری پیشەیی گەشەپێدانی وێب">
+    <meta name="twitter:description"
+        content="کۆمپانیای پێشەنگ لە گەشەپێدانی وێب لە کوردستان، عێراق. شارەزای ئەپی مۆبایل و چارەسەری دیجیتاڵ.">
+    <meta name="twitter:image" content="https://coovix.com/logo.png">
+
+    <!-- Business Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Coovix",
+      "description": "Professional programming company offering web development, mobile apps, and custom software solutions.",
+      "url": "https://coovix.com",
+      "logo": "https://coovix.com/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+964-750-765-0999",
+        "contactType": "customer service",
+        "areaServed": "IQ",
+        "availableLanguage": ["en", "ar", "ku"]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Kurdistan",
+        "addressCountry": "Iraq"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/coovix",
+        "https://www.facebook.com/share/188UQedKkT/?mibextid=wwXIfr",
+        "https://www.instagram.com/coovix.tech?igsh=MWFtYWpobThsZ2Zydg%3D%3D&utm_source=qr"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Coovix Team"
+      },
+      "foundingDate": "2021",
+      "serviceArea": {
+        "@type": "Place",
+        "name": "Kurdistan, Iraq"
+      }
+    }
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap"
+        rel="stylesheet">
+  <!-- Favicon for all devices -->
+<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="MyWebSite" />
+<link rel="manifest" href="/favicon/site.webmanifest" />    <link rel="stylesheet" href="style.css">
+    <link rel="font" href="/fonts/rudawbold">
+    <link rel="stylesheet" href="/fonts/rudawregular2">
+</head>
+
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <img src="logo.png" alt="loading">
+            <p>بارکردن<span class="loading-dots"></span></p>
+        </div>
+    </div>
+
+
+    <div class="scroll-indicator" id="scrollIndicator" aria-hidden="true"></div>
+
+
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/+9647507650999" class="whatsapp-button" target="_blank" rel="noopener noreferrer"
+            aria-label="Contact us on WhatsApp" title="Chat with us on WhatsApp">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        </a>
+
+        <button class="back-to-top" id="backToTop" aria-label="Back to top">
+            <i class="fas fa-arrow-up" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <header class="header" dir="ltr">
+        <div class="nav-container">
+            <a href="#" class="logo" aria-label="Coovix Home">
+                <img src="logo.png" alt="Coovix Logo" class="logoo">
+            </a>
+
+
+            <nav class="nav-menu" role="navigation">
+                <a href="#about" class="nav-link">دەربارەمان</a>
+                <span class="nav-separator">|</span>
+                <a href="#projects" class="nav-link">پڕۆژەکانمان</a>
+                <span class="nav-separator">|</span>
+                <a href="#services" class="nav-link">خزمەتگوزارییەکانمان</a>
+                <span class="nav-separator">|</span>
+                <a href="#website-creation" class="nav-link">وێبسایت</a>
+                <span class="nav-separator">|</span>
+                <a href="#mobile-app" class="nav-link">ئەپی مۆبایل</a>
+                <span class="nav-separator">|</span>
+                <a href="#contact" class="nav-link">پەیوەندی</a>
+                <span class="nav-separator">|</span>
+                <div class="language-switcher">
+                    <div class="language-dropdown">
+                        <button class="language-toggle" aria-label="Select Language">
+                            <span class="current-lang">کوردى</span>
+                            <i class="fas fa-chevron-down dropdown-arrow"></i>
+                        </button>
+                        <div class="language-options">
+                            <a href="/" class="lang-option active" data-lang="ku">
+                                <span class="lang-name">كوردى</span>
+                                <img src="/icon/kr.png" alt="كوردى" class="lang-icon">
+
+                            </a>
+                            <a href="/ar.html" class="lang-option" data-lang="ar">
+                                <span class="lang-name">العربية</span>
+                                <img src="/icon/ar.png" alt="العربية" class="lang-icon">
+
+                            </a>
+                            <a href="/index.html" class="lang-option " data-lang="en">
+                                <span class="lang-name">English</span>
+                                <img src="/icon/us.png" alt="English" class="lang-icon">
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+
+            <div class="hero-container">
+                <div class="hero-content" dir="rtl">
+                    <h1>
+                        <span class="word"></span>   دیدگایەکی بێسنوور بۆ چارەسەرە تەکنەلۆژییەکان 
+
+                    </h1>
+                    <p>لە ڕێگەی وێبسایت و ئەپی زیرەک، ئەزموونێکی تەکنەلۆجیای پێشکەوتووت پێشکەش دەکەین. چارەسەرەکانمان
+                        وادەکەن کە براندەکەت بەرز ببەیتەوە، کار بکات، و بناسریت </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn-primary">
+                            <span>دەست پێکردن</span>
+                            <i class="fas fa-rocket" aria-hidden="true"></i>
+                        </a>
+                        <a href="#services" class="btn-secondary">
+                            <span>خزمەتگوزارییەکانمان</span>
+                            <i class="fas fa-arrow-down" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-product-suite" role="img" dir="ltr" aria-label="Coovix professional technology services for websites, mobile apps, custom systems, VPS and cloud infrastructure">
+                        <div class="suite-glow suite-glow-one" aria-hidden="true"></div><div class="suite-glow suite-glow-two" aria-hidden="true"></div>
+                        <div class="suite-browser"><div class="suite-browser-bar"><span class="browser-dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="browser-address"><i class="fas fa-lock" aria-hidden="true"></i> coovix.io/workspace</span><span class="browser-live"><i></i> Live</span></div><div class="suite-workspace"><div class="workspace-sidebar" aria-hidden="true"><span class="sidebar-logo"><i class="fas fa-cube"></i></span><span class="active"><i class="fas fa-th-large"></i></span><span><i class="fas fa-globe"></i></span><span><i class="fas fa-layer-group"></i></span><span><i class="fas fa-cog"></i></span></div><div class="workspace-main"><div class="workspace-heading"><div><small>COOVIX DIGITAL PLATFORM</small><strong>Build. Run. Scale.</strong></div><span class="workspace-action"><i class="fas fa-plus"></i> New project</span></div><div class="workspace-cards"><div class="workspace-card"><span class="workspace-card-icon"><i class="fas fa-globe"></i></span><span><strong>Web &amp; Systems</strong><small>Designed for growth</small></span></div><div class="workspace-card"><span class="workspace-card-icon cloud"><i class="fas fa-cloud"></i></span><span><strong>Cloud &amp; VPS</strong><small>Secure infrastructure</small></span></div></div><div class="workspace-progress"><div class="progress-heading"><span>Project workflow</span><small>Optimized</small></div><div class="progress-row"><span>Design</span><i><b style="width: 88%"></b></i></div><div class="progress-row"><span>Build</span><i><b style="width: 72%"></b></i></div><div class="progress-row"><span>Deploy</span><i><b style="width: 94%"></b></i></div></div></div></div></div>
+                        <div class="suite-phone" aria-hidden="true"><div class="phone-speaker"></div><div class="phone-screen"><div class="phone-appbar"><span><i class="fas fa-cube"></i></span><i class="fas fa-bars"></i></div><small>MOBILE EXPERIENCE</small><strong>Everything in<br>your pocket.</strong><div class="phone-feature"><i class="fas fa-mobile-alt"></i><span><b>Native quality</b><small>iOS &amp; Android</small></span></div><div class="phone-chart"><i></i><i></i><i></i><i></i><i></i></div></div></div>
+                        <div class="suite-cloud-badge"><span><i class="fas fa-server"></i></span><div><strong>VPS &amp; Cloud</strong><small>Always ready to scale</small></div><i class="fas fa-check-circle"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="stats-container">
+                <!-- Projects -->
+                <div class="stat-item reveal">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label"> چارەسەری دیجیتاڵی تایبەت</div>
+                </div>
+
+                <!-- Client Satisfaction -->
+                <div class="stat-item reveal">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">ڕێژەی ڕەزامەندی کڕیار</div>
+                </div>
+
+                <!-- Experience -->
+                <div class="stat-item reveal">
+                    <div class="stat-number">Expertise</div>
+                    <div class="stat-label">زانیاری پیشەیی</div>
+                </div>
+
+                <!-- Support -->
+                <div class="stat-item reveal">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">پاڵپشتی تەرخانکراو</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-container">
+                <!-- Section Title -->
+                <div class="section-title reveal">
+                    <h2>دەربارەی Coovix</h2>
+                    <p>گەشەپێدەرانی بە جۆش و خرۆش، دروستکەری چارەسەری دیجیتاڵی نوێ</p>
+                </div>
+
+                <div class="about-content">
+                    <!-- Our Story -->
+                    <div class="about-story reveal" dir="rtl">
+                        <h3>چیرۆکەمان</h3>
+                        <p>چیرۆکەکەمان
+                            لە وروژاندنی گۆڕینی بیرۆکەکان بۆ ئەزموونی دیجیتاڵی ناوازە پێکهاتووە، Coovix تیمێکی گەشەپێدەر
+                            و دیزاینەرە جوڵاوەکانە کە تایبەتن بە دروستکردنی نەرمەکاڵا کە بزنسەکان دەگۆڕێت و ژیان باشتر
+                            دەکات.
+
+                            بارەگاکەمان لە هەولێری کوردستانە، هاوبەشیمان لەگەڵ کڕیاران لە ڕۆژهەڵاتی ناوەڕاست و دەرەوەی
+                            وڵات- تێکەڵکردنی زانیاری ناوخۆیی لەگەڵ ستانداردە جیهانییەکان بۆ تەواوکردنی چارەسەرە
+                            دیجیتاڵییە باش و کاریگەرەکان.</p>
+                    </div>
+
+                    <!-- Our Values -->
+                    <div class="about-values reveal">
+                        <h3>بەهاکانمان</h3>
+                        <div class="values-grid">
+                            <div class="value-item stagger-item">
+                                <div class="value-icon">
+                                    <i class="fas fa-star" aria-hidden="true"></i>
+                                </div>
+                                <h4>ناوازەیی</h4>
+                                <p>ئێمە دوای ناوازەیی لە هەر وردەکارییەکەوە دەکەین—لە کۆدی پاکەوە تا ڕووکاری ناوازە و
+                                    ئەزموونی کڕیار بێ کێشە.</p>
+                            </div>
+
+                            <div class="value-item stagger-item">
+                                <div class="value-icon">
+                                    <i class="fas fa-handshake" aria-hidden="true"></i>
+                                </div>
+                                <h4>هاوبەشی</h4>
+                                <p>ئێمە لەگەڵ کڕیارانمان وەک هاوبەش مامەڵە دەکەین، پەیوەندی درێژخایەن دروست دەکەین کە
+                                    بنەمای لە سەر متمانە و سەرکەوتنی هاوبەش.</p>
+                            </div>
+
+                            <div class="value-item stagger-item">
+                                <div class="value-icon">
+                                    <i class="fas fa-lightbulb" aria-hidden="true"></i>
+                                </div>
+                                <h4>نوێکاری</h4>
+                                <p>ئێمە لە پێشەوە دەمێنینەوە بە پەسەندکردنی تەکنەلۆژیای نوێ و دروستکردنی چارەسەری
+                                    داهێنەر و ئامادە بۆ داهاتوو.</p>
+                            </div>
+
+                            <div class="value-item stagger-item">
+                                <div class="value-icon">
+                                    <i class="fas fa-clock" aria-hidden="true"></i>
+                                </div>
+                                <h4>متمانەپێکراوی</h4>
+                                <p>ئێمە کوالیتی جێگیر تەواو دەکەین—لە کاتی خۆیدا، هەر جارێک—پاڵپشتی متمانەپێکراو کە پشتی
+                                    پێدەبەستیت.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Our Project Section -->
+        <section class="about" id="projects">
+            <div class="about-container">
+                <!-- Section Title -->
+                <div class="section-title reveal">
+                    <h2>پڕۆژەکانمان</h2>
+                </div>
+
+                <div class="about-content">
+                    <!-- Our Story -->
+                    <div class="about-story reveal" dir="rtl">
+                        <p>لە Coovix ئێمە داهاتووی چارەسەری دیجیتاڵ دروست دەکەین. پڕۆژەی سەرەکیمان نوێندایەتی چەندین
+                            ساڵ نوێکاری دەکات، تەکنەلۆژیای پێشکەوتوو لەگەڵ دیزاینی بەکارهێنەر تێکەڵ دەکات بۆ دروستکردنی
+                            پلاتفۆرم کە بازرگانییەکان بەرەو پێش دەبات و ئەزموونی بەکارهێنەر باشتر دەکات لە تەواوی دیمەنی
+                            دیجیتاڵ.</p>
+                    </div>
+                    <div class="website-cta-box reveal">
+                        <div class="cta-content">
+                            <h3>دەتوانن لێرە دیمۆی کارەکانمان ببینی</h3>
+                            <div class="cta-buttons">
+                                <a href="/Projects/kr-projects-index.html" class="btn-primary">
+                                    <span>زیاتر بزانە</span>
+                                    <i class="fas fa-arrow-left"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <section class="services" id="services">
+            <div class="services-container" dir="rtl">
+                <div class="section-title reveal">
+                    <h2>خزمەتگوزارییەکانمان</h2>
+                    <p>چارەسەری IT تایبەت بۆ دەستپێکردن، گەشەکردن و پاراستنی ئامادەبوونی دیجیتاڵی تۆ</p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card stagger-item">
+                        <div class="service-icon">
+                            <i class="fas fa-code" aria-hidden="true"></i>
+                        </div>
+                        <h3>گەشەپێدانی وێب</h3>
+                        <p>ئێمە وێبسایتی وەڵامدەرەوە و بەرزکردووی کارایی دروست دەکەین بە بەکارهێنانی چوارچێوەی نوێ وەک
+                            React، Vue، و Angular — باشکراو بۆ گەشەکردن و SEO.</p>
+                    </div>
+
+                    <div class="service-card stagger-item">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                        </div>
+                        <h3>ئەپی مۆبایل</h3>
+                        <p>ئەزموونی مۆبایل وەک نەیتیڤ بۆ iOS و Android بە بەکارهێنانی Flutter و React Native — دروستکراو
+                            بۆ بەکارهێنان و خێرایی.</p>
+                    </div>
+
+                    <div class="service-card stagger-item">
+                        <div class="service-icon">
+                            <i class="fas fa-pencil-ruler" aria-hidden="true"></i>
+                        </div>
+                        <h3>دیزاینی UI/UX</h3>
+                        <p>ئێمە ڕووکاری بەکارهێنەر-یەکەم دیزاین دەکەین کە پاک، سەرەتایی، و هاوئاهەنگن لەگەڵ براندەکەت —
+                            بیروبۆچوونەکان دەگۆڕین بۆ ئەزموونی دیجیتاڵی خۆش.</p>
+                    </div>
+
+                    <div class="service-card stagger-item">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs" aria-hidden="true"></i>
+                        </div>
+                        <h3>سيستەمي تایبەت</h3>
+                        <p>سیستەم و ئامرازی تایبەت دروستکراو بۆ چارەسەرکردنی کێشەی بازرگانی تایبەت — لە خۆکارکردنەوە تا
+                            پلاتفۆرمی کۆمپانیا.</p>
+                    </div>
+
+                    <div class="service-card stagger-item">
+                        <div class="service-icon">
+                            <i class="fas fa-tools" aria-hidden="true"></i>
+                        </div>
+                        <h3>چاککردنەوە و پاڵپشتی</h3>
+                        <p>پاڵپشتی تەکنیکی بەردەوام، چاودێری، و باشکردنی کارایی — ئێمە دڵنیایی دەکەین کە پلاتفۆرمەکانت
+                            بە ئاسانی کار دەکەن 24/7.</p>
+                    </div>
+
+                    <div class="service-card stagger-item">
+                        <div class="service-icon">
+                            <i class="fas fa-cloud" aria-hidden="true"></i>
+                        </div>
+                        <h3>Cloud و DevOps</h3>
+                        <p>ژێرخانی هەور گەشەکراو، بۆری CI/CD، و چارەسەری جێبەجێکردن — تواناپێدان بە گەشەپێدانی کارا و
+                            چالاک.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Replace the website-creation section in kr.html with this modern design -->
+
+        <section class="website-creation" id="website-creation">
+            <div class="creation-container">
+                <div class="section-title reveal">
+                    <h2>وێبسایتەکەت بنیات بنێ</h2>
+                    <p>لە بیرۆکەوە بۆ ڕاستی لە چوار قۆناغی سادە</p>
+                </div>
+
+                <!-- Modern Process Flow -->
+                <div class="process-flow reveal">
+                    <div class="flow-item">
+                        <div class="flow-circle">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <h4>دیزاین</h4>
+                        <p>دروستکردنی لەیاوتی جوان</p>
+                    </div>
+
+                    <div class="flow-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+
+                    <div class="flow-item">
+                        <div class="flow-circle">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4>گەشەپێدان</h4>
+                        <p>بنیاتنان بە تەکنەلۆژیای نوێ</p>
+                    </div>
+
+                    <div class="flow-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+
+                    <div class="flow-item">
+                        <div class="flow-circle">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h4>تاقیکردنەوە</h4>
+                        <p>دڵنیابوون لە کوالیتی</p>
+                    </div>
+
+                    <div class="flow-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+
+                    <div class="flow-item">
+                        <div class="flow-circle">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h4>بڵاوکردنەوە</h4>
+                        <p>بە متمانەوە بڵاوی بکەوە</p>
+                    </div>
+                </div>
+
+                <!-- Feature Highlights -->
+                <div class="website-features reveal">
+                    <div class="feature-box">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>وەڵامدەرەوە</h4>
+                        <p>لەسەر هەموو ئامێرەکان</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <h4>خێرا</h4>
+                        <p>خێرایی بروسکە</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>پارێزراو</h4>
+                        <p>پارێزراو و سەلامەت</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <i class="fas fa-search"></i>
+                        <h4>ئامادەی SEO</h4>
+                        <p>باشکراو بۆ گەڕان</p>
+                    </div>
+                </div>
+
+                <!-- Tech Stack -->
+                <!-- <div class="tech-stack-modern reveal">
+            <h3>تەکنەلۆژیاکان کە شارەزاین تێیدا</h3>
+            <div class="tech-icons">
+                <div class="tech-icon" title="HTML5">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="tech-icon" title="CSS3">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="tech-icon" title="JavaScript">
+                    <i class="fab fa-js"></i>
+                </div>
+                <div class="tech-icon" title="React">
+                    <i class="fab fa-react"></i>
+                </div>
+                <div class="tech-icon" title="Vue">
+                    <i class="fab fa-vuejs"></i>
+                </div>
+                <div class="tech-icon" title="Node.js">
+                    <i class="fab fa-node-js"></i>
+                </div>
+            </div>
+        </div> -->
+
+                <!-- CTA Box -->
+                <div class="website-cta-box reveal">
+                    <div class="cta-content">
+                        <h3>ئامادەیی بۆ دروستکردنی وێبسایتی خەونەکانت؟</h3>
+                        <p>با شتێکی سەرسوڕهێنەر پێکەوە دروست بکەین</p>
+                        <div class="cta-buttons">
+                            <a href="#contact" class="btn-primary">
+                                <span>پرۆژەکەت دەست پێ بکە</span>
+                                <i class="fas fa-arrow-left"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Restaurant Menu Section -->
+        <section class="restaurant-menu" id="menu" dir="rtl">
+            <div class="menu-container">
+                <!-- Section Title -->
+                <div class="section-title reveal">
+                    <h2>لیستی دیجیتاڵی زیرەک بۆ چێشتخانە نوێیەکان</h2>
+                    <p>لە Coovix لیستی دیجیتاڵی جوان و بەکارهێنان دادەڕێژین کە فرۆشتن زیاتر دەکات و ئەزموونی
+                        نانخواردن باشتر دەکات.</p>
+                </div>
+
+                <!-- Menu Creation Steps -->
+                <div class="menu-creation-steps">
+                    <div class="menu-steps-grid">
+                        <!-- Step 1 -->
+                        <div class="menu-step-card stagger-item">
+                            <div class="step-icon">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                            <h3>ستراتیژی و دیزاین</h3>
+                            <p>دەست پێکراو بە دروستکردنی لیستێکی جوان و ڕێکخراو کە نیشان دادەری چێشتخانەکەت و گۆڕانکاری
+                                زیاتر دەکات.</p>
+                            <ul class="step-features">
+                                <li> پێکهاتەی لیست و پۆلێنکردنی خواردن </li>
+                                <li>ڕووی بەکارهێنەر تایبەت بۆ نیشانەکەت</li>
+                                <li>هاوبەشی جۆر و ڕەنگ و باندوبەند</li>
+                                <li>تێکەڵبوونی وێنەی بەرزی جۆر</li>
+                            </ul>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="menu-step-card stagger-item">
+                            <div class="step-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h3>پێشەسازی باشترکراو بۆ مۆبایل</h3>
+                            <p>لیستی تەواو لێوەڵگێر ڕوون دروست دەکەین کە گەشتی نرم لەسەر هەموو ئامێرەکان دابین دەکات.
+                            </p>
+                            <ul class="step-features">
+                                <li>کارکردن بە مۆبایل لە یەکەم جێگاوە</li>
+                                <li>جووڵانەوەی دەستلێدان زیرەک</li>
+                                <li>باشترکراو بۆ خێرایی و ئەنجامدان</li>
+                                <li>ڕووی نرم و لێوەڵگێر</li>
+                            </ul>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="menu-step-card stagger-item">
+                            <div class="step-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <h3>سیستەمی داواکردنی تێکەڵ</h3>
+                            <p>کڕیارەکان ڕێگا بدە داوا ڕاستەوخۆ لە ڕێگەی لیستی دیجیتاڵیەکەتەوە لەگەڵ پرۆسێسی کاتی خۆی و
+                                پارەدانی پارێزراو.</p>
+                            <ul class="step-features">
+                                <li>سەبەتەی کڕین تێخراو</li>
+                                <li>تێکەڵبوونی پارەدانی پارێزراو</li>
+                                <li>شوێنکەوتنی داوا و بەڕێوەبردنی زیندوو</li>
+                                <li>ئاگاداری خێرا و نوێکردنەوەی دۆخ</li>
+                            </ul>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="menu-step-card stagger-item">
+                            <div class="step-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3>شیکردنەوە و تێگەیشتنی زیرەک</h3>
+                            <p>ئەنجامەکەت بەدوای بکە بە شیکردنەوەی کاتی خۆی و تێگەیشتن دروست بکە بۆ یارمەتیدانی
+                                گەشەکردنی بازرگانیەکەت.</p>
+                            <ul class="step-features">
+                                <li>ڕاپۆرتی فرۆشتنی ورد</li>
+                                <li>شیکردنەوەی ڕەفتاری کڕیار</li>
+                                <li>شوێنکەوتنی داهات</li>
+                                <li>پێشنیارکردنی بەرهەم بە بنەمای AI</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Types -->
+                <div class="menu-types reveal">
+                    <h3>جۆرەکانی لیستی دیجیتاڵی کە پێشکەشیان دەکەین</h3>
+                    <div class="menu-types-grid">
+                        <!-- QR Code Menu -->
+                        <div class="menu-type-card stagger-item">
+                            <div class="menu-type-icon">
+                                <i class="fas fa-qrcode"></i>
+                            </div>
+                            <h4>لیستی QR Code</h4>
+                            <p>مێوانەکان کۆدی QR سکان دەکەن بۆ دەسەچوونی خێرا بە لیستەکە—بێ ئەپ و کێشە.</p>
+                        </div>
+
+                        <!-- Web Menu -->
+                        <div class="menu-type-card stagger-item">
+                            <div class="menu-type-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <h4>لیستی وێب</h4>
+                            <p>لیستی دیجیتاڵی تەواو تایبەتمەند لەسەر وێبسایتەکەت لەگەڵ داواکردن، پارەدان، و بەخشینی
+                                تێخراو.</p>
+                        </div>
+
+                        <!-- Mobile App -->
+                        <div class="menu-type-card stagger-item">
+                            <div class="menu-type-icon">
+                                <i class="fas fa-mobile"></i>
+                            </div>
+                            <h4>ئەپی مۆبایل</h4>
+                            <p>ئەزموونی بێ کێشە پێشکەش بکە بە ئەپێکی تایبەت بۆ چێشتخانەکەت، باشترکراو بۆ دوبارە
+                                داواکردن.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- CTA Section -->
+                <div class="menu-cta reveal">
+                    <div class="menu-cta-content">
+                        <h3>ئامادەیی بۆ دروستکردنی لیستەکەت؟</h3>
+                        <p>ئێمە یارمەتیتان دەدەین لە دروستکردنی لیستی دیجیتاڵی جوان و کارا کە فرۆشتنەکانت زیاتر دەکات
+                        </p>
+
+                        <div class="cta-buttons">
+                            <a href="/Projects/menu/kr-menu-detail.html" class="btn-secondary">
+                                <span>خزمەتگوزارییەکانمان</span>
+                                <i class="fas fa-eye"></i>
+                            </a>
+                            <a href="#contact" class="btn-primary">
+                                <span>پەیوەندی پێمان بکە</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Mobile App Development Section -->
+        <section class="mobile-app-development" id="mobile-app">
+            <div class="app-container" dir="rtl">
+                <div class="section-title reveal">
+                    <h2>گەشەپێدانی ئەپی مۆبایل</h2>
+                    <p>ئێمە ئەپی مۆبایلی بەهێز و بەکارهێنان دروست دەکەین کە بینەرانت سەرقاڵ دەکات و گەشەکردنی بازرگانی
+                        یارمەتی دەدات لەسەر iOS و Android و چارەسەری فرە پلاتفۆرم.
+                </div>
+
+                <!-- App Types -->
+                <div class="app-types">
+                    <h3>جۆرەکانی ئەپی مۆبایل کە دروستیان دەکەین</h3>
+                    <div class="app-types-grid">
+                        <div class="app-type-card stagger-item">
+                            <div class="app-type-icon">
+                                <i class="fab fa-apple"></i>
+                            </div>
+                            <h4>ئەپی نەیتیڤی iOS</h4>
+                            <p>تایبەت دروستکراو بۆ ئامێرەکانی Apple بە بەکارهێنانی Swift و Objective-C، باشترین ئەنجام و
+                                تێکەڵبوونی نرم لەگەڵ تایبەتمەندیەکانی iOS.</p>
+
+                        </div>
+
+                        <div class="app-type-card stagger-item">
+                            <div class="app-type-icon">
+                                <i class="fab fa-android"></i>
+                            </div>
+                            <h4>ئەپی نەیتیڤی Android</h4>
+                            <p>گەشەپێدراو بە بەکارهێنانی Kotlin و Java، باشترکراو بۆ ئامێرەکانی Android لەگەڵ دەسەچوونی
+                                تەواو بۆ Google Play Store و ژینگەی Android.</p>
+
+                        </div>
+
+                        <div class="app-type-card stagger-item">
+                            <div class="app-type-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h4>ئەپی فرە پلاتفۆرم</h4>
+                            <p>ئەپەکانی تاک کۆد بەیس بە بەکارهێنانی Flutter و React Native، کەمکردنەوەی کاتی گەشەپێدان
+                                لەکاتی پاراستنی ئەنجامی نەیتیڤ.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Development Process -->
+                <div class="app-development-process">
+                    <div class="process-content">
+                        <h3>پرۆسێسی گەشەپێدانی ئەپەکانمان</h3>
+                        <div class="process-steps">
+                            <div class="process-step stagger-item">
+                                <div class="process-step-number">1</div>
+                                <h4>دۆزینەوە و پلاندانان</h4>
+                                <p>ئێمە پێداویستییەکانت، بینەرانی ئامانجدار، و ئامانجە بازرگانییەکانت شی دەکەین بۆ
+                                    دروستکردنی ستراتیژی و نەخشەی ڕێگەی ئەپی فراوان.</p>
+                            </div>
+
+                            <div class="process-step stagger-item">
+                                <div class="process-step-number">2</div>
+                                <h4>دیزاینی UI/UX</h4>
+                                <p>دروستکردنی ڕووکاری بەکارهێنەری زیرەک و سەرنجڕاکێش لەگەڵ وایر فرەیم، پرۆتۆتایپ، و
+                                    دیزاینی پێکسەڵ پێرڤەکت.</p>
+                            </div>
+
+                            <div class="process-step stagger-item">
+                                <div class="process-step-number">3</div>
+                                <h4>گەشەپێدان</h4>
+                                <p>دروستکردنی ئەپەکەت بە بەکارهێنانی تەکنەلۆژیای نوێ و باشترین پراکتیزەکان، لەگەڵ
+                                    نوێکردنەوەی بەردەوام و گەیاندنی خاڵە گرنگەکان.</p>
+                            </div>
+
+                            <div class="process-step stagger-item">
+                                <div class="process-step-number">4</div>
+                                <h4>تاقیکردنەوە و کواڵیتی</h4>
+                                <p>تاقیکردنەوەی فراوان لەسەر ئامێرەکان، پلاتفۆرمەکان، و سیناریۆکان بۆ دڵنیاکردنەوە لە بێ
+                                    هەڵەبوون و ئەنجامی باشترین.</p>
+                            </div>
+
+                            <div class="process-step stagger-item">
+                                <div class="process-step-number">5</div>
+                                <h4>بڵاوکردنەوە و پاڵپشتی</h4>
+                                <p>ناردن بۆ فرۆشگای ئەپ، جێبەجێکردنی ستراتیژی بڵاوکردنەوە، و چاکسازی و نوێکردنەوەی
+                                    تایبەتمەندییەکانی بەردەوام.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="contact-us" id="contact">
+            <div class="contact-container">
+                <div class="section-title reveal">
+                    <h2>پەیوەندی پێمان بکە</h2>
+                    <p>بۆ پرسیار یان داواکاریەکان، پەیوەندی پێمان بکە.</p>
+                </div>
+
+
+                <!-- Full Size Map and Contact Form -->
+                <div class="contact-main-grid" dir="rtl">
+                    <div class="contact-form-container reveal">
+                        <h3>ناردنی پەیام</h3>
+                        <form class="contact-form" method="POST" action="send_email_smtp.php" novalidate>
+                            <div class="form-group">
+                                <label for="name">ناو</label>
+                                <input type="text" id="name" name="name" placeholder="ناوی تەواو" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">ئیمەیل</label>
+                                <input type="email" id="email" name="email" placeholder="ئیمەیلەکەت" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">ژمارەی مۆبایل</label>
+                                <input type="tel" id="phone" name="phone" placeholder="964 750 123 4567"
+                                    pattern="[0-9]*" inputmode="numeric" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">پەیام</label>
+                                <textarea id="message" name="message" rows="6" placeholder="پەیامەکەت بنووسە..."
+                                    required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-primary">ناردن</button>
+                        </form>
+                    </div>
+
+                    <div class="full-map-section reveal">
+                        <h3>لەسەر نەخشە بمان بدۆزەوە</h3>
+                        <div class="full-map-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.2386049288636!2d43.99641477543884!3d36.19094709848777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x400236a282903333%3A0x6b84e3c50074213d!2sErbil%20Citadel!5e0!3m2!1sen!2siq!4v1701234567890!5m2!1sen!2siq"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade" title="Coovix Location Map">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="footerkr">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>خزمەتگوزاریەکان</h3>
+                <ul>
+                    <li><a href="#website-creation">گەشەپێدانی وێب</a></li>
+                    <li><a href="#mobile-app">ئەپی مۆبایل</a></li>
+                    <li><a href="#services">سیستەمی Backend</a></li>
+                    <li><a href="#menu">مێنووی چێشتخانە</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>کۆمپانیا</h3>
+                <ul>
+                    <li><a href="#about">دەربارەمان</a></li>
+                    <li><a href="/Projects/kr-projects-index.html">پڕۆژەکانمان</a></li>
+                    <li><a href="/privacy/ku-privacy-policy.html">سیاسەتی تایبەتی</a></li>
+                    <li><a href="/terms/ku-terms.html">مەرجەکانی خزمەتگوزاری</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>شوێنمان بکەن</h3>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+9647507650999">+964 750 765 0999</a></p>
+                    <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:info@coovix.com">info@coovix.com</a></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/company/coovix/" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/share/188UQedKkT/?mibextid=wwXIfr" target="_blank"
+                        aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/coovix.tech?igsh=MWFtYWpobThsZ2Zydg%3D%3D&utm_source=qr"
+                        target="_blank" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2026 Coovix. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

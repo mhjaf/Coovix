@@ -1,0 +1,23 @@
+# macOS and local editor files
+.DS_Store
+**/.DS_Store
+**/.claude/
+
+# Environment and runtime data
+.env
+.env.*
+*.log
+contact_log.txt
+
+# User-generated uploads
+Bar/uploads/
+car wash/uploads/
+
+# Live credentials and local configuration
+email_config.php
+send_email_smtp.php
+Bar/admin/config.php
+car wash/admin/config/database.php
+
+# Local database data dump (migration/schema files remain tracked)
+car wash/database/carwash.sql

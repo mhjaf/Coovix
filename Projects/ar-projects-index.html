@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Coovix - رؤيةٌ بلا حدودٍ للحلولِ التكنولوجية</title>
+    <meta name="description" content="Coovix - شركة رائدة في تطوير الويب في كوردستان، العراق. خبراء في تطبيقات الجوال، البرمجيات المخصصة، تطوير React/Vue، والحلول الرقمية للشركات.">
+    <meta name="keywords" content="تطوير الويب، تطبيقات الجوال، البرمجيات المخصصة، React، Vue، Angular، Flutter، كوردستان، العراق، أربيل، البرمجة، الحلول الرقمية">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Coovix">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Coovix - حلول احترافية في تطوير الويب">
+    <meta property="og:description" content="شركة رائدة في تطوير الويب في كوردستان، العراق. خبراء في تطبيقات الجوال، البرمجيات المخصصة، والحلول الرقمية للشركات.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://coovix.com">
+    <meta property="og:image" content="https://coovix.com/logo.png">
+    <meta property="og:site_name" content="Coovix">
+    <meta property="og:locale" content="ar_IQ">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Coovix - حلول احترافية في تطوير الويب">
+    <meta name="twitter:description" content="شركة رائدة في تطوير الويب في كوردستان، العراق. خبراء في تطبيقات الجوال والحلول الرقمية.">
+    <meta name="twitter:image" content="https://coovix.com/logo.png">
+    
+    <!-- Business Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Coovix",
+      "description": "Professional programming company offering web development, mobile apps, and custom software solutions.",
+      "url": "https://coovix.com",
+      "logo": "https://coovix.com/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+964-750-765-0999",
+        "contactType": "customer service",
+        "areaServed": "IQ",
+        "availableLanguage": ["en", "ar", "ku"]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Kurdistan",
+        "addressCountry": "Iraq"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/coovix",
+        "https://www.facebook.com/share/188UQedKkT/?mibextid=wwXIfr",
+        "https://www.instagram.com/coovix.tech?igsh=MWFtYWpobThsZ2Zydg%3D%3D&utm_source=qr"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "coovix Team"
+      },
+      "foundingDate": "2021",
+      "serviceArea": {
+        "@type": "Place",
+        "name": "Kurdistan, Iraq"
+      }
+    }
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Favicon for all devices -->
+<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="MyWebSite" />
+<link rel="manifest" href="/favicon/site.webmanifest" />    <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/Projects/projects-style.css">
+
+</head>
+<body>
+   <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <img src="/logo.png" alt="loading">
+            <p>جاري التحميل<span class="loading-dots"></span></p>
+        </div>
+    </div>
+
+
+    <div class="scroll-indicator" id="scrollIndicator" aria-hidden="true"></div>
+
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/+9647507650999" 
+           class="whatsapp-button" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           aria-label="Contact us on WhatsApp"
+           title="Chat with us on WhatsApp">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        </a>
+        
+        <button class="back-to-top" id="backToTop" aria-label="Back to top">
+            <i class="fas fa-arrow-up" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <header class="header">
+        <div class="nav-container">
+            <a href="/Projects/ar-projects-index.html" class="logo" aria-label="Coovix Home">
+                <img src="/logo.png" alt="Coovix Logo" class="logoo">
+            </a>
+
+            <nav class="nav-menu" role="navigation">
+                <a href="/ar.html#about" class="nav-link">من نحن</a>
+                <span class="nav-separator">|</span>
+                <a href="/Projects/ar-projects-index.html" class="nav-link">مشاريعنا</a>
+                <span class="nav-separator">|</span>
+                <a href="/ar.html#services" class="nav-link">خدماتنا</a>
+                <span class="nav-separator">|</span>
+                <a href="/ar.html#website-creation" class="nav-link">مواقع الويب</a>
+                <span class="nav-separator">|</span>
+                <a href="/ar.html#mobile-app" class="nav-link">تطبيقات الجوال</a>
+                <span class="nav-separator">|</span>
+                <a href="/ar.html#contact" class="nav-link">اتصل بنا</a>
+                <span class="nav-separator">|</span>
+                <div class="language-switcher">
+                    <div class="language-dropdown">
+                        <button class="language-toggle" aria-label="Select Language">
+                            <span class="current-lang">العربية</span>
+                            <i class="fas fa-chevron-down dropdown-arrow"></i>
+                        </button>
+                        <div class="language-options">
+                            </a>
+                            <a href="/Projects/ar-projects-index.html" class="lang-option active" data-lang="ar">
+                                <span class="lang-name">العربية</span>
+                                <img src="/icon/ar.png" alt="العربية" class="lang-icon">
+
+                            </a>
+
+                            <a href="/Projects/kr-projects-index.html" class="lang-option" data-lang="ku">
+                                <span class="lang-name">كوردى</span>
+                                <img src="/icon/kr.png" alt="كوردى" class="lang-icon">
+
+
+                                <a href="/Projects/projects-index.html" class="lang-option " data-lang="en">
+                                    <span class="lang-name">English</span>
+                                    <img src="/icon/us.png" alt="English" class="lang-icon">
+
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Categories -->
+    <section class="main-categories">
+        <div class="categories-container">
+            <h2 class="section-title reveal">اختر فئة</h2>
+            
+            <div class="categories-grid">
+                <!-- Menu Category -->
+                <a href="/Projects/menu/ar-menu-detail.html" class="category-card reveal" data-category="menu">
+                    <div class="category-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="category-content">
+                        <h3>أنظمة القوائم</h3>
+                        <span class="category-btn">عرض المشاريع <i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </a>
+
+                <!-- Website Category -->
+                <a href="#" class="category-card reveal" data-category="website">
+                    <div class="category-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="category-content">
+                        <h3>تطوير المواقع</h3>
+                        <span class="category-btn">عرض المشاريع <i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </a>
+
+                <!-- Application Category -->
+                <a href="#" class="category-card reveal" data-category="application">
+                    <div class="category-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="category-content">
+                        <h3>تطبيقات الموبايل</h3>
+                        <span class="category-btn">عرض المشاريع <i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </a>
+
+                <!-- Barber Management Category -->
+                <a href="/Projects/barber/ar-barber-detail.html" class="category-card reveal" data-category="barber">
+                    <div class="category-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <div class="category-content">
+                        <h3>إدارة صالونات الحلاقة</h3>
+                        <span class="category-btn">عرض المشاريع <i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </a>
+
+                <!-- Car Wash Management Category -->
+                <a href="/Projects/carwash/ar-carwash-detail.html" class="category-card reveal" data-category="carwash">
+                    <div class="category-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="category-content">
+                        <h3>إدارة مغاسل السيارات</h3>
+                        <span class="category-btn">عرض المشاريع <i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footerar">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>الخدمات</h3>
+                <ul>
+                    <li><a href="/ar.html#website-creation">تطوير الويب</a></li>
+                    <li><a href="/ar.html#mobile-app">تطبيقات الجوال</a></li>
+                    <li><a href="/ar.html#services">أنظمة الخادم</a></li>
+                    <li><a href="/ar.html#menu">قائمة المطاعم</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>الشركة</h3>
+                <ul>
+                    <li><a href="/ar.html#about">من نحن</a></li>
+                    <li><a href="/Projects/ar-projects-index.html">مشاريعنا</a></li>
+                    <li><a href="/privacy/ar-privacy-policy.html">سياسة الخصوصية</a></li>
+                    <li><a href="/terms/ar-terms.html">شروط الخدمة</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>تابعنا</h3>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+9647507650999">+964 750 765 0999</a></p>
+                    <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:info@coovix.com">info@coovix.com</a></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/company/coovix/" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/share/188UQedKkT/?mibextid=wwXIfr" target="_blank"
+                        aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/coovix.tech?igsh=MWFtYWpobThsZ2Zydg%3D%3D&utm_source=qr"
+                        target="_blank" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2026 Coovix. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/Projects/projects-script.js"></script>
+    <script src="/script.js"></script>
+
+    
+</body>
+</html>

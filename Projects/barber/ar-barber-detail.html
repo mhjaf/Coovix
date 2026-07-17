@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>إدارة صالونات الحلاقة - Coovix</title>
+    <meta name="description" content="نظام إدارة صالونات الحلاقة الاحترافي من Coovix. حل متكامل لإدارة المواعيد والعملاء والموظفين والإيرادات لصالون الحلاقة الخاص بك.">
+    <meta name="keywords" content="إدارة صالون الحلاقة، حجز المواعيد، نظام الحلاقة، إدارة العملاء، جدولة الموظفين، كوردستان، العراق، Coovix">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Coovix">
+
+    <meta property="og:title" content="إدارة صالونات الحلاقة - Coovix">
+    <meta property="og:description" content="حل متكامل لإدارة المواعيد والعملاء والموظفين والإيرادات لصالون الحلاقة الخاص بك.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://coovix.com/Projects/barber/ar-barber-detail.html">
+    <meta property="og:image" content="https://coovix.com/logo.png">
+    <meta property="og:site_name" content="Coovix">
+    <meta property="og:locale" content="ar_IQ">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="إدارة صالونات الحلاقة - Coovix">
+    <meta name="twitter:description" content="حل متكامل لإدارة المواعيد والعملاء والموظفين والإيرادات لصالون الحلاقة الخاص بك.">
+    <meta name="twitter:image" content="https://coovix.com/logo.png">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Coovix" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/Projects/barber/barber-style.css">
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <img src="/logo.png" alt="loading">
+            <p>جاري التحميل<span class="loading-dots"></span></p>
+        </div>
+    </div>
+
+    <div class="scroll-indicator" id="scrollIndicator" aria-hidden="true"></div>
+
+    <div class="floating-buttons">
+        <a href="https://wa.me/+9647507650999" class="whatsapp-button" target="_blank" rel="noopener noreferrer" aria-label="تواصل معنا عبر واتساب">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        </a>
+        <button class="back-to-top" id="backToTop" aria-label="العودة للأعلى">
+            <i class="fas fa-arrow-up" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <header class="header">
+        <div class="nav-container">
+            <a href="/ar.html" class="logo" aria-label="Coovix Home">
+                <img src="/logo.png" alt="Coovix Logo" class="logoo">
+            </a>
+            <nav class="nav-menu" role="navigation">
+                <a href="/ar.html#about" class="nav-link">من نحن</a>
+                <span class="nav-separator">|</span>
+                <a href="/Projects/ar-projects-index.html" class="nav-link">مشاريعنا</a>
+                <span class="nav-separator">|</span>
+                <a href="/ar.html#services" class="nav-link">خدماتنا</a>
+                <span class="nav-separator">|</span>
+                <a href="/ar.html#website-creation" class="nav-link">مواقع الويب</a>
+                <span class="nav-separator">|</span>
+                <a href="/ar.html#mobile-app" class="nav-link">تطبيقات الجوال</a>
+                <span class="nav-separator">|</span>
+                <a href="/ar.html#contact" class="nav-link">اتصل بنا</a>
+                <span class="nav-separator">|</span>
+                <div class="language-switcher">
+                    <div class="language-dropdown">
+                        <button class="language-toggle" aria-label="Select Language">
+                            <span class="current-lang">العربية</span>
+                            <i class="fas fa-chevron-down dropdown-arrow"></i>
+                        </button>
+                        <div class="language-options">
+                            <a href="/Projects/barber/ar-barber-detail.html" class="lang-option active" data-lang="ar">
+                                <span class="lang-name">العربية</span>
+                                <img src="/icon/ar.png" alt="العربية" class="lang-icon">
+                            </a>
+                            <a href="/Projects/barber/kr-barber-detail.html" class="lang-option" data-lang="ku">
+                                <span class="lang-name">كوردى</span>
+                                <img src="/icon/kr.png" alt="كوردى" class="lang-icon">
+                            </a>
+                            <a href="/Projects/barber/barber-detail.html" class="lang-option" data-lang="en">
+                                <span class="lang-name">English</span>
+                                <img src="/icon/us.png" alt="English" class="lang-icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="barber-hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge"><i class="fas fa-cut"></i> نظام إدارة صالون الحلاقة</div>
+                <h1>أدر صالونك <span class="highlight">بذكاء</span></h1>
+                <p>منصة متكاملة لإدارة المواعيد، تتبع الإيرادات، تنظيم الموظفين، وتنمية أعمال صالون الحلاقة الخاص بك بسهولة.</p>
+                <div class="hero-btns">
+                    <a href="/Bar/arabic.php" class="btn-primary" target="_blank">
+                        <span>عرض العرض التجريبي</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-screens">
+                    <div class="hero-screen">
+                        <div class="screen-body">
+                            <img src="/Projects/barber/berber.png" alt="لوحة تحكم الحلاق">
+                        </div>
+                    </div>
+                    <div class="hero-screen">
+                        <div class="screen-body">
+                            <img src="/Projects/barber/barber1.png" alt="حجز الحلاق">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="b-section">
+        <div class="b-container">
+            <div class="section-title reveal">
+                <h2>كيف يعمل الحجز</h2>
+                <p>عملية حجز بسيطة لعملائك</p>
+            </div>
+            <div class="booking-steps reveal">
+                <div class="bk-step">
+                    <div class="bk-number">1</div>
+                    <div class="bk-icon"><i class="fas fa-cut"></i></div>
+                    <h4>اختيار الخدمة</h4>
+                    <p>يزور العميل موقعك ويختار خدمة مثل قص الشعر أو تشذيب اللحية أو باقة VIP</p>
+                </div>
+                <div class="bk-connector"></div>
+                <div class="bk-step">
+                    <div class="bk-number">2</div>
+                    <div class="bk-icon"><i class="fas fa-user-tie"></i></div>
+                    <h4>اختيار الحلاق</h4>
+                    <p>اختر الحلاق المفضل من فريقك مع ملفه الشخصي ومهاراته وتوفره</p>
+                </div>
+                <div class="bk-connector"></div>
+                <div class="bk-step">
+                    <div class="bk-number">3</div>
+                    <div class="bk-icon"><i class="fas fa-calendar-alt"></i></div>
+                    <h4>اختيار التاريخ والوقت</h4>
+                    <p>اختر تاريخاً ووقتاً متاحاً يناسب العميل</p>
+                </div>
+                <div class="bk-connector"></div>
+                <div class="bk-step">
+                    <div class="bk-number">4</div>
+                    <div class="bk-icon"><i class="fas fa-check-circle"></i></div>
+                    <h4>تأكيد المشرف</h4>
+                    <p>يظهر الحجز في لوحة التحكم للمراجعة والتأكيد مع إشعار فوري</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="b-section alt">
+        <div class="b-container">
+            <div class="section-title reveal">
+                <h2>كل ما تحتاجه</h2>
+                <p>أدوات قوية مصممة خصيصاً لصالونات الحلاقة</p>
+            </div>
+            <div class="features-grid reveal">
+                <div class="feat-card">
+                    <div class="feat-card-icon"><i class="fas fa-calendar-alt"></i></div>
+                    <h4>جدولة ذكية</h4>
+                    <p>نظام حجز آلي يتعامل مع تدفق المواعيد بالكامل. يختار العملاء خدمة، يختارون حلاقاً، ويحجزون وقتاً — كل ذلك عبر الإنترنت بدون اتصال.</p>
+                    <ul class="feat-details">
+                        <li><i class="fas fa-check"></i> كشف تعارض تلقائي</li>
+                        <li><i class="fas fa-check"></i> توفر فوري</li>
+                        <li><i class="fas fa-check"></i> تأكيد حجز فوري</li>
+                    </ul>
+                </div>
+                <div class="feat-card">
+                    <div class="feat-card-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h4>تحليلات الإيرادات</h4>
+                    <p>تتبع أداء صالونك بلوحة تحكم فورية. شاهد الأرباح اليومية والخدمات الأكثر شيوعاً وأوقات الذروة واتجاهات الإيرادات بنظرة واحدة.</p>
+                    <ul class="feat-details">
+                        <li><i class="fas fa-check"></i> تقارير يومية وشهرية</li>
+                        <li><i class="fas fa-check"></i> رؤى الخدمات الشائعة</li>
+                        <li><i class="fas fa-check"></i> تحليل أوقات الذروة</li>
+                    </ul>
+                </div>
+                <div class="feat-card">
+                    <div class="feat-card-icon"><i class="fas fa-users-cog"></i></div>
+                    <h4>إدارة الموظفين</h4>
+                    <p>أدر فريقك بالكامل من مكان واحد. أنشئ ملفات الحلاقين، حدد الجداول، تتبع الأداء الفردي، وشاهد من يحقق أكبر إيرادات.</p>
+                    <ul class="feat-details">
+                        <li><i class="fas fa-check"></i> جدولة المناوبات</li>
+                        <li><i class="fas fa-check"></i> تتبع الأداء</li>
+                        <li><i class="fas fa-check"></i> إحصائيات فردية للحلاقين</li>
+                    </ul>
+                </div>
+                <div class="feat-card">
+                    <div class="feat-card-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h4>جاهز للجوال</h4>
+                    <p>صفحة الحجز ولوحة التحكم تعملان بشكل مثالي على كل جهاز. سواء استخدم عملاؤك هاتفاً أو جهازاً لوحياً أو كمبيوتر — التجربة سلسة وسريعة.</p>
+                    <ul class="feat-details">
+                        <li><i class="fas fa-check"></i> متجاوب على جميع الأجهزة</li>
+                        <li><i class="fas fa-check"></i> سرعة تحميل عالية</li>
+                        <li><i class="fas fa-check"></i> واجهة سهلة اللمس</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots / Product Preview -->
+    <section class="b-section">
+        <div class="b-container">
+            <div class="section-title reveal">
+                <h2>شاهده أثناء العمل</h2>
+                <p>نظرة سريعة على كيفية عمل النظام من كلا الجانبين</p>
+            </div>
+            <div class="preview-grid reveal">
+                <div class="preview-card">
+                    <div class="preview-label"><i class="fas fa-desktop"></i> لوحة تحكم المشرف</div>
+                    <div class="preview-img-wrap">
+                        <img src="/Projects/barber/admin-dashboard.png" alt="معاينة لوحة تحكم المشرف">
+                    </div>
+                    <p>إدارة الحجوزات وجداول الموظفين وتحليلات الإيرادات من لوحة تحكم واحدة نظيفة</p>
+                </div>
+                <div class="preview-card">
+                    <div class="preview-label"><i class="fas fa-calendar-check"></i> صفحة الحجز</div>
+                    <div class="preview-img-wrap">
+                        <img src="/Projects/barber/booking.png" alt="معاينة صفحة الحجز">
+                    </div>
+                    <p>يحجز عملاؤك المواعيد مباشرة من موقعك — بدون اتصالات</p>
+                </div>
+                <div class="preview-card">
+                    <div class="preview-label"><i class="fas fa-mobile-alt"></i> عرض الجوال</div>
+                    <div class="preview-img-wrap">
+                        <img src="/Projects/barber/mobile.png" alt="معاينة عرض الجوال">
+                    </div>
+                    <p>تصميم متجاوب بالكامل يبدو مثالياً على كل هاتف وجهاز لوحي</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us -->
+    <section class="b-section alt">
+        <div class="b-container">
+            <div class="section-title reveal">
+                <h2>مصمم للحلاقين</h2>
+                <p>موثوق من قبل صالونات الحلاقة لإدارة أعمالهم بشكل أفضل</p>
+            </div>
+            <div class="why-grid reveal">
+                <div class="why-box">
+                    <i class="fas fa-bolt"></i>
+                    <h4>إعداد سريع</h4>
+                    <p>ابدأ في أقل من 10 دقائق مع إعداد موجه</p>
+                </div>
+                <div class="why-box">
+                    <i class="fas fa-headset"></i>
+                    <h4>دعم ذو أولوية</h4>
+                    <p>فريق دعم مخصص متاح عند الحاجة</p>
+                </div>
+                <div class="why-box">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>آمن وموثوق</h4>
+                    <p>أمان بمستوى المؤسسات مع ضمان وقت تشغيل 99.9%</p>
+                </div>
+                <div class="why-box">
+                    <i class="fas fa-sync-alt"></i>
+                    <h4>تحديثات مجانية</h4>
+                    <p>تحديثات وتحسينات منتظمة بدون تكلفة إضافية</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="b-section">
+        <div class="b-container">
+            <div class="section-title reveal">
+                <h2>خطط بسيطة</h2>
+                <p>اختر الخطة المناسبة لعملك</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card reveal">
+                    <div class="pricing-tag">مرن</div>
+                    <div class="pricing-name">شهري</div>
+                    <div class="pricing-desc">ادفع حسب الاستخدام، ألغِ في أي وقت</div>
+                    <ul class="pricing-list">
+                        <li><i class="fas fa-check"></i> جميع المميزات مشمولة</li>
+                        <li><i class="fas fa-check"></i> نظام الحجز عبر الإنترنت</li>
+                        <li><i class="fas fa-check"></i> إدارة العملاء</li>
+                        <li><i class="fas fa-check"></i> جدولة الموظفين</li>
+                        <li><i class="fas fa-check"></i> لوحة تحكم التحليلات</li>
+                        <li><i class="fas fa-check"></i> دعم ذو أولوية</li>
+                    </ul>
+                </div>
+                <div class="pricing-card reveal">
+                    <div class="pricing-tag">أفضل قيمة</div>
+                    <div class="pricing-name">دفعة واحدة</div>
+                    <div class="pricing-desc">ادفع مرة واحدة، امتلكها للأبد</div>
+                    <ul class="pricing-list">
+                        <li><i class="fas fa-check"></i> جميع المميزات مشمولة</li>
+                        <li><i class="fas fa-check"></i> وصول مدى الحياة</li>
+                        <li><i class="fas fa-check"></i> تحديثات مجانية</li>
+                        <li><i class="fas fa-check"></i> الوصول إلى الكود المصدري</li>
+                        <li><i class="fas fa-check"></i> علامة تجارية مخصصة</li>
+                        <li><i class="fas fa-check"></i> دعم ذو أولوية</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="b-section alt">
+        <div class="b-container">
+            <div class="section-title reveal">
+                <h2>الأسئلة الشائعة</h2>
+                <p>إجابات سريعة على الأسئلة الشائعة</p>
+            </div>
+            <div class="faq-list reveal">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>هل أحتاج إلى معرفة تقنية لاستخدامه؟</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>لا على الإطلاق. النظام مصمم ليكون بسيطاً وسهل الاستخدام. إذا كنت تستطيع استخدام هاتف ذكي، يمكنك إدارة لوحة التحكم. كما نوفر إعداداً موجهاً لمساعدتك على البدء.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>هل يمكن لعملائي الحجز بدون إنشاء حساب؟</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>نعم. يزور العملاء صفحة الحجز الخاصة بك، يختارون خدمة، يختارون حلاقاً، يحددون التاريخ والوقت، ويرسلون. لا حاجة لحساب أو تسجيل دخول — إنه سريع وسلس.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>كيف أحصل على إشعارات بالحجوزات الجديدة؟</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>تتلقى إشعارات فورية من خلال لوحة التحكم. يمكنك مراجعة وتأكيد كل حجز بنقرة واحدة. كما تتوفر إشعارات واتساب اختيارية.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="barber-cta">
+        <div class="cta-box">
+            <h3>هل أنت مستعد لتحويل صالونك؟</h3>
+            <p>تواصل معنا ودعنا نبني النظام المثالي لعملك</p>
+            <div class="cta-actions">
+                <a href="/ar.html#contact" class="btn-cta">
+                    <span>ابدأ الآن</span>
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footerar">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>الخدمات</h3>
+                <ul>
+                    <li><a href="/ar.html#website-creation">تطوير الويب</a></li>
+                    <li><a href="/ar.html#mobile-app">تطبيقات الجوال</a></li>
+                    <li><a href="/ar.html#services">أنظمة الخادم</a></li>
+                    <li><a href="/Projects/menu/ar-menu-detail.html">قائمة المطاعم</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>الشركة</h3>
+                <ul>
+                    <li><a href="/ar.html#about">من نحن</a></li>
+                    <li><a href="/Projects/ar-projects-index.html">مشاريعنا</a></li>
+                    <li><a href="/privacy/ar-privacy-policy.html">سياسة الخصوصية</a></li>
+                    <li><a href="/terms/ar-terms.html">شروط الخدمة</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>تابعنا</h3>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+9647507650999">+964 750 765 0999</a></p>
+                    <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:info@coovix.com">info@coovix.com</a></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/company/coovix/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/share/188UQedKkT/?mibextid=wwXIfr" target="_blank" aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/coovix.tech?igsh=MWFtYWpobThsZ2Zydg%3D%3D&utm_source=qr" target="_blank" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2026 Coovix. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox-overlay" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" aria-label="إغلاق"><i class="fas fa-times"></i></button>
+            <img id="lightboxImg" src="" alt="">
+        </div>
+    </div>
+
+    <script src="/Projects/projects-script.js"></script>
+    <script src="/script.js"></script>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const item = btn.parentElement;
+                const isActive = item.classList.contains('active');
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+                if (!isActive) item.classList.add('active');
+            });
+        });
+
+        // Lightbox
+        (function() {
+            const overlay = document.getElementById('lightbox');
+            const lbImg = document.getElementById('lightboxImg');
+
+            document.querySelectorAll('.preview-card .preview-img-wrap').forEach(wrap => {
+                wrap.addEventListener('click', () => {
+                    const img = wrap.querySelector('img');
+                    lbImg.src = img.src;
+                    lbImg.alt = img.alt;
+                    overlay.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                });
+            });
+
+            function closeLightbox() {
+                overlay.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+
+            overlay.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+            overlay.addEventListener('click', (e) => { if (e.target === overlay) closeLightbox(); });
+            document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
+        })();
+    </script>
+</body>
+</html>

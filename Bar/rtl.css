@@ -1,0 +1,497 @@
+/* ============================================
+   RTL (Right-to-Left) Styles for Arabic & Kurdish
+   ============================================ */
+
+/* Base RTL Direction */
+html[dir="rtl"] {
+    direction: rtl;
+}
+
+html[dir="rtl"] body {
+    text-align: right;
+}
+
+/* Navigation */
+html[dir="rtl"] .nav-wrapper {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .nav-menu {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .nav-actions {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .language-menu {
+    right: auto;
+    left: 0;
+}
+
+html[dir="rtl"] .language-menu::before,
+html[dir="rtl"] .language-menu::after {
+    right: auto;
+    left: 20px;
+}
+
+html[dir="rtl"] .language-option::before {
+    left: auto;
+    right: 0;
+}
+
+html[dir="rtl"] .language-option:hover {
+    padding-left: 18px;
+    padding-right: 24px;
+}
+
+/* Mobile Menu RTL */
+@media (max-width: 991px) {
+    html[dir="rtl"] .nav-menu {
+        right: auto;
+        left: -100%;
+        border-left: none;
+        border-right: 1px solid #333;
+        box-shadow: 5px 0 30px rgba(0, 0, 0, 0.5);
+    }
+
+    html[dir="rtl"] .nav-menu.active {
+        left: 0;
+        right: auto;
+    }
+
+    html[dir="rtl"] .nav-menu {
+        flex-direction: column;
+    }
+}
+
+/* Hero Section */
+html[dir="rtl"] .hero-content {
+    text-align: center;
+}
+
+html[dir="rtl"] .hero-buttons {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+    html[dir="rtl"] .hero-buttons {
+        flex-direction: column;
+    }
+}
+
+/* Services Grid */
+html[dir="rtl"] .services-grid {
+    direction: rtl;
+}
+
+html[dir="rtl"] .service-card {
+    text-align: center;
+}
+
+/* About Section */
+html[dir="rtl"] .about-grid {
+    direction: rtl;
+}
+
+html[dir="rtl"] .about-content {
+    text-align: right;
+}
+
+html[dir="rtl"] .feature {
+    border-left: none;
+    border-right: 4px solid #FF6B35;
+    text-align: right;
+}
+
+html[dir="rtl"] .feature::before {
+    left: auto;
+    right: 0;
+}
+
+html[dir="rtl"] .feature:hover h4 {
+    transform: translateX(-5px);
+}
+
+/* Barbers Grid */
+html[dir="rtl"] .barbers-grid {
+    direction: rtl;
+}
+
+/* Gallery Slider */
+html[dir="rtl"] .slider-wrapper {
+    direction: ltr; /* Keep slider LTR for proper functionality */
+}
+
+html[dir="rtl"] .slide-content {
+    text-align: right;
+}
+
+html[dir="rtl"] .slider-arrow-left {
+    left: auto;
+    right: 20px;
+}
+
+html[dir="rtl"] .slider-arrow-right {
+    right: auto;
+    left: 20px;
+}
+
+/* Location Section */
+html[dir="rtl"] .location-grid {
+    direction: rtl;
+}
+
+html[dir="rtl"] .hours-header {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+html[dir="rtl"] .hours-title-group {
+    text-align: right;
+}
+
+html[dir="rtl"] .hours-footer {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .status-indicator {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .map-overlay {
+    left: auto;
+    right: 30px;
+}
+
+html[dir="rtl"] .map-info {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    html[dir="rtl"] .hours-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    html[dir="rtl"] .hours-title-group {
+        text-align: center;
+    }
+
+    html[dir="rtl"] .hours-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    html[dir="rtl"] .map-overlay {
+        right: 0;
+        left: 0;
+        margin: 15px;
+    }
+}
+
+/* Contact Section */
+html[dir="rtl"] .contact-grid {
+    direction: rtl;
+}
+
+html[dir="rtl"] .contact-info {
+    text-align: right;
+}
+
+html[dir="rtl"] .contact-form {
+    text-align: right;
+}
+
+html[dir="rtl"] .form-group {
+    text-align: right;
+}
+
+html[dir="rtl"] .form-group label {
+    text-align: right;
+}
+
+html[dir="rtl"] .form-group input,
+html[dir="rtl"] .form-group select,
+html[dir="rtl"] .form-group textarea {
+    text-align: right;
+    direction: rtl;
+}
+
+html[dir="rtl"] .form-row {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+    html[dir="rtl"] .form-row {
+        flex-direction: column;
+    }
+}
+
+/* Footer */
+html[dir="rtl"] .footer-content {
+    direction: rtl;
+}
+
+/* Footer RTL Styles - Desktop */
+html[dir="rtl"] .footer-content {
+    text-align: right;
+}
+
+html[dir="rtl"] .footer-section {
+    text-align: right;
+}
+
+html[dir="rtl"] .footer-section h3,
+html[dir="rtl"] .footer-section h4,
+html[dir="rtl"] .footer-section p {
+    text-align: right;
+}
+
+html[dir="rtl"] .footer-section ul {
+    text-align: right;
+    padding-right: 0;
+}
+
+html[dir="rtl"] .social-links {
+    justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+    html[dir="rtl"] .footer-content {
+        text-align: right;
+        grid-template-columns: 1fr;
+    }
+
+    html[dir="rtl"] .footer-section {
+        text-align: right;
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    html[dir="rtl"] .footer-section h4,
+    html[dir="rtl"] .footer-section h3,
+    html[dir="rtl"] .footer-section p {
+        width: 100%;
+        text-align: right;
+    }
+
+    html[dir="rtl"] .footer-section ul {
+        width: 100%;
+        text-align: right;
+        padding-right: 0;
+        list-style: none;
+    }
+
+    html[dir="rtl"] .footer-section ul li {
+        text-align: right;
+    }
+    
+    html[dir="rtl"] .social-links {
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 0.8rem;
+        width: 100%;
+    }
+    
+    html[dir="rtl"] .footer-bottom {
+        text-align: center;
+    }
+}
+
+/* Modal */
+html[dir="rtl"] .modal-content {
+    text-align: right;
+}
+
+html[dir="rtl"] .modal-close {
+    right: auto;
+    left: 1.5rem;
+}
+
+html[dir="rtl"] .modal-title {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+html[dir="rtl"] .booking-form {
+    text-align: right;
+}
+
+html[dir="rtl"] .booking-form label {
+    text-align: right;
+}
+
+html[dir="rtl"] .booking-form input,
+html[dir="rtl"] .booking-form select,
+html[dir="rtl"] .booking-form textarea {
+    text-align: right;
+    direction: rtl;
+}
+
+/* Select dropdown arrow for RTL */
+html[dir="rtl"] .booking-form select,
+html[dir="rtl"] .contact-form select,
+html[dir="rtl"] .form-group select {
+    background-position: left 12px center;
+    padding-left: 40px;
+    padding-right: 15px;
+}
+
+html[dir="rtl"] #selectedDay {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+/* Success Modal RTL */
+html[dir="rtl"] .success-modal-content {
+    text-align: right;
+}
+
+html[dir="rtl"] .success-detail-item {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .success-detail-label {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .success-detail-value {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    html[dir="rtl"] .success-detail-item {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    html[dir="rtl"] .success-detail-value {
+        text-align: right;
+    }
+}
+
+/* Products Grid */
+html[dir="rtl"] .products-grid {
+    direction: rtl;
+}
+
+html[dir="rtl"] .product-card {
+    text-align: center;
+}
+
+/* Location Actions */
+html[dir="rtl"] .location-actions {
+    direction: rtl;
+}
+
+html[dir="rtl"] .action-btn {
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    html[dir="rtl"] .action-btn {
+        flex-direction: row-reverse;
+    }
+}
+
+/* Info Items */
+html[dir="rtl"] .info-item {
+    text-align: right;
+}
+
+/* Placeholder text alignment */
+html[dir="rtl"] input::placeholder,
+html[dir="rtl"] textarea::placeholder {
+    text-align: right;
+}
+
+/* Schedule Info */
+html[dir="rtl"] #scheduleInfo {
+    text-align: right;
+}
+
+/* Button alignment */
+html[dir="rtl"] .btn-full {
+    text-align: center;
+}
+
+/* Mobile Menu Toggle - keep on right side for RTL */
+html[dir="rtl"] .mobile-menu-toggle {
+    order: -1;
+}
+
+/* Navigation actions order for RTL */
+@media (max-width: 991px) {
+    html[dir="rtl"] .nav-actions {
+        flex-direction: row;
+    }
+}
+
+/* Hours Day Card */
+html[dir="rtl"] .hours-day-card {
+    text-align: center;
+}
+
+/* Section Headers */
+html[dir="rtl"] .section-header {
+    text-align: center;
+}
+
+/* Logo */
+html[dir="rtl"] .logo {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    html[dir="rtl"] .logo h2 {
+        font-size: 1rem;
+    }
+}
+
+/* Fix slider direction display */
+html[dir="rtl"] .slider-track {
+    direction: ltr;
+}
+
+html[dir="rtl"] .slide-overlay {
+    text-align: center;
+}
+
+/* Fix dropdown positioning */
+html[dir="rtl"] .dropdown-arrow {
+    margin-left: 0;
+    margin-right: 0.5rem;
+}
+
+/* Barber card text */
+html[dir="rtl"] .barber-info {
+    text-align: center;
+}
+
+/* Contact Form Row */
+html[dir="rtl"] .contact-grid {
+    direction: rtl;
+}
+
+@media (max-width: 768px) {
+    html[dir="rtl"] .contact-grid {
+        direction: rtl;
+    }
+}
+
+/* Mobile Nav Items RTL */
+html[dir="rtl"] .mobile-language-dropdown {
+    direction: rtl;
+}
+
+html[dir="rtl"] .mobile-lang-toggle {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .mobile-lang-option {
+    text-align: center;
+}

@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coovix | Premium Auto Detailing</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Favicon for all devices -->
+<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="MyWebSite" />
+<link rel="manifest" href="/favicon/site.webmanifest" />
+
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo"><i class="ph-fill ph-car-profile"></i> Coovix</a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#process">How It Works</a></li>
+                <li><a href="#membership">Products</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#location">Location</a></li>
+                <li>
+                    <div class="language-selector">
+                        <button class="language-btn" onclick="toggleLanguageMenu()">
+                            <span>EN</span>
+                            <i class="ph ph-caret-down"></i>
+                        </button>
+                        <div class="language-menu" id="languageMenu">
+                            <a href="index.html" class="lang-option">English</a>
+                            <a href="ar.html" class="lang-option">العربية</a>
+                            <a href="ku.html" class="lang-option">کوردی</a>
+                        </div>
+                    </div>
+                </li>
+                <li><button onclick="openModal()" class="btn btn-primary">Book Now</button></li>
+            </ul>
+            <button class="mobile-toggle" onclick="toggleMobileMenu()">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <span class="hero-tag">The Future of Clean</span>
+                <h1>More Than Just A <br><span class="gradient-text">Car Wash</span></h1>
+                <p>Experience the ultimate automotive spa. From advanced nano-ceramic coating to hand-interior detailing, we restore your vehicle to showroom perfection.</p>
+                <div class="hero-btns">
+                    <button onclick="openModal()" class="btn btn-primary">Book Now</button>
+                    <a href="#services" class="btn btn-outline">Explore Services</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-img-box">
+                    <img src="/car wash/1.jpg" alt="High end car">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- PROCESS SECTION -->
+    <section id="process" class="section-padding process-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It <span class="gradient-text">Works</span></h2>
+                <p>Our 4-Step Coovix Process ensures a scratch-free, deep clean every time.</p>
+            </div>
+            <div class="process-card">
+                <div class="process-grid">
+                    <div class="process-step">
+                        <div class="step-icon"><i class="ph ph-drop"></i></div>
+                        <h4>1. Pre-Soak</h4>
+                        <p>pH-balanced foam breaks down dirt.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-icon"><i class="ph ph-waves"></i></div>
+                        <h4>2. Soft Wash</h4>
+                        <p>Gentle microfiber cloths remove debris.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-icon"><i class="ph ph-sparkle"></i></div>
+                        <h4>3. Polish & Seal</h4>
+                        <p>Tri-color foam polish and clear coat.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-icon"><i class="ph ph-air-traffic-control"></i></div>
+                        <h4>4. Force Dry</h4>
+                        <p>Filtered air blowers remove water spots.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DETAILED SERVICES -->
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Premium <span class="gradient-text">Services</span></h2>
+            </div>
+
+            <div class="service-row">
+                <div class="service-content">
+                    <h3>Exterior <span class="text-accent">Perfection</span></h3>
+                    <p>Our signature exterior wash goes beyond the surface. We use pH-neutral soaps and a multi-stage drying process.</p>
+                    <ul class="feature-list">
+                        <li><i class="ph-fill ph-check-circle"></i> Hand wash with premium mitts</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Wheel cleaning and tire shine</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Exterior window cleaning</li>
+                    </ul>
+                    <button onclick="openModal('Exterior')" class="btn btn-outline">Book Exterior</button>
+                </div>
+                <div class="service-img">
+                    <img src="/car wash/2.jpg" alt="Car Foam">
+                </div>
+            </div>
+
+            <div class="service-row reverse">
+                <div class="service-content">
+                    <h3>Interior <span class="text-accent">Restoration</span></h3>
+                    <p>Step inside a sanctuary. We meticulously detail every inch of your interior, removing dust and stains.</p>
+                    <ul class="feature-list">
+                        <li><i class="ph-fill ph-check-circle"></i> Full vacuum (trunk & mats)</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Dashboard & console wipe down</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Leather conditioning</li>
+                    </ul>
+                    <button onclick="openModal('Interior')" class="btn btn-outline">Book Interior</button>
+                </div>
+                <div class="service-img">
+                    <img src="/car wash/3.jpg" alt="Car Interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DETAILING PACKAGE -->
+    <section id="membership" class="section-padding detailing-section">
+        <div class="container">
+            <div class="package-wrapper">
+                <!-- Left Side - Package Info -->
+                <div class="package-info">
+                    <span class="detail-badge"><i class="ph-fill ph-sparkle"></i> Premium Package</span>
+                    <h2>Professional <span class="gradient-text">Detailing Package</span></h2>
+                    <p class="package-desc">Complete car care solution with premium products for showroom-quality results. Everything your vehicle needs in one package.</p>
+
+                    <div class="package-highlights">
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-shield-checkered"></i>
+                            <span>Ceramic Coating</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-sun"></i>
+                            <span>Carnauba Wax</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-paint-bucket"></i>
+                            <span>Paint Sealant</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-armchair"></i>
+                            <span>Leather Care</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-tire"></i>
+                            <span>Tire Dressing</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph-fill ph-browsers"></i>
+                            <span>Glass Coating</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side - Package Card -->
+                <div class="package-card">
+                    <div class="package-ribbon">Complete Package</div>
+                    <div class="package-icon">
+                        <i class="ph-fill ph-car"></i>
+                    </div>
+                    <h3>Ultimate Detailing</h3>
+                    <p class="package-tagline">Transform your vehicle to showroom condition</p>
+
+                    <ul class="package-features">
+                        <li><i class="ph-fill ph-check-circle"></i> 9H Nano-Ceramic Protection</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Brazilian Carnauba Wax Finish</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Interior Deep Cleaning</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Leather Conditioning & Protection</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Tire & Wheel Detailing</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Hydrophobic Glass Treatment</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Engine Bay Cleaning</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Paint Correction & Sealant</li>
+                    </ul>
+
+                    <div class="package-duration">
+                        <i class="ph ph-clock"></i>
+                        <span>Protection lasts up to 2 years</span>
+                    </div>
+
+                    <button onclick="openModal('Professional Detailing Package')" class="btn btn-primary btn-full">
+                        <i class="ph ph-calendar-check"></i> Book This Package
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked <span class="gradient-text">Questions</span></h2>
+            </div>
+            <details class="faq-item">
+                <summary>How long does the car wash take? <i class="ph ph-caret-down"></i></summary>
+                <div class="faq-content">Our express tunnel wash takes about 15 minutes. Interior detailing can take 45 minutes to 2 hours.</div>
+            </details>
+            <details class="faq-item">
+                <summary>Is the wash safe for my paint? <i class="ph ph-caret-down"></i></summary>
+                <div class="faq-content">Absolutely. We use "Soft Touch" technology with closed-cell foam brushes that are constantly lubricated.</div>
+            </details>
+        </div>
+    </section>
+
+    <!-- LOCATION SECTION -->
+    <section id="location" class="location-section">
+        <div class="location-header">
+            <div class="container">
+                <span class="location-badge"><i class="ph-fill ph-map-pin"></i> Find Us</span>
+                <h2>Visit <span class="gradient-text">Coovix</span></h2>
+                <p>Come experience the future of car care</p>
+            </div>
+        </div>
+        <div class="map-center-container">
+            <div class="map-medium">
+                <iframe
+                    class="map-frame"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074644.2815829106!2d34.76292590000001!3d35.5037639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40090675168d57f5%3A0x18d1cbbe61767ce8!2sKurdistan%20Region!5e0!3m2!1sen!2s!4v1738329600000!5m2!1sen!2s"
+                    title="Kurdistan Region Location">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROFESSIONAL FOOTER -->
+    <footer id="contact" class="footer">
+        <!-- Footer Top - CTA Section -->
+        <div class="footer-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <div class="cta-text">
+                        <h3>Ready to Experience Premium Car Care?</h3>
+                        <p>Book your appointment today and give your vehicle the treatment it deserves.</p>
+                    </div>
+                    <button onclick="openModal()" class="btn btn-primary btn-glow">
+                        <i class="ph ph-calendar-check"></i> Book Appointment
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Main -->
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-grid-pro">
+                    <!-- Brand Column -->
+                    <div class="footer-brand">
+                        <a href="#" class="footer-logo">
+                            <i class="ph-fill ph-car-profile"></i>
+                            <span>VELOCCoovixITY</span>
+                        </a>
+                        <p class="brand-tagline">Premium Auto Detailing</p>
+                        <p class="brand-desc">Experience the ultimate in automotive care. We combine cutting-edge technology with meticulous craftsmanship to deliver showroom-quality results.</p>
+                    </div>
+
+                    <!-- Services -->
+                    <div class="footer-links-col">
+                        <h4>Services</h4>
+                        <ul class="footer-nav">
+                            <li><a href="#"><i class="ph ph-caret-right"></i> Express Wash</a></li>
+                            <li><a href="#"><i class="ph ph-caret-right"></i> Full Detailing</a></li>
+                            <li><a href="#"><i class="ph ph-caret-right"></i> Ceramic Coating</a></li>
+                            <li><a href="#"><i class="ph ph-caret-right"></i> Interior Cleaning</a></li>
+                            <li><a href="#"><i class="ph ph-caret-right"></i> Paint Protection</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="footer-contact-col">
+                        <h4>Contact Us</h4>
+                        <div class="contact-list">
+                            <div class="contact-item">
+                                <div class="contact-text">
+                                    <span>Phone: +964 750 765 0999</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-text">
+                                    <span>Email: info@coovix.com</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links" style="margin-top: 20px;">
+                            <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="social-link">
+                                <i class="ph-fill ph-facebook-logo"></i>
+                            </a>
+                            <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="social-link">
+                                <i class="ph-fill ph-instagram-logo"></i>
+                            </a>
+                            <a href="https://tiktok.com" target="_blank" aria-label="TikTok" class="social-link">
+                                <i class="ph-fill ph-tiktok-logo"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <div class="copyright" style="text-align: center; width: 100%;">
+                        <p>&copy; 2026 Coovix Car Wash. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top-btn" id="scrollTopBtn" onclick="scrollToTop()" aria-label="Scroll to top">
+        <i class="ph ph-caret-up"></i>
+    </button>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/9647507650999" class="whatsapp-btn" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="ph-fill ph-whatsapp-logo"></i>
+        <span class="whatsapp-tooltip">Chat with us</span>
+    </a>
+
+    <!-- BOOKING MODAL -->
+    <div class="modal-overlay" id="bookingModal">
+        <div class="modal-box">
+            <button class="close-modal" onclick="closeModal()"><i class="ph ph-x"></i></button>
+            <h2><i class="ph-fill ph-calendar-check"></i> Book Appointment</h2>
+            <p>Select your service and preferred date.</p>
+
+            <form id="bookingForm">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <select name="category" id="categorySelect" required>
+                    <option value="" disabled selected>Select Category</option>
+                    <!-- Categories loaded from database -->
+                </select>
+                <select name="car_type" id="carTypeSelect" required>
+                    <option value="" disabled selected>Select Car Type</option>
+                    <!-- Car types loaded from database -->
+                </select>
+                <select name="wash_type" id="washTypeSelect" required style="display: none;">
+                    <option value="" disabled selected>Select Wash Type</option>
+                    <!-- Wash types loaded from database -->
+                </select>
+                <select name="service_id" id="serviceSelect" required>
+                    <option value="" disabled selected>Select Service</option>
+                    <!-- Services loaded from database -->
+                </select>
+                <input type="date" id="bookingDate" name="date" required>
+                <select id="bookingTime" name="time" required>
+                    <option value="" disabled selected>Select Time</option>
+                    <option value="08:00">08:00 AM</option>
+                    <option value="08:30">08:30 AM</option>
+                    <option value="09:00">09:00 AM</option>
+                    <option value="09:30">09:30 AM</option>
+                    <option value="10:00">10:00 AM</option>
+                    <option value="10:30">10:30 AM</option>
+                    <option value="11:00">11:00 AM</option>
+                    <option value="11:30">11:30 AM</option>
+                    <option value="12:00">12:00 PM</option>
+                    <option value="12:30">12:30 PM</option>
+                    <option value="13:00">01:00 PM</option>
+                    <option value="13:30">01:30 PM</option>
+                    <option value="14:00">02:00 PM</option>
+                    <option value="14:30">02:30 PM</option>
+                    <option value="15:00">03:00 PM</option>
+                    <option value="15:30">03:30 PM</option>
+                    <option value="16:00">04:00 PM</option>
+                    <option value="16:30">04:30 PM</option>
+                    <option value="17:00">05:00 PM</option>
+                    <option value="17:30">05:30 PM</option>
+                    <option value="18:00">06:00 PM</option>
+                    <option value="18:30">06:30 PM</option>
+                    <option value="19:00">07:00 PM</option>
+                    <option value="19:30">07:30 PM</option>
+                </select>
+                <textarea name="note" placeholder="Additional Notes (optional)" rows="3"></textarea>
+                <div id="dayOffWarning" class="day-off-warning" style="display: none;">
+                    <i class="ph-fill ph-warning-circle"></i>
+                    <div>
+                        <strong>This day is not available for booking!</strong>
+                        <p>We are closed on this day. Please select another date.</p>
+                    </div>
+                </div>
+                <div id="priceDisplay" class="price-display" style="display: none;">
+                    <strong>Price:</strong> <span id="priceAmount">0</span>
+                </div>
+                <div id="bookingMessage" class="booking-message"></div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="ph-bold ph-check-circle"></i> Confirm Booking
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

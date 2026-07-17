@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>إدارة مغسلة السيارات - Coovix</title>
+    <meta name="description" content="نظام إدارة مغسلة سيارات احترافي من Coovix. حل متكامل لإدارة الحجوزات والعملاء والمدفوعات والموظفين لأعمال غسيل السيارات الخاصة بك.">
+    <meta name="keywords" content="إدارة مغسلة سيارات, نظام حجز, إدارة العملاء, معالجة المدفوعات, كردستان, العراق, Coovix">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Coovix">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="إدارة مغسلة السيارات - Coovix">
+    <meta property="og:description" content="حل متكامل لإدارة الحجوزات والعملاء والمدفوعات والموظفين لأعمال غسيل السيارات الخاصة بك.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://coovix.com/Projects/carwash/ar-carwash-detail.html">
+    <meta property="og:image" content="https://coovix.com/logo.png">
+    <meta property="og:site_name" content="Coovix">
+    <meta property="og:locale" content="ar_IQ">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="إدارة مغسلة السيارات - Coovix">
+    <meta name="twitter:description" content="حل متكامل لإدارة الحجوزات والعملاء والمدفوعات والموظفين لأعمال غسيل السيارات الخاصة بك.">
+    <meta name="twitter:image" content="https://coovix.com/logo.png">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Favicon for all devices -->
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Coovix" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/Projects/carwash/carwash-style.css">
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <img src="/logo.png" alt="جاري التحميل">
+            <p>جاري التحميل<span class="loading-dots"></span></p>
+        </div>
+    </div>
+
+    <div class="cursor" id="cursor" aria-hidden="true"></div>
+
+    <div class="scroll-indicator" id="scrollIndicator" aria-hidden="true"></div>
+
+    <div class="particles" id="particles" aria-hidden="true"></div>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/+9647507650999"
+           class="whatsapp-button"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="تواصل معنا عبر واتساب"
+           title="تحدث معنا عبر واتساب">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        </a>
+
+        <button class="back-to-top" id="backToTop" aria-label="العودة إلى الأعلى">
+            <i class="fas fa-arrow-up" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <header class="header">
+        <div class="nav-container">
+            <a href="/ar.html" class="logo" aria-label="الرئيسية Coovix">
+                <img src="/logo.png" alt="شعار Coovix" class="logoo">
+            </a>
+
+            <nav class="nav-menu" role="navigation">
+                <a href="/ar.html#about" class="nav-link">من نحن</a>
+                <span class="nav-separator">|</span>
+                <a href="/Projects/ar-projects-index.html" class="nav-link">مشاريعنا</a>
+                <span class="nav-separator">|</span>
+                <a href="/ar.html#services" class="nav-link">خدماتنا</a>
+                <span class="nav-separator">|</span>
+                <a href="/ar.html#website-creation" class="nav-link">موقع إلكتروني</a>
+                <span class="nav-separator">|</span>
+                <a href="/ar.html#mobile-app" class="nav-link">تطبيق الهاتف</a>
+                <span class="nav-separator">|</span>
+                <a href="/ar.html#contact" class="nav-link">اتصل بنا</a>
+                <span class="nav-separator">|</span>
+                <div class="language-switcher">
+                    <div class="language-dropdown">
+                        <button class="language-toggle" aria-label="اختر اللغة">
+                            <span class="current-lang">
+                                العربية
+                            </span>
+                            <i class="fas fa-chevron-down dropdown-arrow"></i>
+                        </button>
+                        <div class="language-options">
+                            <a href="/Projects/carwash/carwash-detail.html" class="lang-option" data-lang="en">
+                                <span class="lang-name">English</span>
+                                <img src="/icon/us.png" alt="English" class="lang-icon">
+                            </a>
+                            <a href="/Projects/carwash/kr-carwash-detail.html" class="lang-option" data-lang="ku">
+                                <span class="lang-name">كوردى</span>
+                                <img src="/icon/kr.png" alt="كوردى" class="lang-icon">
+                            </a>
+                            <a href="/Projects/carwash/ar-carwash-detail.html" class="lang-option active" data-lang="ar">
+                                <span class="lang-name">العربية</span>
+                                <img src="/icon/ar.png" alt="العربية" class="lang-icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="carwash-hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>نظام إدارة مغسلة السيارات</h1>
+                <p>حل متكامل لإدارة الحجوزات والعملاء والمدفوعات والموظفين لأعمال غسيل السيارات الخاصة بك.</p>
+                <ul class="hero-features">
+                    <li><i class="fas fa-check-circle"></i> نظام الحجز عبر الإنترنت</li>
+                    <li><i class="fas fa-check-circle"></i> إدارة العملاء والموظفين</li>
+                    <li><i class="fas fa-check-circle"></i> لوحة تحليلات فورية</li>
+                </ul>
+                <a href="/car wash/ar.html" class="demo-btn" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>عرض النسخة التجريبية</span>
+                </a>
+            </div>
+            <div class="hero-images">
+                <div class="hero-img-wrapper img-1">
+                    <img src="/Projects/carwash/carwash.png" alt="لوحة تحكم مغسلة السيارات">
+                </div>
+                <div class="hero-img-wrapper img-2">
+                    <img src="/Projects/carwash/carwash1.png" alt="عرض لوحة تحكم مغسلة السيارات">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem & Solution -->
+    <section class="ps-section">
+        <div class="ps-bg-glow"></div>
+        <div class="ps-container">
+            <div class="section-title">
+                <h2>المشكلة والحل</h2>
+                <p>شاهد الفرق الذي يحدثه نظام الإدارة</p>
+            </div>
+            <div class="ps-grid">
+                <div class="ps-col ps-problems">
+                    <div class="ps-col-label">
+                        <span class="ps-dot-red"></span>
+                        بدون نظام
+                    </div>
+                    <div class="ps-card-stack">
+                        <div class="ps-card ps-card-problem">
+                            <span class="ps-num">01</span>
+                            <div class="ps-card-body">
+                                <h4><i class="fas fa-phone-alt ps-body-icon"></i> الحجز عبر الهاتف</h4>
+                                <p>العملاء ينتظرون، الحجوزات تضيع، الحجوزات المزدوجة تحدث يومياً</p>
+                            </div>
+                        </div>
+                        <div class="ps-card ps-card-problem">
+                            <span class="ps-num">02</span>
+                            <div class="ps-card-body">
+                                <h4><i class="fas fa-sticky-note ps-body-icon"></i> السجلات الورقية</h4>
+                                <p>سجلات مكتوبة بخط اليد، إيصالات مفقودة، لا توجد طريقة للبحث في المعاملات السابقة</p>
+                            </div>
+                        </div>
+                        <div class="ps-card ps-card-problem">
+                            <span class="ps-num">03</span>
+                            <div class="ps-card-body">
+                                <h4><i class="fas fa-question-circle ps-body-icon"></i> تخمين الإيرادات</h4>
+                                <p>لا صورة واضحة عن الأرباح اليومية أو الخدمات الشائعة أو ساعات الذروة</p>
+                            </div>
+                        </div>
+                        <div class="ps-card ps-card-problem">
+                            <span class="ps-num">04</span>
+                            <div class="ps-card-body">
+                                <h4><i class="fas fa-user-clock ps-body-icon"></i> ارتباك الموظفين</h4>
+                                <p>جداول غير واضحة، مهام مفقودة، لا تتبع للمسؤولية</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ps-center-line">
+                    <div class="ps-center-track"></div>
+                    <div class="ps-center-badge">
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
+                    <div class="ps-center-track"></div>
+                </div>
+                <div class="ps-col ps-solutions">
+                    <div class="ps-col-label">
+                        <span class="ps-dot-green"></span>
+                        مع نظامنا
+                    </div>
+                    <div class="ps-card-stack">
+                        <div class="ps-card ps-card-solution">
+                            <span class="ps-num">01</span>
+                            <div class="ps-card-body">
+                                <h4><i class="fas fa-calendar-check ps-body-icon"></i> حجز ذكي عبر الإنترنت</h4>
+                                <p>جدولة تلقائية على مدار الساعة مع التوفر الفوري والتأكيد الفوري</p>
+                            </div>
+                        </div>
+                        <div class="ps-card ps-card-solution">
+                            <span class="ps-num">02</span>
+                            <div class="ps-card-body">
+                                <h4><i class="fas fa-database ps-body-icon"></i> سجلات رقمية</h4>
+                                <p>سجل قابل للبحث، فواتير تلقائية، ملفات عملاء كاملة</p>
+                            </div>
+                        </div>
+                        <div class="ps-card ps-card-solution">
+                            <span class="ps-num">03</span>
+                            <div class="ps-card-body">
+                                <h4><i class="fas fa-chart-bar ps-body-icon"></i> تحليلات فورية</h4>
+                                <p>لوحة إيرادات فورية، تقارير الخدمات، ومعلومات ساعات الذروة</p>
+                            </div>
+                        </div>
+                        <div class="ps-card ps-card-solution">
+                            <span class="ps-num">04</span>
+                            <div class="ps-card-body">
+                                <h4><i class="fas fa-cogs ps-body-icon"></i> إدارة الأنظمة</h4>
+                                <p>تحكم مركزي في العمليات والمخزون وسير العمل في منصة واحدة</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section">
+        <div class="section-container">
+            <div class="section-title">
+                <h2>المميزات</h2>
+                <p>كل ما تحتاجه لإدارة أعمال غسيل السيارات الخاصة بك</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-calendar-check"></i></div>
+                    <div class="feature-text">
+                        <h4>حجز ذكي</h4>
+                        <p>مواعيد عبر الإنترنت على مدار الساعة مع تذكيرات تلقائية</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                    <div class="feature-text">
+                        <h4>التحليلات</h4>
+                        <p>بيانات الإيرادات والخدمات وساعات الذروة</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-user-tie"></i></div>
+                    <div class="feature-text">
+                        <h4>الموظفون</h4>
+                        <p>الجداول وتوزيع المهام</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section alt">
+        <div class="section-container">
+            <div class="section-title">
+                <h2>خدمات الغسيل</h2>
+                <p>قم بإعداد باقات غسيل مختلفة لعملائك</p>
+            </div>
+            <div class="services-list">
+                <div class="service-item">
+                    <div class="service-icon blue"><i class="fas fa-spray-can"></i></div>
+                    <div class="service-info"><h4>غسيل أساسي</h4><p>تنظيف خارجي سريع</p></div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon pink"><i class="fas fa-car-alt"></i></div>
+                    <div class="service-info"><h4>بريميوم</h4><p>خارجي كامل + العجلات</p></div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon cyan"><i class="fas fa-gem"></i></div>
+                    <div class="service-info"><h4>ديلوكس</h4><p>داخلي وخارجي</p></div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon orange"><i class="fas fa-crown"></i></div>
+                    <div class="service-info"><h4>VIP</h4><p>تنظيف كامل + تشميع</p></div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon green"><i class="fas fa-couch"></i></div>
+                    <div class="service-info"><h4>داخلي</h4><p>تنظيف داخلي عميق</p></div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon purple"><i class="fas fa-magic"></i></div>
+                    <div class="service-info"><h4>تفصيلي</h4><p>تنظيف احترافي</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section">
+        <div class="section-container">
+            <div class="section-title">
+                <h2>الخطط</h2>
+                <p>اختر الخطة المناسبة لأعمالك</p>
+            </div>
+            <div class="pricing-grid two-cards">
+                <div class="pricing-card">
+                    <div class="pricing-tag">مرن</div>
+                    <div class="pricing-name">شهري</div>
+                    <div class="pricing-desc">ادفع حسب الاستخدام، ألغِ في أي وقت</div>
+                    <ul class="pricing-list">
+                        <li><i class="fas fa-check"></i> جميع المميزات مضمنة</li>
+                        <li><i class="fas fa-check"></i> نظام الحجز عبر الإنترنت</li>
+                        <li><i class="fas fa-check"></i> إدارة العملاء</li>
+                        <li><i class="fas fa-check"></i> إدارة الموظفين</li>
+                        <li><i class="fas fa-check"></i> لوحة التحليلات</li>
+                        <li><i class="fas fa-check"></i> دعم ذو أولوية</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-tag">أفضل قيمة</div>
+                    <div class="pricing-name">دفعة واحدة</div>
+                    <div class="pricing-desc">ادفع مرة واحدة، امتلكه للأبد</div>
+                    <ul class="pricing-list">
+                        <li><i class="fas fa-check"></i> جميع المميزات مضمنة</li>
+                        <li><i class="fas fa-check"></i> وصول مدى الحياة</li>
+                        <li><i class="fas fa-check"></i> تحديثات مجانية</li>
+                        <li><i class="fas fa-check"></i> الوصول إلى الكود المصدري</li>
+                        <li><i class="fas fa-check"></i> علامة تجارية مخصصة</li>
+                        <li><i class="fas fa-check"></i> دعم ذو أولوية</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section alt">
+        <div class="section-container">
+            <div class="section-title">
+                <h2>الأسئلة الشائعة</h2>
+                <p>إجابات سريعة على الأسئلة الشائعة</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>هل يمكن للعملاء اختيار باقة الغسيل وإضافة خدمات إضافية عند الحجز؟</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>نعم. يمكن للعملاء تصفح جميع باقات الغسيل (أساسي، بريميوم، VIP، إلخ)، ومعرفة ما تتضمنه كل باقة، وإضافة خدمات إضافية مثل التنظيف الداخلي أو التشميع — كل ذلك قبل تأكيد الحجز.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>كيف يتعامل النظام مع ساعات الذروة وإدارة الطوابير؟</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>يدير النظام الفترات الزمنية تلقائياً بناءً على طاقتك الاستيعابية. خلال ساعات الذروة، يمنع الحجز الزائد ويعرض فقط الفترات المتاحة للعملاء. يمكنك أيضاً تعيين حدود مخصصة لكل فترة زمنية.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>هل يمكنني تتبع الإيرادات اليومية ومعرفة أكثر باقات الغسيل شعبية؟</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>بالتأكيد. توفر لوحة التحليلات بيانات فورية عن الإيرادات اليومية والأسبوعية والشهرية. يمكنك معرفة الباقات الأكثر طلباً وساعات الذروة وأداء الموظفين — كل ذلك في مكان واحد.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="website-cta-box reveal active">
+                <div class="cta-content">
+                    <h3>هل أنت مستعد للبدء؟</h3>
+                    <p>تواصل معنا لمناقشة احتياجات إدارة مغسلة السيارات الخاصة بك</p>
+                    <div class="cta-buttons">
+                        <a href="/ar.html#contact" class="btn-primary">
+                            <span>اتصل بنا</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>الخدمات</h3>
+                <ul>
+                    <li><a href="/ar.html#website-creation">تطوير الويب</a></li>
+                    <li><a href="/ar.html#mobile-app">تطبيقات الهاتف</a></li>
+                    <li><a href="/ar.html#services">أنظمة الخادم</a></li>
+                    <li><a href="/Projects/menu/ar-menu-detail.html">قائمة المطعم</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>الشركة</h3>
+                <ul>
+                    <li><a href="/ar.html#about">من نحن</a></li>
+                    <li><a href="/Projects/ar-projects-index.html">مشاريعنا</a></li>
+                    <li><a href="/privacy/ar-privacy-policy.html">سياسة الخصوصية</a></li>
+                    <li><a href="/terms/ar-terms.html">شروط الخدمة</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>تابعنا</h3>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+9647507650999">+964 750 765 0999</a></p>
+                    <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:info@coovix.com">info@coovix.com</a></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/company/coovix/" target="_blank" aria-label="لينكدإن"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/share/188UQedKkT/?mibextid=wwXIfr" target="_blank" aria-label="فيسبوك"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/coovix.tech?igsh=MWFtYWpobThsZ2Zydg%3D%3D&utm_source=qr" target="_blank" aria-label="إنستغرام"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>حقوق النشر © ٢٠٢٦ Coovix. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="/Projects/projects-script.js"></script>
+    <script src="/script.js"></script>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const item = btn.parentElement;
+                const isActive = item.classList.contains('active');
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+                if (!isActive) item.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>

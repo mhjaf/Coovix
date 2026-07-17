@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Coovix - رؤيةٌ بلا حدودٍ للحلولِ التكنولوجية</title>
+    <meta name="description"
+        content="Coovix - شركة رائدة في تطوير الويب في كوردستان، العراق. خبراء في تطبيقات الجوال، البرمجيات المخصصة، تطوير React/Vue، والحلول الرقمية للشركات.">
+    <meta name="keywords"
+        content="تطوير الويب، تطبيقات الجوال، البرمجيات المخصصة، React، Vue، Angular، Flutter، كوردستان، العراق، أربيل، البرمجة، الحلول الرقمية">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Coovix">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Coovix - حلول احترافية في تطوير الويب">
+    <meta property="og:description"
+        content="شركة رائدة في تطوير الويب في كوردستان، العراق. خبراء في تطبيقات الجوال، البرمجيات المخصصة، والحلول الرقمية للشركات.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://coovix.com">
+    <meta property="og:image" content="https://coovix.com/logo.png">
+    <meta property="og:site_name" content="Coovix">
+    <meta property="og:locale" content="ar_IQ">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Coovix - حلول احترافية في تطوير الويب">
+    <meta name="twitter:description"
+        content="شركة رائدة في تطوير الويب في كوردستان، العراق. خبراء في تطبيقات الجوال والحلول الرقمية.">
+    <meta name="twitter:image" content="https://coovix.com/logo.png">
+
+    <!-- Business Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Coovix",
+      "description": "Professional programming company offering web development, mobile apps, and custom software solutions.",
+      "url": "https://coovix.com",
+      "logo": "https://coovix.com/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+964-750-765-0999",
+        "contactType": "customer service",
+        "areaServed": "IQ",
+        "availableLanguage": ["en", "ar", "ku"]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Kurdistan",
+        "addressCountry": "Iraq"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/coovix",
+        "https://www.facebook.com/share/188UQedKkT/?mibextid=wwXIfr",
+        "https://www.instagram.com/coovix.tech?igsh=MWFtYWpobThsZ2Zydg%3D%3D&utm_source=qr"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Coovix Team"
+      },
+      "foundingDate": "2021",
+      "serviceArea": {
+        "@type": "Place",
+        "name": "Kurdistan, Iraq"
+      }
+    }
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap"
+        rel="stylesheet">
+  <!-- Favicon for all devices -->
+<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="MyWebSite" />
+<link rel="manifest" href="/favicon/site.webmanifest" />    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <img src="logo.png" alt="loading">
+            <p>جاري التحميل<span class="loading-dots"></span></p>
+        </div>
+    </div>
+
+
+    <div class="scroll-indicator" id="scrollIndicator" aria-hidden="true"></div>
+
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/+9647507650999" class="whatsapp-button" target="_blank" rel="noopener noreferrer"
+            aria-label="Contact us on WhatsApp" title="Chat with us on WhatsApp">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        </a>
+
+        <button class="back-to-top" id="backToTop" aria-label="Back to top">
+            <i class="fas fa-arrow-up" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <header class="header" dir="ltr">
+        <div class="nav-container">
+            <a href="#" class="logo" aria-label="Coovix Home">
+                <img src="logo.png" alt="Coovix Logo" class="logoo">
+            </a>
+
+
+            <nav class="nav-menu" role="navigation">
+                <a href="#about" class="nav-link">من نحن</a>
+                <span class="nav-separator">|</span>
+                <a href="#projects" class="nav-link">مشاريعنا</a>
+                <span class="nav-separator">|</span>
+                <a href="#services" class="nav-link">خدماتنا</a>
+                <span class="nav-separator">|</span>
+                <a href="#website-creation" class="nav-link">مواقع الويب</a>
+                <span class="nav-separator">|</span>
+                <a href="#mobile-app" class="nav-link">تطبيقات الجوال</a>
+                <span class="nav-separator">|</span>
+                <a href="#contact" class="nav-link">اتصل بنا</a>
+                <span class="nav-separator">|</span>
+                <div class="language-switcher">
+                    <div class="language-dropdown">
+                        <button class="language-toggle" aria-label="Select Language">
+                            <span class="current-lang">العربية</span>
+                            <i class="fas fa-chevron-down dropdown-arrow"></i>
+                        </button>
+                        <div class="language-options">
+                            <a href="#" class="lang-option active" data-lang="ar">
+                                <span class="lang-name">العربية</span>
+                                <img src="/icon/ar.png" alt="العربية" class="lang-icon">
+
+                            </a>
+                            <a href="/kr.html" class="lang-option" data-lang="ku">
+                                <span class="lang-name">كوردى</span>
+                                <img src="/icon/kr.png" alt="كوردى" class="lang-icon">
+
+                            </a>
+                            <a href="/index.html" class="lang-option " data-lang="en">
+                                <span class="lang-name">English</span>
+                                <img src="/icon/us.png" alt="English" class="lang-icon">
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1>
+                        <span class="word"></span>    رؤيةٌ بلا حدودٍ للحلولِ التكنولوجية
+                    </h1>
+                    <p>في Coovix، من خلال موقعنا الإلكتروني وتطبيقنا الذكي على الهاتف المحمول، نقدم تجربة تكنولوجية
+                        متقدمة. حلولنا مصممة لرفع مستوى علامتك التجارية، وتعزيز أدائها، وزيادة ظهورها.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn-primary">
+                            <span>ابدأ الآن</span>
+                            <i class="fas fa-rocket" aria-hidden="true"></i>
+                        </a>
+                        <a href="#services" class="btn-secondary">
+                            <span>خدماتنا</span>
+                            <i class="fas fa-arrow-down" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-product-suite" role="img" dir="ltr" aria-label="Coovix professional technology services for websites, mobile apps, custom systems, VPS and cloud infrastructure">
+                        <div class="suite-glow suite-glow-one" aria-hidden="true"></div><div class="suite-glow suite-glow-two" aria-hidden="true"></div>
+                        <div class="suite-browser"><div class="suite-browser-bar"><span class="browser-dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="browser-address"><i class="fas fa-lock" aria-hidden="true"></i> coovix.io/workspace</span><span class="browser-live"><i></i> Live</span></div><div class="suite-workspace"><div class="workspace-sidebar" aria-hidden="true"><span class="sidebar-logo"><i class="fas fa-cube"></i></span><span class="active"><i class="fas fa-th-large"></i></span><span><i class="fas fa-globe"></i></span><span><i class="fas fa-layer-group"></i></span><span><i class="fas fa-cog"></i></span></div><div class="workspace-main"><div class="workspace-heading"><div><small>COOVIX DIGITAL PLATFORM</small><strong>Build. Run. Scale.</strong></div><span class="workspace-action"><i class="fas fa-plus"></i> New project</span></div><div class="workspace-cards"><div class="workspace-card"><span class="workspace-card-icon"><i class="fas fa-globe"></i></span><span><strong>Web &amp; Systems</strong><small>Designed for growth</small></span></div><div class="workspace-card"><span class="workspace-card-icon cloud"><i class="fas fa-cloud"></i></span><span><strong>Cloud &amp; VPS</strong><small>Secure infrastructure</small></span></div></div><div class="workspace-progress"><div class="progress-heading"><span>Project workflow</span><small>Optimized</small></div><div class="progress-row"><span>Design</span><i><b style="width: 88%"></b></i></div><div class="progress-row"><span>Build</span><i><b style="width: 72%"></b></i></div><div class="progress-row"><span>Deploy</span><i><b style="width: 94%"></b></i></div></div></div></div></div>
+                        <div class="suite-phone" aria-hidden="true"><div class="phone-speaker"></div><div class="phone-screen"><div class="phone-appbar"><span><i class="fas fa-cube"></i></span><i class="fas fa-bars"></i></div><small>MOBILE EXPERIENCE</small><strong>Everything in<br>your pocket.</strong><div class="phone-feature"><i class="fas fa-mobile-alt"></i><span><b>Native quality</b><small>iOS &amp; Android</small></span></div><div class="phone-chart"><i></i><i></i><i></i><i></i><i></i></div></div></div>
+                        <div class="suite-cloud-badge"><span><i class="fas fa-server"></i></span><div><strong>VPS &amp; Cloud</strong><small>Always ready to scale</small></div><i class="fas fa-check-circle"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="stats-container">
+                <!-- Projects -->
+                <div class="stat-item reveal">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">حلول رقمية مخصصة ومبتكرة</div>
+                </div>
+
+                <!-- Client Satisfaction -->
+                <div class="stat-item reveal">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">معدل رضا العملاء</div>
+                </div>
+
+                <!-- Experience -->
+                <div class="stat-item reveal">
+                    <div class="stat-number">Expertise</div>
+                    <div class="stat-label">خبرة مُثبتة في المجال</div>
+                </div>
+
+                <!-- Support -->
+                <div class="stat-item reveal">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">دعم مخصص</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-container">
+                <!-- Section Title -->
+                <div class="section-title reveal">
+                    <h2>عن Coovix</h2>
+                    <p>مطورون شغوفون يبتكرون حلولاً رقمية مبتكرة</p>
+                </div>
+
+                <div class="about-content">
+                    <!-- Our Story -->
+                    <div class="about-story reveal" dir="rtl">
+                        <h3>قصتنا</h3>
+                        <p>ولدت Coovix من شغف تحويل الأفكار إلى تجارب رقمية استثنائية، وهي فريق من المطورين والمصممين
+                            المحفزين المكرسين لإنشاء برامج تحول الأعمال وتحسن الحياة.</p>
+                        <p>مقرها في أربيل، كوردستان، نتعاون مع العملاء في جميع أنحاء الشرق الأوسط وما وراءه—مزج البصيرة
+                            المحلية مع المعايير العالمية لتقديم حلول رقمية مؤثرة وعالية الجودة.</p>
+                    </div>
+
+                    <!-- Our Values -->
+                    <div class="about-values reveal">
+                        <h3>قيمنا</h3>
+                        <div class="values-grid">
+                            <div class="value-item stagger-item">
+                                <div class="value-icon">
+                                    <i class="fas fa-star" aria-hidden="true"></i>
+                                </div>
+                                <h4>التميز</h4>
+                                <p>نسعى للتميز في كل تفصيلة—من الكود النظيف إلى الواجهات المصقولة وتجارب العملاء السلسة.
+                                </p>
+                            </div>
+
+                            <div class="value-item stagger-item">
+                                <div class="value-icon">
+                                    <i class="fas fa-handshake" aria-hidden="true"></i>
+                                </div>
+                                <h4>الشراكة</h4>
+                                <p>نتعامل مع عملائنا كمتعاونين، ونبني علاقات طويلة الأمد قائمة على الثقة والنجاح
+                                    المشترك.</p>
+                            </div>
+
+                            <div class="value-item stagger-item">
+                                <div class="value-icon">
+                                    <i class="fas fa-lightbulb" aria-hidden="true"></i>
+                                </div>
+                                <h4>الابتكار</h4>
+                                <p>نبقى في المقدمة من خلال تبني التقنيات الناشئة وصياغة حلول إبداعية جاهزة للمستقبل.</p>
+                            </div>
+
+                            <div class="value-item stagger-item">
+                                <div class="value-icon">
+                                    <i class="fas fa-clock" aria-hidden="true"></i>
+                                </div>
+                                <h4>الموثوقية</h4>
+                                <p>نقدم جودة ثابتة—في الوقت المحدد، في كل مرة—مدعومة بدعم موثوق يمكنك الاعتماد عليه.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Our Project Section -->
+        <section class="about" id="projects">
+            <div class="about-container">
+                <!-- Section Title -->
+                <div class="section-title reveal">
+                    <h2>مشاريعنا</h2>
+                </div>
+
+                <div class="about-content">
+                    <!-- Our Story -->
+                    <div class="about-story reveal" dir="rtl">
+                        <p>في Coovix، نبني مستقبل الحلول الرقمية. يمثل مشروعنا الرئيسي سنوات من الابتكار، حيث نجمع بين
+                            التقنية المتطورة والتصميم المتمحور حول المستخدم لإنشاء منصات تحول الأعمال وتحسن تجارب
+                            المستخدمين عبر المشهد الرقمي.</p>
+                    </div>
+
+                    <div class="website-cta-box reveal">
+                        <div class="cta-content">
+                            <h3>يمكنك مشاهدة عروض توضيحية لأعمالنا هنا</h3>
+
+                            <div class="cta-buttons">
+                                <a href="/Projects/ar-projects-index.html" class="btn-primary">
+                                    <span>اعرف المزيد</span>
+                                    <i class="fas fa-arrow-left"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <section class="services" id="services">
+            <div class="services-container" dir="rtl">
+                <div class="section-title reveal">
+                    <h2>خدماتنا</h2>
+                    <p>حلول تقنية مخصصة لإطلاق وتوسيع واستدامة حضورك الرقمي</p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card stagger-item">
+                        <div class="service-icon">
+                            <i class="fas fa-code" aria-hidden="true"></i>
+                        </div>
+                        <h3>تطوير الويب</h3>
+                        <p>نبني مواقع ويب متجاوبة وعالية الأداء باستخدام أطر عمل حديثة مثل React وVue وAngular — محسنة
+                            لقابلية التوسع وتحسين محركات البحث.</p>
+                    </div>
+
+                    <div class="service-card stagger-item">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                        </div>
+                        <h3>تطبيقات الجوال</h3>
+                        <p>تجارب جوال شبيهة بالأصلية لأنظمة iOS وAndroid باستخدام Flutter وReact Native — مبنية لسهولة
+                            الاستخدام والسرعة.</p>
+                    </div>
+
+                    <div class="service-card stagger-item">
+                        <div class="service-icon">
+                            <i class="fas fa-pencil-ruler" aria-hidden="true"></i>
+                        </div>
+                        <h3>تصميم UI/UX</h3>
+                        <p>نصمم واجهات تضع المستخدم في المقدمة، نظيفة وبديهية ومتماشية مع علامتك التجارية — نحول الأفكار
+                            إلى تجارب رقمية ممتعة.</p>
+                    </div>
+
+                    <div class="service-card stagger-item">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs" aria-hidden="true"></i>
+                        </div>
+                        <h3>برمجيات مخصصة</h3>
+                        <p>أنظمة وأدوات مخصصة مبنية لحل تحديات عمل فريدة — من الأتمتة إلى منصات المؤسسات.</p>
+                    </div>
+
+                    <div class="service-card stagger-item">
+                        <div class="service-icon">
+                            <i class="fas fa-tools" aria-hidden="true"></i>
+                        </div>
+                        <h3>الصيانة والدعم</h3>
+                        <p>دعم تقني مستمر، ومراقبة، وتحسين الأداء — نضمن تشغيل منصاتك بسلاسة على مدار الساعة.</p>
+                    </div>
+
+                    <div class="service-card stagger-item">
+                        <div class="service-icon">
+                            <i class="fas fa-cloud" aria-hidden="true"></i>
+                        </div>
+                        <h3>Cloud وDevOps</h3>
+                        <p>بنية تحتية سحابية قابلة للتوسع، وخطوط أنابيب CI/CD، وحلول النشر — تمكين التطوير الفعال
+                            والرشيق.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Replace the website-creation section in ar.html with this modern design -->
+
+        <section class="website-creation" id="website-creation">
+            <div class="creation-container">
+                <div class="section-title reveal">
+                    <h2>بناء موقعك الإلكتروني</h2>
+                    <p>من الفكرة إلى الواقع في أربع مراحل بسيطة</p>
+                </div>
+
+                <!-- Modern Process Flow -->
+                <div class="process-flow reveal" dir="rtl">
+                    <div class="flow-item">
+                        <div class="flow-circle">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <h4>التصميم</h4>
+                        <p>إنشاء تصاميم جميلة</p>
+                    </div>
+
+                    <div class="flow-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+
+                    <div class="flow-item">
+                        <div class="flow-circle">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4>التطوير</h4>
+                        <p>البناء بتقنيات حديثة</p>
+                    </div>
+
+                    <div class="flow-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+
+                    <div class="flow-item">
+                        <div class="flow-circle">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h4>الاختبار</h4>
+                        <p>ضمان الجودة</p>
+                    </div>
+
+                    <div class="flow-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+
+                    <div class="flow-item">
+                        <div class="flow-circle">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h4>الإطلاق</h4>
+                        <p>النشر بثقة</p>
+                    </div>
+                </div>
+
+                <!-- Feature Highlights -->
+                <div class="website-features reveal">
+                    <div class="feature-box">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>متجاوب</h4>
+                        <p>يعمل على جميع الأجهزة</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <h4>سريع</h4>
+                        <p>سرعة فائقة</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>آمن</h4>
+                        <p>محمي وآمن</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <i class="fas fa-search"></i>
+                        <h4>محسّن للبحث</h4>
+                        <p>مُحسّن لمحركات البحث</p>
+                    </div>
+                </div>
+
+                <!-- Tech Stack -->
+                <!-- <div class="tech-stack-modern reveal">
+            <h3>التقنيات التي نتقنها</h3>
+            <div class="tech-icons">
+                <div class="tech-icon" title="HTML5">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="tech-icon" title="CSS3">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="tech-icon" title="JavaScript">
+                    <i class="fab fa-js"></i>
+                </div>
+                <div class="tech-icon" title="React">
+                    <i class="fab fa-react"></i>
+                </div>
+                <div class="tech-icon" title="Vue">
+                    <i class="fab fa-vuejs"></i>
+                </div>
+                <div class="tech-icon" title="Node.js">
+                    <i class="fab fa-node-js"></i>
+                </div>
+            </div>
+        </div> -->
+
+                <!-- CTA Box -->
+                <div class="website-cta-box reveal">
+                    <div class="cta-content">
+                        <h3>هل أنت مستعد لبناء موقعك المثالي؟</h3>
+                        <p>دعنا نبدع شيئاً رائعاً معاً</p>
+                        <div class="cta-buttons">
+                            <a href="#contact" class="btn-primary">
+                                <span>ابدأ مشروعك</span>
+                                <i class="fas fa-arrow-left"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Restaurant Menu Section -->
+        <section class="restaurant-menu" id="menu">
+            <div class="menu-container">
+                <!-- Section Title -->
+                <div class="section-title reveal">
+                    <h2>قوائم رقمية ذكية للمطاعم العصرية</h2>
+                    <p>في Coovix نصمم قوائم رقمية جذابة بصرياً وسهلة الاستخدام لتعزيز المبيعات ورفع تجربة العشاء.</p>
+                </div>
+
+                <!-- Menu Creation Steps -->
+                <div class="menu-creation-steps">
+                    <div class="menu-steps-grid">
+                        <!-- Step 1 -->
+                        <div class="menu-step-card stagger-item">
+                            <div class="step-icon">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                            <h3>الاستراتيجية والتصميم</h3>
+                            <p>نبدأ بتصميم قائمة طعام جذابة بصريًا ومنظمة استراتيجيًا تعكس هوية مطعمك وتزيد من معدلات
+                                التحويل.</p>
+                            <ul class="step-features">
+                                <li>هيكلة القائمة وتصنيف الأطعمة</li>
+                                <li>واجهة مستخدم وتجربة مستخدم مخصصة لهويتك</li>
+                                <li>تنسيق الخطوط والألوان والتصميم العام</li>
+                                <li>دمج صور عالية الجودة</li>
+                            </ul>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="menu-step-card stagger-item">
+                            <div class="step-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h3>تطوير متوافق مع الهواتف المحمولة</h3>
+                            <p>نقوم ببناء قوائم متجاوبة بالكامل توفر تجربة تصفح سلسة على جميع الأجهزة، مع التركيز على
+                                الاستخدام عبر الهواتف.</p>
+                            <ul class="step-features">
+                                <li>نهج يعتمد على الهواتف أولاً</li>
+                                <li>إيماءات لمس بديهية</li>
+                                <li>تحسين السرعة والأداء</li>
+                                <li>واجهات سلسة ومتجاوبة</li>
+                            </ul>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="menu-step-card stagger-item">
+                            <div class="step-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <h3>نظام الطلب المتكامل</h3>
+                            <p>اسمح للعملاء بإجراء الطلبات مباشرة من خلال قائمتك الرقمية مع معالجة فورية ومدفوعات آمنة.
+                            </p>
+                            <ul class="step-features">
+                                <li>عربة تسوق مدمجة</li>
+                                <li>دمج المدفوعات الآمنة</li>
+                                <li>تتبع الطلبات وإدارتها في الوقت الحقيقي</li>
+                                <li>إشعارات فورية وتحديثات الحالة</li>
+                            </ul>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="menu-step-card stagger-item">
+                            <div class="step-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3>التحليلات والرؤى الذكية</h3>
+                            <p>تابع الأداء من خلال تحليلات لحظية وتوليد رؤى تساعد على نمو عملك.</p>
+                            <ul class="step-features">
+                                <li>تقارير مبيعات مفصلة</li>
+                                <li>تحليلات سلوك العملاء</li>
+                                <li>تتبع الإيرادات</li>
+                                <li>اقتراحات منتجات معتمدة على الذكاء الاصطناعي</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Types -->
+                <div class="menu-types reveal">
+                    <h3>أنواع القوائم الرقمية التي نقدمها</h3>
+                    <div class="menu-types-grid">
+                        <!-- QR Code Menu -->
+                        <div class="menu-type-card stagger-item">
+                            <div class="menu-type-icon">
+                                <i class="fas fa-qrcode"></i>
+                            </div>
+                            <h4>قائمة برمز QR</h4>
+                            <p>يمكن للضيوف مسح رمز QR للوصول الفوري إلى القائمة — بدون تطبيقات، بدون تعقيدات.</p>
+                        </div>
+
+                        <!-- Web Menu -->
+                        <div class="menu-type-card stagger-item">
+                            <div class="menu-type-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <h4>قائمة عبر الويب</h4>
+                            <p>استضافة قائمة رقمية كاملة على موقعك تشمل الطلب والدفع وخيارات التوصيل.</p>
+                        </div>
+
+                        <!-- Mobile App -->
+                        <div class="menu-type-card stagger-item">
+                            <div class="menu-type-icon">
+                                <i class="fas fa-mobile"></i>
+                            </div>
+                            <h4>تطبيق موبايل</h4>
+                            <p>وفر تجربة سلسة مع تطبيق مخصص لمطعمك، محسن لإعادة الطلبات.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA Section -->
+                <div class="menu-cta reveal">
+                    <div class="menu-cta-content">
+                        <h3>هل أنت مستعد لإنشاء قائمتك؟</h3>
+                        <p>نساعدك في إنشاء قائمة رقمية جميلة وفعالة تزيد من مبيعاتك</p>
+                        <div class="cta-buttons">
+                            <a href="/Projects/menu/ar-menu-detail.html" class="btn-secondary">
+                                <span>خدماتنا</span>
+                                <i class="fas fa-eye"></i>
+                            </a>
+                            <a href="#contact" class="btn-primary">
+                                <span>تواصل معنا</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Mobile App Development Section -->
+        <section class="mobile-app-development" id="mobile-app">
+            <div class="app-container" dir="rtl">
+                <div class="section-title reveal">
+                    <h2>تطوير تطبيقات الهاتف</h2>
+                    <p>نقوم بإنشاء تطبيقات قوية وسهلة الاستخدام تعمل على جذب جمهورك وتحقيق نمو لأعمالك على iOS وAndroid
+                        وحلول متعددة المنصات.</p>
+                </div>
+
+                <!-- App Types -->
+                <div class="app-types">
+                    <h3>أنواع التطبيقات التي نطورها</h3>
+                    <div class="app-types-grid">
+                        <div class="app-type-card stagger-item">
+                            <div class="app-type-icon">
+                                <i class="fab fa-apple"></i>
+                            </div>
+                            <h4>تطبيقات iOS الأصلية</h4>
+                            <p>مخصصة لأجهزة Apple باستخدام Swift وObjective-C، لتحقيق أداء مثالي وتكامل سلس مع ميزات
+                                iOS.</p>
+                            <ul class="app-features">
+                        </div>
+
+                        <div class="app-type-card stagger-item">
+                            <div class="app-type-icon">
+                                <i class="fab fa-android"></i>
+                            </div>
+                            <h4>تطبيقات Android الأصلية</h4>
+                            <p>تم تطويرها باستخدام Kotlin وJava، ومخصصة لأجهزة Android مع دعم كامل لمتجر Google Play
+                                ونظام Android البيئي.</p>
+
+                        </div>
+
+                        <div class="app-type-card stagger-item">
+                            <div class="app-type-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h4>تطبيقات متعددة المنصات</h4>
+                            <p>تطبيقات تعتمد على قاعدة كود واحدة باستخدام Flutter وReact Native، لتقليل زمن التطوير
+                                والحفاظ على أداء مماثل للتطبيقات الأصلية.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Development Process -->
+                <div class="app-development-process">
+                    <div class="process-content">
+                        <h3>عملية تطوير التطبيقات لدينا</h3>
+                        <div class="process-steps">
+                            <div class="process-step stagger-item">
+                                <div class="process-step-number">1</div>
+                                <h4>التحليل والتخطيط</h4>
+                                <p>نقوم بتحليل متطلباتك وجمهورك المستهدف وأهدافك التجارية لإنشاء خطة واستراتيجية تطبيق
+                                    شاملة.</p>
+                            </div>
+
+                            <div class="process-step stagger-item">
+                                <div class="process-step-number">2</div>
+                                <h4>تصميم UI/UX</h4>
+                                <p>إنشاء واجهات مستخدم جذابة وبديهية باستخدام النماذج والتصاميم الدقيقة.</p>
+                            </div>
+
+                            <div class="process-step stagger-item">
+                                <div class="process-step-number">3</div>
+                                <h4>البرمجة</h4>
+                                <p>بناء التطبيق باستخدام أحدث التقنيات والممارسات المثلى، مع تحديثات دورية وتسليم
+                                    بالمراحل.</p>
+                            </div>
+
+                            <div class="process-step stagger-item">
+                                <div class="process-step-number">4</div>
+                                <h4>الاختبار وضمان الجودة</h4>
+                                <p>اختبارات شاملة على الأجهزة والمنصات والسيناريوهات لضمان خلو التطبيق من الأخطاء وأداء
+                                    مثالي.</p>
+                            </div>
+
+                            <div class="process-step stagger-item">
+                                <div class="process-step-number">5</div>
+                                <h4>الإطلاق والدعم</h4>
+                                <p>نشر التطبيق على المتاجر، تنفيذ استراتيجية الإطلاق، وتوفير الدعم والتحديثات المستمرة.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contact-us" id="contact">
+            <div class="contact-container">
+                <div class="section-title reveal">
+                    <h2>اتصل بنا</h2>
+                    <p>للأسئلة أو الطلبات، تواصل معنا.</p>
+                </div>
+
+
+                <!-- Full Size Map and Contact Form -->
+                <div class="contact-main-grid" dir="rtl">
+                    <div class="contact-form-container reveal">
+                        <h3>إرسال رسالة</h3>
+                        <form class="contact-form" method="POST" action="send_email_smtp.php" novalidate>
+                            <div class="form-group">
+                                <label for="name">الاسم</label>
+                                <input type="text" id="name" name="name" placeholder="الاسم الكامل" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">البريد الإلكتروني</label>
+                                <input type="email" id="email" name="email" placeholder="بريدك الإلكتروني" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">رقم الهاتف</label>
+                                <input type="tel" id="phone" name="phone" placeholder="964 750 123 4567"
+                                    pattern="[0-9]*" inputmode="numeric" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">الرسالة</label>
+                                <textarea id="message" name="message" rows="6" placeholder="اكتب رسالتك..."
+                                    required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-primary">إرسال</button>
+                        </form>
+                    </div>
+
+                    <div class="full-map-section reveal">
+                        <h3>اعثر علينا على الخريطة</h3>
+                        <div class="full-map-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.2386049288636!2d43.99641477543884!3d36.19094709848777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x400236a282903333%3A0x6b84e3c50074213d!2sErbil%20Citadel!5e0!3m2!1sen!2siq!4v1701234567890!5m2!1sen!2siq"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade" title="Coovix Location Map">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="footerar">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>الخدمات</h3>
+                <ul>
+                    <li><a href="#website-creation">تطوير الويب</a></li>
+                    <li><a href="#mobile-app">تطبيقات الجوال</a></li>
+                    <li><a href="#services">أنظمة الخادم</a></li>
+                    <li><a href="#menu">قائمة المطاعم</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>الشركة</h3>
+                <ul>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="/Projects/ar-projects-index.html">مشاريعنا</a></li>
+                    <li><a href="/privacy/ar-privacy-policy.html">سياسة الخصوصية</a></li>
+                    <li><a href="/terms/ar-terms.html">شروط الخدمة</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>تابعنا</h3>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+9647507650999">+964 750 765 0999</a></p>
+                    <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:info@coovix.com">info@coovix.com</a></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/company/coovix/" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/share/188UQedKkT/?mibextid=wwXIfr" target="_blank"
+                        aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/coovix.tech?igsh=MWFtYWpobThsZ2Zydg%3D%3D&utm_source=qr"
+                        target="_blank" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2026 Coovix. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

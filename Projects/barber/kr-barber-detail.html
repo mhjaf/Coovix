@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>بەڕێوەبردنی دەلاکخانە - Coovix</title>
+    <meta name="description" content="سیستەمی بەڕێوەبردنی دەلاکخانەی پیشەیی لە Coovix. چارەسەری تەواو بۆ بەڕێوەبردنی نۆرەکان، موشتەریەکان، ستاف، و داهات بۆ دەلاکخانەکەت.">
+    <meta name="keywords" content="بەڕێوەبردنی دەلاکخانە، نۆبەتبەندی، سیستەمی دەلاکخانە، بەڕێوەبردنی موشتەری، کوردستان، عێراق، Coovix">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Coovix">
+
+    <meta property="og:title" content="بەڕێوەبردنی دەلاکخانە - Coovix">
+    <meta property="og:description" content="چارەسەری تەواو بۆ بەڕێوەبردنی نۆرەکان، موشتەریەکان، ستاف، و داهات بۆ دەلاکخانەکەت.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://coovix.com/Projects/barber/kr-barber-detail.html">
+    <meta property="og:image" content="https://coovix.com/logo.png">
+    <meta property="og:site_name" content="Coovix">
+    <meta property="og:locale" content="ku_IQ">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="بەڕێوەبردنی دەلاکخانە - Coovix">
+    <meta name="twitter:description" content="چارەسەری تەواو بۆ بەڕێوەبردنی نۆرەکان، موشتەریەکان، ستاف، و داهات بۆ دەلاکخانەکەت.">
+    <meta name="twitter:image" content="https://coovix.com/logo.png">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Coovix" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/Projects/barber/barber-style.css">
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <img src="/logo.png" alt="loading">
+            <p>بارکردن<span class="loading-dots"></span></p>
+        </div>
+    </div>
+
+    <div class="scroll-indicator" id="scrollIndicator" aria-hidden="true"></div>
+
+    <div class="floating-buttons">
+        <a href="https://wa.me/+9647507650999" class="whatsapp-button" target="_blank" rel="noopener noreferrer" aria-label="پەیوەندیمان پێوە بکە لە واتسئاپ">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        </a>
+        <button class="back-to-top" id="backToTop" aria-label="بگەڕێوە سەرەوە">
+            <i class="fas fa-arrow-up" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <header class="header">
+        <div class="nav-container">
+            <a href="/kr.html" class="logo" aria-label="Coovix Home">
+                <img src="/logo.png" alt="Coovix Logo" class="logoo">
+            </a>
+            <nav class="nav-menu" role="navigation">
+                <a href="/kr.html#about" class="nav-link">دەربارەمان</a>
+                <span class="nav-separator">|</span>
+                <a href="/Projects/kr-projects-index.html" class="nav-link">پڕۆژەکانمان</a>
+                <span class="nav-separator">|</span>
+                <a href="/kr.html#services" class="nav-link">خزمەتگوزارییەکانمان</a>
+                <span class="nav-separator">|</span>
+                <a href="/kr.html#website-creation" class="nav-link">وێبسایت</a>
+                <span class="nav-separator">|</span>
+                <a href="/kr.html#mobile-app" class="nav-link">ئەپی مۆبایل</a>
+                <span class="nav-separator">|</span>
+                <a href="/kr.html#contact" class="nav-link">پەیوەندی</a>
+                <span class="nav-separator">|</span>
+                <div class="language-switcher">
+                    <div class="language-dropdown">
+                        <button class="language-toggle" aria-label="Select Language">
+                            <span class="current-lang">کوردى</span>
+                            <i class="fas fa-chevron-down dropdown-arrow"></i>
+                        </button>
+                        <div class="language-options">
+                            <a href="/Projects/barber/kr-barber-detail.html" class="lang-option active" data-lang="ku">
+                                <span class="lang-name">كوردى</span>
+                                <img src="/icon/kr.png" alt="كوردى" class="lang-icon">
+                            </a>
+                            <a href="/Projects/barber/ar-barber-detail.html" class="lang-option" data-lang="ar">
+                                <span class="lang-name">العربية</span>
+                                <img src="/icon/ar.png" alt="العربية" class="lang-icon">
+                            </a>
+                            <a href="/Projects/barber/barber-detail.html" class="lang-option" data-lang="en">
+                                <span class="lang-name">English</span>
+                                <img src="/icon/us.png" alt="English" class="lang-icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="barber-hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge"><i class="fas fa-cut"></i> سیستەمی بەڕێوەبردنی دەلاکخانە</div>
+                <h1>دەلاکخانەکەت بە <span class="highlight">زیرەکی</span> بەڕێوەببە</h1>
+                <p>پلاتفۆرمێکی تەواو بۆ بەڕێوەبردنی نۆرەکان، شوێنکەوتنی داهات، ڕێکخستنی ستاف، و گەشەپێدانی بازرگانییەکەت.</p>
+                <div class="hero-btns">
+                    <a href="/Bar/kurdish.php" class="btn-primary" target="_blank">
+                        <span>بینینی دیمۆ</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-screens">
+                    <div class="hero-screen">
+                        <div class="screen-body">
+                            <img src="/Projects/barber/berber.png" alt="داشبۆردی دەلاک">
+                        </div>
+                    </div>
+                    <div class="hero-screen">
+                        <div class="screen-body">
+                            <img src="/Projects/barber/barber1.png" alt="نۆبەتبەندی دەلاک">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="b-section">
+        <div class="b-container">
+            <div class="section-title reveal">
+                <h2>چۆن نۆبەتبەندی کار دەکات</h2>
+                <p>پرۆسەی نۆبەتبەندی سادە بۆ موشتەریەکانت</p>
+            </div>
+            <div class="booking-steps reveal">
+                <div class="bk-step">
+                    <div class="bk-number">1</div>
+                    <div class="bk-icon"><i class="fas fa-cut"></i></div>
+                    <h4>خزمەتگوزاری هەڵبژێرە</h4>
+                    <p>موشتەری سەردانی وێبسایتەکەت دەکات و خزمەتگوزارییەک دەبژێرێت وەک سەرتاشی، ڕیش تاشین، یان پاکێجی VIP</p>
+                </div>
+                <div class="bk-connector"></div>
+                <div class="bk-step">
+                    <div class="bk-number">2</div>
+                    <div class="bk-icon"><i class="fas fa-user-tie"></i></div>
+                    <h4>دەلاک هەڵبژێرە</h4>
+                    <p>دەلاکی دڵخوازت لە تیمەکەت هەڵبژێرە بە پرۆفایل، شارەزایی، و بەردەستبوونی</p>
+                </div>
+                <div class="bk-connector"></div>
+                <div class="bk-step">
+                    <div class="bk-number">3</div>
+                    <div class="bk-icon"><i class="fas fa-calendar-alt"></i></div>
+                    <h4>بەروار و کات هەڵبژێرە</h4>
+                    <p>بەروار و کاتی بەردەست هەڵبژێرە کە گونجاوە بۆ موشتەری</p>
+                </div>
+                <div class="bk-connector"></div>
+                <div class="bk-step">
+                    <div class="bk-number">4</div>
+                    <div class="bk-icon"><i class="fas fa-check-circle"></i></div>
+                    <h4>ئەدمین پشتڕاست دەکاتەوە</h4>
+                    <p>نۆبەت لە پانێلی ئەدمیندا دەردەکەوێت بۆ پێداچوونەوە و پشتڕاستکردنەوە بە ئاگاداری ڕاستەوخۆ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="b-section alt">
+        <div class="b-container">
+            <div class="section-title reveal">
+                <h2>هەموو ئەوەی پێویستتانە</h2>
+                <p>ئامرازە بەهێزەکان کە تایبەتن بە دەلاکخانەکان</p>
+            </div>
+            <div class="features-grid reveal">
+                <div class="feat-card">
+                    <div class="feat-card-icon"><i class="fas fa-calendar-alt"></i></div>
+                    <h4>خشتەبەندی زیرەک</h4>
+                    <p>سیستەمی نۆبەتبەندی خۆکار کە هەموو ڕەوتی نۆبەتەکان بەڕێوە دەبات. موشتەریەکان خزمەتگوزارییەک دەبژێرن، دەلاکێک هەڵدەبژێرن، و کاتێک دادەنێن — هەموو ئۆنلاین بەبێ پەیوەندی.</p>
+                    <ul class="feat-details">
+                        <li><i class="fas fa-check"></i> دۆزینەوەی ناکۆکی خۆکار</li>
+                        <li><i class="fas fa-check"></i> بەردەستبوونی ڕاستەوخۆ</li>
+                        <li><i class="fas fa-check"></i> پشتڕاستکردنەوەی نۆبەت ڕاستەوخۆ</li>
+                    </ul>
+                </div>
+                <div class="feat-card">
+                    <div class="feat-card-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h4>شیکاری داهات</h4>
+                    <p>ئەدای دەلاکخانەکەت بەدواداچوو بکە بە داشبۆردی ڕاستەوخۆ. قازانجی ڕۆژانە، خزمەتگوزاری باو، کاتە قەرەبەڵغەکان، و ڕەوتی داهات بە یەک سەیرکردن ببینە.</p>
+                    <ul class="feat-details">
+                        <li><i class="fas fa-check"></i> ڕاپۆرتی ڕۆژانە و مانگانە</li>
+                        <li><i class="fas fa-check"></i> بینینی خزمەتگوزاری باو</li>
+                        <li><i class="fas fa-check"></i> شیکاری کاتە قەرەبەڵغەکان</li>
+                    </ul>
+                </div>
+                <div class="feat-card">
+                    <div class="feat-card-icon"><i class="fas fa-users-cog"></i></div>
+                    <h4>بەڕێوەبردنی ستاف</h4>
+                    <p>هەموو تیمەکەت لە شوێنێکەوە بەڕێوەببە. پرۆفایلی دەلاکەکان دروست بکە، خشتە دابنێ، ئەدای تاکەکەسی بەدواداچوو بکە، و ببینە کێ زۆرترین داهات دروست دەکات.</p>
+                    <ul class="feat-details">
+                        <li><i class="fas fa-check"></i> خشتەبەندی شیفت</li>
+                        <li><i class="fas fa-check"></i> بەدوادانەوەی ئەدا</li>
+                        <li><i class="fas fa-check"></i> ئامارەکانی تاکەکەسی دەلاک</li>
+                    </ul>
+                </div>
+                <div class="feat-card">
+                    <div class="feat-card-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h4>ئامادەی مۆبایل</h4>
+                    <p>لاپەڕەی نۆبەتبەندی و پانێلی ئەدمین لەسەر هەر ئامێرێک بە تەواوی کار دەکات. موشتەریەکانت مۆبایل، تابلێت، یان دێسکتۆپ بەکاربهێنن — ئەزموونەکە خێرا و نەرمە.</p>
+                    <ul class="feat-details">
+                        <li><i class="fas fa-check"></i> ڕێسپۆنسیڤ لەسەر هەموو ئامێرەکان</li>
+                        <li><i class="fas fa-check"></i> خێرایی بارکردن</li>
+                        <li><i class="fas fa-check"></i> ڕووکاری ئاسانی دەستپێکردن</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots / Product Preview -->
+    <section class="b-section">
+        <div class="b-container">
+            <div class="section-title reveal">
+                <h2>ببینە لە کاردا</h2>
+                <p>سەیرکردنێکی خێرا لەوەی سیستەمەکە چۆن کار دەکات لە هەردوو لایەنەوە</p>
+            </div>
+            <div class="preview-grid reveal">
+                <div class="preview-card">
+                    <div class="preview-label"><i class="fas fa-desktop"></i> داشبۆردی ئەدمین</div>
+                    <div class="preview-img-wrap">
+                        <img src="/Projects/barber/admin-dashboard.png" alt="پێشبینینی داشبۆردی ئەدمین">
+                    </div>
+                    <p>بەڕێوەبردنی نۆبەتەکان، خشتەی ستاف، و شیکاری داهات هەموو لە داشبۆردێکی پاکەوە</p>
+                </div>
+                <div class="preview-card">
+                    <div class="preview-label"><i class="fas fa-calendar-check"></i> لاپەڕەی نۆبەتبەندی</div>
+                    <div class="preview-img-wrap">
+                        <img src="/Projects/barber/booking.png" alt="پێشبینینی لاپەڕەی نۆبەتبەندی">
+                    </div>
+                    <p>موشتەریەکانت ڕاستەوخۆ لە وێبسایتەکەتەوە نۆبەت دادەنێن — بەبێ پەیوەندی</p>
+                </div>
+                <div class="preview-card">
+                    <div class="preview-label"><i class="fas fa-mobile-alt"></i> نمایشی مۆبایل</div>
+                    <div class="preview-img-wrap">
+                        <img src="/Projects/barber/mobile.png" alt="پێشبینینی نمایشی مۆبایل">
+                    </div>
+                    <p>دیزاینی ڕێسپۆنسیڤی تەواو کە لەسەر هەر مۆبایل و تابلێتێک تەواو دەردەکەوێت</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us -->
+    <section class="b-section alt">
+        <div class="b-container">
+            <div class="section-title reveal">
+                <h2>دروستکراوە بۆ دەلاکەکان</h2>
+                <p>متمانەی دەلاکخانەکان هەیە بۆ باشتر بەڕێوەبردنی بازرگانیەکەیان</p>
+            </div>
+            <div class="why-grid reveal">
+                <div class="why-box">
+                    <i class="fas fa-bolt"></i>
+                    <h4>دامەزراندنی خێرا</h4>
+                    <p>لە کەمتر لە 10 خولەکدا دەستپێبکە بە ڕێنمایی</p>
+                </div>
+                <div class="why-box">
+                    <i class="fas fa-headset"></i>
+                    <h4>پشتگیری پێشینە</h4>
+                    <p>تیمی پشتگیری تایبەت بەردەستە کاتێک پێویستت پێیە</p>
+                </div>
+                <div class="why-box">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>پارێزراو و متمانەپێکراو</h4>
+                    <p>ئاسایشی ئاستی پێشکەوتوو بە دڵنیایی لە 99.9% بەردەستبوون</p>
+                </div>
+                <div class="why-box">
+                    <i class="fas fa-sync-alt"></i>
+                    <h4>نوێکردنەوەی بێبەرامبەر</h4>
+                    <p>نوێکردنەوە و باشترکردنی بەردەوام بەبێ تێچوونی زیادە</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="b-section">
+        <div class="b-container">
+            <div class="section-title reveal">
+                <h2>پلانی سادە</h2>
+                <p>پلانی گونجاو بۆ بازرگانییەکەت هەڵبژێرە</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card reveal">
+                    <div class="pricing-tag">نەرم</div>
+                    <div class="pricing-name">مانگانە</div>
+                    <div class="pricing-desc">پارەدانی مانگانە، هەر کاتێک ڕاگرە</div>
+                    <ul class="pricing-list">
+                        <li><i class="fas fa-check"></i> هەموو تایبەتمەندیەکان</li>
+                        <li><i class="fas fa-check"></i> سیستەمی نۆبەتبەندی ئۆنلاین</li>
+                        <li><i class="fas fa-check"></i> بەڕێوەبردنی موشتەری</li>
+                        <li><i class="fas fa-check"></i> خشتەبەندی ستاف</li>
+                        <li><i class="fas fa-check"></i> داشبۆردی شیکاری</li>
+                        <li><i class="fas fa-check"></i> پشتگیری پێشینە</li>
+                    </ul>
+                </div>
+                <div class="pricing-card reveal">
+                    <div class="pricing-tag">باشترین بەها</div>
+                    <div class="pricing-name">جارێک</div>
+                    <div class="pricing-desc">جارێک بیدە، بۆ هەمیشە خاوەنداری بکە</div>
+                    <ul class="pricing-list">
+                        <li><i class="fas fa-check"></i> هەموو تایبەتمەندیەکان</li>
+                        <li><i class="fas fa-check"></i> دەستگەیشتنی هەمیشەیی</li>
+                        <li><i class="fas fa-check"></i> نوێکردنەوەی بێبەرامبەر</li>
+                        <li><i class="fas fa-check"></i> دەستگەیشتن بە کۆدی سەرچاوە</li>
+                        <li><i class="fas fa-check"></i> براندی تایبەت</li>
+                        <li><i class="fas fa-check"></i> پشتگیری پێشینە</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="b-section alt">
+        <div class="b-container">
+            <div class="section-title reveal">
+                <h2>پرسیارە باوەکان</h2>
+                <p>وەڵامی خێرا بۆ پرسیارە باوەکان</p>
+            </div>
+            <div class="faq-list reveal">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>پێویستە زانیاری تەکنیکیم هەبێت بۆ بەکارهێنانی؟</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>هیچ نا. سیستەمەکە بۆ سادەیی و ئاسانی دیزاین کراوە. ئەگەر دەتوانیت مۆبایلێکی زیرەک بەکاربهێنیت، دەتوانیت پانێلی ئەدمین بەڕێوە ببەیت. هەروەها ڕێنماییەکی ڕابەری دابین دەکەین بۆ یارمەتیدانت لە دەستپێکردن.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>ئایا موشتەریەکانم دەتوانن بەبێ دروستکردنی هەژمار نۆبەت دابنێن؟</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>بەڵێ. موشتەریەکان تەنها سەردانی لاپەڕەی نۆبەتبەندیت دەکەن، خزمەتگوزارییەک دەبژێرن، دەلاکێک هەڵدەبژێرن، بەروار و کات دیاری دەکەن، و ناردن دەکەن. پێویستی بە هەژمار یان چوونەژوورەوە نییە — خێرا و ئاسانە.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>چۆن ئاگاداری نۆبەتە نوێیەکان وەردەگرم؟</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>ئاگاداری ڕاستەوخۆ لە ڕێگەی پانێلی ئەدمینەوە وەردەگریت. دەتوانیت هەر نۆبەتێک بە یەک کلیک پێداچوونەوە و پشتڕاست بکەیتەوە. هەروەها ئاگاداری واتسئاپی بژاردەیی بەردەستە.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="barber-cta">
+        <div class="cta-box">
+            <h3>ئامادەیت دەلاکخانەکەت بگۆڕیت؟</h3>
+            <p>پەیوەندیمان پێوە بکە و با سیستەمی تەواو بۆ بازرگانییەکەت دروست بکەین</p>
+            <div class="cta-actions">
+                <a href="/kr.html#contact" class="btn-cta">
+                    <span>دەستپێبکە</span>
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footerkr">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>خزمەتگوزاریەکان</h3>
+                <ul>
+                    <li><a href="/kr.html#website-creation">گەشەپێدانی وێب</a></li>
+                    <li><a href="/kr.html#mobile-app">ئەپی مۆبایل</a></li>
+                    <li><a href="/kr.html#services">سیستەمی Backend</a></li>
+                    <li><a href="/Projects/menu/kr-menu-detail.html">مێنووی چێشتخانە</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>کۆمپانیا</h3>
+                <ul>
+                    <li><a href="/kr.html#about">دەربارەمان</a></li>
+                    <li><a href="/Projects/kr-projects-index.html">پڕۆژەکانمان</a></li>
+                    <li><a href="/privacy/ku-privacy-policy.html">سیاسەتی تایبەتی</a></li>
+                    <li><a href="/terms/ku-terms.html">مەرجەکانی خزمەتگوزاری</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>شوێنمان بکەن</h3>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+9647507650999">+964 750 765 0999</a></p>
+                    <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:info@coovix.com">info@coovix.com</a></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/company/coovix/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/share/188UQedKkT/?mibextid=wwXIfr" target="_blank" aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/coovix.tech?igsh=MWFtYWpobThsZ2Zydg%3D%3D&utm_source=qr" target="_blank" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2026 Coovix. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox-overlay" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" aria-label="داخستن"><i class="fas fa-times"></i></button>
+            <img id="lightboxImg" src="" alt="">
+        </div>
+    </div>
+
+    <script src="/Projects/projects-script.js"></script>
+    <script src="/script.js"></script>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const item = btn.parentElement;
+                const isActive = item.classList.contains('active');
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+                if (!isActive) item.classList.add('active');
+            });
+        });
+
+        // Lightbox
+        (function() {
+            const overlay = document.getElementById('lightbox');
+            const lbImg = document.getElementById('lightboxImg');
+
+            document.querySelectorAll('.preview-card .preview-img-wrap').forEach(wrap => {
+                wrap.addEventListener('click', () => {
+                    const img = wrap.querySelector('img');
+                    lbImg.src = img.src;
+                    lbImg.alt = img.alt;
+                    overlay.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                });
+            });
+
+            function closeLightbox() {
+                overlay.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+
+            overlay.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+            overlay.addEventListener('click', (e) => { if (e.target === overlay) closeLightbox(); });
+            document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
+        })();
+    </script>
+</body>
+</html>
