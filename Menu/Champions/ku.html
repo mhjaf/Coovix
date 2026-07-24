@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Theme color for Safari URL bar and system UI -->
+<meta name="theme-color" content="#0e3f21">
+
+<!-- iOS Safari status bar styling - matches body background -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<!-- iOS Safari full screen app capability -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Champions Restaurant">
+
+<!-- Viewport meta tag with safe area support for gesture navigation -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+<!-- Additional browser support -->
+<meta name="msapplication-navbutton-color" content="#0e3f21">
+<meta name="msapplication-TileColor" content="#0e3f21">
+
+<!-- iOS specific theme colors -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#0e3f21">
+
+<!-- Manifest for PWA theming -->
+<link rel="manifest" href="/manifest.json">
+
+    <meta name="theme-color" content="#0e3f21">
+    <title>چامپیۆنس کافێ و نێرگەلە</title>
+    
+    <!-- External Libraries -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Kurdish-specific styles */
+        body, .font-kurdish {
+            font-family: 'Noto Sans Arabic', 'Inter', sans-serif;
+        }
+        
+        /* RTL adjustments */
+        .categories-grid {
+            direction: ltr; /* Keep category navigation LTR for consistency */
+        }
+        
+        .menu-item-card .item-name,
+        .menu-item-card .item-price {
+            text-align: right;
+        }
+        
+        .modal-details {
+            text-align: right;
+        }
+        
+        /* Keep modal title row LTL for consistent layout */
+        .modal-title-row {
+            direction: ltr; /* Keep LTR for proper title-left, price-right layout */
+        }
+        
+        .modal-title {
+            text-align: right; /* Just align Kurdish text to right within its container */
+        }
+        
+        .contact-item {
+            flex-direction: row-reverse;
+            text-align: right;
+        }
+        
+        .contact-item i {
+            margin-left: 1rem;
+            margin-right: 0;
+        }
+        
+        .info-content {
+            text-align: right;
+        }
+        
+        .social-link-mobile {
+            flex-direction: row-reverse;
+        }
+        
+        .social-link-mobile i {
+            margin-right: 0;
+        }
+        
+        .back-btn {
+            flex-direction: row-reverse;
+        }
+        
+        @media (max-width: 480px) {
+            .social-link-mobile {
+                flex-direction: row-reverse;
+                justify-content: center;
+            }
+            
+            .social-link-mobile i {
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+
+<body class="antialiased font-kurdish">
+
+    <div class="orientation-warning">
+    <div class="rotate-icon">
+        <i class="fas fa-mobile-alt"></i>
+    </div>
+    <h2>تکایە ئامێرەکەت بسووڕێنە</h2>
+    <p>بۆ باشترین ئەزموون تکایە ئامێرەکەت بسووڕێنە بۆ دۆخی پۆرترێت</p>
+</div>
+    <!-- Language Selection Screen -->
+    <section class="language-selection-screen" id="languageSelectionScreen">
+        <div class="language-selector-content">
+            <!-- Logo Section -->
+            <div class="logo-area">
+                <img src="img-champions/champions-logo-green-transparent.png" alt="لۆگۆی چامپیۆنس کافێ و نێرگەلە">
+            </div>
+
+            <!-- Direct Language Buttons - Single Row Layout -->
+            <div class="language-buttons-container">
+                <label class="language-buttons-label">زمانەکەت هەڵبژێرە</label>
+                <div class="language-buttons-grid">
+                    <!-- Single Row: All Three Languages -->
+                    <div class="language-buttons-row">
+                        <button class="language-select-button" data-lang="en" data-text="English">
+                            <span class="language-button-text">English</span>
+                        </button>
+                        <button class="language-select-button" data-lang="ar" data-text="Arabic">
+                            <span class="language-button-text">العربية</span>
+                        </button>
+                        <button class="language-select-button" data-lang="ku" data-text="Kurdish">
+                            <span class="language-button-text">کوردی</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant Information -->
+            <div class="restaurant-info">
+                <div class="info-grid">
+                    <div class="info-card full-width">
+                        <div class="info-icon-wrapper">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <span class="info-label">پەیوەندیمان پێوە بکە</span>
+                            <a href="tel:+9647505999669" class="info-value phone-link" target="_blank">
+                                +964 750 599 9669
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card full-width">
+                        <div class="info-icon-wrapper">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <span class="info-label">کاتی کارکردن</span>
+                            <span class="info-value">7:00 بەیانی - 1:00 شەو</span>
+                        </div>
+                    </div>
+                    
+                  
+                      
+                        <a href="https://www.google.com/maps/place/36°11'30.1%22N+43°58'04.3%22E/@36.191704,43.9652901,17z/data=!3m1!4b1!4m4!3m3!8m2!3d36.191704!4d43.967865?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D" 
+                       class="info-card full-width visit-us-button" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        <div class="info-icon-wrapper">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <span class="info-label">سەردانمان بکە</span>
+                            <span class="info-value">هەولێر، رامی تاوەر</span>
+                        </div>
+                        <div class="visit-us-arrow">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </a>
+                    </div>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="https://www.instagram.com/champions_rest_cafe?igsh=MTNrOG10NzNtcmZsYQ%3D%3D&utm_source=qr" 
+                   class="social-link" 
+                   title="Instagram" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                 <a href="https://www.tiktok.com/@champions_rest_cafe?_t=ZS-8zJG96JpS2G" 
+                   class="social-link" 
+                   title="LinkedIn" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://wa.me/9647505999669" 
+                   class="social-link" 
+                   title="WhatsApp" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+               
+            </div>
+
+            <p> Powered by
+                <a href="https://coovix.com/" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   style=" color: #0099d8;">
+                    Coovix
+                </a>
+        </div>
+    </section>
+
+    <!-- Language Selection Popup -->
+    <div class="language-popup-overlay" id="languagePopupOverlay">
+        <div class="language-popup">
+            <div class="language-popup-header">
+                <h3>زمان هەڵبژێرە</h3>
+                <button class="language-popup-close" id="languagePopupClose" aria-label="داخستنی هەڵبژاردنی زمان">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="language-options">
+                <button class="language-option" data-lang="en" data-text="English">
+                    <div class="language-details">
+                        <span class="language-name">English</span>
+                    </div>
+                    <i class="fas fa-check language-check"></i>
+                </button>
+                <button class="language-option" data-lang="ku" data-text="کوردی">
+                    <div class="language-details">
+                        <span class="language-name">کوردی</span>
+                    </div>
+                    <i class="fas fa-check language-check"></i>
+                </button>
+                <button class="language-option" data-lang="ar" data-text="العربية">
+                    <div class="language-details">
+                        <span class="language-name">العربية</span>
+                    </div>
+                    <i class="fas fa-check language-check"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="glass-dark py-3 fixed w-full top-0 z-50 shadow-lg" >
+        <div class="header-container flex justify-between items-center" dir="rtl">
+            <p class="namecafe" style="font-size: 1.2rem;">     
+            چامپیۆنس کافێ و نێرگەلە
+            </p>
+
+            
+            <div class="flex items-center space-x-4">
+                <!-- Desktop Language Buttons -->
+                <div class="lang-switcher hidden md:flex">
+                    <div class="language-buttons-row">
+                        <button class="lang-button" data-lang="en" data-text="English">English</button>
+                        <button class="lang-button" data-lang="ar" data-text="Arabic">العربية</button>
+                        <button class="lang-button active" data-lang="ku" data-text="Kurdish">كوردى</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Language Row -->
+    <nav class="header-language-row" aria-label="هەڵبژاردنی زمان" dir="ltr">
+        <button class="lang-button" data-lang="en" data-text="English">English</button>
+        <button class="lang-button" data-lang="ar" data-text="Arabic">العربية</button>
+        <button class="lang-button active" data-lang="ku" data-text="Kurdish">کوردی</button>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu-overlay" class="mobile-overlay hidden">
+        <!--<video class="cafe-video" autoplay muted loop playsinline>-->
+        <!--    <source src="/20259597/menu/champions_saladbar&cafe/img-champions/video.mp4" type="video/mp4">-->
+        <!--    <source src="/20259597/menu/champions_saladbar&cafe/img-champions/video.mp4" type="video/webm">-->
+            <!-- Fallback image for browsers that don't support video -->
+        <!--    <img src="/20259597/menu/champions_saladbar&cafe/img-champions/codeb.jpg" alt="cafe" class="cafeb">-->
+        <!--</video>-->
+        
+        <img 
+  src="/20259597/menu/champions_saladbar&cafe/img-champions/codeb.jpg" 
+  alt="cafe" 
+  class="cafeb">
+        <div class="mobile-menu-content">
+            <!-- Mobile Menu Header -->
+            <div class="mobile-menu-header" dir="rtl">
+
+                <div class="mobile-menu-logo">
+                <h3>چامپیۆنس کافێ و نێرگەلە</h3>
+
+                </div>
+                <button class="mobile-menu-close" 
+                        id="mobileMenuClose" 
+                        aria-label="داخستنی لیستی مۆبایل">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu Body -->
+            <div class="mobile-menu-body">
+                <!-- Mobile Language Buttons -->
+                <div class="lang-switcher mb-8 grid">
+                    <label class="text-gray-700 font-semibold mb-3 block">زمان هەڵبژێرە</label>
+                    <div class="language-buttons-row">
+                        <button class="mobile-lang-button" data-lang="en" data-text="English">
+                            <span>English</span>
+                        </button>
+                        <button class="mobile-lang-button" data-lang="ar" data-text="Arabic">
+                            <span>العربية</span>
+                        </button>
+                        <button class="mobile-lang-button active" data-lang="ku" data-text="Kurdish">
+                            <span>کوردی</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Feedback Button Section -->
+                <div class="reviews-section">
+                    <button class="reviews-button" id="reviewsBtn">
+                        <div class="reviews-button-content">
+                            <i class="fas fa-star"></i>
+                            <span>هەڵسەنگاندن</span>
+                        </div>
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                </div>
+
+                <!-- Mobile Social Section -->
+                <div class="social-section">
+                    <!-- <h3 class="text-gray-800 font-semibold mb-4 text-center">فۆڵۆمان بکەن</h3> -->
+                    <div class="social-links-mobile" dir="ltr" >
+                        <a href="https://www.google.com/maps/place/36°11'30.1%22N+43°58'04.3%22E/@36.191704,43.9652901,17z/data=!3m1!4b1!4m4!3m3!8m2!3d36.191704!4d43.967865?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D" 
+                           class="social-link-mobile" 
+                           target="_blank" 
+                           rel="noopener noreferrer">
+                            <i class="fa-solid fa-location-dot" ></i>
+                        </a>
+                        <a href="https://www.instagram.com/champions_rest_cafe?igsh=MTNrOG10NzNtcmZsYQ%3D%3D&utm_source=qr" 
+                           class="social-link-mobile" 
+                           target="_blank" 
+                           rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@champions_rest_cafe?_t=ZS-8zJG96JpS2G" 
+                           class="social-link-mobile" 
+                           target="_blank" 
+                           rel="noopener noreferrer">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://wa.me/9647505999669" 
+                           class="social-link-mobile" 
+                           target="_blank" 
+                           rel="noopener noreferrer">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Category Navigation - Updated with all new categories -->
+    <nav class="category-navigation-section">
+        <div class="categories-container">
+            <div class="categories-grid">
+
+                  <!-- Salad Category -->
+                <!--<button class="category-nav-button" data-target="salad">-->
+                <!--    <div class="category-image-container">-->
+                <!--        <img src="/20259597/menu/champions_saladbar&cafe/img-champions/open-buffet/mixed-salad.jpg" alt="Salad" class="category-image">-->
+                <!--    </div>-->
+                <!--    <span class="category-name">زەڵاتەکان</span>-->
+                <!--</button>-->
+                <!-- Open Buffet Category -->
+                <!--<button class="category-nav-button" data-target="openBuffet">-->
+                <!--    <div class="category-image-container">-->
+                <!--        <img src="/20259597/menu/champions_saladbar&cafe/img-champions/open-buffet/meat.jpg" alt="بۆفێی کراوە" class="category-image">-->
+                <!--    </div>-->
+                <!--    <span class="category-name">بوفێی کراوە</span>-->
+                <!--</button>-->
+
+                <!-- sandwich Category -->
+                <!--<button class="category-nav-button" data-target="sandwich">-->
+                <!--    <div class="category-image-container">-->
+                <!--        <img src="/20259597/menu/champions_saladbar&cafe/img-champions/sandwich/meat-sandwich.jpg" alt="sandwich" class="category-image">-->
+                <!--    </div>-->
+                <!--    <span class="category-name">ساندوچەکان</span>-->
+                <!--</button>-->
+
+
+                <button class="category-nav-button" data-target="desserts">
+                    <div class="category-image-container">
+                        <img src="/20259597/menu/champions_saladbar&cafe/img-champions/dessert/dubai-cake.jpg" alt="شیرینی" class="category-image">
+                    </div>
+                    <span class="category-name">شیرینیەکان</span>
+                </button>
+
+                <!-- croissant Category -->
+                <button class="category-nav-button" data-target="croissant">
+                    <div class="category-image-container">
+                        <img src="/20259597/menu/champions_saladbar&cafe/img-champions/dessert/croissant.jpg" alt="Open Buffet" class="category-image">
+                    </div>
+                    <span class="category-name">کرواسانەکان</span>
+                </button>
+                
+                <!-- Hot Beverages -->
+                
+                <button class="category-nav-button" data-target="icedCoffee">
+                    <div class="category-image-container">
+                        <img src="/20259597/menu/champions_saladbar&cafe/img-champions/Iced-coffee/iced-cappuccino.jpg" alt="قاوەی سارد" class="category-image">
+                    </div>
+                    <span class="category-name">
+                         خواردنەوە ساردەکان</span>
+                </button>
+                
+                <!-- Cold Beverages -->
+                <button class="category-nav-button" data-target="juices">
+                    <div class="category-image-container">
+                        <img src="/20259597/menu/champions_saladbar&cafe/img-champions/juices/champions-juice.jpg" alt="شەربەت" class="category-image">
+                    </div>
+                    <span class="category-name">شەربەتەکان</span>
+                </button>
+                <button class="category-nav-button" data-target="smoothies">
+                    <div class="category-image-container">
+                        <img src="/20259597/menu/champions_saladbar&cafe/img-champions/smoothie/champions-smoothie.jpg" alt="سموسی" class="category-image">
+                    </div>
+                    <span class="category-name">سموزیەکان</span>
+                </button>
+                <button class="category-nav-button" data-target="mojitos">
+                    <div class="category-image-container">
+                        <img src="/20259597/menu/champions_saladbar&cafe/img-champions/mojito/blue-sky.jpg" alt="مۆجیتۆ" class="category-image">
+                    </div>
+                    <span class="category-name">مۆهیتۆیەکان</span>
+                </button>
+                <button class="category-nav-button" data-target="frappuccino">
+                    <div class="category-image-container">
+                        <img src="/20259597/menu/champions_saladbar&cafe/img-champions/frappuccino/caramel-frappe.jpg" alt="فراپوچینۆ" class="category-image">
+                    </div>
+                    <span class="category-name">فراپوچینۆیەکان</span>
+                </button>
+                <button class="category-nav-button" data-target="milkshakes">
+                    <div class="category-image-container">
+                        <img src="/20259597/menu/champions_saladbar&cafe/img-champions/milkshake/kinder.jpg" alt="شیرکشاک" class="category-image">
+                    </div>
+                    <span class="category-name">میڵک شەیکەکان</span>
+                </button>
+                <button class="category-nav-button" data-target="hotDrinks">
+                    <div class="category-image-container">
+                        <img src="/20259597/menu/champions_saladbar&cafe/img-champions/hot-drinks/dark-chocolate.jpg" alt="خواردنەوەی گەرم" class="category-image">
+                    </div>
+                    <span class="category-name">خواردنەوە گەرمەکان</span>
+                </button>
+                <button class="category-nav-button" data-target="softDrinks">
+                    <div class="category-image-container">
+                        <img src="/20259597/menu/champions_saladbar&cafe/img-champions/soft-drinks/champions-redbull.jpg" alt="خواردنەوەی گازدار" class="category-image">
+                    </div>
+                    <span class="category-name">خواردنەوە گازیەکان</span>
+                </button>
+                <button class="category-nav-button" data-target="shisha">
+                    <div class="category-image-container">
+                        <img src="img-champions/shisha/shisha-table.png" alt="نێرگەلە" class="category-image">
+                    </div>
+                    <span class="category-name">نێرگەلە</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="pt-32 pb-16">
+        <div class="container-full">
+            <div class="menu-container">
+
+                <!--<section id="salad" class="menu-section">-->
+                <!--    <div class="section-header">-->
+                <!--        <h2>زەڵاتەکان</h2>-->
+                <!--    </div>-->
+                <!--    <div class="menu-items-grid" role="grid"></div>-->
+                <!--</section> -->
+                <!-- Open Buffet Section -->
+                <!--<section id="openBuffet" class="menu-section">-->
+                <!--    <div class="section-header">-->
+                <!--        <h2>بوفێی کراوە</h2>-->
+                <!--    </div>-->
+                <!--    <div class="menu-items-grid" role="grid"></div>-->
+                <!--</section>-->
+
+                <!-- sandwich Section -->
+                <!--<section id="sandwich" class="menu-section">-->
+                <!--    <div class="section-header">-->
+                <!--        <h2>ساندوچەکان</h2>-->
+                <!--    </div>-->
+                <!--    <div class="menu-items-grid" role="grid"></div>-->
+                <!--</section>-->
+
+                <!-- Desserts Section -->
+                <section id="desserts" class="menu-section">
+                    <div class="section-header">
+                        <h2>شیرینیەکان</h2>
+                    </div>
+                    <div class="menu-items-grid" role="grid"></div>
+                </section>
+
+                 <!-- croissant Section -->
+                <section id="croissant" class="menu-section">
+                    <div class="section-header">
+                        <h2>کرواسانەکان</h2>
+                    </div>
+                    <div class="menu-items-grid" role="grid"></div>
+                </section>
+
+                <!-- Iced Coffee Section -->
+                <section id="icedCoffee" class="menu-section">
+                    <div class="section-header">
+                        <h2> خواردنەوە ساردەکان</h2>
+                    </div>
+                    <div class="menu-items-grid" role="grid"></div>
+                </section>
+
+                <!-- Juices Section -->
+                <section id="juices" class="menu-section">
+                    <div class="section-header">
+                        <h2>شەربەتەکان</h2>
+                    </div>
+                    <div class="menu-items-grid" role="grid"></div>
+                </section>
+
+                <!-- Smoothies Section -->
+                <section id="smoothies" class="menu-section">
+                    <div class="section-header">
+                        <h2>سموزیەکان</h2>
+                    </div>
+                    <div class="menu-items-grid" role="grid"></div>
+                </section>
+
+                <!-- Mojitos Section -->
+                <section id="mojitos" class="menu-section">
+                    <div class="section-header">
+                        <h2>مۆهیتۆیەکان</h2>
+                    </div>
+                    <div class="menu-items-grid" role="grid"></div>
+                </section>
+
+                <!-- Frappuccino Section -->
+                <section id="frappuccino" class="menu-section">
+                    <div class="section-header">
+                        <h2>فراپوچینۆیەکان</h2>
+                    </div>
+                    <div class="menu-items-grid" role="grid"></div>
+                </section>
+
+                <!-- Milkshakes Section -->
+                <section id="milkshakes" class="menu-section">
+                    <div class="section-header">
+                        <h2>میڵک شەیکەکان</h2>
+                    </div>
+                    <div class="menu-items-grid" role="grid"></div>
+                </section>
+
+                <!-- Hot Drinks Section -->
+                <section id="hotDrinks" class="menu-section">
+                    <div class="section-header">
+                        <h2>خواردنەوە گەرمەکان</h2>
+                    </div>
+                    <div class="menu-items-grid" role="grid"></div>
+                </section>
+
+                
+
+                <!-- Soft Drinks Section -->
+                <section id="softDrinks" class="menu-section">
+                    <div class="section-header">
+                        <h2>خواردنەوەی گازیەکان</h2>
+                    </div>
+                    <div class="menu-items-grid" role="grid"></div>
+                </section>
+
+                <!-- Shisha Section -->
+                <section id="shisha" class="menu-section">
+                    <div class="section-header">
+                        <h2>نێرگەلە</h2>
+                    </div>
+                    <div class="menu-items-grid" role="grid"></div>
+                </section>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="glass-dark py-1" dir="ltr">
+        <div class="header-container text-center">
+            <p> Powered by
+                <a href="https://coovix.com/" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   style="color: #0099d8;">
+                    Coovix
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Food Detail Modal - Updated Structure -->
+    <div id="foodModal" class="food-modal" role="dialog" aria-modal="true">
+        <div class="modal-content">
+            <button class="close-modal" aria-label="داخستنی پەنجەرە">&times;</button>
+            <div class="modal-image-container">
+                <img id="modalImage" src="" alt="" class="modal-image">
+            </div>
+            <div class="modal-details">
+                <div class="modal-title-row">
+                    <div class="modal-price-container">
+                        <span id="modalPrice" class="modal-price"></span>
+                    </div>
+                                        <h2 id="modalTitle" class="modal-title"></h2>
+
+                    
+                </div>
+                <p id="" class="modal-description" style="text-align: right;"></p>
+                <!-- id="modalDescription" -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

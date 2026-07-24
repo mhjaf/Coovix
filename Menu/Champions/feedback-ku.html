@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>راپرسی لە کڕیارەکانی - چامپیۆنس
+
+    </title>
+    
+    <!-- External Libraries -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Feedback Handler Script -->
+    <script src="./feedback-handler.js"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;500;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Noto Sans Arabic', 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #0e3f21 75%, #0c3a1e 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
+            overflow-x: hidden;
+            direction: rtl;
+        }
+
+        /* Animated background particles */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.3; }
+            50% { transform: translateY(-20px) rotate(180deg); opacity: 0.8; }
+        }
+
+        .feedback-container {
+            position: relative;
+            z-index: 10;
+            max-width: 480px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .feedback-header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            opacity: 0;
+            animation: slideInDown 1s ease-out 0.3s forwards;
+        }
+
+        .feedback-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ffffff 0%, #f0f8ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        .feedback-subtitle {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 400;
+            margin-bottom: 1.5rem;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 2px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4ade80, #22c55e);
+            border-radius: 2px;
+            width: 0%;
+            transition: width 0.5s ease;
+            transform-origin: right;
+        }
+
+        .rating-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            width: 100%;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            opacity: 0;
+            transform: translateY(30px);
+            animation: slideInUp 0.8s ease-out forwards;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .rating-card:nth-child(2) { animation-delay: 0.4s; }
+        .rating-card:nth-child(3) { animation-delay: 0.6s; }
+        .rating-card:nth-child(4) { animation-delay: 0.8s; }
+
+        .rating-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transition: right 0.5s ease;
+        }
+
+        .rating-card:hover::before {
+            right: 100%;
+        }
+
+        .rating-card:hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(255, 255, 255, 0.3);
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            direction: rtl;
+        }
+
+        .card-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 1rem;
+            font-size: 1.5rem;
+            color: white;
+            box-shadow: 0 8px 20px rgba(34, 197, 94, 0.3);
+        }
+
+        .card-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #ffffff;
+            margin: 0;
+        }
+
+        .star-rating {
+            display: flex;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-bottom: 0.5rem;
+            direction: ltr;
+        }
+
+        .star-btn {
+            background: none;
+            border: none;
+            color: rgba(255, 255, 255, 0.3);
+            font-size: 2rem;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            padding: 0.5rem;
+            border-radius: 50%;
+            position: relative;
+            transform-origin: center;
+        }
+
+        .star-btn:hover {
+            color: #fbbf24;
+            transform: scale(1.2) rotate(5deg);
+            background: rgba(251, 191, 36, 0.1);
+        }
+
+        .star-btn.active {
+            color: #f59e0b;
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 8px #f59e0b);
+        }
+
+        .star-btn.active::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(245, 158, 11, 0.3) 0%, transparent 70%);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.7; transform: translate(-50%, -50%) scale(0.8); }
+            50% { opacity: 1; transform: translate(-50%, -50%) scale(1.2); }
+            100% { opacity: 0.7; transform: translate(-50%, -50%) scale(0.8); }
+        }
+
+        .rating-label {
+            text-align: center;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.6);
+            margin-top: 0.5rem;
+            font-weight: 500;
+        }
+
+        .send-button-container {
+            width: 100%;
+            margin-top: 2rem;
+            opacity: 0;
+            animation: slideInUp 1s ease-out 1s forwards;
+        }
+
+        .send-btn {
+            width: 100%;
+            background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+            color: white;
+            border: none;
+            border-radius: 15px;
+            padding: 1.25rem 2rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            box-shadow: 0 10px 30px rgba(34, 197, 94, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .send-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: right 0.5s ease;
+        }
+
+        .send-btn:hover::before {
+            right: 100%;
+        }
+
+        .send-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(34, 197, 94, 0.5);
+            background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+        }
+
+        .send-btn:active {
+            transform: translateY(0);
+        }
+
+        .send-btn:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .back-btn {
+            position: fixed;
+            top: 2rem;
+            right: 2rem;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .back-btn:hover {
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.4);
+            transform: scale(1.1);
+        }
+
+        .success-animation {
+            animation: successBounce 0.6s ease-out forwards;
+        }
+
+        @keyframes successBounce {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes slideInDown {
+            0% { opacity: 0; transform: translateY(-30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideInUp {
+            0% { opacity: 0; transform: translateY(30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Enhanced Mobile Responsiveness */
+        
+        /* Large screens */
+        @media (min-width: 1200px) {
+            .feedback-container {
+                max-width: 520px;
+            }
+        }
+
+        /* Tablet landscape */
+        @media (max-width: 1024px) and (min-width: 768px) {
+            .feedback-container {
+                max-width: 450px;
+                padding: 2rem 1.5rem;
+            }
+            
+            .feedback-title {
+                font-size: 2.25rem;
+            }
+        }
+
+        /* Tablet portrait */
+        @media (max-width: 768px) and (min-width: 481px) {
+            .feedback-container {
+                max-width: 420px;
+                padding: 1.75rem 1.25rem;
+            }
+            
+            .feedback-title {
+                font-size: 2.1rem;
+            }
+            
+            .rating-card {
+                padding: 1.75rem;
+            }
+            
+            .star-btn {
+                font-size: 1.9rem;
+                padding: 0.45rem;
+            }
+            
+            .card-icon {
+                width: 45px;
+                height: 45px;
+                font-size: 1.4rem;
+            }
+        }
+
+        /* Mobile landscape */
+        @media (max-width: 896px) and (max-height: 414px) and (orientation: landscape) {
+            .feedback-container {
+                padding: 1rem;
+                justify-content: flex-start;
+                min-height: auto;
+                padding-top: 2rem;
+            }
+            
+            .feedback-header {
+                margin-bottom: 1.5rem;
+            }
+            
+            .feedback-title {
+                font-size: 1.8rem;
+                margin-bottom: 0.25rem;
+            }
+            
+            .feedback-subtitle {
+                font-size: 1rem;
+                margin-bottom: 1rem;
+            }
+            
+            .rating-card {
+                padding: 1.25rem;
+                margin-bottom: 1rem;
+            }
+            
+            .card-header {
+                margin-bottom: 1rem;
+            }
+            
+            .card-icon {
+                width: 40px;
+                height: 40px;
+                font-size: 1.2rem;
+            }
+            
+            .card-title {
+                font-size: 1.2rem;
+            }
+            
+            .star-btn {
+                font-size: 1.5rem;
+                padding: 0.3rem;
+            }
+            
+            .send-button-container {
+                margin-top: 1.25rem;
+            }
+            
+            .send-btn {
+                padding: 0.875rem 1.5rem;
+                font-size: 1rem;
+            }
+        }
+
+        /* Standard mobile */
+        @media (max-width: 480px) {
+            .feedback-container {
+                padding: 1.5rem 1rem;
+                max-width: 100%;
+            }
+            
+            .feedback-title {
+                font-size: 1.9rem;
+                line-height: 1.1;
+                margin-bottom: 0.375rem;
+            }
+            
+            .feedback-subtitle {
+                font-size: 1rem;
+                margin-bottom: 1.25rem;
+            }
+            
+            .rating-card {
+                padding: 1.5rem;
+                margin-bottom: 1rem;
+                border-radius: 16px;
+            }
+            
+            .card-header {
+                margin-bottom: 1.25rem;
+            }
+            
+            .card-icon {
+                width: 42px;
+                height: 42px;
+                font-size: 1.3rem;
+                margin-left: 0.875rem;
+            }
+            
+            .card-title {
+                font-size: 1.25rem;
+            }
+            
+            .star-rating {
+                gap: 0.625rem;
+                margin-bottom: 0.75rem;
+            }
+            
+            .star-btn {
+                font-size: 1.75rem;
+                padding: 0.4rem;
+                min-width: 48px;
+                min-height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .rating-label {
+                font-size: 0.85rem;
+                margin-top: 0.625rem;
+            }
+            
+            .send-btn {
+                padding: 1.125rem 1.5rem;
+                font-size: 1.1rem;
+                border-radius: 12px;
+                min-height: 56px;
+            }
+            
+            .back-btn {
+                top: 1rem;
+                right: 1rem;
+                width: 48px;
+                height: 48px;
+                font-size: 1.1rem;
+            }
+            
+            .progress-bar {
+                height: 5px;
+            }
+        }
+
+        /* Small mobile devices */
+        @media (max-width: 375px) {
+            .feedback-container {
+                padding: 1.25rem 0.875rem;
+            }
+            
+            .feedback-title {
+                font-size: 1.75rem;
+            }
+            
+            .feedback-subtitle {
+                font-size: 0.95rem;
+            }
+            
+            .rating-card {
+                padding: 1.25rem;
+                border-radius: 14px;
+            }
+            
+            .card-icon {
+                width: 38px;
+                height: 38px;
+                font-size: 1.2rem;
+                margin-left: 0.75rem;
+            }
+            
+            .card-title {
+                font-size: 1.2rem;
+            }
+            
+            .star-rating {
+                gap: 0.5rem;
+            }
+            
+            .star-btn {
+                font-size: 1.6rem;
+                padding: 0.35rem;
+                min-width: 44px;
+                min-height: 44px;
+            }
+            
+            .rating-label {
+                font-size: 0.8rem;
+                line-height: 1.3;
+            }
+            
+            .send-btn {
+                padding: 1rem 1.25rem;
+                font-size: 1rem;
+                min-height: 52px;
+            }
+        }
+
+        /* Extra small screens */
+        @media (max-width: 320px) {
+            .feedback-container {
+                padding: 1rem 0.75rem;
+            }
+            
+            .feedback-title {
+                font-size: 1.6rem;
+                letter-spacing: -0.25px;
+            }
+            
+            .feedback-subtitle {
+                font-size: 0.9rem;
+                margin-bottom: 1rem;
+            }
+            
+            .rating-card {
+                padding: 1rem;
+                margin-bottom: 0.875rem;
+                border-radius: 12px;
+            }
+            
+            .card-header {
+                margin-bottom: 1rem;
+                flex-direction: column;
+                align-items: flex-end;
+                gap: 0.5rem;
+            }
+            
+            .card-icon {
+                width: 36px;
+                height: 36px;
+                font-size: 1.1rem;
+                margin-left: 0;
+                margin-bottom: 0.25rem;
+            }
+            
+            .card-title {
+                font-size: 1.1rem;
+                margin: 0;
+            }
+            
+            .star-rating {
+                gap: 0.375rem;
+                margin-bottom: 0.625rem;
+            }
+            
+            .star-btn {
+                font-size: 1.4rem;
+                padding: 0.25rem;
+                min-width: 40px;
+                min-height: 40px;
+            }
+            
+            .rating-label {
+                font-size: 0.75rem;
+                line-height: 1.2;
+            }
+            
+            .send-button-container {
+                margin-top: 1.5rem;
+            }
+            
+            .send-btn {
+                padding: 0.875rem 1rem;
+                font-size: 0.95rem;
+                min-height: 48px;
+                border-radius: 10px;
+            }
+            
+            .back-btn {
+                width: 44px;
+                height: 44px;
+                font-size: 1rem;
+            }
+            
+            .progress-bar {
+                height: 4px;
+                margin-bottom: 0.75rem;
+            }
+        }
+
+        /* Accessibility and touch improvements */
+        @media (hover: none) and (pointer: coarse) {
+            .star-btn {
+                min-width: 48px;
+                min-height: 48px;
+            }
+            
+            .star-btn:hover {
+                transform: scale(1.1);
+            }
+            
+            .send-btn {
+                min-height: 56px;
+            }
+            
+            .back-btn {
+                min-width: 48px;
+                min-height: 48px;
+            }
+        }
+
+        /* High density displays */
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+            .feedback-title {
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            
+            .card-title {
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+        }
+
+        /* Safe area handling for newer phones */
+        @supports (padding: max(0px)) {
+            .feedback-container {
+                padding-left: max(1rem, env(safe-area-inset-left));
+                padding-right: max(1rem, env(safe-area-inset-right));
+                padding-bottom: max(2rem, env(safe-area-inset-bottom));
+            }
+            
+            .back-btn {
+                top: max(1rem, env(safe-area-inset-top));
+                right: max(1rem, env(safe-area-inset-right));
+            }
+        }
+
+        /* Reduced motion preferences */
+        @media (prefers-reduced-motion: reduce) {
+            .particle {
+                animation: none;
+            }
+            
+            .rating-card {
+                animation: none;
+                opacity: 1;
+                transform: none;
+            }
+            
+            .feedback-header {
+                animation: none;
+                opacity: 1;
+                transform: none;
+            }
+            
+            .send-button-container {
+                animation: none;
+                opacity: 1;
+                transform: none;
+            }
+            
+            .star-btn:hover {
+                transform: scale(1.05);
+            }
+            
+            .send-btn:hover {
+                transform: translateY(-1px);
+            }
+        }
+
+        .loading-dots {
+            display: inline-block;
+        }
+
+        .loading-dots::after {
+            content: '';
+            animation: dots 1.5s infinite;
+        }
+
+        @keyframes dots {
+            0%, 20% { content: '.'; }
+            40% { content: '..'; }
+            60%, 100% { content: '...'; }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Animated Background Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Back Button -->
+    <button class="back-btn" onclick="goBack()" aria-label="گەڕانەوە">
+        <i class="fas fa-arrow-right"></i>
+    </button>
+
+    <div class="feedback-container">
+        <!-- Header Section -->
+        <div class="feedback-header">
+            <h1 class="feedback-title">ئێمە بایەخ بە بیرتانەوە دەدەین</h1>
+            <p class="feedback-subtitle">یارمەتیمان بدەن باشتر خزمەتتان بکەین بە هەڵسەنگاندنی ئەزموونتان</p>
+            
+            <!-- Progress Bar -->
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <p class="rating-label" id="progressText">٠ لە ٣ بەشی هەڵسەنگێندراو</p>
+        </div>
+        
+        <!-- Staff Rating Card -->
+        <div class="rating-card">
+            <div class="card-header">
+                <div class="card-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h2 class="card-title">ستاف</h2>
+            </div>
+            <div class="star-rating" data-category="staff">
+                <button class="star-btn" data-rating="1" aria-label="١ ئەستێرە">
+                    <i class="far fa-star"></i>
+                </button>
+                <button class="star-btn" data-rating="2" aria-label="٢ ئەستێرە">
+                    <i class="far fa-star"></i>
+                </button>
+                <button class="star-btn" data-rating="3" aria-label="٣ ئەستێرە">
+                    <i class="far fa-star"></i>
+                </button>
+                <button class="star-btn" data-rating="4" aria-label="٤ ئەستێرە">
+                    <i class="far fa-star"></i>
+                </button>
+                <button class="star-btn" data-rating="5" aria-label="٥ ئەستێرە">
+                    <i class="far fa-star"></i>
+                </button>
+            </div>
+            <p class="rating-label" id="staffLabel">چۆن ستافەکەمان هەڵدەسەنگێنن؟</p>
+        </div>
+
+        <!-- Service Rating Card -->
+        <div class="rating-card">
+            <div class="card-header">
+                <div class="card-icon">
+                    <i class="fas fa-concierge-bell"></i>
+                </div>
+                <h2 class="card-title">خزمەتگوزاری</h2>
+            </div>
+            <div class="star-rating" data-category="service">
+                <button class="star-btn" data-rating="1" aria-label="١ ئەستێرە">
+                    <i class="far fa-star"></i>
+                </button>
+                <button class="star-btn" data-rating="2" aria-label="٢ ئەستێرە">
+                    <i class="far fa-star"></i>
+                </button>
+                <button class="star-btn" data-rating="3" aria-label="٣ ئەستێرە">
+                    <i class="far fa-star"></i>
+                </button>
+                <button class="star-btn" data-rating="4" aria-label="٤ ئەستێرە">
+                    <i class="far fa-star"></i>
+                </button>
+                <button class="star-btn" data-rating="5" aria-label="٥ ئەستێرە">
+                    <i class="far fa-star"></i>
+                </button>
+            </div>
+            <p class="rating-label" id="serviceLabel">خزمەتگوزاریەکەمان چۆن بوو؟</p>
+        </div>
+
+        <!-- Hygiene Rating Card -->
+        <div class="rating-card">
+            <div class="card-header">
+                <div class="card-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h2 class="card-title">پاکوخاوێنی</h2>
+            </div>
+            <div class="star-rating" data-category="hygiene">
+                <button class="star-btn" data-rating="1" aria-label="١ ئەستێرە">
+                    <i class="far fa-star"></i>
+                </button>
+                <button class="star-btn" data-rating="2" aria-label="٢ ئەستێرە">
+                    <i class="far fa-star"></i>
+                </button>
+                <button class="star-btn" data-rating="3" aria-label="٣ ئەستێرە">
+                    <i class="far fa-star"></i>
+                </button>
+                <button class="star-btn" data-rating="4" aria-label="٤ ئەستێرە">
+                    <i class="far fa-star"></i>
+                </button>
+                <button class="star-btn" data-rating="5" aria-label="٥ ئەستێرە">
+                    <i class="far fa-star"></i>
+                </button>
+            </div>
+            <p class="rating-label" id="hygieneLabel">پاکی و خاوێنی چۆن بوو؟</p>
+        </div>
+
+        <!-- Notes Section -->
+        <div class="rating-card">
+            <div class="card-header">
+                <div class="card-icon">
+                    <i class="fas fa-comment-alt"></i>
+                </div>
+                <h2 class="card-title">تێبینی زێاتر</h2>
+            </div>
+            <textarea 
+                id="feedbackNotes" 
+                placeholder="تکایە هەر تێبینی یان پێشنیاری زێاترتان بنووسن (ئیختیاری)"
+                rows="4"
+                style="width: 100%; padding: 1rem; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 12px; background: rgba(255, 255, 255, 0.1); color: white; resize: vertical; font-family: 'Noto Sans Arabic', 'Inter', sans-serif; font-size: 0.95rem; line-height: 1.5; text-align: right;"
+            ></textarea>
+            <p class="rating-label">تێبینی وردەکارییەکانتان یارمەتیمان دەدات باشتر بین</p>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="send-button-container">
+            <button class="send-btn" onclick="submitFeedbackPHP()" id="submitBtn">
+                <i class="fas fa-paper-plane"></i> ناردنی بیرۆکە
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // PHP Feedback Configuration
+        const PHP_ENDPOINT = './send_feedback.php';
+
+        // Feedback ratings storage
+        const feedbackData = {
+            staff: 0,
+            service: 0,
+            hygiene: 0
+        };
+
+        // Rating labels for different scores
+        const ratingLabels = {
+            staff: {
+                0: "چۆن ستافەکەمان هەڵدەسەنگێنن؟",
+                1: "خراپ - ستافەکە پێویستی بە باشترکردن هەیە",
+                2: "نیوەچاک - ستافەکە ئاسایی بوو",
+                3: "باش - ستافەکە یارمەتیدەر بوو",
+                4: "زۆر باش - ستافێکی نایاب",
+                5: "نمونەیی - ستافێکی سەرسوڕهێنەر!"
+            },
+            service: {
+                0: "خزمەتگوزاریەکەمان چۆن بوو؟",
+                1: "خراپ - خزمەتگوزاری پێویستی بە کارکردن هەیە",
+                2: "نیوەچاک - خزمەتگوزاری ئاسایی بوو",
+                3: "باش - خزمەتگوزاری قەناعەتبەخش بوو",
+                4: "زۆر باش - خزمەتگوزاریەکی نایاب",
+                5: "نمونەیی - خزمەتگوزاریەکی تایبەت!"
+            },
+            hygiene: {
+                0: "پاکی و خاوێنی چۆن بوو؟",
+                1: "خراپ - پاکوخاوێنی پێویستی بە سەرنج هەیە",
+                2: "نیوەچاک - پاکوخاوێنی ئاسایی بوو",
+                3: "باش - پاک و ڕێکخراو",
+                4: "زۆر باش - زۆر پاک",
+                5: "نمونەیی - پاکی بێ کەموکوڕی!"
+            }
+        };
+
+        // Initialize particles
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            const particleCount = 50;
+
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.top = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 6 + 's';
+                particle.style.animationDuration = (Math.random() * 3 + 3) + 's';
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Update progress bar
+        function updateProgress() {
+            const rated = Object.values(feedbackData).filter(rating => rating > 0).length;
+            const progress = (rated / 3) * 100;
+            
+            document.getElementById('progressFill').style.width = progress + '%';
+            document.getElementById('progressText').textContent = `${rated} لە ٣ بەشی هەڵسەنگێندراو`;
+            
+            // Enable submit button when all rated
+            const submitBtn = document.getElementById('submitBtn');
+            if (rated === 3) {
+                submitBtn.style.opacity = '1';
+                submitBtn.disabled = false;
+            } else {
+                submitBtn.style.opacity = '0.7';
+                submitBtn.disabled = true;
+            }
+        }
+
+        // Initialize star rating functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            createParticles();
+            setupStarRatings();
+            updateProgress();
+            handleViewportChanges();
+            
+            // Add viewport and orientation change listeners
+            window.addEventListener('resize', handleViewportChanges);
+            window.addEventListener('orientationchange', () => {
+                setTimeout(handleViewportChanges, 100);
+            });
+            
+            // Prevent zoom on input focus (mobile Safari)
+            const metaViewport = document.querySelector('meta[name=viewport]');
+            if (metaViewport) {
+                metaViewport.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';
+            }
+            
+            // Add touch feedback for better mobile UX
+            if (isTouchDevice()) {
+                document.body.classList.add('touch-device');
+            }
+        });
+
+        function setupStarRatings() {
+            const starRatings = document.querySelectorAll('.star-rating');
+            
+            starRatings.forEach(rating => {
+                const category = rating.getAttribute('data-category');
+                const stars = rating.querySelectorAll('.star-btn');
+                
+                stars.forEach((star, index) => {
+                    star.addEventListener('click', () => {
+                        setRating(category, index + 1);
+                        updateStarDisplay(rating, index + 1);
+                        updateRatingLabel(category, index + 1);
+                        updateProgress();
+                    });
+                    
+                    star.addEventListener('mouseenter', () => {
+                        highlightStars(rating, index + 1);
+                        updateRatingLabel(category, index + 1, true);
+                    });
+                });
+                
+                rating.addEventListener('mouseleave', () => {
+                    const currentRating = feedbackData[category];
+                    updateStarDisplay(rating, currentRating);
+                    updateRatingLabel(category, currentRating);
+                });
+            });
+        }
+
+        function setRating(category, rating) {
+            feedbackData[category] = rating;
+        }
+
+        function updateStarDisplay(ratingContainer, rating) {
+            const stars = ratingContainer.querySelectorAll('.star-btn');
+            
+            stars.forEach((star, index) => {
+                const icon = star.querySelector('i');
+                star.classList.remove('active');
+                
+                if (index < rating) {
+                    icon.className = 'fas fa-star';
+                    star.classList.add('active');
+                } else {
+                    icon.className = 'far fa-star';
+                }
+            });
+        }
+
+        function highlightStars(ratingContainer, rating) {
+            const stars = ratingContainer.querySelectorAll('.star-btn');
+            
+            stars.forEach((star, index) => {
+                const icon = star.querySelector('i');
+                
+                if (index < rating) {
+                    icon.className = 'fas fa-star';
+                    star.style.color = '#fbbf24';
+                } else {
+                    icon.className = 'far fa-star';
+                    star.style.color = 'rgba(255, 255, 255, 0.3)';
+                }
+            });
+        }
+
+        function updateRatingLabel(category, rating, isHover = false) {
+            const labelId = category + 'Label';
+            const label = document.getElementById(labelId);
+            if (label && ratingLabels[category]) {
+                label.textContent = ratingLabels[category][rating] || ratingLabels[category][0];
+                
+                if (isHover && rating > 0) {
+                    label.style.color = '#fbbf24';
+                } else {
+                    label.style.color = 'rgba(255, 255, 255, 0.6)';
+                }
+            }
+        }
+
+        // submitFeedbackPHP function is loaded from feedback-handler.js
+
+        function showCustomAlert(message, type = 'info') {
+            // Create custom alert overlay
+            const overlay = document.createElement('div');
+            overlay.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 10000;
+                backdrop-filter: blur(5px);
+            `;
+
+            const alertBox = document.createElement('div');
+            const bgColor = type === 'success' ? 'linear-gradient(135deg, #10b981 0%, #059669 100%)' : 
+                           type === 'error' ? 'linear-gradient(135deg, #dc2626 0%, #b91c1c 100%)' : 
+                           'linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)';
+            
+            alertBox.style.cssText = `
+                background: ${bgColor};
+                color: white;
+                padding: 2rem;
+                border-radius: 15px;
+                max-width: 350px;
+                width: 90%;
+                text-align: center;
+                font-weight: 500;
+                box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+                animation: slideInUp 0.3s ease-out;
+                direction: rtl;
+            `;
+
+            alertBox.innerHTML = `
+                <div style="font-size: 2rem; margin-bottom: 1rem;">
+                    ${type === 'success' ? '✅' : type === 'error' ? '❌' : 'ℹ️'}
+                </div>
+                <p style="margin: 0; font-size: 1.1rem;">${message}</p>
+            `;
+
+            overlay.appendChild(alertBox);
+            document.body.appendChild(overlay);
+
+            // Auto remove after 3 seconds
+            setTimeout(() => {
+                overlay.style.opacity = '0';
+                setTimeout(() => overlay.remove(), 300);
+            }, 3000);
+
+            // Remove on click
+            overlay.addEventListener('click', () => {
+                overlay.style.opacity = '0';
+                setTimeout(() => overlay.remove(), 300);
+            });
+        }
+
+        function goBack() {
+            if (document.referrer && document.referrer.includes(window.location.origin)) {
+                window.history.back();
+            } else {
+                window.location.href = 'index-ku.html';
+            }
+        }
+
+        // Handle browser back button
+        window.addEventListener('beforeunload', function() {
+            sessionStorage.setItem('feedbackData', JSON.stringify(feedbackData));
+        });
+
+        // Restore ratings if returning to page
+        window.addEventListener('load', function() {
+            const savedData = sessionStorage.getItem('feedbackData');
+            if (savedData) {
+                const parsed = JSON.parse(savedData);
+                Object.assign(feedbackData, parsed);
+                
+                // Update displays
+                Object.keys(feedbackData).forEach(category => {
+                    const rating = feedbackData[category];
+                    if (rating > 0) {
+                        const ratingContainer = document.querySelector(`[data-category="${category}"]`);
+                        updateStarDisplay(ratingContainer, rating);
+                        updateRatingLabel(category, rating);
+                    }
+                });
+                
+                updateProgress();
+            }
+        });
+
+        // Utility functions for mobile support
+        function handleViewportChanges() {
+            // Handle dynamic viewport changes
+            const vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', `${vh}px`);
+        }
+
+        function isTouchDevice() {
+            return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+        }
+    </script>
+</body>
+</html>

@@ -1073,6 +1073,185 @@ function initAdvancedMenuFeatures() {
 // Call advanced features after DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
     setTimeout(initAdvancedMenuFeatures, 1000);
+
+    // Keep the OnZone case study aligned with the shared project header and polished app artwork.
+    if (document.body.classList.contains('onzone-detail-page')) {
+        const customerApp = document.querySelector('img[src$="onzone-customer-app.png"]');
+        const storeApp = document.querySelector('img[src$="onzone-store-app.png"]');
+        if (customerApp) customerApp.src = '/Projects/onzone/onzone-customer-app-showcase-v2.png';
+        if (storeApp) storeApp.src = '/Projects/onzone/onzone-store-app-showcase-v2.png';
+        document.querySelectorAll('.fa-mobile-screen').forEach((icon) => {
+            icon.classList.replace('fa-mobile-screen', 'fa-mobile-screen-button');
+        });
+
+        const nav = document.querySelector('.header .nav-menu');
+        const contact = nav?.querySelector('a[href$="#contact"]');
+        if (nav && contact && !nav.querySelector('a[href$="#website-creation"]')) {
+            const language = document.documentElement.lang;
+            const home = language === 'ar' ? '/ar.html' : language === 'ku' ? '/kr.html' : '/index.html';
+            const websiteLabel = language === 'ar' ? 'موقع إلكتروني' : language === 'ku' ? 'وێبسایت' : 'Website';
+            const mobileLabel = language === 'ar' ? 'تطبيق الهاتف' : language === 'ku' ? 'ئەپی مۆبایل' : 'Mobile App';
+            const website = document.createElement('a');
+            website.href = `${home}#website-creation`;
+            website.className = 'nav-link';
+            website.textContent = websiteLabel;
+            const mobile = document.createElement('a');
+            mobile.href = `${home}#mobile-app`;
+            mobile.className = 'nav-link';
+            mobile.textContent = mobileLabel;
+            const separatorOne = document.createElement('span');
+            separatorOne.className = 'nav-separator';
+            separatorOne.textContent = '|';
+            const separatorTwo = separatorOne.cloneNode(true);
+            contact.before(website, separatorOne, mobile, separatorTwo);
+        }
+
+        const footer = document.querySelector('footer.footer');
+        if (footer) {
+            const language = document.documentElement.lang;
+            const isArabic = language === 'ar';
+            const isKurdish = language === 'ku';
+            const home = isArabic ? '/ar.html' : isKurdish ? '/kr.html' : '/index.html';
+            const projects = isArabic ? '/Projects/ar-projects-index.html' : isKurdish ? '/Projects/kr-projects-index.html' : '/Projects/projects-index.html';
+            const privacy = isArabic ? '/privacy/ar-privacy-policy.html' : isKurdish ? '/privacy/ku-privacy-policy.html' : '/privacy/privacy-policy.html';
+            const terms = isArabic ? '/terms/ar-terms.html' : isKurdish ? '/terms/ku-terms.html' : '/terms/terms-of-service.html';
+            const labels = isArabic ? {
+                services: 'الخدمات', web: 'تطوير المواقع', mobile: 'تطبيقات الهاتف', backend: 'أنظمة Backend', menu: 'القائمة الرقمية',
+                company: 'الشركة', about: 'من نحن', projects: 'مشاريعنا', privacy: 'سياسة الخصوصية', terms: 'شروط الخدمة',
+                follow: 'تابعنا', copyright: 'جميع الحقوق محفوظة.'
+            } : isKurdish ? {
+                services: 'خزمەتگوزاریەکان', web: 'گەشەپێدانی وێب', mobile: 'ئەپی مۆبایل', backend: 'سیستەمی Backend', menu: 'مێنووی دیجیتاڵ',
+                company: 'کۆمپانیا', about: 'دەربارەمان', projects: 'پڕۆژەکانمان', privacy: 'سیاسەتی تایبەتی', terms: 'مەرجەکانی خزمەتگوزاری',
+                follow: 'شوێنمان بکەن', copyright: 'هەموو مافەکان پارێزراون.'
+            } : {
+                services: 'Services', web: 'Web Development', mobile: 'Mobile Applications', backend: 'Backend Systems', menu: 'Digital Menu',
+                company: 'Company', about: 'About Us', projects: 'Our Projects', privacy: 'Privacy Policy', terms: 'Terms of Service',
+                follow: 'Follow Us', copyright: 'All rights reserved.'
+            };
+            footer.innerHTML = `<div class="footer-container"><div class="footer-section"><h3>${labels.services}</h3><ul><li><a href="${home}#website-creation">${labels.web}</a></li><li><a href="${home}#mobile-app">${labels.mobile}</a></li><li><a href="${home}#services">${labels.backend}</a></li><li><a href="${projects}">${labels.menu}</a></li></ul></div><div class="footer-section"><h3>${labels.company}</h3><ul><li><a href="${home}#about">${labels.about}</a></li><li><a href="${projects}">${labels.projects}</a></li><li><a href="${privacy}">${labels.privacy}</a></li><li><a href="${terms}">${labels.terms}</a></li></ul></div><div class="footer-section"><h3>${labels.follow}</h3><div class="contact-info"><p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+9647507650999">+964 750 765 0999</a></p><p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:info@coovix.com">info@coovix.com</a></p></div><div class="social-links"><a href="https://www.linkedin.com/company/coovix/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a><a href="https://www.facebook.com/share/188UQedKkT/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a><a href="https://www.instagram.com/coovix.tech" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a></div></div></div><div class="footer-bottom"><p>Copyright © 2026 Coovix. ${labels.copyright}</p></div>`;
+        }
+    }
+
+    // Use local portfolio assets so Powerful Energy visuals never depend on a third-party server.
+    document.querySelectorAll('.powerful-visual > img, .powerful-hero-showcase > img, .powerful-detail-hero .bv2-product-image > img').forEach((image) => {
+        image.src = '/Projects/powerful/powerful-solar-platform.webp';
+    });
+    document.querySelectorAll('.powerful-brand img, .powerful-hero-logo img').forEach((image) => {
+        image.src = '/Projects/powerful/powerful-logo.webp';
+    });
+
+    // Present OnZone as a live fashion marketplace instead of a coming-soon concept.
+    document.querySelectorAll('.project-card').forEach((card) => {
+        if (card.querySelector('h2')?.textContent.trim() !== 'OnZone') return;
+        const language = document.documentElement.lang;
+        const isArabic = language === 'ar';
+        const isKurdish = language === 'ku';
+        const liveUrl = 'https://onzone.co/shop/men';
+        const detailUrl = isArabic
+            ? '/Projects/onzone/ar-onzone-detail.html'
+            : isKurdish
+                ? '/Projects/onzone/kr-onzone-detail.html'
+                : '/Projects/onzone/onzone-detail.html';
+        const oldVisual = card.querySelector('.onzone-visual');
+        if (oldVisual) {
+            const visual = document.createElement('a');
+            visual.href = detailUrl;
+            visual.className = oldVisual.className;
+            visual.setAttribute('aria-label', isArabic ? 'فتح متجر OnZone' : isKurdish ? 'کردنەوەی فرۆشگای OnZone' : 'Open the OnZone marketplace');
+            visual.innerHTML = `<span class="project-index">03</span><span class="project-view"><i class="fas ${language === 'en' ? 'fa-arrow-right' : 'fa-arrow-left'}"></i></span>`;
+            oldVisual.replaceWith(visual);
+        }
+        const description = card.querySelector('.project-card-copy > p');
+        if (description) description.textContent = isArabic
+            ? 'سوق أزياء رقمي حديث يربط المتسوقين بالمجموعات والفئات والمتاجر في تجربة تسوق سهلة ومتجاوبة.'
+            : isKurdish
+                ? 'بازاڕێکی مۆدێرنی دیجیتاڵ بۆ بەستنەوەی کڕیاران بە کۆمەڵە و پۆل و فرۆشگاکان لە ئەزموونێکی ئاسان و وەڵامدەرەوەدا.'
+                : 'A modern fashion marketplace connecting shoppers with collections, categories, and stores through a seamless responsive experience.';
+        const platforms = card.querySelector('.platform-actions');
+        if (platforms) {
+            platforms.classList.add('onzone-platforms');
+            platforms.innerHTML = `<span class="platform-status"><i class="fas fa-globe"></i><span><small>${isArabic ? 'قيد الاختبار' : isKurdish ? 'لە تاقیکردنەوەدایە' : 'In testing'}</small><strong>${isArabic ? 'الموقع' : isKurdish ? 'وێبسایت' : 'Website'}</strong></span></span><span class="platform-status"><i class="fas fa-gauge-high"></i><span><small>${isArabic ? 'يُدار بواسطة' : isKurdish ? 'بەڕێوەدەبرێت بە' : 'Managed with'}</small><strong>${isArabic ? 'لوحة المتجر' : isKurdish ? 'داشبۆردی فرۆشگا' : 'Store Dashboard'}</strong></span></span><span class="platform-status"><i class="fab fa-apple"></i><span><small>${isArabic ? 'متاح على iOS' : isKurdish ? 'لە iOS بەردەستە' : 'Available on iOS'}</small><strong>OnZone App</strong></span></span><span class="platform-status"><i class="fab fa-apple"></i><span><small>${isArabic ? 'متاح على iOS' : isKurdish ? 'لە iOS بەردەستە' : 'Available on iOS'}</small><strong>${isArabic ? 'تطبيق المتجر' : isKurdish ? 'ئەپی فرۆشگا' : 'Store App'}</strong></span></span><span class="platform-status"><i class="fab fa-google-play"></i><span><small>${isArabic ? 'متاح على Android' : isKurdish ? 'لە Android بەردەستە' : 'Available on Android'}</small><strong>OnZone App</strong></span></span><span class="platform-status"><i class="fab fa-google-play"></i><span><small>${isArabic ? 'متاح على Android' : isKurdish ? 'لە Android بەردەستە' : 'Available on Android'}</small><strong>${isArabic ? 'تطبيق المتجر' : isKurdish ? 'ئەپی فرۆشگا' : 'Store App'}</strong></span></span>`;
+        }
+        let projectLink = card.querySelector('.project-link');
+        if (!projectLink) {
+            projectLink = document.createElement('a');
+            projectLink.className = 'project-link';
+            card.querySelector('.project-card-copy')?.appendChild(projectLink);
+        }
+        projectLink.href = detailUrl;
+        projectLink.removeAttribute('target');
+        projectLink.removeAttribute('rel');
+        projectLink.innerHTML = `${isArabic ? 'عرض المشروع' : isKurdish ? 'بینینی پڕۆژە' : 'View project'} <i class="fas ${language === 'en' ? 'fa-arrow-right' : 'fa-arrow-left'}"></i>`;
+    });
+
+    // Keep Powerful project-card navigation in the visitor's selected language.
+    document.querySelectorAll('.project-card').forEach((card) => {
+        if (card.querySelector('h2')?.textContent.trim() !== 'Powerful Energy Company') return;
+        const language = document.documentElement.lang;
+        const detailUrl = language === 'ar'
+            ? '/Projects/powerful/ar-powerful-detail.html'
+            : language === 'ku'
+                ? '/Projects/powerful/kr-powerful-detail.html'
+                : '/Projects/powerful/powerful-detail.html';
+        card.querySelectorAll('a[href*="/Projects/powerful/"][href$="powerful-detail.html"]').forEach((link) => {
+            link.href = detailUrl;
+        });
+    });
+
+    // Keep the Fkrah Android download connected in every language version.
+    const fkrahGooglePlayUrl = 'https://play.google.com/store/apps/details?id=com.coovix.fkrah&pcampaignid=web_share';
+    document.querySelectorAll('.project-card').forEach((card) => {
+        if (card.querySelector('h2')?.textContent.trim() !== 'Fkrah') return;
+        if (document.documentElement.lang === 'ar') {
+            card.querySelectorAll('a[href="/Projects/fkrah/fkrah-detail.html"]').forEach((link) => {
+                link.href = '/Projects/fkrah/ar-fkrah-detail.html';
+            });
+        }
+        const androidIcon = card.querySelector('.platform-status .fa-android');
+        const status = androidIcon?.closest('.platform-status');
+        if (!status || status.tagName === 'A') return;
+        const link = document.createElement('a');
+        link.href = fkrahGooglePlayUrl;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.setAttribute('aria-label', 'Download Fkrah on Google Play');
+        while (status.firstChild) link.appendChild(status.firstChild);
+        const icon = link.querySelector('.fa-android');
+        if (icon) icon.className = 'fab fa-google-play';
+        const label = link.querySelector('small');
+        const title = link.querySelector('strong');
+        if (label) label.textContent = document.documentElement.lang === 'ar' ? 'حمّل من' : document.documentElement.lang === 'ku' ? 'داگرتن لە' : 'Get it on';
+        if (title) title.textContent = 'Google Play';
+        status.replaceWith(link);
+    });
+
+    const androidPlatform = document.querySelector('.fkrah-detail-page .fk-platform-strip .fa-android')?.parentElement;
+    if (androidPlatform && androidPlatform.tagName === 'A') {
+        const status = document.createElement('span');
+        while (androidPlatform.firstChild) status.appendChild(androidPlatform.firstChild);
+        androidPlatform.replaceWith(status);
+    }
+
+    const fkrahActions = document.querySelector('.fkrah-detail-page .fk-actions');
+    if (fkrahActions && !fkrahActions.querySelector('a[href*="play.google.com"]')) {
+        const isKurdish = document.documentElement.lang === 'ku';
+        const googlePlay = document.createElement('a');
+        googlePlay.href = fkrahGooglePlayUrl;
+        googlePlay.target = '_blank';
+        googlePlay.rel = 'noopener noreferrer';
+        googlePlay.className = 'fk-google';
+        googlePlay.innerHTML = `<i class="fab fa-google-play"></i><span><small>${isKurdish ? 'داگرتن لە' : 'Get it on'}</small><strong>Google Play</strong></span>`;
+        fkrahActions.appendChild(googlePlay);
+    }
+
+    if (document.body.classList.contains('fkrah-detail-page')) {
+        document.querySelectorAll('.language-options a').forEach((link) => {
+            const flag = link.querySelector('img')?.getAttribute('alt');
+            if (flag === 'العربية') link.href = '/Projects/fkrah/ar-fkrah-detail.html';
+            if (flag === 'كوردى') link.href = '/Projects/fkrah/kr-fkrah-detail.html';
+            if (flag === 'English') link.href = '/Projects/fkrah/fkrah-detail.html';
+        });
+    }
 });
 
 // Export functions for external use (if needed)

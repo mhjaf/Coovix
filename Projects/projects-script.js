@@ -6,7 +6,27 @@ document.addEventListener('DOMContentLoaded', function() {
     initCategoryCardInteractions();
     initSmoothScrolling();
     initHeaderEffects();
+    initPortfolioFilters();
 });
+
+function initPortfolioFilters() {
+    const filters = document.querySelectorAll('.portfolio-filter');
+    const items = document.querySelectorAll('.portfolio-item');
+
+    filters.forEach(filter => {
+        filter.addEventListener('click', () => {
+            const selected = filter.dataset.filter;
+
+            filters.forEach(button => button.classList.remove('active'));
+            filter.classList.add('active');
+
+            items.forEach(item => {
+                const shouldShow = selected === 'all' || item.dataset.type === selected;
+                item.classList.toggle('is-hidden', !shouldShow);
+            });
+        });
+    });
+}
 
 // Scroll Animations
 function initScrollAnimations() {

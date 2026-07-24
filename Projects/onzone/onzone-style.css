@@ -1,0 +1,27 @@
+.onzone-detail-page { background: #fff; }
+.onzone-detail-page .onzone-hero-showcase { aspect-ratio: 3 / 2; min-height: 0; background: #eef5fb; }
+.onzone-detail-page .onzone-hero-showcase > img { object-fit: cover; }
+.onzone-detail-page .onzone-platform-bar { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.onzone-detail-page .onzone-app-image { aspect-ratio: 3 / 2; background: linear-gradient(145deg, #f8fafb, #eef4f7); }
+.onzone-detail-page .onzone-app-image img { object-fit: cover; object-position: center; padding: 0; }
+.onzone-detail-page .onzone-app-image span { color: #fff; background: rgba(9, 38, 51, .86); }
+.onzone-detail-page .onzone-web-image { aspect-ratio: 3 / 2; }
+.onzone-detail-page .onzone-web-image img { object-fit: cover; }
+.onzone-detail-page .fa-apple { color: #111; }
+.onzone-detail-page .fa-google-play { color: #168c4b; }
+[dir="rtl"] .onzone-detail-page .bv2-copy h1,
+[dir="rtl"] .onzone-detail-page .bv2-copy > p,
+[dir="rtl"] .onzone-detail-page .bv2-heading,
+[dir="rtl"] .onzone-detail-page .bv2-product-grid,
+[dir="rtl"] .onzone-detail-page .bv2-capability-grid { text-align: right; }
+[dir="rtl"] .onzone-detail-page .bv2-eyebrow { letter-spacing: 0; text-transform: none; }
+[dir="rtl"] .onzone-detail-page .bv2-copy h1 { letter-spacing: 0; line-height: 1.18; }
+html[lang="ku"] .onzone-detail-page .bv2-flow .bv2-heading h2 {
+    max-width: none;
+    font-size: clamp(1.8rem, 3vw, 3.4rem);
+    white-space: nowrap;
+}
+@media (max-width: 760px) {
+    .onzone-detail-page .onzone-platform-bar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    html[lang="ku"] .onzone-detail-page .bv2-flow .bv2-heading h2 { white-space: normal; }
+}
