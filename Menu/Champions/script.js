@@ -1989,7 +1989,7 @@ class MenuDataManager {
                     description: translations.menuItems.sodaDesc || ""
                 },
                 water: {
-                    price: "500",
+                    price: "1,000",
                     image: "/20259597/menu/champions_saladbar&cafe/img-champions/soft-drinks/water.jpg",
                     name: translations.menuItems.water || "",
                     description: translations.menuItems.waterDesc || ""

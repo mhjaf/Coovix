@@ -1,0 +1,82 @@
+.champions-detail-page { color: #163f53; background: #fff; }
+.champions-case .bv2-hero { background: #fff; }
+.champions-case .bv2-eyebrow,
+.champions-case .bv2-capability-grid > div:first-child > a { color: #008fc9; }
+.champions-case .bv2-copy h1,
+.champions-case .bv2-heading h2,
+.champions-case .bv2-capability-grid h2 { color: #153e52; }
+.champions-case .bv2-copy h1 span { color: #0099d8; }
+.champions-case .bv2-primary { border-color: #0099d8!important; background: #0099d8; box-shadow: 0 13px 25px rgba(0,153,216,.22); }
+.champions-case .bv2-secondary { color: #17465d; border-color: #cbe4ee; }
+.champions-hero-showcase { background: #e9f7fc; box-shadow: 0 35px 75px rgba(16,69,94,.18); }
+.champions-hero-showcase::after { background: linear-gradient(180deg,transparent 55%,rgba(5,45,64,.22)); }
+.champions-hero-showcase > img { object-position: center; }
+.champions-hero-showcase .carwash-live-chip i { color: #58d48a; }
+.champions-hero-showcase .carwash-service-chip > i { color: #fff; }
+.champions-case .bv2-platform-bar i { color: #0099d8; }
+.champions-hero-showcase .carwash-open-chip { color: #087ba9; }
+.champions-hero-showcase:hover .carwash-open-chip { background: #0099d8; }
+.champions-case .bv2-platform-bar { border-color: #dfecef; background: #dfecef; box-shadow: 0 18px 45px rgba(16,69,94,.08); }
+.champions-case .bv2-product-image { background: #eaf5f9; box-shadow: 0 25px 55px rgba(17,67,91,.13); }
+.champions-case .bv2-product-image span { background: rgba(9,52,70,.8); }
+.champions-table-image img { object-position: center; }
+.champions-mobile-image { background: #eaf5f9!important; }
+.champions-mobile-image > img { object-position: center; }
+.champions-case .bv2-flow-grid article,
+.champions-case .bv2-feature-list article { border-color: #dfebef; box-shadow: 0 15px 35px rgba(16,69,94,.07); }
+.champions-case .bv2-flow-grid article > i,
+.champions-case .bv2-feature-list article > i { background: #0099d8; }
+.champions-case .bv2-flow-grid article > b { color: #b8d3de; }
+.champions-case .bv2-cta .bv2-shell { background: linear-gradient(120deg,#007fb8,#45b9df 42%,#00a8dc); background-size: 200% 200%; }
+.champions-case .bv2-cta a { color: #0089c1; }
+
+.champions-rtl-page .champions-case {
+    font-family: "Noto Sans Arabic", "Poppins", sans-serif;
+}
+.champions-rtl-page .bv2-copy,
+.champions-rtl-page .bv2-heading,
+.champions-rtl-page .bv2-product-grid article,
+.champions-rtl-page .bv2-flow-grid article,
+.champions-rtl-page .bv2-capability-grid,
+.champions-rtl-page .bv2-feature-list article {
+    text-align: right;
+}
+.champions-rtl-page .bv2-actions,
+.champions-rtl-page .bv2-capability-grid > div:first-child > a {
+    flex-direction: row;
+}
+.champions-rtl-page .bv2-feature-list article {
+    flex-direction: row;
+}
+.champions-rtl-page .carwash-live-chip {
+    right: auto;
+    left: 24px;
+}
+.champions-rtl-page .carwash-service-chip {
+    right: 24px;
+    left: auto;
+}
+.champions-rtl-page .carwash-open-chip {
+    right: auto;
+    left: 24px;
+}
+
+@media (max-width: 576px) {
+    .champions-rtl-page .bv2-copy {
+        text-align: center;
+    }
+    .champions-rtl-page .bv2-copy > p,
+    .champions-rtl-page .bv2-copy > h1 {
+        text-align: center;
+    }
+    .champions-rtl-page .carwash-service-chip {
+        right: 16px;
+        left: 70px;
+    }
+    .champions-rtl-page .carwash-live-chip {
+        left: 16px;
+    }
+    .champions-rtl-page .carwash-open-chip {
+        left: 16px;
+    }
+}
