@@ -736,7 +736,7 @@ $todayName = $dayNames[$dayOfWeek];
                     <?php endif; ?>
                     <li class="divider"></li>
                     <li>
-                        <a href="/index.html" target="_blank">
+                        <a href="../../index.php" target="_blank">
                             <i class="fas fa-external-link-alt"></i>
                             <span><?php echo t('view_website'); ?></span>
                         </a>

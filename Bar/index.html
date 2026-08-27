@@ -20,9 +20,9 @@
             .then(function (html) {
                 var staticPreview = html
                     .replace(/<\?php[\s\S]*?\?>/g, '')
-                    .replace(/kurdish\.php/g, 'kurdish.html')
-                    .replace(/arabic\.php/g, 'arabic.html')
-                    .replace(/index\.php/g, 'index.html');
+                    .replace(/kurdish\.php/g, 'kurdish')
+                    .replace(/arabic\.php/g, 'arabic')
+                    .replace(/index\.php/g, 'index');
                 document.open();
                 document.write(staticPreview);
                 document.close();

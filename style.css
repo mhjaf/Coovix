@@ -32,14 +32,14 @@
 }
 @font-face {
   font-family: 'Rudaw';
-  src: url('fonts/Rudaw-Regular.woff') format('woff');
+  src: url('fonts/rudawregular2/rudawregular2.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Rudaw';
-  src: url('fonts/Rudaw-Bold.woff') format('woff');
+  src: url('fonts/rudawbold/rudawbold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
@@ -5196,11 +5196,7 @@ html[dir="rtl"] .flow-arrow i {
 }
 
 .suite-glow {
-    position: absolute;
-    border-radius: 50%;
-    filter: blur(1px);
-    pointer-events: none;
-    z-index: -1;
+    display: none;
 }
 
 .suite-glow-one {
@@ -5328,8 +5324,17 @@ html[dir="rtl"] .flow-arrow i {
 .workspace-sidebar .sidebar-logo {
     margin-bottom: 5px;
     color: #fff;
-    background: linear-gradient(135deg, #27baf2, #008dcb);
+    background: #fff;
+    border: 1px solid rgba(0, 153, 216, 0.16);
     box-shadow: 0 7px 15px rgba(0, 153, 216, 0.22);
+}
+
+.coovix-mark b {
+    color: #0099d8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 1;
 }
 
 .workspace-sidebar .active {
@@ -5365,7 +5370,7 @@ html[dir="rtl"] .flow-arrow i {
 
 .workspace-heading strong {
     color: #163f55;
-    font-size: 1.18rem;
+    font-size: 1.04rem;
     line-height: 1.2;
 }
 
@@ -5375,24 +5380,24 @@ html[dir="rtl"] .flow-arrow i {
     color: #fff;
     background: linear-gradient(135deg, #22b6ef, #008fd0);
     box-shadow: 0 7px 16px rgba(0, 153, 216, 0.18);
-    font-size: 0.58rem;
+    font-size: 0.52rem;
     font-weight: 700;
     white-space: nowrap;
 }
 
 .workspace-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
     margin-bottom: 14px;
 }
 
 .workspace-card {
     min-width: 0;
-    padding: 11px;
+    padding: 10px 8px;
     display: flex;
     align-items: center;
-    gap: 9px;
+    gap: 6px;
     border: 1px solid #e0edf3;
     border-radius: 13px;
     background: #fff;
@@ -5400,15 +5405,20 @@ html[dir="rtl"] .flow-arrow i {
 }
 
 .workspace-card-icon {
-    width: 32px;
-    height: 32px;
-    flex: 0 0 32px;
+    width: 28px;
+    height: 28px;
+    flex: 0 0 28px;
     display: grid;
     place-items: center;
     border-radius: 9px;
     color: #0099d8;
     background: #e8f7fd;
-    font-size: 0.72rem;
+    font-size: 0.66rem;
+}
+
+.workspace-card-icon.mobile {
+    color: #0782a9;
+    background: #e6f8fb;
 }
 
 .workspace-card-icon.cloud {
@@ -5423,17 +5433,16 @@ html[dir="rtl"] .flow-arrow i {
 }
 
 .workspace-card strong {
-    overflow: hidden;
     color: #234b60;
-    font-size: 0.67rem;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    font-size: 0.57rem;
+    line-height: 1.15;
 }
 
 .workspace-card small {
     margin-top: 3px;
     color: #8aa1ad;
-    font-size: 0.54rem;
+    font-size: 0.45rem;
+    line-height: 1.2;
 }
 
 .workspace-progress {
@@ -5458,6 +5467,33 @@ html[dir="rtl"] .flow-arrow i {
     color: #168a55;
     background: #e7f8ef;
     font-size: 0.5rem;
+}
+
+.delivery-points {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 7px;
+}
+
+.delivery-points span {
+    min-width: 0;
+    padding: 9px 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid #e3f0f5;
+    border-radius: 9px;
+    color: #466a7c;
+    background: #f7fbfd;
+    font-size: 0.51rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.delivery-points i {
+    color: #0099d8;
+    font-size: 0.52rem;
 }
 
 .progress-row {
@@ -5486,11 +5522,11 @@ html[dir="rtl"] .flow-arrow i {
 }
 
 .suite-phone {
-    width: 142px;
-    height: 285px;
+    width: 132px;
+    height: 270px;
     position: absolute;
-    right: 0;
-    bottom: 14px;
+    right: -70px;
+    bottom: 45px;
     padding: 7px;
     border: 1px solid rgba(0, 153, 216, 0.18);
     border-radius: 27px;
@@ -5542,13 +5578,20 @@ html[dir="rtl"] .flow-arrow i {
     place-items: center;
     border-radius: 8px;
     color: #fff;
-    background: #0099d8;
+    background: #fff;
+    box-shadow: 0 5px 14px rgba(0, 153, 216, 0.22);
+}
+
+.phone-appbar .coovix-mark b {
+    font-size: 0.95rem;
 }
 
 .phone-screen > small {
+    display: block;
     color: #62c9f2;
     font-size: 0.43rem;
     font-weight: 800;
+    line-height: 1.35;
     letter-spacing: 0.11em;
 }
 
@@ -5595,53 +5638,6 @@ html[dir="rtl"] .flow-arrow i {
 .phone-chart i:nth-child(4) { height: 90%; }
 .phone-chart i:nth-child(5) { height: 68%; }
 
-.suite-cloud-badge {
-    min-width: 218px;
-    min-height: 64px;
-    position: absolute;
-    left: 28px;
-    bottom: 8px;
-    padding: 10px 12px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    border: 1px solid rgba(0, 153, 216, 0.16);
-    border-radius: 16px;
-    background: rgba(255, 255, 255, 0.94);
-    box-shadow: 0 18px 38px rgba(0, 99, 145, 0.15);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    z-index: 5;
-    animation: cloudBadgeFloat 4s ease-in-out infinite;
-}
-
-.suite-cloud-badge > span {
-    width: 39px;
-    height: 39px;
-    flex: 0 0 39px;
-    display: grid;
-    place-items: center;
-    border-radius: 11px;
-    color: #fff;
-    background: linear-gradient(135deg, #28bdf3, #008dca);
-    box-shadow: 0 8px 17px rgba(0, 153, 216, 0.2);
-}
-
-.suite-cloud-badge div {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.suite-cloud-badge strong { color: #1a465c; font-size: 0.72rem; }
-.suite-cloud-badge small { margin-top: 3px; color: #819ca9; font-size: 0.53rem; }
-.suite-cloud-badge > i { color: #35c77a; font-size: 0.76rem; }
-
-@keyframes cloudBadgeFloat {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-5px); }
-}
-
 @media (max-width: 992px) {
     .hero-product-suite { width: min(540px, 100%); }
     .suite-browser { transform: none; }
@@ -5665,12 +5661,14 @@ html[dir="rtl"] .flow-arrow i {
     .workspace-heading strong { font-size: 0.92rem; }
     .workspace-action { display: none; }
     .workspace-cards { gap: 7px; margin-bottom: 9px; }
-    .workspace-card { padding: 8px; gap: 6px; border-radius: 10px; }
+    .workspace-card { padding: 7px 5px; gap: 4px; border-radius: 10px; flex-direction: column; text-align: center; }
     .workspace-card-icon { width: 25px; height: 25px; flex-basis: 25px; font-size: 0.58rem; }
-    .workspace-card strong { font-size: 0.53rem; }
-    .workspace-card small { font-size: 0.42rem; }
+    .workspace-card strong { font-size: 0.47rem; }
+    .workspace-card small { display: none; }
     .workspace-progress { padding: 9px 10px; }
     .progress-heading { margin-bottom: 7px; font-size: 0.53rem; }
+    .delivery-points { gap: 4px; }
+    .delivery-points span { padding: 7px 3px; gap: 3px; font-size: 0.39rem; }
     .progress-row { margin-top: 6px; font-size: 0.44rem; }
     .suite-phone { width: 104px; height: 207px; right: 0; bottom: 12px; padding: 5px; border-radius: 21px; }
     .phone-screen { padding: 19px 8px 8px; border-radius: 17px; }
@@ -5682,22 +5680,16 @@ html[dir="rtl"] .flow-arrow i {
     .phone-feature small { font-size: 0.34rem; }
     .phone-chart { height: 29px; margin-top: 8px; gap: 4px; }
     .phone-chart i { width: 6px; }
-    .suite-cloud-badge { min-width: 188px; min-height: 54px; left: 5px; bottom: 0; padding: 8px 10px; border-radius: 13px; }
-    .suite-cloud-badge > span { width: 32px; height: 32px; flex-basis: 32px; }
-    .suite-cloud-badge strong { font-size: 0.63rem; }
-    .suite-cloud-badge small { font-size: 0.46rem; }
 }
 
 @media (max-width: 360px) {
     .browser-live { display: none; }
     .workspace-card small { display: none; }
-    .suite-cloud-badge { min-width: 170px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
     .suite-browser,
-    .suite-phone,
-    .suite-cloud-badge {
+    .suite-phone {
         animation: none;
         transition: none;
     }
@@ -5706,10 +5698,8 @@ html[dir="rtl"] .flow-arrow i {
 /* Animated digital studio — website, mobile app and cloud infrastructure */
 .hero-product-suite::before,
 .hero-product-suite::after {
-    content: '';
-    position: absolute;
-    border-radius: 50%;
-    pointer-events: none;
+    content: none;
+    display: none;
 }
 
 .hero-product-suite::before {
@@ -5774,15 +5764,8 @@ html[dir="rtl"] .flow-arrow i {
 }
 
 .phone-screen::before {
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    right: -45px;
-    top: 38px;
-    border-radius: 50%;
-    background: rgba(61, 198, 246, 0.12);
-    animation: phoneGlow 4s ease-in-out infinite;
+    content: none;
+    display: none;
 }
 
 .phone-chart i { transform-origin: bottom; animation: chartBeat 1.8s ease-in-out infinite alternate; }
@@ -5790,7 +5773,6 @@ html[dir="rtl"] .flow-arrow i {
 .phone-chart i:nth-child(3) { animation-delay: .36s; }
 .phone-chart i:nth-child(4) { animation-delay: .54s; }
 .phone-chart i:nth-child(5) { animation-delay: .72s; }
-.suite-cloud-badge > i { animation: statusPop 2s ease-in-out infinite; }
 
 @keyframes browserHover { 0%,100% { transform: rotateY(2deg) rotateX(1deg) translateY(0); } 50% { transform: rotateY(1deg) rotateX(0) translateY(-7px); } }
 @keyframes phoneFloat { 0%,100% { transform: rotate(2deg) translateY(0); } 50% { transform: rotate(-1deg) translateY(-10px); } }
@@ -5799,7 +5781,6 @@ html[dir="rtl"] .flow-arrow i {
 @keyframes chartBeat { from { transform: scaleY(.48); opacity: .7; } to { transform: scaleY(1); opacity: 1; } }
 @keyframes livePulse { 0% { box-shadow: 0 0 0 0 rgba(53,201,122,.42); } 70% { box-shadow: 0 0 0 7px rgba(53,201,122,0); } 100% { box-shadow: 0 0 0 0 rgba(53,201,122,0); } }
 @keyframes activeNav { 0%,100% { transform: translateX(0); } 50% { transform: translateX(3px); } }
-@keyframes statusPop { 0%,100% { transform: scale(1); } 50% { transform: scale(1.18); } }
 @keyframes phoneGlow { 0%,100% { transform: scale(.85); opacity: .45; } 50% { transform: scale(1.2); opacity: 1; } }
 @keyframes glowDriftOne { to { transform: translate(-24px, 18px) scale(1.12); } }
 @keyframes glowDriftTwo { to { transform: translate(30px, -16px) scale(.9); } }
@@ -5816,7 +5797,5 @@ html[dir="rtl"] .flow-arrow i {
     .progress-row b,
     .progress-row b::after,
     .suite-phone,
-    .phone-chart i,
-    .suite-cloud-badge,
-    .suite-cloud-badge > i { animation: none !important; }
+    .phone-chart i { animation: none !important; }
 }

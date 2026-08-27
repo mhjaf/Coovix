@@ -65,7 +65,7 @@ if ($check->num_rows == 0) {
 
 echo "<h3>Migration Complete!</h3>";
 echo "<p>You can now add Kurdish and Arabic translations for your services in the admin panel.</p>";
-echo "<p><a href='../admin/settings.php'>Go to Admin Settings</a></p>";
+echo "<p><a href='../admin/settings_new.php'>Go to Admin Settings</a></p>";
 
 $conn->close();
 ?>

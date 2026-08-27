@@ -70,7 +70,7 @@ foreach ($queries as $query) {
 }
 
 echo "<h3>Migration Complete!</h3>";
-echo "<p><a href='../admin/settings.php'>Go to Admin Settings</a></p>";
+echo "<p><a href='../admin/settings_new.php'>Go to Admin Settings</a></p>";
 
 $conn->close();
 ?>

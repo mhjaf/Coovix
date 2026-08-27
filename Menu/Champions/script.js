@@ -47,9 +47,9 @@ const APP_CONFIG = {
     AUTO_SELECT_DEFAULT: false, // Require manual language selection
     FORCE_LANDSCAPE: false, // DISABLED: Allow all orientations
     FEEDBACK_PAGES: {
-        'en': 'feedback.html',
-        'ku': 'feedback-ku.html',
-        'ar': 'feedback-ar.html'
+        'en': 'feedback',
+        'ku': 'feedback-ku',
+        'ar': 'feedback-ar'
     },
     // Modal drag configuration
     MODAL_DRAG: {
@@ -1207,12 +1207,12 @@ class LanguageManager {
     static getCurrentLanguage() {
         try {
             const path = window.location.pathname;
-            const filename = path.split('/').pop() || 'index.html';
+            const filename = path.split('/').pop() || 'index';
             
-            if (filename.includes('ar.html') || path.includes('/ar/')) {
+            if (filename.includes('ar') || path.includes('/ar/')) {
                 return 'ar';
             }
-            if (filename.includes('ku.html') || path.includes('/ku/')) {
+            if (filename.includes('ku') || path.includes('/ku/')) {
                 return 'ku';
             }
             return APP_CONFIG.DEFAULT_LANGUAGE;
@@ -1238,9 +1238,9 @@ class LanguageManager {
         const currentDirectory = currentPath.substring(0, currentPath.lastIndexOf('/')) || '';
         
         const languageUrls = {
-            'ku': `${currentDirectory}/ku.html`,
-            'ar': `${currentDirectory}/ar.html`,
-            'en': `${currentDirectory}/index.html`
+            'ku': `${currentDirectory}/ku`,
+            'ar': `${currentDirectory}/ar`,
+            'en': `${currentDirectory}/index`
         };
         
         const targetUrl = languageUrls[languageCode];
@@ -1283,9 +1283,9 @@ class LanguageManager {
 
     static _performFallbackNavigation(languageCode) {
         const fallbackUrls = {
-            'ku': 'ku.html',
-            'ar': 'ar.html',
-            'en': 'index.html'
+            'ku': 'ku',
+            'ar': 'ar',
+            'en': 'index'
         };
         
         const fallbackUrl = fallbackUrls[languageCode];
@@ -1312,28 +1312,28 @@ class MenuDataManager {
             salad: {
             cacik: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/salad/cacik.jpg",
+                    image: "img-champions/salad/cacik.jpg",
                     name: translations.menuItems.cacik || "CACIK",
                     description: translations.menuItems.cacikDesc || ""
                 }, 
 
              mixedSalad: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/open-buffet/mixed-salad.jpg",
+                    image: "img-champions/open-buffet/mixed-salad.jpg",
                     name: translations.menuItems.mixedSalad || "MIXED SALAD",
                     description: translations.menuItems.mixedSaladDesc || ""
                 },
 
             arugulasalad: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/salad/arugula-salad.jpg",
+                    image: "img-champions/salad/arugula-salad.jpg",
                     name: translations.menuItems.arugulasalad || "ARUGULA SALAD",
                     description: translations.menuItems.arugulasaladDesc || ""
                 },
 
                 burhanisalad: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/salad/burhani-salad.jpg",
+                    image: "img-champions/salad/burhani-salad.jpg",
                     name: translations.menuItems.burhanisalad || "BURHANI SALAD",
                     description: translations.menuItems.burhanisaladDesc || ""
                 },
@@ -1341,35 +1341,35 @@ class MenuDataManager {
 
                 caesarsalad: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/salad/caesar-salad.jpg",
+                    image: "img-champions/salad/caesar-salad.jpg",
                     name: translations.menuItems.caesarsalad || "CAESAR SALAD",
                     description: translations.menuItems.caesarsaladDesc || ""
                 },
 
                 coleslaw: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/salad/coleslaw.jpg",
+                    image: "img-champions/salad/coleslaw.jpg",
                     name: translations.menuItems.coleslaw || "COLESLAW",
                     description: translations.menuItems.coleslawDesc || ""
                 },
 
                 gavurdasalad: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/salad/gavurda-salad.jpg",
+                    image: "img-champions/salad/gavurda-salad.jpg",
                     name: translations.menuItems.gavurdasalad || "GAVURDA SALAD",
                     description: translations.menuItems.gavurdasaladDesc || ""
                 },
 
                 greecesalad: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/salad/greece-salad.jpg",
+                    image: "img-champions/salad/greece-salad.jpg",
                     name: translations.menuItems.greecesalad || "GREECE SALAD",
                     description: translations.menuItems.greecesaladDesc || ""
                 },
 
                 grilledcheese: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/salad/grilled-cheese.jpg",
+                    image: "img-champions/salad/grilled-cheese.jpg",
                     name: translations.menuItems.grilledcheese || "GRILLED CHEESE",
                     description: translations.menuItems.grilledcheeseDecs || ""
                 },
@@ -1380,59 +1380,59 @@ class MenuDataManager {
              
                 chicken: {
                     price: "10,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/open-buffet/chickenn.jpg",
+                    image: "img-champions/open-buffet/chickenn.jpg",
                     name: translations.menuItems.chicken || "GRILLED CHICKEN",
                     description: translations.menuItems.chickenDesc || ""
                 },
                 meat: {
                     price: "12,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/open-buffet/meat.jpg",
+                    image: "img-champions/open-buffet/meat.jpg",
                     name: translations.menuItems.meat || "GRILLED MEAT",
                     description: translations.menuItems.meatDesc || "Tender grilled meat with traditional seasoning"
                 },
                 MEATFAJITA: {
                     price: "12,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/open-buffet/meat-fajita.jpg",
+                    image: "img-champions/open-buffet/meat-fajita.jpg",
                     name: translations.menuItems.MEATFAJITA || "MEAT FAJITA",
                     description: translations.menuItems.MEATFAJITADesc || "Tender grilled meat with traditional seasoning"
                 },
                 chickenfajita: {
                     price: "10,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/open-buffet/chicken-fajita.jpg",
+                    image: "img-champions/open-buffet/chicken-fajita.jpg",
                     name: translations.menuItems.chickenfajita || "CHICKEN FAJITA",
                     description: translations.menuItems.chickenfajitaDesc || "Tender grilled meat with traditional seasoning"
                 },
                 
                 MEATISABELA: {
                     price: "12,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/open-buffet/meat-isabella.jpg",
+                    image: "img-champions/open-buffet/meat-isabella.jpg",
                     name: translations.menuItems.MEATISABELA || "MEAT ISABELA",
                     description: translations.menuItems.MEATISABELADesc || "Tender grilled meat with traditional seasoning"
                 },
 
                 CHICKENCURRY: {
                     price: "10,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/open-buffet/chicken-curry.jpg",
+                    image: "img-champions/open-buffet/chicken-curry.jpg",
                     name: translations.menuItems.CHICKENCURRY || "CHICKEN CURRY",
                     description: translations.menuItems.CHICKENCURRYDesc || "Tender grilled meat with traditional seasoning"
                 },
 
                 fish: {
                     price: "14,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/open-buffet/fish.jpg",
+                    image: "img-champions/open-buffet/fish.jpg",
                     name: translations.menuItems.fish || "salmon",
                     description: translations.menuItems.fishDesc || "Fresh grilled fish with lemon and herbs"
                 },
 
                  meatkofta: {
                     price: "10,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/open-buffet/meatkofta.jpg",
+                    image: "img-champions/open-buffet/meatkofta.jpg",
                     name: translations.menuItems.meatkofta || "meatkofta",
                     description: translations.menuItems.meatkoftaDesc || ""
                 },
                 shrimp: {
                     price: "14,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/open-buffet/shrimp.jpg",
+                    image: "img-champions/open-buffet/shrimp.jpg",
                     name: translations.menuItems.shrimp || "SHRIMP",
                     description: translations.menuItems.shrimpDesc || "Crispy falafel balls with traditional Middle Eastern spices"
                 }
@@ -1441,21 +1441,21 @@ class MenuDataManager {
             sandwich: {
                 chickensandwich: {
                     price: "8,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/sandwich/chicken-sandwich.jpg",
+                    image: "img-champions/sandwich/chicken-sandwich.jpg",
                     name: translations.menuItems.chickensandwich || "SANDWICH",
                     description: translations.menuItems.chickensandwichDecs || "Crispy falafel balls with traditional Middle Eastern spices"
                 },
 
                 meatsandwich: {
                     price: "10,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/sandwich/meat-sandwich.jpg",
+                    image: "img-champions/sandwich/meat-sandwich.jpg",
                     name: translations.menuItems.meatsandwich || "SANDWICH",
                     description: translations.menuItems.meatsandwichDesc || "Crispy falafel balls with traditional Middle Eastern spices"
                 },
 
                 meatburger: {
                     price: "10,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/sandwich/meat-burger.jpg",
+                    image: "img-champions/sandwich/meat-burger.jpg",
                     name: translations.menuItems.meatburger || "burger",
                     description: translations.menuItems.meatburgerDesc || "Crispy falafel balls with traditional Middle Eastern spices"
                 },
@@ -1467,49 +1467,49 @@ class MenuDataManager {
             desserts: {
                 tiramisu: {
                     price: "5,500",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/dessert/tiramisu.jpg",
+                    image: "img-champions/dessert/tiramisu.jpg",
                     name: translations.menuItems.tiramisu || "",
                     description: translations.menuItems.tiramisuDesc || ""
                 },
                 cheesecakepistachio: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/dessert/cheese-cake-pistachio.jpg",
+                    image: "img-champions/dessert/cheese-cake-pistachio.jpg",
                     name: translations.menuItems.cheesecake || "",
                     description: translations.menuItems.cheesecakeDesc || ""
                 },
                   cheesecakestrawberry: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/dessert/cheese-cake-strawberry.jpg",
+                    image: "img-champions/dessert/cheese-cake-strawberry.jpg",
                     name: translations.menuItems.cheesecakestrawberry || "",
                     description: translations.menuItems.cheesecakestrawberryDesc || ""
                 },
                   blackvalvet: {
                     price: "5,500",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/dessert/black-valvet.jpg",
+                    image: "img-champions/dessert/black-valvet.jpg",
                     name: translations.menuItems.blackvalvet || "",
                     description: translations.menuItems.blackvalvetDesc || ""
                 },
                 dubaicake: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/dessert/dubai-cake.jpg",
+                    image: "img-champions/dessert/dubai-cake.jpg",
                     name: translations.menuItems.dubaicake || "",
                     description: translations.menuItems.dubaicakeDesc || ""
                 },
                 meites: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/dessert/meites.jpg",
+                    image: "img-champions/dessert/meites.jpg",
                     name: translations.menuItems.meites || "",
                     description: translations.menuItems.meitesDesc || ""
                 },
                 redvalvet: {
                     price: "5,500",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/dessert/red-valvet.jpg",
+                    image: "img-champions/dessert/red-valvet.jpg",
                     name: translations.menuItems.redvalvet || "",
                     description: translations.menuItems.redvalvetDesc || ""
                 },
                 sansebastian: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/dessert/san-sebastian.jpg",
+                    image: "img-champions/dessert/san-sebastian.jpg",
                     name: translations.menuItems.sansebastian || "",
                     description: translations.menuItems.sansebastianDesc || ""
                 },
@@ -1518,21 +1518,21 @@ class MenuDataManager {
 
                 appletart: {
                     price: "6,500",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/dessert/appletart.jpg",
+                    image: "img-champions/dessert/appletart.jpg",
                     name: translations.menuItems.appletart || "",
                     description: translations.menuItems.appletartDesc || ""
                 },     
 
                 minipancake: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/dessert/mini-pancake.jpg",
+                    image: "img-champions/dessert/mini-pancake.jpg",
                     name: translations.menuItems.minipancake || "",
                     description: translations.menuItems.minipancakeDesc || ""
                 },
 
                 kebabwaffle: {
                     price: "3,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/dessert/kebab-waffle.jpg",
+                    image: "img-champions/dessert/kebab-waffle.jpg",
                     name: translations.menuItems.kebabwaffle || "",
                     description: translations.menuItems.kebabwaffleDesc || ""
                 },
@@ -1541,28 +1541,28 @@ class MenuDataManager {
             croissant: {
                 croissant: {
                     price: "4,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/dessert/croissant.jpg",
+                    image: "img-champions/dessert/croissant.jpg",
                     name: translations.menuItems.croissant || "",
                     description: translations.menuItems.croissantDesc || ""
                 },
 
                  croissantnormal: {
                     price: "3,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/dessert/croissantnormal.jpg",
+                    image: "img-champions/dessert/croissantnormal.jpg",
                     name: translations.menuItems.croissantnormal || "",
                     description: translations.menuItems.croissantnormalDesc || ""
                 },
 
                   croissantcheese: {
                     price: "3,500",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/dessert/croissantcheese.jpg",
+                    image: "img-champions/dessert/croissantcheese.jpg",
                     name: translations.menuItems.croissantcheese || "",
                     description: translations.menuItems.croissantcheeseDesc || ""
                 },
 
                  croissantnutella: {
                     price: "4,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/dessert/croissantnutella.jpg",
+                    image: "img-champions/dessert/croissantnutella.jpg",
                     name: translations.menuItems.croissantnutella || "",
                     description: translations.menuItems.croissantnutellaDesc || ""
                 },
@@ -1572,85 +1572,85 @@ class MenuDataManager {
             hotDrinks: {
                 singleEspresso: {
                     price: "3,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/hot-drinks/single-espresso.jpg",
+                    image: "img-champions/hot-drinks/single-espresso.jpg",
                     name: translations.menuItems.singleEspresso || "SINGLE ESPRESSO",
                     description: translations.menuItems.singleEspressoDesc || ""
                 },
                 doubleEspresso: {
                     price: "4,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/hot-drinks/double-espresso.jpg",
+                    image: "img-champions/hot-drinks/double-espresso.jpg",
                     name: translations.menuItems.doubleEspresso || "DOUBLE ESPRESSO",
                     description: translations.menuItems.doubleEspressoDesc || "Double shot of rich Italian espresso"
                 },
                 cappuccino: {
                     price: "4,500",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/hot-drinks/cappuccino.jpg",
+                    image: "img-champions/hot-drinks/cappuccino.jpg",
                      name: translations.menuItems.cappuccino || "CAPPUCCINO",
                     description: translations.menuItems.cappuccinoDesc || ""
                 },
                 hotLatte: {
                     price: "4,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/hot-drinks/hot-latte.jpg",
+                    image: "img-champions/hot-drinks/hot-latte.jpg",
                     name: translations.menuItems.hotLatte || "HOT LATTE",
                     description: translations.menuItems.hotLatteDesc || ""
                 },
                 americano: {
                     price: "4,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/hot-drinks/americano.jpg",
+                    image: "img-champions/hot-drinks/americano.jpg",
                     name: translations.menuItems.americano || "AMERICANO",
                     description: translations.menuItems.americanoDesc || "Espresso with hot water"
                 },
                 turkishCoffee: {
                     price: "3,500",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/hot-drinks/turkish-coffee.jpg",
+                    image: "img-champions/hot-drinks/turkish-coffee.jpg",
                     name: translations.menuItems.turkishCoffee || "TURKISH COFFEE",
                     description: translations.menuItems.turkishCoffeeDesc || "Traditional Turkish coffee"
                 },
                 qazwanCoffee: {
                     price: "3,500",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/hot-drinks/qazwan-coffee.jpg",
+                    image: "img-champions/hot-drinks/qazwan-coffee.jpg",
                     name: translations.menuItems.qazwanCoffee || "QAZWAN COFFEE",
                     description: translations.menuItems.qazwanCoffeeDesc || "Special Qazwan blend coffee"
                 },
                 filteredCoffee: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/hot-drinks/filtered-coffee.jpg",
+                    image: "img-champions/hot-drinks/filtered-coffee.jpg",
                     name: translations.menuItems.filteredCoffee || "FILTERED COFFEE",
                     description: translations.menuItems.filteredCoffeeDesc || "Classic filtered coffee"
                 },
                 darkChocolate: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/hot-drinks/dark-chocolate.jpg",
+                    image: "img-champions/hot-drinks/dark-chocolate.jpg",
                     name: translations.menuItems.darkChocolate || "",
                     description: translations.menuItems.darkChocolateDesc || ""
                 },
                 hotChocolate: {
                     price: "4,500",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/hot-drinks/hot-chocolate.jpg",
+                    image: "img-champions/hot-drinks/hot-chocolate.jpg",
                     name: translations.menuItems.hotChocolate || "FILTERED COFFEE",
                     description: translations.menuItems.hotChocolateDesc || "Classic filtered coffee"
                 },
                 hotSpanishLatte: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/hot-drinks/Hot-spanish-latte.jpg",
+                    image: "img-champions/hot-drinks/Hot-spanish-latte.jpg",
                     name: translations.menuItems.hotSpanishLatte || "FILTERED COFFEE",
                     description: translations.menuItems.hotSpanishLatteDesc || "Classic filtered coffee"
                 },
                 vanillaLatte: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/hot-drinks/vanilla-latte.jpg",
+                    image: "img-champions/hot-drinks/vanilla-latte.jpg",
                     name: translations.menuItems.vanillaLatte || "VANILLA LATTE",
                     description: translations.menuItems.vanillaLatteDesc || "Classic filtered coffee"
                 },
                 mochaLatte: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/hot-drinks/mocha-latte.jpg",
+                    image: "img-champions/hot-drinks/mocha-latte.jpg",
                     name: translations.menuItems.mochaLatte || "VANILLA LATTE",
                     description: translations.menuItems.mochaLatteDesc || "Classic filtered coffee"
                 },
                  lemonGreenTea: {
                     price: "4,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/hot-drinks/lemon-green-tea.jpg",
+                    image: "img-champions/hot-drinks/lemon-green-tea.jpg",
                     name: translations.menuItems.lemonGreenTea || "VANILLA LATTE",
                     description: translations.menuItems.lemonGreenTeaDesc || "Classic filtered coffee"
                 },
@@ -1661,61 +1661,61 @@ class MenuDataManager {
             icedCoffee: {
                 icedAmericano: {
                     price: "4,500",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/Iced-coffee/iced-americano.jpg",
+                    image: "img-champions/Iced-coffee/iced-americano.jpg",
                     name: translations.menuItems.icedAmericano || "",
                     description: translations.menuItems.icedAmericanoDesc || ""
                 },
                 icedCappuccino: {
                     price: "4,500",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/Iced-coffee/iced-cappuccino.jpg",
+                    image: "img-champions/Iced-coffee/iced-cappuccino.jpg",
                     name: translations.menuItems.icedCappuccino || "",
                     description: translations.menuItems.icedCappuccinoDesc || ""
                 },
                 icedCaramelLatte: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/Iced-coffee/iced-caramel-latte.JPG",
+                    image: "img-champions/Iced-coffee/iced-caramel-latte.JPG",
                     name: translations.menuItems.icedCaramelLatte || "",
                     description: translations.menuItems.icedCaramelLatteDesc || ""
                 },
                 icedChocolate: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/Iced-coffee/iced-chocolate.jpg",
+                    image: "img-champions/Iced-coffee/iced-chocolate.jpg",
                     name: translations.menuItems.icedChocolate || "",
                     description: translations.menuItems.icedChocolateDesc || ""
                 },
                 icedCoconut: {
                     price: "4,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/Iced-coffee/iced-coconut.jpg",
+                    image: "img-champions/Iced-coffee/iced-coconut.jpg",
                     name: translations.menuItems.icedCoconut || "",
                     description: translations.menuItems.icedCoconutDesc || ""
                 },
                 icedDarkChocolate: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/Iced-coffee/iced-dark-chocolate.jpg",
+                    image: "img-champions/Iced-coffee/iced-dark-chocolate.jpg",
                     name: translations.menuItems.icedDarkChocolate || "",
                     description: translations.menuItems.icedDarkChocolateDesc || ""
                 },
                 icedLatte: {
                     price: "4,500",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/Iced-coffee/iced-latte.jpg",
+                    image: "img-champions/Iced-coffee/iced-latte.jpg",
                     name: translations.menuItems.icedLatte || "",
                     description: translations.menuItems.icedLatteDesc || ""
                 },
                 icedMochaLatte: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/Iced-coffee/iced-mocha-latte.jpg",
+                    image: "img-champions/Iced-coffee/iced-mocha-latte.jpg",
                     name: translations.menuItems.icedMochaLatte || "",
                     description: translations.menuItems.icedMochaLatteDesc || ""
                 },
                 icedPistachioLatte: {
                     price: "6,500",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/Iced-coffee/iced-pistachio-latte.jpg",
+                    image: "img-champions/Iced-coffee/iced-pistachio-latte.jpg",
                     name: translations.menuItems.icedPistachioLatte || "",
                     description: translations.menuItems.icedPistachioLatteDesc || ""
                 },
                 icedSpanishLatte: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/Iced-coffee/iced-spanish-latte.jpg",
+                    image: "img-champions/Iced-coffee/iced-spanish-latte.jpg",
                     name: translations.menuItems.icedSpanishLatte || "",
                     description: translations.menuItems.icedSpanishLatteDesc || ""
                 },
@@ -1725,38 +1725,38 @@ class MenuDataManager {
             juices: {
                 championsJuice: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/juices/champions-juice.jpg",
+                    image: "img-champions/juices/champions-juice.jpg",
                     name: translations.menuItems.championsJuice || "",
                     description: translations.menuItems.championsJuiceDesc || ""
                 },
                 appleBanana: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/juices/apple-banana.jpg",
+                    image: "img-champions/juices/apple-banana.jpg",
                     name: translations.menuItems.appleBanana || "",
                     description: translations.menuItems.appleBananaDesc || ""
                 },
                 bananaMilk: {
                     price: "4,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/juices/banana-milk.jpg",
+                    image: "img-champions/juices/banana-milk.jpg",
                     name: translations.menuItems.bananaMilk || "bananaMilk",
                     description: translations.menuItems.bananaMilkDesc || ""
                 },
                 lemonJuice: {
                     price: "4,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/juices/lemon-juice.jpg",
+                    image: "img-champions/juices/lemon-juice.jpg",
                     name: translations.menuItems.lemonJuice || "",
                     description: translations.menuItems.lemonJuiceDesc || ""
                 },
                 orangeJuice: {
                     price: "4,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/juices/orange-juice.jpg",
+                    image: "img-champions/juices/orange-juice.jpg",
                     name: translations.menuItems.orangeJuice || "",
                     description: translations.menuItems.orangeJuiceDesc || ""
                 },
 
                 pomegranatejuice: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/juices/pomegranate-juice.jpg",
+                    image: "img-champions/juices/pomegranate-juice.jpg",
                     name: translations.menuItems.pomegranatejuice || "",
                     description: translations.menuItems.pomegranatejuiceDesc || ""
                 },
@@ -1766,45 +1766,45 @@ class MenuDataManager {
             smoothies: {
                 championsSmootbie: {
                     price: "7,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/smoothie/champions-smoothie.jpg",
+                    image: "img-champions/smoothie/champions-smoothie.jpg",
                     name: translations.menuItems.championsSmootbie || "",
                     description: translations.menuItems.championsSmootbieDesc || ""
                 },
                 mangoSmoothie: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/smoothie/orange-smoothie.jpg",
+                    image: "img-champions/smoothie/orange-smoothie.jpg",
                     name: translations.menuItems.mangoSmoothie || "",
                     description: translations.menuItems.mangoSmoothieDesc || ""
                 },
 
                 lemonMint: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/smoothie/lemon-mint.jpg",
+                    image: "img-champions/smoothie/lemon-mint.jpg",
                     name: translations.menuItems.lemonMint || "",
                     description: translations.menuItems.lemonMintDesc || ""
                 },
                 orangeSmoothie: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/smoothie/orange-smoothie.jpg",
+                    image: "img-champions/smoothie/orange-smoothie.jpg",
                     name: translations.menuItems.orangeSmoothie || "",
                     description: translations.menuItems.orangeSmoothieDesc || ""
                 },
                 pineappleStrawberry: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/smoothie/champions-smoothie.jpg",
+                    image: "img-champions/smoothie/champions-smoothie.jpg",
                     name: translations.menuItems.pineappleStrawberry || "",
                     description: translations.menuItems.pineappleStrawberryDesc || ""
                 },
                 strawberrySmoothie: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/smoothie/strawberry-smoothie.jpg",
+                    image: "img-champions/smoothie/strawberry-smoothie.jpg",
                     name: translations.menuItems.strawberrySmoothie || "",
                     description: translations.menuItems.strawberrySmoothieDesc || ""
                 },
 
                  strawberrybananaSmoothie: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/smoothie/strawberry-smoothie.jpg",
+                    image: "img-champions/smoothie/strawberry-smoothie.jpg",
                     name: translations.menuItems.strawberrybananaSmoothie || "",
                     description: translations.menuItems.strawberrybananaSmoothieDesc || ""
                 },
@@ -1814,37 +1814,37 @@ class MenuDataManager {
             mojitos: {
                 blueSky: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/mojito/blue-sky.jpg",
+                    image: "img-champions/mojito/blue-sky.jpg",
                     name: translations.menuItems.blueSky || "",
                     description: translations.menuItems.blueSkyDesc || ""
                 },
                 blueberryMojito: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/mojito/blueberry-mojito.jpg",
+                    image: "img-champions/mojito/blueberry-mojito.jpg",
                     name: translations.menuItems.blueberryMojito || "",
                     description: translations.menuItems.blueberryMojitoDesc || ""
                 },
                 classicmojito: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/mojito/classic-mojito.jpg",
+                    image: "img-champions/mojito/classic-mojito.jpg",
                     name: translations.menuItems.classicmojito || "",
                     description: translations.menuItems.classicmojitoDesc || ""
                 },
                 passionFruit: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/mojito/passion-fruit.jpg",
+                    image: "img-champions/mojito/passion-fruit.jpg",
                     name: translations.menuItems.passionFruit || "",
                     description: translations.menuItems.passionFruitDesc || ""
                 },
                 strawberryMojito: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/mojito/mixed-berry.jpg",
+                    image: "img-champions/mojito/mixed-berry.jpg",
                     name: translations.menuItems.strawberryMojito || "",
                     description: translations.menuItems.strawberryMojitoDesc || ""
                 },
                  mixedBerries: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/mojito/mixed-berry.jpg",
+                    image: "img-champions/mojito/mixed-berry.jpg",
                     name: translations.menuItems.mixedBerries || "",
                     description: translations.menuItems.mixedBerriesDesc || ""
                 },
@@ -1854,43 +1854,43 @@ class MenuDataManager {
             frappuccino: {
                 championsFrappe: {
                     price: "7,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/frappuccino/champions-frappe.jpg",
+                    image: "img-champions/frappuccino/champions-frappe.jpg",
                     name: translations.menuItems.championsFrappe || "",
                     description: translations.menuItems.championsFrappeDesc || ""
                 },
                 caramelFrappe: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/frappuccino/caramel-frappe.jpg",
+                    image: "img-champions/frappuccino/caramel-frappe.jpg",
                     name: translations.menuItems.caramelFrappe || "",
                     description: translations.menuItems.caramelFrappeDesc || ""
                 },
                 chocolateFrappe: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/frappuccino/chocolate-frappe.jpg",
+                    image: "img-champions/frappuccino/chocolate-frappe.jpg",
                     name: translations.menuItems.chocolateFrappe || "",
                     description: translations.menuItems.chocolateFrappeDesc || ""
                 },
                 lotusFrappe: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/frappuccino/lotus-frappe.jpg",
+                    image: "img-champions/frappuccino/lotus-frappe.jpg",
                     name: translations.menuItems.lotusFrappe || "",
                     description: translations.menuItems.lotusFrappeDesc || ""
                 },
                 oreoFrappe: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/frappuccino/oreo-frappe.jpg",
+                    image: "img-champions/frappuccino/oreo-frappe.jpg",
                     name: translations.menuItems.oreoFrappe || "",
                     description: translations.menuItems.lotusFrappeDesc || ""
                 },
                 oreoFrappe: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/frappuccino/oreo.jpg",
+                    image: "img-champions/frappuccino/oreo.jpg",
                     name: translations.menuItems.oreoFrappe || "",
                     description: translations.menuItems.oreoFrappeDesc || ""
                 },
                 vanillaFrappe: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/frappuccino/vanilla-frappe.jpg",
+                    image: "img-champions/frappuccino/vanilla-frappe.jpg",
                     name: translations.menuItems.vanillaFrappe || "LOTUS FRAPPE",
                     description: translations.menuItems.vanillaFrappeDesc || "Lotus cookie frappuccino"
                 },
@@ -1900,57 +1900,57 @@ class MenuDataManager {
             milkshakes: {
                 bananaMilkshake: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/milkshake/Banana.jpg",
+                    image: "img-champions/milkshake/Banana.jpg",
                     name: translations.menuItems.bananaMilkshake || "",
                     description: translations.menuItems.bananaMilkshakeDesc || ""
                 },
                 kinderMilkshake: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/milkshake/kinder.jpg",
+                    image: "img-champions/milkshake/kinder.jpg",
                     name: translations.menuItems.kinderMilkshake || "",
                     description: translations.menuItems.kinderMilkshakeDesc || ""
                 },
                 lotusMilkshake: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/milkshake/lotus.jpg",
+                    image: "img-champions/milkshake/lotus.jpg",
                     name: translations.menuItems.lotusMilkshake || "",
                     description: translations.menuItems.lotusMilkshakeDesc || ""
                 },
                 nutellaMilkshake: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/milkshake/nutella-milkshake.jpg",
+                    image: "img-champions/milkshake/nutella-milkshake.jpg",
                     name: translations.menuItems.nutellaMilkshake || "",
                     description: translations.menuItems.nutellaMilkshakeDesc || ""
                 },
                 pistachioMilkshake: {
                     price: "6,500",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/milkshake/pistachio.jpg",
+                    image: "img-champions/milkshake/pistachio.jpg",
                     name: translations.menuItems.pistachioMilkshake || "",
                     description: translations.menuItems.pistachioMilkshakeDesc || ""
                 },
                 strawberryMilkshake: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/milkshake/strawberry-banana.jpg",
+                    image: "img-champions/milkshake/strawberry-banana.jpg",
                     name: translations.menuItems.strawberryMilkshake || "",
                     description: translations.menuItems.strawberryMilkshakeDesc || ""
                 },
 
                  strawberry: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/milkshake/strawberry.jpg",
+                    image: "img-champions/milkshake/strawberry.jpg",
                     name: translations.menuItems.strawberry || "",
                     description: translations.menuItems.strawberryDesc || ""
                 },
                 vanillaMilkshake: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/milkshake/vanilla.jpg",
+                    image: "img-champions/milkshake/vanilla.jpg",
                     name: translations.menuItems.vanillaMilkshake || "",
                     description: translations.menuItems.vanillaMilkshakeDesc || ""
                 },
 
                  oreo: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/frappuccino/oreo.jpg",
+                    image: "img-champions/frappuccino/oreo.jpg",
                     name: translations.menuItems.oreo || "",
                     description: translations.menuItems.oreodesc || ""
                 },
@@ -1960,37 +1960,37 @@ class MenuDataManager {
             softDrinks: {
                 championsRedbull: {
                     price: "6,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/soft-drinks/champions-redbull.jpg",
+                    image: "img-champions/soft-drinks/champions-redbull.jpg",
                     name: translations.menuItems.championsRedbull || "",
                     description: translations.menuItems.championsRedbullDesc || ""
                 },
                 normalRedbull: {
                     price: "4,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/soft-drinks/normal-redbull.jpg",
+                    image: "img-champions/soft-drinks/normal-redbull.jpg",
                     name: translations.menuItems.normalRedbull || "",
                     description: translations.menuItems.normalRedbullDesc || ""
                 },
                 redbullMexican: {
                     price: "5,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/soft-drinks/mexican-redbull.jpg",
+                    image: "img-champions/soft-drinks/mexican-redbull.jpg",
                     name: translations.menuItems.redbullMexican || "",
                     description: translations.menuItems.redbullMexicanDesc || ""
                 },
                 cocaColaZero: {
                     price: "1,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/soft-drinks/cocacola-zero.jpg",
+                    image: "img-champions/soft-drinks/cocacola-zero.jpg",
                     name: translations.menuItems.cocaColaZero || "",
                     description: translations.menuItems.cocaColaZeroDesc || ""
                 },
                 soda: {
                     price: "1,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/soft-drinks/soda.jpg",
+                    image: "img-champions/soft-drinks/soda.jpg",
                     name: translations.menuItems.soda || "",
                     description: translations.menuItems.sodaDesc || ""
                 },
                 water: {
                     price: "1,000",
-                    image: "/20259597/menu/champions_saladbar&cafe/img-champions/soft-drinks/water.jpg",
+                    image: "img-champions/soft-drinks/water.jpg",
                     name: translations.menuItems.water || "",
                     description: translations.menuItems.waterDesc || ""
                 }

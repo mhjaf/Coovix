@@ -10,10 +10,10 @@ if (!in_array($lang, $validLangs)) {
 }
 
 try {
-    $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME, 0, DB_SOCKET);
+    $conn = createBarDatabaseConnection();
 
-    if ($conn->connect_error) {
-        throw new Exception("Connection failed: " . $conn->connect_error);
+    if (!$conn) {
+        throw new Exception('Database connection unavailable');
     }
 
     // Get all active barbers with photos and multilingual names

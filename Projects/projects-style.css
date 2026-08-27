@@ -572,10 +572,10 @@ html[lang="ar"] .portfolio-work .project-card-copy p {
 .menu-device small { margin-top: .45rem; color: #86a0ac; font-size: .55rem; }
 .menu-visual:hover .menu-device { transform: rotate(0) translateY(-7px); }
 .project-brand-visual { display: grid; place-items: center; isolation: isolate; }
-.fkrah-visual { background: linear-gradient(rgba(8,35,55,.04),rgba(8,35,55,.2)), url('/Projects/fkrah/fkrah-project-cover.png') center center / cover no-repeat; }
+.fkrah-visual { background: linear-gradient(rgba(8,35,55,.04),rgba(8,35,55,.2)), url('fkrah/fkrah-project-cover.png') center center / cover no-repeat; }
 .fkrah-visual .brand-project-mark,
 .fkrah-visual .brand-shape { display: none; }
-.onzone-visual { aspect-ratio: 3 / 2; background: #eef5fb url('/Projects/onzone/onzone-marketplace-dual-app-v6.png') center center / cover no-repeat; }
+.onzone-visual { aspect-ratio: 3 / 2; background: #eef5fb url('onzone/onzone-marketplace-dual-app-v6.png') center center / cover no-repeat; }
 .onzone-visual::after { background: linear-gradient(90deg, rgba(7,39,56,.88), rgba(7,39,56,.47) 42%, rgba(7,39,56,.06) 72%); }
 .onzone-live-mark { position: relative; z-index: 3; display: flex; width: min(78%, 390px); flex-direction: column; align-items: flex-start; color: #fff; text-align: left; text-shadow: 0 2px 20px rgba(0,0,0,.35); transition: transform .45s cubic-bezier(.2,.8,.2,1); }
 .onzone-live-mark > i { display: grid; place-items: center; width: 54px; height: 54px; margin-bottom: 1rem; border-radius: 16px; color: #151515; background: #fff; box-shadow: 0 15px 35px rgba(0,0,0,.25); font-size: 1.2rem; }

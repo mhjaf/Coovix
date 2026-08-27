@@ -2,6 +2,20 @@ DirectoryIndex index.php index.html
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
+
+    # Canonical public URLs do not expose the physical .html filenames.
+    RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html(?:[?\s]) [NC]
+    RewriteRule ^index\.html$ ./ [R=301,L]
+
+    RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html(?:[?\s]) [NC]
+    RewriteRule ^(.+)/index\.html$ $1/ [R=301,L]
+
+    RewriteCond %{THE_REQUEST} \s/+(.+?)\.html(?:[?\s]) [NC]
+    RewriteRule ^(.+)\.html$ $1 [R=301,L]
+
+    # Serve extensionless requests from the matching static HTML file.
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.html -f
+    RewriteRule ^(.+?)/?$ $1.html [L]
 </IfModule>

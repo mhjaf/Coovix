@@ -85,7 +85,7 @@ function initDemoButtons() {
 //                 </div>
 //             </div>
 //             <div class="demo-modal-footer">
-//                 <button class="demo-btn-primary" onclick="window.location.href='../index.html#contact'">
+//                 <button class="demo-btn-primary" onclick="window.location.href='../index#contact'">
 //                     <i class="fas fa-envelope"></i>
 //                     Request Similar Project
 //                 </button>

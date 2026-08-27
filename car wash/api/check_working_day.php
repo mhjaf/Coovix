@@ -16,8 +16,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         exit;
     }
 
-    $conn = getConnection();
+    $conn = getConnection(true);
     if (!$conn) {
+        http_response_code(503);
         echo json_encode(['success' => false, 'message' => 'Database connection failed']);
         exit;
     }

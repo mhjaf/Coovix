@@ -239,17 +239,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
             if (selectedLang === 'en') {
                 if (currentPage !== 'index.php') {
-                    window.location.href = 'index.html';
+                    window.location.href = 'index';
                     return;
                 }
             } else if (selectedLang === 'ku') {
-                if (currentPage !== 'kurdish.php' && currentPage !== 'kurdish.html') {
-                    window.location.href = 'kurdish.html';
+                if (currentPage !== 'kurdish.php' && currentPage !== 'kurdish') {
+                    window.location.href = 'kurdish';
                     return;
                 }
             } else if (selectedLang === 'ar') {
-                if (currentPage !== 'arabic.php' && currentPage !== 'arabic.html') {
-                    window.location.href = 'arabic.html';
+                if (currentPage !== 'arabic.php' && currentPage !== 'arabic') {
+                    window.location.href = 'arabic';
                     return;
                 }
             }

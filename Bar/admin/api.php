@@ -16,13 +16,13 @@ date_default_timezone_set('Asia/Baghdad');
 // Include database configuration
 require_once __DIR__ . '/db_config.php';
 
-$conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+$conn = createBarDatabaseConnection();
 
-if ($conn->connect_error) {
+if (!$conn) {
+    http_response_code(503);
     echo json_encode(['error' => 'Database connection failed']);
     exit();
 }
-$conn->set_charset("utf8mb4");
 
 $action = $_GET['action'] ?? '';
 

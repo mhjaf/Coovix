@@ -1,3 +1,13 @@
+// Resolve shared assets and pages from the directory that contains this script.
+// This keeps the site working both at coovix.com/ and in MAMP's /coovix/ folder.
+const coovixRootUrl = document.currentScript?.src
+    ? new URL('.', document.currentScript.src)
+    : new URL('./', window.location.href);
+
+function coovixUrl(path) {
+    return new URL(String(path).replace(/^\/+/, ''), coovixRootUrl).href;
+}
+
 // Loading Screen Animation
 window.addEventListener('load', function() {
     setTimeout(function() {
@@ -1078,8 +1088,8 @@ document.addEventListener('DOMContentLoaded', function() {
     if (document.body.classList.contains('onzone-detail-page')) {
         const customerApp = document.querySelector('img[src$="onzone-customer-app.png"]');
         const storeApp = document.querySelector('img[src$="onzone-store-app.png"]');
-        if (customerApp) customerApp.src = '/Projects/onzone/onzone-customer-app-showcase-v2.png';
-        if (storeApp) storeApp.src = '/Projects/onzone/onzone-store-app-showcase-v2.png';
+        if (customerApp) customerApp.src = coovixUrl('Projects/onzone/onzone-customer-app-showcase-v2.png');
+        if (storeApp) storeApp.src = coovixUrl('Projects/onzone/onzone-store-app-showcase-v2.png');
         document.querySelectorAll('.fa-mobile-screen').forEach((icon) => {
             icon.classList.replace('fa-mobile-screen', 'fa-mobile-screen-button');
         });
@@ -1088,7 +1098,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const contact = nav?.querySelector('a[href$="#contact"]');
         if (nav && contact && !nav.querySelector('a[href$="#website-creation"]')) {
             const language = document.documentElement.lang;
-            const home = language === 'ar' ? '/ar.html' : language === 'ku' ? '/kr.html' : '/index.html';
+            const home = coovixUrl(language === 'ar' ? 'ar' : language === 'ku' ? 'kr' : 'index');
             const websiteLabel = language === 'ar' ? 'موقع إلكتروني' : language === 'ku' ? 'وێبسایت' : 'Website';
             const mobileLabel = language === 'ar' ? 'تطبيق الهاتف' : language === 'ku' ? 'ئەپی مۆبایل' : 'Mobile App';
             const website = document.createElement('a');
@@ -1111,10 +1121,10 @@ document.addEventListener('DOMContentLoaded', function() {
             const language = document.documentElement.lang;
             const isArabic = language === 'ar';
             const isKurdish = language === 'ku';
-            const home = isArabic ? '/ar.html' : isKurdish ? '/kr.html' : '/index.html';
-            const projects = isArabic ? '/Projects/ar-projects-index.html' : isKurdish ? '/Projects/kr-projects-index.html' : '/Projects/projects-index.html';
-            const privacy = isArabic ? '/privacy/ar-privacy-policy.html' : isKurdish ? '/privacy/ku-privacy-policy.html' : '/privacy/privacy-policy.html';
-            const terms = isArabic ? '/terms/ar-terms.html' : isKurdish ? '/terms/ku-terms.html' : '/terms/terms-of-service.html';
+            const home = coovixUrl(isArabic ? 'ar' : isKurdish ? 'kr' : 'index');
+            const projects = coovixUrl(isArabic ? 'Projects/ar-projects-index' : isKurdish ? 'Projects/kr-projects-index' : 'Projects/projects-index');
+            const privacy = coovixUrl(isArabic ? 'privacy/ar-privacy-policy' : isKurdish ? 'privacy/ku-privacy-policy' : 'privacy/privacy-policy');
+            const terms = coovixUrl(isArabic ? 'terms/ar-terms' : isKurdish ? 'terms/ku-terms' : 'terms/terms-of-service');
             const labels = isArabic ? {
                 services: 'الخدمات', web: 'تطوير المواقع', mobile: 'تطبيقات الهاتف', backend: 'أنظمة Backend', menu: 'القائمة الرقمية',
                 company: 'الشركة', about: 'من نحن', projects: 'مشاريعنا', privacy: 'سياسة الخصوصية', terms: 'شروط الخدمة',
@@ -1134,10 +1144,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Use local portfolio assets so Powerful Energy visuals never depend on a third-party server.
     document.querySelectorAll('.powerful-visual > img, .powerful-hero-showcase > img, .powerful-detail-hero .bv2-product-image > img').forEach((image) => {
-        image.src = '/Projects/powerful/powerful-solar-platform.webp';
+        image.src = coovixUrl('Projects/powerful/powerful-solar-platform.webp');
     });
     document.querySelectorAll('.powerful-brand img, .powerful-hero-logo img').forEach((image) => {
-        image.src = '/Projects/powerful/powerful-logo.webp';
+        image.src = coovixUrl('Projects/powerful/powerful-logo.webp');
     });
 
     // Present OnZone as a live fashion marketplace instead of a coming-soon concept.
@@ -1147,11 +1157,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const isArabic = language === 'ar';
         const isKurdish = language === 'ku';
         const liveUrl = 'https://onzone.co/shop/men';
-        const detailUrl = isArabic
-            ? '/Projects/onzone/ar-onzone-detail.html'
+        const detailUrl = coovixUrl(isArabic
+            ? 'Projects/onzone/ar-onzone-detail'
             : isKurdish
-                ? '/Projects/onzone/kr-onzone-detail.html'
-                : '/Projects/onzone/onzone-detail.html';
+                ? 'Projects/onzone/kr-onzone-detail'
+                : 'Projects/onzone/onzone-detail');
         const oldVisual = card.querySelector('.onzone-visual');
         if (oldVisual) {
             const visual = document.createElement('a');
@@ -1188,12 +1198,12 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.project-card').forEach((card) => {
         if (card.querySelector('h2')?.textContent.trim() !== 'Powerful Energy Company') return;
         const language = document.documentElement.lang;
-        const detailUrl = language === 'ar'
-            ? '/Projects/powerful/ar-powerful-detail.html'
+        const detailUrl = coovixUrl(language === 'ar'
+            ? 'Projects/powerful/ar-powerful-detail'
             : language === 'ku'
-                ? '/Projects/powerful/kr-powerful-detail.html'
-                : '/Projects/powerful/powerful-detail.html';
-        card.querySelectorAll('a[href*="/Projects/powerful/"][href$="powerful-detail.html"]').forEach((link) => {
+                ? 'Projects/powerful/kr-powerful-detail'
+                : 'Projects/powerful/powerful-detail');
+        card.querySelectorAll('a[href*="Projects/powerful/"][href$="powerful-detail"]').forEach((link) => {
             link.href = detailUrl;
         });
     });
@@ -1203,8 +1213,8 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.project-card').forEach((card) => {
         if (card.querySelector('h2')?.textContent.trim() !== 'Fkrah') return;
         if (document.documentElement.lang === 'ar') {
-            card.querySelectorAll('a[href="/Projects/fkrah/fkrah-detail.html"]').forEach((link) => {
-                link.href = '/Projects/fkrah/ar-fkrah-detail.html';
+            card.querySelectorAll('a[href$="Projects/fkrah/fkrah-detail"]').forEach((link) => {
+                link.href = coovixUrl('Projects/fkrah/ar-fkrah-detail');
             });
         }
         const androidIcon = card.querySelector('.platform-status .fa-android');
@@ -1247,9 +1257,9 @@ document.addEventListener('DOMContentLoaded', function() {
     if (document.body.classList.contains('fkrah-detail-page')) {
         document.querySelectorAll('.language-options a').forEach((link) => {
             const flag = link.querySelector('img')?.getAttribute('alt');
-            if (flag === 'العربية') link.href = '/Projects/fkrah/ar-fkrah-detail.html';
-            if (flag === 'كوردى') link.href = '/Projects/fkrah/kr-fkrah-detail.html';
-            if (flag === 'English') link.href = '/Projects/fkrah/fkrah-detail.html';
+            if (flag === 'العربية') link.href = coovixUrl('Projects/fkrah/ar-fkrah-detail');
+            if (flag === 'كوردى') link.href = coovixUrl('Projects/fkrah/kr-fkrah-detail');
+            if (flag === 'English') link.href = coovixUrl('Projects/fkrah/fkrah-detail');
         });
     }
 });
