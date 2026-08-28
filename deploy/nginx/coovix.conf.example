@@ -1,0 +1,14 @@
+# Add these directives inside the active HTTPS server block for coovix.com.
+# `$request_uri` remains unchanged during the internal try_files lookup, which
+# prevents a redirect loop when Nginx serves the matching physical HTML file.
+if ($request_uri ~ ^(.*/)index\.html(?:\?.*)?$) {
+    return 301 $scheme://$host$1$is_args$args;
+}
+
+if ($request_uri ~ ^(.+)\.html(?:\?.*)?$) {
+    return 301 $scheme://$host$1$is_args$args;
+}
+
+location / {
+    try_files $uri $uri/ $uri.html =404;
+}

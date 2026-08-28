@@ -1,4 +1,53 @@
-# Coovix Apache deployment
+# Coovix deployment
+
+Coovix uses clean URLs: `/ar` maps to `ar.html`, `/kr` maps to `kr.html`, and
+the same rule applies to project, privacy, and terms pages. The web server must
+provide that mapping; `DirectoryIndex` alone only handles directory URLs.
+
+## Nginx (production)
+
+The live Coovix server runs Nginx. In the active HTTPS `server` block, add the
+canonical redirects and replace the existing `location /` block with:
+
+```nginx
+if ($request_uri ~ ^(.*/)index\.html(?:\?.*)?$) {
+    return 301 $scheme://$host$1$is_args$args;
+}
+
+if ($request_uri ~ ^(.+)\.html(?:\?.*)?$) {
+    return 301 $scheme://$host$1$is_args$args;
+}
+
+location / {
+    try_files $uri $uri/ $uri.html =404;
+}
+```
+
+The redirects remove `.html` from browser-visible URLs. The `$uri.html`
+fallback serves the matching static file while keeping the clean URL in the
+address bar. A reusable example is available at `deploy/nginx/coovix.conf.example`.
+
+Validate and reload Nginx:
+
+```bash
+sudo nginx -t
+sudo systemctl reload nginx
+```
+
+Verify the Arabic route and its section anchor:
+
+```bash
+curl -I https://coovix.com/ar
+curl -I https://coovix.com/ar.html
+curl -I https://coovix.com/Projects/ar-projects-index
+curl -I https://coovix.com/Projects/ar-projects-index.html
+```
+
+The clean Arabic project URL must return `200`; its `.html` version must return
+`301` to the clean URL. Browser fragments such as `#website-creation` are
+handled after the page loads.
+
+## Apache
 
 Clean URLs require Apache's rewrite module and permission to read the project's
 `.htaccess` file. `DirectoryIndex` does not expose `.html`; it only selects the

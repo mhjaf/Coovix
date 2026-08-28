@@ -537,19 +537,68 @@ a.category-card {
 .portfolio-work .platform-actions > .platform-status { min-height: 62px; }
 .portfolio-work .project-link { margin-top: 1.7rem; padding-top: 0; }
 
-/* Arabic glyphs have a taller visual body than the Latin Poppins headings.
-   Keep the same card hierarchy without letting localized titles overpower the image. */
+/* Arabic portfolio typography and RTL rhythm. */
+html[lang="ar"] .portfolio-page,
+html[lang="ar"] .projects-contact-cta {
+    font-family: 'Rudaw', Tahoma, Arial, sans-serif;
+}
+html[lang="ar"] .portfolio-work .featured-copy,
+html[lang="ar"] .portfolio-work .project-card-copy {
+    text-align: right;
+}
 html[lang="ar"] .portfolio-work .featured-copy h2,
 html[lang="ar"] .portfolio-work .project-card-copy h2 {
-    font-family: Tahoma, Arial, sans-serif;
-    font-size: clamp(1.45rem, 2vw, 2rem);
-    line-height: 1.38;
+    font-family: 'Rudaw', Tahoma, Arial, sans-serif;
+    font-size: clamp(1.65rem, 2.2vw, 2.15rem);
+    line-height: 1.42;
     letter-spacing: 0;
 }
 html[lang="ar"] .portfolio-work .featured-copy p,
 html[lang="ar"] .portfolio-work .project-card-copy p {
-    font-family: Tahoma, Arial, sans-serif;
-    line-height: 1.9;
+    font-family: 'Rudaw', Tahoma, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.85;
+    text-align: right;
+}
+html[lang="ar"] .portfolio-work .platform-actions > a,
+html[lang="ar"] .portfolio-work .platform-actions > .platform-status {
+    min-height: 68px;
+    gap: .7rem;
+    padding: .72rem .9rem;
+    text-align: right;
+}
+html[lang="ar"] .portfolio-work .platform-actions > a > span,
+html[lang="ar"] .portfolio-work .platform-actions > .platform-status > span {
+    align-items: flex-start;
+    line-height: 1.35;
+}
+html[lang="ar"] .portfolio-work .platform-actions small {
+    margin-bottom: .18rem;
+    font-size: .68rem;
+    line-height: 1.35;
+    letter-spacing: 0;
+}
+html[lang="ar"] .portfolio-work .platform-actions strong {
+    font-size: .88rem;
+    line-height: 1.35;
+}
+html[lang="ar"] .menu-coming-soon small,
+html[lang="ar"] .menu-coming-soon b,
+html[lang="ar"] .menu-coming-soon em {
+    font-family: 'Rudaw', Tahoma, Arial, sans-serif;
+    letter-spacing: 0;
+    text-transform: none;
+}
+html[lang="ar"] .menu-coming-soon small {
+    font-size: .85rem;
+    line-height: 1.6;
+}
+html[lang="ar"] .menu-coming-soon b {
+    line-height: 1.25;
+}
+html[lang="ar"] .menu-coming-soon em {
+    font-size: .9rem;
+    line-height: 1.65;
 }
 .project-card { min-width: 0; }
 .project-card-visual { aspect-ratio: 3 / 2; border-radius: 26px; box-shadow: 0 25px 50px rgba(17,70,96,.11); }
