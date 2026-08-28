@@ -1,0 +1,15 @@
+# Replace this path if the project is deployed elsewhere.
+<Directory /var/www/coovix>
+    Options -Indexes +FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
+
+<VirtualHost *:80>
+    ServerName coovix.com
+    ServerAlias www.coovix.com
+    DocumentRoot /var/www/coovix
+
+    ErrorLog ${APACHE_LOG_DIR}/coovix-error.log
+    CustomLog ${APACHE_LOG_DIR}/coovix-access.log combined
+</VirtualHost>

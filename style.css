@@ -1402,14 +1402,15 @@ html[dir="rtl"] .footer-section h3::after {
 .services-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.2rem;
+    gap: 1.35rem;
     max-width: 950px;
     margin: 0 auto;
+    align-items: stretch;
 }
 
 .service-card {
     background: white;
-    padding: 1.2rem 1rem;
+    padding: 1.5rem 1.3rem 1.35rem;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
@@ -1423,6 +1424,7 @@ html[dir="rtl"] .footer-section h3::after {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    height: 100%;
 }
 
 .service-card.animate {
@@ -1462,7 +1464,8 @@ html[dir="rtl"] .footer-section h3::after {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1rem;
+    flex: 0 0 auto;
     box-shadow: 0 6px 15px rgba(90, 200, 250, 0.3);
     transition: transform 0.3s ease;
 }
@@ -1484,17 +1487,24 @@ html[dir="rtl"] .footer-section h3::after {
 .service-card h3 {
     font-size: 1rem;
     font-weight: 600;
-    margin-bottom: 0.4rem;
+    line-height: 1.25;
+    margin: 0 0 0.65rem;
     color: var(--text-dark);
     letter-spacing: -0.3px;
+    text-wrap: balance;
 }
 
 .service-card p {
     color: var(--gray-dark);
-    line-height: 1.4;
-    margin-bottom: 0;
+    width: 100%;
+    line-height: 1.55;
+    margin: 0;
     font-size: 0.8rem;
-    text-align: justify;
+    text-align: start;
+    letter-spacing: 0;
+    word-spacing: normal;
+    text-wrap: pretty;
+    overflow-wrap: break-word;
 }
 
 .service-link {
@@ -3578,7 +3588,7 @@ html[dir="rtl"] .flow-arrow i {
     }
 
     .services-grid .service-card {
-        padding: 1rem;
+        padding: 1.3rem 1.15rem 1.2rem;
     }
 
     .menu-steps-grid {
@@ -3972,7 +3982,7 @@ html[dir="rtl"] .flow-arrow i {
     }
 
     .service-card {
-        padding: 1rem;
+        padding: 1.2rem 1.1rem;
         border-radius: 10px;
     }
 
@@ -4046,7 +4056,7 @@ html[dir="rtl"] .flow-arrow i {
 
     .service-card h3 {
         font-size: 0.95rem;
-        margin-bottom: 0.3rem;
+        margin-bottom: 0.55rem;
     }
 
     .service-card p {
@@ -4058,7 +4068,7 @@ html[dir="rtl"] .flow-arrow i {
         width: 40px;
         height: 40px;
         border-radius: 8px;
-        margin-bottom: 0.6rem;
+        margin-bottom: 0.8rem;
     }
 
     .service-icon i {

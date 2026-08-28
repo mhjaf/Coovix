@@ -1,21 +1,20 @@
+Options -MultiViews
 DirectoryIndex index.php index.html
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    # Canonical public URLs do not expose the physical .html filenames.
+    # /index.html becomes /, including index files in subdirectories.
     RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html(?:[?\s]) [NC]
-    RewriteRule ^index\.html$ ./ [R=301,L]
+    RewriteRule ^(?:.*/)?index\.html$ /%1 [R=301,L,NE]
 
-    RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html(?:[?\s]) [NC]
-    RewriteRule ^(.+)/index\.html$ $1/ [R=301,L]
-
+    # Redirect every other directly requested .html URL to its clean URL.
     RewriteCond %{THE_REQUEST} \s/+(.+?)\.html(?:[?\s]) [NC]
-    RewriteRule ^(.+)\.html$ $1 [R=301,L]
+    RewriteRule ^ /%1 [R=301,L,NE]
 
-    # Serve extensionless requests from the matching static HTML file.
+    # Internally serve the matching physical HTML file without changing the URL.
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME}.html -f
-    RewriteRule ^(.+?)/?$ $1.html [L]
+    RewriteRule ^(.+?)/?$ $1.html [END]
 </IfModule>
