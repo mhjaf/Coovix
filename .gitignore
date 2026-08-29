@@ -13,9 +13,8 @@ contact_log.txt
 Bar/uploads/
 car wash/uploads/
 
-# Live credentials and local configuration
-email_config.php
-send_email_smtp.php
+# Live credentials stay in /etc/coovix/mail.php on the VPS. The public mail
+# handler and its non-secret defaults are safe and required for deployment.
 Bar/admin/config.php
 car wash/admin/config/database.php
 

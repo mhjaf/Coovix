@@ -462,7 +462,20 @@ function initFormValidation() {
                     method: 'POST',
                     body: formData
                 })
-                .then(response => response.json())
+                .then(async response => {
+                    const contentType = response.headers.get('content-type') || '';
+
+                    if (!contentType.includes('application/json')) {
+                        throw new Error(`Contact endpoint returned HTTP ${response.status}`);
+                    }
+
+                    const data = await response.json();
+                    if (!response.ok) {
+                        throw new Error(data.message || `Contact request failed with HTTP ${response.status}`);
+                    }
+
+                    return data;
+                })
                 .then(data => {
                     if (data.success) {
                         button.innerHTML = '<i class="fas fa-check"></i> Sent!';
@@ -491,9 +504,10 @@ function initFormValidation() {
                     }
                 })
                 .catch(error => {
+                    console.error('Contact form submission failed:', error);
                     button.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Error';
                     button.style.background = '#dc3545';
-                    showNotification('Network error. Please check your connection and try again.', 'error');
+                    showNotification('The contact form is temporarily unavailable. Please email info@coovix.com directly.', 'error');
                     
                     // Reset button after error
                     setTimeout(() => {
