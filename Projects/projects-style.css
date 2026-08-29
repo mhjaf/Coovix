@@ -540,7 +540,7 @@ a.category-card {
 /* Arabic portfolio typography and RTL rhythm. */
 html[lang="ar"] .portfolio-page,
 html[lang="ar"] .projects-contact-cta {
-    font-family: 'Rudaw', Tahoma, Arial, sans-serif;
+    font-family: Tahoma, Arial, sans-serif;
 }
 html[lang="ar"] .portfolio-work .featured-copy,
 html[lang="ar"] .portfolio-work .project-card-copy {
@@ -548,14 +548,14 @@ html[lang="ar"] .portfolio-work .project-card-copy {
 }
 html[lang="ar"] .portfolio-work .featured-copy h2,
 html[lang="ar"] .portfolio-work .project-card-copy h2 {
-    font-family: 'Rudaw', Tahoma, Arial, sans-serif;
+    font-family: Tahoma, Arial, sans-serif;
     font-size: clamp(1.65rem, 2.2vw, 2.15rem);
     line-height: 1.42;
     letter-spacing: 0;
 }
 html[lang="ar"] .portfolio-work .featured-copy p,
 html[lang="ar"] .portfolio-work .project-card-copy p {
-    font-family: 'Rudaw', Tahoma, Arial, sans-serif;
+    font-family: Tahoma, Arial, sans-serif;
     font-size: 1rem;
     line-height: 1.85;
     text-align: right;
@@ -585,7 +585,7 @@ html[lang="ar"] .portfolio-work .platform-actions strong {
 html[lang="ar"] .menu-coming-soon small,
 html[lang="ar"] .menu-coming-soon b,
 html[lang="ar"] .menu-coming-soon em {
-    font-family: 'Rudaw', Tahoma, Arial, sans-serif;
+    font-family: Tahoma, Arial, sans-serif;
     letter-spacing: 0;
     text-transform: none;
 }
