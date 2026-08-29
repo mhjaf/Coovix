@@ -765,18 +765,21 @@ html[dir="rtl"] body {
 }
 
 html[lang="ku"] body {
-    font-family: 'Rudaw', Arial, sans-serif !important;
+    font-family: 'Noto Sans Arabic', 'Rudaw', Tahoma, Arial, sans-serif !important;
 }
 
 html[lang="ar"] body {
-    font-family: Tahoma, Arial, sans-serif !important;
+    font-family: 'Noto Sans Arabic', Tahoma, Arial, sans-serif !important;
 }
 
 /* Arabic and Kurdish need their own vertical rhythm. The default 1.7 body
    line-height is designed for Poppins and makes large RTL headings look
    stretched, while zero word spacing makes neighbouring words feel joined. */
 html:is([lang="ar"], [lang="ku"]) body {
-    word-spacing: 0.045em;
+    word-spacing: normal;
+    font-kerning: normal;
+    font-variant-ligatures: common-ligatures contextual;
+    font-feature-settings: "rlig" 1, "calt" 1, "liga" 1;
 }
 
 html:is([lang="ar"], [lang="ku"]) h1,
@@ -786,30 +789,30 @@ html:is([lang="ar"], [lang="ku"]) h4,
 html:is([lang="ar"], [lang="ku"]) p,
 html:is([lang="ar"], [lang="ku"]) a,
 html:is([lang="ar"], [lang="ku"]) span {
-    letter-spacing: 0;
+    letter-spacing: normal !important;
 }
 
 html:is([lang="ar"], [lang="ku"]) .section-title h2 {
     line-height: 1.28;
-    word-spacing: 0.1em;
+    word-spacing: normal;
 }
 
 html:is([lang="ar"], [lang="ku"]) .section-title p {
     line-height: 1.7;
-    word-spacing: 0.065em;
+    word-spacing: normal;
 }
 
 html:is([lang="ar"], [lang="ku"]) .service-card h3 {
     line-height: 1.45;
     text-wrap: wrap;
-    word-spacing: 0.06em;
+    word-spacing: normal;
 }
 
 html:is([lang="ar"], [lang="ku"]) .service-card p {
     line-height: 1.75;
     text-align: right;
     text-wrap: wrap;
-    word-spacing: 0.055em;
+    word-spacing: normal;
 }
 
 html:is([lang="ar"], [lang="ku"]) .website-creation .section-title,
@@ -821,13 +824,13 @@ html:is([lang="ar"], [lang="ku"]) .website-creation .website-features {
 html:is([lang="ar"], [lang="ku"]) .website-creation .flow-item h4,
 html:is([lang="ar"], [lang="ku"]) .website-creation .feature-box h4 {
     line-height: 1.4;
-    word-spacing: 0.07em;
+    word-spacing: normal;
 }
 
 html:is([lang="ar"], [lang="ku"]) .website-creation .flow-item p,
 html:is([lang="ar"], [lang="ku"]) .website-creation .feature-box p {
     line-height: 1.65;
-    word-spacing: 0.055em;
+    word-spacing: normal;
     unicode-bidi: plaintext;
 }
 

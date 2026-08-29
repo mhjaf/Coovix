@@ -551,7 +551,7 @@ html[lang="ar"] .portfolio-work .project-card-copy h2 {
     font-family: Tahoma, Arial, sans-serif;
     font-size: clamp(1.65rem, 2.2vw, 2.15rem);
     line-height: 1.42;
-    letter-spacing: 0;
+    letter-spacing: normal;
 }
 html[lang="ar"] .portfolio-work .featured-copy p,
 html[lang="ar"] .portfolio-work .project-card-copy p {
@@ -576,7 +576,7 @@ html[lang="ar"] .portfolio-work .platform-actions small {
     margin-bottom: .18rem;
     font-size: .68rem;
     line-height: 1.35;
-    letter-spacing: 0;
+    letter-spacing: normal;
 }
 html[lang="ar"] .portfolio-work .platform-actions strong {
     font-size: .88rem;
@@ -586,7 +586,7 @@ html[lang="ar"] .menu-coming-soon small,
 html[lang="ar"] .menu-coming-soon b,
 html[lang="ar"] .menu-coming-soon em {
     font-family: Tahoma, Arial, sans-serif;
-    letter-spacing: 0;
+    letter-spacing: normal;
     text-transform: none;
 }
 html[lang="ar"] .menu-coming-soon small {
