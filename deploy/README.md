@@ -4,6 +4,25 @@ Coovix uses clean URLs: `/ar` maps to `ar.html`, `/kr` maps to `kr.html`, and
 the same rule applies to project, privacy, and terms pages. The web server must
 provide that mapping; `DirectoryIndex` alone only handles directory URLs.
 
+## Zoho contact-form email
+
+The contact form sends from and delivers to `info@coovix.com` using Zoho Mail.
+SMTP credentials stay outside the public website directory.
+
+On the VPS, create the private configuration from the provided example:
+
+```bash
+sudo install -d -m 750 -o root -g www-data /etc/coovix
+sudo cp /var/www/coovix/deploy/mail/zoho-mail.php.example /etc/coovix/mail.php
+sudo chown root:www-data /etc/coovix/mail.php
+sudo chmod 640 /etc/coovix/mail.php
+sudo vi /etc/coovix/mail.php
+```
+
+Replace the placeholder with the Zoho password for `info@coovix.com`. If Zoho
+two-factor authentication is enabled, use an app-specific password. Then test
+the form from the website; no Nginx restart is required for this PHP file.
+
 ## Nginx (production)
 
 The live Coovix server runs Nginx. In the active HTTPS `server` block, add the

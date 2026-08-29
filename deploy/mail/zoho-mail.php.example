@@ -1,0 +1,9 @@
+<?php
+
+// Copy this file to /etc/coovix/mail.php on the VPS. Use a Zoho app-specific
+// password when two-factor authentication is enabled.
+return [
+    'smtp_username' => 'info@coovix.com',
+    'smtp_password' => 'PASTE_ZOHO_APP_PASSWORD_HERE',
+];
+
