@@ -537,6 +537,46 @@ a.category-card {
 .portfolio-work .platform-actions > .platform-status { min-height: 62px; }
 .portfolio-work .project-link { margin-top: 1.7rem; padding-top: 0; }
 
+/* Preserve contextual Arabic-script shaping on localized portfolio pages.
+   Latin tracking values disconnect Kurdish/Arabic characters in some fonts. */
+html:is([lang="ar"], [lang="ku"]) .portfolio-page {
+    font-kerning: normal;
+    font-variant-ligatures: common-ligatures contextual;
+    font-feature-settings: "rlig" 1, "calt" 1, "liga" 1;
+}
+
+html[lang="ku"] .portfolio-page,
+html[lang="ku"] .projects-contact-cta {
+    font-family: 'Noto Sans Arabic', 'Rudaw', Tahoma, Arial, sans-serif;
+}
+
+html[lang="ku"] .portfolio-page :is(h1, h2, h3, h4, p, a, span, small, strong, b, em),
+html[lang="ku"] .projects-contact-cta :is(h2, p, a, span) {
+    letter-spacing: normal !important;
+}
+
+html[lang="ku"] .portfolio-work .featured-copy,
+html[lang="ku"] .portfolio-work .project-card-copy {
+    text-align: right;
+}
+
+html[lang="ku"] .portfolio-work .featured-copy h2,
+html[lang="ku"] .portfolio-work .project-card-copy h2 {
+    line-height: 1.45;
+}
+
+html[lang="ku"] .portfolio-work .featured-copy p,
+html[lang="ku"] .portfolio-work .project-card-copy p {
+    line-height: 1.9;
+    text-align: right;
+}
+
+html[lang="ku"] .portfolio-work .platform-actions > a > span,
+html[lang="ku"] .portfolio-work .platform-actions > .platform-status > span {
+    align-items: flex-start;
+    line-height: 1.4;
+}
+
 /* Arabic portfolio typography and RTL rhythm. */
 html[lang="ar"] .portfolio-page,
 html[lang="ar"] .projects-contact-cta {
