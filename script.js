@@ -9,7 +9,7 @@ function coovixUrl(path) {
 }
 
 // Loading Screen Animation
-window.addEventListener('load', function() {
+function dismissLoadingScreen() {
     setTimeout(function() {
         const loadingScreen = document.getElementById('loadingScreen');
         if (loadingScreen) {
@@ -19,7 +19,15 @@ window.addEventListener('load', function() {
             }, 500);
         }
     }, 1500);
-});
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', dismissLoadingScreen, { once: true });
+} else {
+    dismissLoadingScreen();
+}
+
+
 
 // Language Dropdown Functionality
 function initLanguageDropdown() {
@@ -1170,7 +1178,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const language = document.documentElement.lang;
         const isArabic = language === 'ar';
         const isKurdish = language === 'ku';
-        const liveUrl = 'https://onzone.co/shop/men';
+        const liveUrl = 'https://onzone.co';
         const detailUrl = coovixUrl(isArabic
             ? 'Projects/onzone/ar-onzone-detail'
             : isKurdish
@@ -1194,7 +1202,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const platforms = card.querySelector('.platform-actions');
         if (platforms) {
             platforms.classList.add('onzone-platforms');
-            platforms.innerHTML = `<span class="platform-status"><i class="fas fa-globe"></i><span><small>${isArabic ? 'قيد الاختبار' : isKurdish ? 'لە تاقیکردنەوەدایە' : 'In testing'}</small><strong>${isArabic ? 'الموقع' : isKurdish ? 'وێبسایت' : 'Website'}</strong></span></span><span class="platform-status"><i class="fas fa-gauge-high"></i><span><small>${isArabic ? 'يُدار بواسطة' : isKurdish ? 'بەڕێوەدەبرێت بە' : 'Managed with'}</small><strong>${isArabic ? 'لوحة المتجر' : isKurdish ? 'داشبۆردی فرۆشگا' : 'Store Dashboard'}</strong></span></span><span class="platform-status"><i class="fab fa-apple"></i><span><small>${isArabic ? 'متاح على iOS' : isKurdish ? 'لە iOS بەردەستە' : 'Available on iOS'}</small><strong>OnZone App</strong></span></span><span class="platform-status"><i class="fab fa-apple"></i><span><small>${isArabic ? 'متاح على iOS' : isKurdish ? 'لە iOS بەردەستە' : 'Available on iOS'}</small><strong>${isArabic ? 'تطبيق المتجر' : isKurdish ? 'ئەپی فرۆشگا' : 'Store App'}</strong></span></span><span class="platform-status"><i class="fab fa-google-play"></i><span><small>${isArabic ? 'متاح على Android' : isKurdish ? 'لە Android بەردەستە' : 'Available on Android'}</small><strong>OnZone App</strong></span></span><span class="platform-status"><i class="fab fa-google-play"></i><span><small>${isArabic ? 'متاح على Android' : isKurdish ? 'لە Android بەردەستە' : 'Available on Android'}</small><strong>${isArabic ? 'تطبيق المتجر' : isKurdish ? 'ئەپی فرۆشگا' : 'Store App'}</strong></span></span>`;
+            platforms.innerHTML = `<a class="platform-status" href="${liveUrl}" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i><span><small>${isArabic ? 'زيارة الموقع' : isKurdish ? 'سەردانی ماڵپەڕ' : 'Visit online'}</small><strong>${isArabic ? 'الموقع' : isKurdish ? 'وێبسایت' : 'Website'}</strong></span></a><span class="platform-status"><i class="fas fa-gauge-high"></i><span><small>${isArabic ? 'يُدار بواسطة' : isKurdish ? 'بەڕێوەدەبرێت بە' : 'Managed with'}</small><strong>${isArabic ? 'لوحة المتجر' : isKurdish ? 'داشبۆردی فرۆشگا' : 'Store Dashboard'}</strong></span></span><a class="platform-status" href="https://onzone.co/app" target="_blank" rel="noopener noreferrer"><i class="fab fa-apple"></i><span><small>${isArabic ? 'متاح على iOS' : isKurdish ? 'لە iOS بەردەستە' : 'Available on iOS'}</small><strong>OnZone App</strong></span></a><a class="platform-status" href="https://onzone.co/app" target="_blank" rel="noopener noreferrer"><i class="fab fa-apple"></i><span><small>${isArabic ? 'متاح على iOS' : isKurdish ? 'لە iOS بەردەستە' : 'Available on iOS'}</small><strong>${isArabic ? 'تطبيق المتجر' : isKurdish ? 'ئەپی فرۆشگا' : 'Store App'}</strong></span></a><a class="platform-status" href="https://onzone.co/app" target="_blank" rel="noopener noreferrer"><i class="fab fa-google-play"></i><span><small>${isArabic ? 'متاح على Android' : isKurdish ? 'لە Android بەردەستە' : 'Available on Android'}</small><strong>OnZone App</strong></span></a><a class="platform-status" href="https://onzone.co/app" target="_blank" rel="noopener noreferrer"><i class="fab fa-google-play"></i><span><small>${isArabic ? 'متاح على Android' : isKurdish ? 'لە Android بەردەستە' : 'Available on Android'}</small><strong>${isArabic ? 'تطبيق المتجر' : isKurdish ? 'ئەپی فرۆشگا' : 'Store App'}</strong></span></a>`;
         }
         let projectLink = card.querySelector('.project-link');
         if (!projectLink) {

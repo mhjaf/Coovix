@@ -1,0 +1,684 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/dvflvw",
+    "id": "dvflvw",
+    "slide": 1,
+    "layoutId": "8bce1abe-743b-4c89-80d8-05d7fb5fd5a7",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "fc0b310a-ee49-46e8-8fc5-e3b2dafd25f4",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#111111",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8bce1abe-743b-4c89-80d8-05d7fb5fd5a7",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "fc0b310a-ee49-46e8-8fc5-e3b2dafd25f4",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "fc0b310a-ee49-46e8-8fc5-e3b2dafd25f4",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v2tkr650",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        18,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#C79600",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w32l0rml",
+      "id": "2",
+      "bbox": [
+        930,
+        0,
+        350,
+        350
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#252525",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4b2twn6",
+      "id": "3",
+      "bbox": [
+        1010,
+        0,
+        270,
+        270
+      ],
+      "geometry": "ellipse",
+      "lineColor": "#FFF2A8",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mx03uh4j",
+      "id": "4",
+      "bbox": [
+        72,
+        42,
+        142,
+        150
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ilcrqpsj",
+      "id": "5",
+      "bbox": [
+        83,
+        53,
+        120,
+        128
+      ],
+      "alt": "Official Erbil Sports Club crest",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "6f00b79a-6f84-4294-96a1-4ce27d6aeb9c",
+        "contentType": "image/png",
+        "byteLength": 262181
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8z2lwrm9",
+      "id": "6",
+      "bbox": [
+        78,
+        226,
+        520,
+        26
+      ],
+      "geometry": "rect",
+      "text": "BUSINESS PROPOSAL • FOOTBALL",
+      "textPreview": "BUSINESS PROPOSAL • FOOTBALL",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#C79600",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BUSINESS PROPOSAL • FOOTBALL"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BUSINESS PROPOSAL • FOOTBALL",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#C79600",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BUSINESS PROPOSAL • FOOTBALL",
+              "fontSize": 14,
+              "color": "#C79600",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/90b2pwnu",
+      "id": "7",
+      "bbox": [
+        78,
+        262,
+        820,
+        145
+      ],
+      "geometry": "rect",
+      "text": "Erbil Sports Club\nDigital Football Platform",
+      "textPreview": "Erbil Sports Club | Digital Football Platform",
+      "resolvedFontSize": 51,
+      "resolvedTextStyle": {
+        "fontSize": 51,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Erbil Sports Club"
+          },
+          {
+            "index": 2,
+            "text": "Digital Football Platform"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Erbil Sports Club",
+          "resolvedTextStyle": {
+            "fontSize": 51,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Erbil Sports Club",
+              "fontSize": 51,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Digital Football Platform",
+          "resolvedTextStyle": {
+            "fontSize": 51,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Digital Football Platform",
+              "fontSize": 51,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6t436l4n",
+      "id": "8",
+      "bbox": [
+        82,
+        420,
+        770,
+        45
+      ],
+      "geometry": "rect",
+      "text": "Website, Mobile Application & Smart Football Facility Booking",
+      "textPreview": "Website, Mobile Application & Smart Football Facility Booking",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#FFF2A8",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Website, Mobile Application & Smart Football Facility Booking"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Website, Mobile Application & Smart Football Facility Booking",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#FFF2A8",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Website, Mobile Application & Smart Football Facility Booking",
+              "fontSize": 22,
+              "color": "#FFF2A8",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ud4zq58",
+      "id": "9",
+      "bbox": [
+        82,
+        495,
+        650,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#4A4A46",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ryt43itc",
+      "id": "10",
+      "bbox": [
+        82,
+        516,
+        130,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Prepared by",
+      "textPreview": "Prepared by",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#B9D4DF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Prepared by"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Prepared by",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#B9D4DF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Prepared by",
+              "fontSize": 12,
+              "color": "#B9D4DF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/9g7yxwjq",
+      "id": "11",
+      "bbox": [
+        82,
+        540,
+        150,
+        40
+      ],
+      "alt": "Official Coovix logo",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "a5c38096-da06-443e-b560-c1ee3a1bced4",
+        "contentType": "image/png",
+        "byteLength": 29509
+      }
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0bm5sbi",
+      "id": "12",
+      "bbox": [
+        260,
+        550,
+        210,
+        24
+      ],
+      "geometry": "rect",
+      "text": "September 2026",
+      "textPreview": "September 2026",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#D8D5C8",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "September 2026"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "September 2026",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#D8D5C8",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "September 2026",
+              "fontSize": 16,
+              "color": "#D8D5C8",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cz25wnax",
+      "id": "13",
+      "bbox": [
+        850,
+        458,
+        335,
+        104
+      ],
+      "geometry": "rect",
+      "text": "A connected football experience for supporters and members.\nA clearer operating system for management.",
+      "textPreview": "A connected football experience for supporters and members. | A clearer operating system for management.",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A connected football"
+          },
+          {
+            "index": 2,
+            "text": "experience for supporters and"
+          },
+          {
+            "index": 3,
+            "text": "members."
+          },
+          {
+            "index": 4,
+            "text": "A clearer operating system for"
+          },
+          {
+            "index": 5,
+            "text": "management."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A connected football experience for supporters and members.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A connected football experience for supporters and members.",
+              "fontSize": 21,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "A clearer operating system for management.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A clearer operating system for management.",
+              "fontSize": 21,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z2t472to",
+      "id": "14",
+      "bbox": [
+        82,
+        665,
+        620,
+        16
+      ],
+      "geometry": "rect",
+      "text": "COOVIX • PROPOSAL • ERBIL, KURDISTAN REGION OF IRAQ",
+      "textPreview": "COOVIX • PROPOSAL • ERBIL, KURDISTAN REGION OF IRAQ",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#BBB7A8",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "COOVIX • PROPOSAL • ERBIL, KURDISTAN REGION OF IRAQ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "COOVIX • PROPOSAL • ERBIL, KURDISTAN REGION OF IRAQ",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#BBB7A8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "COOVIX • PROPOSAL • ERBIL, KURDISTAN REGION OF IRAQ",
+              "fontSize": 10,
+              "color": "#BBB7A8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

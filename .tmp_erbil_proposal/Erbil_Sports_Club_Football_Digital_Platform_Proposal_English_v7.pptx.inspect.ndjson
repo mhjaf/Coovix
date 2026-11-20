@@ -1,0 +1,659 @@
+{"kind":"deck","id":"pr/bp0jj2","name":"Deck"}
+{"kind":"layout","layoutId":"d4fdbfc9-b67b-49f9-b611-ae1fe617d1fd","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"afd49968-232f-4dae-99be-849503137f62","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/8hfgdn","slide":1,"title":"BUSINESS PROPOSAL • FOOTBALL","textShapes":7}
+{"kind":"shape","id":"sh/90byp8rq","slide":1,"bbox":[0,0,18,720]}
+{"kind":"shape","id":"sh/mxkzutsz","slide":1,"bbox":[930,0,350,350]}
+{"kind":"shape","id":"sh/7ytgny9k","slide":1,"bbox":[1010,0,270,270]}
+{"kind":"shape","id":"sh/hovyt8rm","slide":1,"bbox":[72,50,198,92]}
+{"kind":"textbox","id":"sh/v2tgri9w","slide":1,"text":"BUSINESS PROPOSAL • FOOTBALL","textPreview":"BUSINESS PROPOSAL • FOOTBALL","textChars":28,"textLines":1,"bbox":[78,226,520,26]}
+{"kind":"textbox","id":"sh/crixojax","slide":1,"text":"Erbil Sports Club\nDigital Football Platform","textPreview":"Erbil Sports Club | Digital Football Platform","textChars":43,"textLines":2,"bbox":[78,262,820,145]}
+{"kind":"textbox","id":"sh/xsryhori","slide":1,"text":"Website, Mobile Application & Smart Football Facility Booking","textPreview":"Website, Mobile Application & Smart Football Facility Booking","textChars":61,"textLines":1,"bbox":[82,420,770,45]}
+{"kind":"shape","id":"sh/9sb2p036","slide":1,"bbox":[82,495,650,0]}
+{"kind":"textbox","id":"sh/8r2lgvm1","slide":1,"text":"Prepared by: Coovix","textPreview":"Prepared by: Coovix","textChars":19,"textLines":1,"bbox":[82,525,250,24]}
+{"kind":"textbox","id":"sh/7qtknq5g","slide":1,"text":"September 2026","textPreview":"September 2026","textChars":14,"textLines":1,"bbox":[340,525,210,24]}
+{"kind":"textbox","id":"sh/mpk3el4v","slide":1,"text":"A connected football experience for supporters and members.\nA clearer operating system for management.","textPreview":"A connected football experience for supporters and members. | A clearer operating system for management.","textChars":102,"textLines":2,"bbox":[850,458,335,104]}
+{"kind":"textbox","id":"sh/hwv2t03i","slide":1,"text":"COOVIX • PROPOSAL • ERBIL, KURDISTAN REGION OF IRAQ","textPreview":"COOVIX • PROPOSAL • ERBIL, KURDISTAN REGION OF IRAQ","textChars":51,"textLines":1,"bbox":[82,665,620,16]}
+{"kind":"image","id":"im/p4bit4na","slide":1,"name":"","bbox":[1074,59.28,142,149.43]}
+{"kind":"image","id":"im/32t0re54","slide":1,"name":"","bbox":[94,74.91,154,41.17]}
+{"kind":"notes","id":"nt/8hfgdn","slide":1,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n- Official Coovix logo from the Coovix project workspace.\n- Official Erbil Sports Club crest supplied by the user.\n[/Sources]"}
+{"kind":"slide","id":"sl/h6t776","slide":2,"title":"EXECUTIVE SUMMARY","textShapes":18}
+{"kind":"textbox","id":"sh/4nepobmd","slide":2,"text":"EXECUTIVE SUMMARY","textPreview":"EXECUTIVE SUMMARY","textChars":17,"textLines":1,"bbox":[72,42,500,24]}
+{"kind":"textbox","id":"sh/3ml8v6ls","slide":2,"text":"One platform can become the club’s digital front door","textPreview":"One platform can become the club’s digital front door","textChars":53,"textLines":1,"bbox":[72,72,1080,52]}
+{"kind":"shape","id":"sh/i1c7m14n","slide":2,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/h03qtw32","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1165,43,42,22]}
+{"kind":"textbox","id":"sh/gzupkrmh","slide":2,"text":"The proposed platform brings football news, facility booking, supporter communication and management into one connected experience.","textPreview":"The proposed platform brings football news, facility booking, supporter communication and management into one connected experience.","textChars":131,"textLines":1,"bbox":[72,165,760,70]}
+{"kind":"textbox","id":"sh/vylormlw","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,282,48,30]}
+{"kind":"shape","id":"sh/uxc7ih4b","slide":2,"bbox":[132,294,60,0]}
+{"kind":"textbox","id":"sh/1w7q5036","slide":2,"text":"Members","textPreview":"Members","textChars":7,"textLines":1,"bbox":[214,280,170,26]}
+{"kind":"textbox","id":"sh/0vypwvml","slide":2,"text":"Follow club activity, find football facilities and confirm reservations in minutes.","textPreview":"Follow club activity, find football facilities and confirm reservations in minutes.","textChars":83,"textLines":1,"bbox":[390,280,430,48]}
+{"kind":"textbox","id":"sh/adgryls7","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[72,386,48,30]}
+{"kind":"shape","id":"sh/bep8769s","slide":2,"bbox":[132,398,60,0]}
+{"kind":"textbox","id":"sh/wfi90bqd","slide":2,"text":"Operations","textPreview":"Operations","textChars":10,"textLines":1,"bbox":[214,384,170,26]}
+{"kind":"textbox","id":"sh/xgrq9gry","slide":2,"text":"Manage schedules, pricing and customer records from one place.","textPreview":"Manage schedules, pricing and customer records from one place.","textChars":62,"textLines":1,"bbox":[390,384,430,48]}
+{"kind":"textbox","id":"sh/mpg7u1sb","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,490,48,30]}
+{"kind":"shape","id":"sh/nqp8369w","slide":2,"bbox":[132,502,60,0]}
+{"kind":"textbox","id":"sh/ory9wbah","slide":2,"text":"Management","textPreview":"Management","textChars":10,"textLines":1,"bbox":[214,488,170,26]}
+{"kind":"textbox","id":"sh/9c7q5grm","slide":2,"text":"See bookings, revenue and peak-hour trends with greater clarity.","textPreview":"See bookings, revenue and peak-hour trends with greater clarity.","textChars":64,"textLines":1,"bbox":[390,488,430,48]}
+{"kind":"shape","id":"sh/6l0r658f","slide":2,"bbox":[878,162,330,430]}
+{"kind":"textbox","id":"sh/7m98fq90","slide":2,"text":"THE PROPOSAL","textPreview":"THE PROPOSAL","textChars":12,"textLines":1,"bbox":[910,196,250,22]}
+{"kind":"textbox","id":"sh/3qloripc","slide":2,"text":"A modern website\n+ Android & iOS app\n+ Admin dashboard\n+ Smart booking system","textPreview":"A modern website | + Android & iOS app | + Admin dashboard | + Smart booking system","textChars":77,"textLines":4,"bbox":[910,242,250,166]}
+{"kind":"shape","id":"sh/2pcnyx8r","slide":2,"bbox":[910,454,250,88]}
+{"kind":"textbox","id":"sh/ps36ts7i","slide":2,"text":"DESIGNED TO SCALE","textPreview":"DESIGNED TO SCALE","textChars":17,"textLines":1,"bbox":[930,471,210,18]}
+{"kind":"textbox","id":"sh/4ru50nqx","slide":2,"text":"A foundation for future digital services.","textPreview":"A foundation for future digital services.","textChars":41,"textLines":1,"bbox":[930,499,205,34]}
+{"kind":"textbox","id":"sh/rulov2po","slide":2,"text":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textPreview":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textChars":34,"textLines":1,"bbox":[72,681,520,16]}
+{"kind":"shape","id":"sh/qtcn2x83","slide":2,"bbox":[1188,681,20,3]}
+{"kind":"notes","id":"nt/h6t776","slide":2,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/htliye","slide":3,"title":"CURRENT OPPORTUNITIES","textShapes":23}
+{"kind":"textbox","id":"sh/psbm10ja","slide":3,"text":"CURRENT OPPORTUNITIES","textPreview":"CURRENT OPPORTUNITIES","textChars":21,"textLines":1,"bbox":[72,42,500,24]}
+{"kind":"textbox","id":"sh/2pk3qlkj","slide":3,"text":"Today’s friction points are clear opportunities to improve","textPreview":"Today’s friction points are clear opportunities to improve","textChars":58,"textLines":1,"bbox":[72,72,1080,52]}
+{"kind":"shape","id":"sh/3qt4zq14","slide":3,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/gnilov2t","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1165,43,42,22]}
+{"kind":"textbox","id":"sh/1ormx0je","slide":3,"text":"The goal is to preserve the club’s personal service while making routine interactions faster, clearer and measurable.","textPreview":"The goal is to preserve the club’s personal service while making routine interactions faster, clearer and measurable.","textChars":117,"textLines":1,"bbox":[72,154,1040,52]}
+{"kind":"shape","id":"sh/el03mlkn","slide":3,"bbox":[72,238,536,94]}
+{"kind":"textbox","id":"sh/fm94vq18","slide":3,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,256,42,24]}
+{"kind":"textbox","id":"sh/sjilkb2h","slide":3,"text":"Availability","textPreview":"Availability","textChars":12,"textLines":1,"bbox":[146,253,250,24]}
+{"kind":"textbox","id":"sh/tkrmtgj2","slide":3,"text":"Time slots are difficult to check without calling.","textPreview":"Time slots are difficult to check without calling.","textChars":50,"textLines":1,"bbox":[146,281,430,36]}
+{"kind":"shape","id":"sh/1076lonq","slide":3,"bbox":[642,238,536,94]}
+{"kind":"textbox","id":"sh/0zy5sj6l","slide":3,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[662,256,42,24]}
+{"kind":"textbox","id":"sh/fy5oje50","slide":3,"text":"Reservations","textPreview":"Reservations","textChars":12,"textLines":1,"bbox":[716,253,250,24]}
+{"kind":"textbox","id":"sh/exwnq9of","slide":3,"text":"Phone-based and manual bookings require staff attention.","textPreview":"Phone-based and manual bookings require staff attention.","textChars":56,"textLines":1,"bbox":[716,281,430,36]}
+{"kind":"shape","id":"sh/dwn6h4nu","slide":3,"bbox":[72,362,536,94]}
+{"kind":"textbox","id":"sh/sve5oj69","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[92,380,42,24]}
+{"kind":"textbox","id":"sh/ra5ofe5o","slide":3,"text":"Accuracy","textPreview":"Accuracy","textChars":8,"textLines":1,"bbox":[146,377,250,24]}
+{"kind":"textbox","id":"sh/q9wnm9o3","slide":3,"text":"Disconnected schedules can increase avoidable booking errors.","textPreview":"Disconnected schedules can increase avoidable booking errors.","textChars":61,"textLines":1,"bbox":[146,405,430,36]}
+{"kind":"shape","id":"sh/58n6d4ny","slide":3,"bbox":[642,362,536,94]}
+{"kind":"textbox","id":"sh/47e5kz6d","slide":3,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[662,380,42,24]}
+{"kind":"textbox","id":"sh/wbyp0ze9","slide":3,"text":"Communication","textPreview":"Communication","textChars":13,"textLines":1,"bbox":[716,377,250,24]}
+{"kind":"textbox","id":"sh/xcr694fe","slide":3,"text":"Updates and reminders do not reach every customer consistently.","textPreview":"Updates and reminders do not reach every customer consistently.","textChars":63,"textLines":1,"bbox":[716,405,430,36]}
+{"kind":"shape","id":"sh/apgnypw3","slide":3,"bbox":[72,486,536,94]}
+{"kind":"textbox","id":"sh/vapo7uxo","slide":3,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[92,504,42,24]}
+{"kind":"textbox","id":"sh/8ny5wzex","slide":3,"text":"Data","textPreview":"Data","textChars":4,"textLines":1,"bbox":[146,501,250,24]}
+{"kind":"textbox","id":"sh/9o7654fi","slide":3,"text":"Booking information is harder to centralize and search.","textPreview":"Booking information is harder to centralize and search.","textChars":55,"textLines":1,"bbox":[146,529,430,36]}
+{"kind":"shape","id":"sh/mlgnupwr","slide":3,"bbox":[642,486,536,94]}
+{"kind":"textbox","id":"sh/nmpo3uxc","slide":3,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[662,504,42,24]}
+{"kind":"textbox","id":"sh/sjip8je1","slide":3,"text":"Reporting","textPreview":"Reporting","textChars":9,"textLines":1,"bbox":[716,501,250,24]}
+{"kind":"textbox","id":"sh/tkb6hovm","slide":3,"text":"Revenue, demand and peak-hour visibility can be strengthened.","textPreview":"Revenue, demand and peak-hour visibility can be strengthened.","textChars":61,"textLines":1,"bbox":[716,529,430,36]}
+{"kind":"textbox","id":"sh/3eds7ix4","slide":3,"text":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textPreview":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textChars":34,"textLines":1,"bbox":[72,681,520,16]}
+{"kind":"shape","id":"sh/2d4rydgj","slide":3,"bbox":[1188,681,20,3]}
+{"kind":"notes","id":"nt/htliye","slide":3,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/lgl9d9","slide":4,"title":"PROPOSED SOLUTION","textShapes":16}
+{"kind":"textbox","id":"sh/x4f6dkb2","slide":4,"text":"PROPOSED SOLUTION","textPreview":"PROPOSED SOLUTION","textChars":17,"textLines":1,"bbox":[72,42,500,24]}
+{"kind":"textbox","id":"sh/a1oni5sb","slide":4,"text":"One connected ecosystem keeps every channel in sync","textPreview":"One connected ecosystem keeps every channel in sync","textChars":51,"textLines":1,"bbox":[72,72,1080,52]}
+{"kind":"shape","id":"sh/b2xobatw","slide":4,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/oz65gfu5","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1165,43,42,22]}
+{"kind":"textbox","id":"sh/90fm90bq","slide":4,"text":"Members see one seamless experience; staff manage one reliable source of booking information.","textPreview":"Members see one seamless experience; staff manage one reliable source of booking information.","textChars":93,"textLines":1,"bbox":[72,151,920,42]}
+{"kind":"shape","id":"sh/mx4ne5cf","slide":4,"bbox":[300,313,235,64]}
+{"kind":"shape","id":"sh/nyd47atk","slide":4,"bbox":[300,421,235,60]}
+{"kind":"shape","id":"sh/8vq5szap","slide":4,"bbox":[775,313,213,63]}
+{"kind":"shape","id":"sh/twz6l4bu","slide":4,"bbox":[775,424,213,57]}
+{"kind":"shape","id":"sh/dc76psza","slide":4,"bbox":[90,258,210,110]}
+{"kind":"textbox","id":"sh/cby5wnip","slide":4,"text":"WEBSITE","textPreview":"WEBSITE","textChars":7,"textLines":1,"bbox":[108,278,174,24]}
+{"kind":"textbox","id":"sh/raponih4","slide":4,"text":"Information • News\nMembership • Booking","textPreview":"Information • News | Membership • Booking","textChars":39,"textLines":2,"bbox":[108,310,174,45]}
+{"kind":"shape","id":"sh/q9gnud0j","slide":4,"bbox":[90,426,210,110]}
+{"kind":"textbox","id":"sh/p87ml8jy","slide":4,"text":"MOBILE APP","textPreview":"MOBILE APP","textChars":10,"textLines":1,"bbox":[108,446,174,24]}
+{"kind":"textbox","id":"sh/47y5s3it","slide":4,"text":"Android • iOS\nQR • Notifications","textPreview":"Android • iOS | QR • Notifications","textChars":32,"textLines":2,"bbox":[108,478,174,45]}
+{"kind":"shape","id":"sh/36p4ji18","slide":4,"bbox":[535,328,240,146]}
+{"kind":"textbox","id":"sh/25gnqd0n","slide":4,"text":"CLUB SERVICES","textPreview":"CLUB SERVICES","textChars":13,"textLines":1,"bbox":[553,348,204,24]}
+{"kind":"textbox","id":"sh/94b6xczi","slide":4,"text":"Availability\nReservations\nMembers & pricing","textPreview":"Availability | Reservations | Members & pricing","textChars":43,"textLines":3,"bbox":[553,380,204,45]}
+{"kind":"shape","id":"sh/o3i547ix","slide":4,"bbox":[988,258,210,110]}
+{"kind":"textbox","id":"sh/8nqp0bq9","slide":4,"text":"ADMIN","textPreview":"ADMIN","textChars":5,"textLines":1,"bbox":[1006,278,174,24]}
+{"kind":"textbox","id":"sh/t8jqtg7e","slide":4,"text":"Schedules • Members\nReports • Revenue","textPreview":"Schedules • Members | Reports • Revenue","textChars":37,"textLines":2,"bbox":[1006,310,174,45]}
+{"kind":"shape","id":"sh/6l87y183","slide":4,"bbox":[988,426,210,110]}
+{"kind":"textbox","id":"sh/7mh8r6po","slide":4,"text":"STAFF","textPreview":"STAFF","textChars":5,"textLines":1,"bbox":[1006,446,174,24]}
+{"kind":"textbox","id":"sh/kjqpwbqx","slide":4,"text":"Operations\nCheck-in • Support","textPreview":"Operations | Check-in • Support","textChars":29,"textLines":2,"bbox":[1006,478,174,45]}
+{"kind":"shape","id":"sh/lkzqpg7i","slide":4,"bbox":[430,558,420,50]}
+{"kind":"textbox","id":"sh/yh87u18r","slide":4,"text":"SHARED MEMBER, CONTENT & BOOKING SERVICES","textPreview":"SHARED MEMBER, CONTENT & BOOKING SERVICES","textChars":41,"textLines":1,"bbox":[450,573,380,20]}
+{"kind":"textbox","id":"sh/jih8n6pc","slide":4,"text":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textPreview":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textChars":34,"textLines":1,"bbox":[72,681,520,16]}
+{"kind":"shape","id":"sh/cf6psrq1","slide":4,"bbox":[1188,681,20,3]}
+{"kind":"notes","id":"nt/lgl9d9","slide":4,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/zwdtgc","slide":5,"title":"PROJECT PHASES","textShapes":45}
+{"kind":"textbox","id":"sh/t4raxwj2","slide":5,"text":"PROJECT PHASES","textPreview":"PROJECT PHASES","textChars":14,"textLines":1,"bbox":[72,42,500,24]}
+{"kind":"textbox","id":"sh/6h0r210b","slide":5,"text":"Phase 1 delivers the paid core; later phases extend the platform","textPreview":"Phase 1 delivers the paid core; later phases extend the platform","textChars":64,"textLines":1,"bbox":[72,72,1080,52]}
+{"kind":"shape","id":"sh/729sv61w","slide":5,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/g7298bid","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1165,43,42,22]}
+{"kind":"shape","id":"sh/h8ba1gzy","slide":5,"bbox":[72,174,526,420]}
+{"kind":"textbox","id":"sh/u50r6107","slide":5,"text":"PHASE 1","textPreview":"PHASE 1","textChars":7,"textLines":1,"bbox":[98,198,120,20]}
+{"kind":"textbox","id":"sh/v6tsz6hs","slide":5,"text":"Core Digital Platform","textPreview":"Core Digital Platform","textChars":21,"textLines":1,"bbox":[98,228,420,34]}
+{"kind":"textbox","id":"sh/4b29cvip","slide":5,"text":"CURRENT PAID SCOPE","textPreview":"CURRENT PAID SCOPE","textChars":18,"textLines":1,"bbox":[98,270,180,18]}
+{"kind":"textbox","id":"sh/5cba50zu","slide":5,"text":"• Responsive website","textPreview":"• Responsive website","textChars":20,"textLines":1,"bbox":[98,307,225,19]}
+{"kind":"textbox","id":"sh/lgn6h47y","slide":5,"text":"• Android and iOS app","textPreview":"• Android and iOS app","textChars":21,"textLines":1,"bbox":[98,335,225,19]}
+{"kind":"textbox","id":"sh/kfepozqd","slide":5,"text":"• Registration, login and OTP","textPreview":"• Registration, login and OTP","textChars":29,"textLines":1,"bbox":[98,363,225,19]}
+{"kind":"textbox","id":"sh/ze5ofup8","slide":5,"text":"• Pitch and facility booking","textPreview":"• Pitch and facility booking","textChars":28,"textLines":1,"bbox":[98,391,225,19]}
+{"kind":"textbox","id":"sh/ydw7mp8n","slide":5,"text":"• Live availability","textPreview":"• Live availability","textChars":19,"textLines":1,"bbox":[98,419,225,19]}
+{"kind":"textbox","id":"sh/947ql47a","slide":5,"text":"• Booking history and cancellation","textPreview":"• Booking history and cancellation","textChars":34,"textLines":1,"bbox":[98,447,225,19]}
+{"kind":"textbox","id":"sh/83ypszqp","slide":5,"text":"• Push notifications","textPreview":"• Push notifications","textChars":20,"textLines":1,"bbox":[98,475,225,19]}
+{"kind":"textbox","id":"sh/7ip8jup4","slide":5,"text":"• QR booking confirmation","textPreview":"• QR booking confirmation","textChars":25,"textLines":1,"bbox":[98,503,225,19]}
+{"kind":"textbox","id":"sh/mhw7q98j","slide":5,"text":"• Online payment integration","textPreview":"• Online payment integration","textChars":28,"textLines":1,"bbox":[98,531,225,19]}
+{"kind":"textbox","id":"sh/p8369k7q","slide":5,"text":"• Payment confirmation and receipt","textPreview":"• Payment confirmation and receipt","textChars":34,"textLines":1,"bbox":[332,307,240,19]}
+{"kind":"textbox","id":"sh/o7upgfql","slide":5,"text":"• Admin dashboard","textPreview":"• Admin dashboard","textChars":17,"textLines":1,"bbox":[332,335,240,19]}
+{"kind":"textbox","id":"sh/grypwfy1","slide":5,"text":"• Booking management","textPreview":"• Booking management","textChars":20,"textLines":1,"bbox":[332,363,240,19]}
+{"kind":"textbox","id":"sh/1s7qpkfm","slide":5,"text":"• Facility and schedule management","textPreview":"• Facility and schedule management","textChars":34,"textLines":1,"bbox":[332,391,240,19]}
+{"kind":"textbox","id":"sh/epg7u5gb","slide":5,"text":"• Customer and pricing management","textPreview":"• Customer and pricing management","textChars":33,"textLines":1,"bbox":[332,419,240,19]}
+{"kind":"textbox","id":"sh/fqponaxw","slide":5,"text":"• Payment status","textPreview":"• Payment status","textChars":16,"textLines":1,"bbox":[332,447,240,19]}
+{"kind":"textbox","id":"sh/ovyp0zyd","slide":5,"text":"• Basic revenue and booking reports","textPreview":"• Basic revenue and booking reports","textChars":35,"textLines":1,"bbox":[332,475,240,19]}
+{"kind":"textbox","id":"sh/pwrqtkfy","slide":5,"text":"• Backend APIs","textPreview":"• Backend APIs","textChars":14,"textLines":1,"bbox":[332,503,240,19]}
+{"kind":"textbox","id":"sh/2tg7ypg7","slide":5,"text":"• Deployment and staff training","textPreview":"• Deployment and staff training","textChars":31,"textLines":1,"bbox":[332,531,240,19]}
+{"kind":"shape","id":"sh/3up8ruxs","slide":5,"bbox":[626,174,263,420]}
+{"kind":"textbox","id":"sh/cjip4zy9","slide":5,"text":"PHASE 2","textPreview":"PHASE 2","textChars":7,"textLines":1,"bbox":[650,198,100,20]}
+{"kind":"textbox","id":"sh/dkrqx4fu","slide":5,"text":"Membership & Growth","textPreview":"Membership & Growth","textChars":19,"textLines":1,"bbox":[650,230,215,52]}
+{"kind":"textbox","id":"sh/netsnyhw","slide":5,"text":"FUTURE OPTIONAL","textPreview":"FUTURE OPTIONAL","textChars":15,"textLines":1,"bbox":[650,292,160,18]}
+{"kind":"textbox","id":"sh/mdkrut0r","slide":5,"text":"• Digital membership","textPreview":"• Digital membership","textChars":20,"textLines":1,"bbox":[650,329,215,24]}
+{"kind":"textbox","id":"sh/9gvap8z2","slide":5,"text":"• Subscriptions","textPreview":"• Subscriptions","textChars":15,"textLines":1,"bbox":[650,363,215,24]}
+{"kind":"textbox","id":"sh/8fmtw3ih","slide":5,"text":"• Digital membership card","textPreview":"• Digital membership card","textChars":25,"textLines":1,"bbox":[650,397,215,24]}
+{"kind":"textbox","id":"sh/zqtsjyh0","slide":5,"text":"• Loyalty points","textPreview":"• Loyalty points","textChars":16,"textLines":1,"bbox":[650,431,215,24]}
+{"kind":"textbox","id":"sh/ypkrqt0f","slide":5,"text":"• Promotions","textPreview":"• Promotions","textChars":12,"textLines":1,"bbox":[650,465,215,24]}
+{"kind":"textbox","id":"sh/lcbaloz6","slide":5,"text":"• Advanced analytics","textPreview":"• Advanced analytics","textChars":20,"textLines":1,"bbox":[650,499,215,24]}
+{"kind":"shape","id":"sh/0r29sjil","slide":5,"bbox":[917,174,263,420]}
+{"kind":"textbox","id":"sh/jmdsvih4","slide":5,"text":"PHASE 3","textPreview":"PHASE 3","textChars":7,"textLines":1,"bbox":[941,198,100,20]}
+{"kind":"textbox","id":"sh/il4b2d0j","slide":5,"text":"Smart Club Services","textPreview":"Smart Club Services","textChars":19,"textLines":1,"bbox":[941,230,215,52]}
+{"kind":"textbox","id":"sh/6tkvqhw3","slide":5,"text":"FUTURE OPTIONAL","textPreview":"FUTURE OPTIONAL","textChars":15,"textLines":1,"bbox":[941,292,160,18]}
+{"kind":"textbox","id":"sh/rudwzmdo","slide":5,"text":"• Academy management","textPreview":"• Academy management","textChars":20,"textLines":1,"bbox":[941,329,215,24]}
+{"kind":"textbox","id":"sh/svmdsre9","slide":5,"text":"• Coach booking","textPreview":"• Coach booking","textChars":15,"textLines":1,"bbox":[941,363,215,24]}
+{"kind":"textbox","id":"sh/twve1cve","slide":5,"text":"• Event ticketing","textPreview":"• Event ticketing","textChars":17,"textLines":1,"bbox":[941,397,215,24]}
+{"kind":"textbox","id":"sh/ipkvmxwr","slide":5,"text":"• Restaurant ordering","textPreview":"• Restaurant ordering","textChars":21,"textLines":1,"bbox":[941,431,215,24]}
+{"kind":"textbox","id":"sh/jqtwv2dc","slide":5,"text":"• Smart access control","textPreview":"• Smart access control","textChars":22,"textLines":1,"bbox":[941,465,215,24]}
+{"kind":"textbox","id":"sh/4r2do7ex","slide":5,"text":"• Parking management","textPreview":"• Parking management","textChars":20,"textLines":1,"bbox":[941,499,215,24]}
+{"kind":"textbox","id":"sh/5sbexcvi","slide":5,"text":"• Additional services","textPreview":"• Additional services","textChars":21,"textLines":1,"bbox":[941,533,215,24]}
+{"kind":"shape","id":"sh/2lofy1wb","slide":5,"bbox":[72,613,1136,40]}
+{"kind":"textbox","id":"sh/nmxw76dw","slide":5,"text":"Phase 2 and Phase 3 are not included in the Phase 1 price. Coovix will scope and price them separately.","textPreview":"Phase 2 and Phase 3 are not included in the Phase 1 price. Coovix will scope and price them separately.","textChars":103,"textLines":1,"bbox":[94,624,1092,18]}
+{"kind":"textbox","id":"sh/xsjqdkja","slide":5,"text":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textPreview":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textChars":34,"textLines":1,"bbox":[72,681,520,16]}
+{"kind":"shape","id":"sh/wrapkf2p","slide":5,"bbox":[1188,681,20,3]}
+{"kind":"notes","id":"nt/zwdtgc","slide":5,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/oyl7lz","slide":6,"title":"WEBSITE EXPERIENCE","textShapes":40}
+{"kind":"textbox","id":"sh/rmxkzu5w","slide":6,"text":"WEBSITE EXPERIENCE","textPreview":"WEBSITE EXPERIENCE","textChars":18,"textLines":1,"bbox":[72,42,500,24]}
+{"kind":"textbox","id":"sh/sn6l8zmh","slide":6,"text":"The website supports both club content and live pitch booking","textPreview":"The website supports both club content and live pitch booking","textChars":61,"textLines":1,"bbox":[72,72,1080,52]}
+{"kind":"shape","id":"sh/tof21432","slide":6,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/ixoj2p4f","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1165,43,42,22]}
+{"kind":"shape","id":"sh/jixkva50","slide":6,"bbox":[72,176,690,382]}
+{"kind":"shape","id":"sh/4j614fml","slide":6,"bbox":[72,176,690,46]}
+{"kind":"textbox","id":"sh/at4jy54j","slide":6,"text":"ERBIL SPORTS CLUB","textPreview":"ERBIL SPORTS CLUB","textChars":17,"textLines":1,"bbox":[136,190,158,18]}
+{"kind":"textbox","id":"sh/vudkra5o","slide":6,"text":"Home","textPreview":"Home","textChars":4,"textLines":1,"bbox":[322,191,55,16]}
+{"kind":"textbox","id":"sh/729cri5c","slide":6,"text":"Team","textPreview":"Team","textChars":4,"textLines":1,"bbox":[382,191,55,16]}
+{"kind":"textbox","id":"sh/610vid4r","slide":6,"text":"Fixtures","textPreview":"Fixtures","textChars":8,"textLines":1,"bbox":[442,191,55,16]}
+{"kind":"textbox","id":"sh/t4rutsni","slide":6,"text":"News","textPreview":"News","textChars":4,"textLines":1,"bbox":[502,191,55,16]}
+{"kind":"textbox","id":"sh/s3idknmx","slide":6,"text":"Facilities","textPreview":"Facilities","textChars":10,"textLines":1,"bbox":[562,191,55,16]}
+{"kind":"shape","id":"sh/f69cvi58","slide":6,"bbox":[642,185,102,28]}
+{"kind":"textbox","id":"sh/u50vmx4n","slide":6,"text":"MEMBER LOGIN","textPreview":"MEMBER LOGIN","textChars":12,"textLines":1,"bbox":[648,193,90,12]}
+{"kind":"shape","id":"sh/h8buxs3e","slide":6,"bbox":[88,238,658,166]}
+{"kind":"textbox","id":"sh/g7idonmt","slide":6,"text":"WELCOME TO ERBIL SPORTS CLUB","textPreview":"WELCOME TO ERBIL SPORTS CLUB","textChars":28,"textLines":1,"bbox":[106,256,300,16]}
+{"kind":"textbox","id":"sh/vapcjy54","slide":6,"text":"The pride of Hawler,\non and off the pitch.","textPreview":"The pride of Hawler, | on and off the pitch.","textChars":42,"textLines":2,"bbox":[106,281,330,54]}
+{"kind":"textbox","id":"sh/a9gbat4j","slide":6,"text":"Fixtures, club news, membership and pitch booking - connected.","textPreview":"Fixtures, club news, membership and pitch booking - connected.","textChars":62,"textLines":1,"bbox":[106,342,330,34]}
+{"kind":"shape","id":"sh/ep4fi1o7","slide":6,"bbox":[106,378,112,22]}
+{"kind":"textbox","id":"sh/zqdgr6ps","slide":6,"text":"EXPLORE THE CLUB","textPreview":"EXPLORE THE CLUB","textChars":16,"textLines":1,"bbox":[114,383,96,11]}
+{"kind":"shape","id":"sh/1sfytgni","slide":6,"bbox":[88,422,208.67,112]}
+{"kind":"textbox","id":"sh/q14fehov","slide":6,"text":"NEXT FIXTURE","textPreview":"NEXT FIXTURE","textChars":12,"textLines":1,"bbox":[104,438,176.67,14]}
+{"kind":"textbox","id":"sh/r2dgnmpg","slide":6,"text":"Erbil SC vs. Duhok","textPreview":"Erbil SC vs. Duhok","textChars":18,"textLines":1,"bbox":[104,463,176.67,25]}
+{"kind":"textbox","id":"sh/c3mxgr61","slide":6,"text":"Friday | 7:30 PM","textPreview":"Friday | 7:30 PM","textChars":16,"textLines":1,"bbox":[104,500,176.67,16]}
+{"kind":"shape","id":"sh/dovypw7m","slide":6,"bbox":[312.67,422,208.67,112]}
+{"kind":"textbox","id":"sh/2xkfahoz","slide":6,"text":"LATEST NEWS","textPreview":"LATEST NEWS","textChars":11,"textLines":1,"bbox":[328.67,438,176.67,14]}
+{"kind":"textbox","id":"sh/3ytwjmpk","slide":6,"text":"First-team update","textPreview":"First-team update","textChars":17,"textLines":1,"bbox":[328.67,463,176.67,25]}
+{"kind":"textbox","id":"sh/lsjipk72","slide":6,"text":"Open the full story","textPreview":"Open the full story","textChars":19,"textLines":1,"bbox":[328.67,500,176.67,16]}
+{"kind":"shape","id":"sh/kra1gfqh","slide":6,"bbox":[537.33,422,208.67,112]}
+{"kind":"textbox","id":"sh/jq10napw","slide":6,"text":"BOOK A PITCH","textPreview":"BOOK A PITCH","textChars":12,"textLines":1,"bbox":[553.33,438,176.67,14]}
+{"kind":"textbox","id":"sh/yp8je58b","slide":6,"text":"Training facilities","textPreview":"Training facilities","textChars":19,"textLines":1,"bbox":[553.33,463,176.67,25]}
+{"kind":"textbox","id":"sh/xozil0rq","slide":6,"text":"Check live availability","textPreview":"Check live availability","textChars":23,"textLines":1,"bbox":[553.33,500,176.67,16]}
+{"kind":"shape","id":"sh/wnqhcfql","slide":6,"bbox":[790,176,418,382]}
+{"kind":"shape","id":"sh/bmh0ja90","slide":6,"bbox":[790,176,418,46]}
+{"kind":"textbox","id":"sh/9kzih0ru","slide":6,"text":"BOOK A PITCH","textPreview":"BOOK A PITCH","textChars":12,"textLines":1,"bbox":[855,190,150,18]}
+{"kind":"shape","id":"sh/ojqh8vq9","slide":6,"bbox":[1102,186,88,26]}
+{"kind":"textbox","id":"sh/oni9ozq5","slide":6,"text":"MY BOOKINGS","textPreview":"MY BOOKINGS","textChars":11,"textLines":1,"bbox":[1109,193,74,12]}
+{"kind":"textbox","id":"sh/porqh47q","slide":6,"text":"Reserve a football pitch","textPreview":"Reserve a football pitch","textChars":24,"textLines":1,"bbox":[814,244,370,28]}
+{"kind":"textbox","id":"sh/21grmp8f","slide":6,"text":"Choose a facility and available time","textPreview":"Choose a facility and available time","textChars":36,"textLines":1,"bbox":[814,274,370,18]}
+{"kind":"textbox","id":"sh/nm98fup0","slide":6,"text":"FACILITY","textPreview":"FACILITY","textChars":8,"textLines":1,"bbox":[814,308,100,14]}
+{"kind":"shape","id":"sh/cri9sjqh","slide":6,"bbox":[814,327,370,46]}
+{"kind":"textbox","id":"sh/xsrqlo72","slide":6,"text":"Training Pitch 1","textPreview":"Training Pitch 1","textChars":16,"textLines":1,"bbox":[830,341,338,18]}
+{"kind":"textbox","id":"sh/ap0rq98b","slide":6,"text":"DATE","textPreview":"DATE","textChars":4,"textLines":1,"bbox":[814,391,80,14]}
+{"kind":"textbox","id":"sh/bq98jepw","slide":6,"text":"TIME","textPreview":"TIME","textChars":4,"textLines":1,"bbox":[995,391,80,14]}
+{"kind":"shape","id":"sh/svy9gfqd","slide":6,"bbox":[814,410,160,42]}
+{"kind":"textbox","id":"sh/dw7q9kri","slide":6,"text":"Friday, 13 Sep","textPreview":"Friday, 13 Sep","textChars":14,"textLines":1,"bbox":[828,422,132,18]}
+{"kind":"shape","id":"sh/vqdcvi90","slide":6,"bbox":[995,410,189,42]}
+{"kind":"textbox","id":"sh/up4bmdsv","slide":6,"text":"18:30-20:00","textPreview":"18:30-20:00","textChars":11,"textLines":1,"bbox":[1006,422,167,18]}
+{"kind":"shape","id":"sh/hcvuxsr6","slide":6,"bbox":[814,472,370,48]}
+{"kind":"textbox","id":"sh/grmtonal","slide":6,"text":"TOTAL","textPreview":"TOTAL","textChars":5,"textLines":1,"bbox":[830,482,80,14]}
+{"kind":"textbox","id":"sh/7mdcri94","slide":6,"text":"25,000 IQD","textPreview":"25,000 IQD","textChars":10,"textLines":1,"bbox":[830,498,120,16]}
+{"kind":"shape","id":"sh/6l4bidsj","slide":6,"bbox":[1058,481,110,30]}
+{"kind":"textbox","id":"sh/tovut8ra","slide":6,"text":"CONTINUE","textPreview":"CONTINUE","textChars":8,"textLines":1,"bbox":[1068,489,90,14]}
+{"kind":"textbox","id":"sh/8nmtknap","slide":6,"text":"HOMEPAGE","textPreview":"HOMEPAGE","textChars":8,"textLines":1,"bbox":[72,575,690,18]}
+{"kind":"textbox","id":"sh/jitcny98","slide":6,"text":"BOOKING PAGE","textPreview":"BOOKING PAGE","textChars":12,"textLines":1,"bbox":[790,575,418,18]}
+{"kind":"shape","id":"sh/yhkbetsn","slide":6,"bbox":[72,612,1136,40]}
+{"kind":"textbox","id":"sh/2t0vqtcf","slide":6,"text":"CLUB STORY  •  FIXTURES  •  NEWS  •  MEMBER ACCESS  •  LIVE AVAILABILITY  •  ONLINE PAYMENT","textPreview":"CLUB STORY  •  FIXTURES  •  NEWS  •  MEMBER ACCESS  •  LIVE AVAILABILITY  •  ONLINE PAYMENT","textChars":91,"textLines":1,"bbox":[96,623,1088,18]}
+{"kind":"textbox","id":"sh/netczyd0","slide":6,"text":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textPreview":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textChars":34,"textLines":1,"bbox":[72,681,520,16]}
+{"kind":"shape","id":"sh/of2ds3ul","slide":6,"bbox":[1188,681,20,3]}
+{"kind":"image","id":"im/svuts32x","slide":6,"name":"","bbox":[90.95,181,36.11,38]}
+{"kind":"image","id":"im/vyt0jils","slide":6,"name":"","bbox":[452,238,294,166]}
+{"kind":"image","id":"im/50n6p0f6","slide":6,"name":"","bbox":[806.95,181,36.11,38]}
+{"kind":"notes","id":"nt/oyl7lz","slide":6,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n- Official Erbil Sports Club crest supplied by the user.\n- Erbil Sports Club football team photograph supplied by the user.\n[/Sources]"}
+{"kind":"slide","id":"sl/nuomk5","slide":7,"title":"MOBILE APPLICATION","textShapes":49}
+{"kind":"textbox","id":"sh/9kn6hw76","slide":7,"text":"MOBILE APPLICATION","textPreview":"MOBILE APPLICATION","textChars":18,"textLines":1,"bbox":[72,42,500,24]}
+{"kind":"textbox","id":"sh/mhwnmh8f","slide":7,"text":"The mobile app makes football services easy to find and book","textPreview":"The mobile app makes football services easy to find and book","textChars":60,"textLines":1,"bbox":[72,72,1080,52]}
+{"kind":"shape","id":"sh/ni5ofmp0","slide":7,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/0ve5k7q9","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1165,43,42,22]}
+{"kind":"textbox","id":"sh/1gn6dcru","slide":7,"text":"The primary journey moves from the club home screen to pitch selection and live availability.","textPreview":"The primary journey moves from the club home screen to pitch selection and live availability.","textChars":93,"textLines":1,"bbox":[72,151,1040,38]}
+{"kind":"shape","id":"sh/etcnih8j","slide":7,"bbox":[130,205,230,414]}
+{"kind":"shape","id":"sh/zulobm94","slide":7,"bbox":[138,213,214,398]}
+{"kind":"shape","id":"sh/cru5g7qd","slide":7,"bbox":[218,219,54,7]}
+{"kind":"textbox","id":"sh/98ry1cnu","slide":7,"text":"ERBIL SC","textPreview":"ERBIL SC","textChars":8,"textLines":1,"bbox":[187,243,148,18]}
+{"kind":"textbox","id":"sh/87ix87m9","slide":7,"text":"9:41","textPreview":"9:41","textChars":4,"textLines":1,"bbox":[150,220,36,10]}
+{"kind":"textbox","id":"sh/n69gzm5o","slide":7,"text":"●  ▰","textPreview":"●  ▰","textChars":4,"textLines":1,"bbox":[300,220,38,10]}
+{"kind":"textbox","id":"sh/m50f6h4j","slide":7,"text":"Welcome back","textPreview":"Welcome back","textChars":12,"textLines":1,"bbox":[150,284,190,18]}
+{"kind":"textbox","id":"sh/l4ryxcny","slide":7,"text":"Your club, all in\none place","textPreview":"Your club, all in | one place","textChars":27,"textLines":2,"bbox":[150,306,190,48]}
+{"kind":"shape","id":"sh/0jix47md","slide":7,"bbox":[150,373,190,64]}
+{"kind":"textbox","id":"sh/zi9gv25s","slide":7,"text":"NEXT MATCH","textPreview":"NEXT MATCH","textChars":10,"textLines":1,"bbox":[164,386,162,15]}
+{"kind":"textbox","id":"sh/yhgf2xo7","slide":7,"text":"Match center","textPreview":"Match center","textChars":12,"textLines":1,"bbox":[164,409,162,18]}
+{"kind":"shape","id":"sh/dg7etsnm","slide":7,"bbox":[150,445,190,36]}
+{"kind":"shape","id":"sh/cfyx0n61","slide":7,"bbox":[162,455,15,15]}
+{"kind":"textbox","id":"sh/4j2xg7ex","slide":7,"text":"Training pitches","textPreview":"Training pitches","textChars":16,"textLines":1,"bbox":[187,453,142,17]}
+{"kind":"shape","id":"sh/pkbypcvi","slide":7,"bbox":[150,489,190,36]}
+{"kind":"shape","id":"sh/2xkfexw7","slide":7,"bbox":[162,499,15,15]}
+{"kind":"textbox","id":"sh/3ytgn2dc","slide":7,"text":"Academy","textPreview":"Academy","textChars":7,"textLines":1,"bbox":[187,497,142,17]}
+{"kind":"shape","id":"sh/gvixcne1","slide":7,"bbox":[150,533,190,36]}
+{"kind":"shape","id":"sh/hwbylsvm","slide":7,"bbox":[162,543,15,15]}
+{"kind":"textbox","id":"sh/ut0fadwv","slide":7,"text":"Club news","textPreview":"Club news","textChars":9,"textLines":1,"bbox":[187,541,142,17]}
+{"kind":"shape","id":"sh/fu9gjidg","slide":7,"bbox":[156,585,178,0]}
+{"kind":"textbox","id":"sh/0rmhoru5","slide":7,"text":"HOME       FIXTURES       PROFILE","textPreview":"HOME       FIXTURES       PROFILE","textChars":33,"textLines":1,"bbox":[155,593,180,11]}
+{"kind":"shape","id":"sh/1svyxwvq","slide":7,"bbox":[525,205,230,414]}
+{"kind":"shape","id":"sh/bmh0nqxs","slide":7,"bbox":[533,213,214,398]}
+{"kind":"shape","id":"sh/alojelgn","slide":7,"bbox":[613,219,54,7]}
+{"kind":"textbox","id":"sh/wnq1gvyd","slide":7,"text":"ERBIL SC","textPreview":"ERBIL SC","textChars":8,"textLines":1,"bbox":[582,243,148,18]}
+{"kind":"textbox","id":"sh/jah0rqx4","slide":7,"text":"9:41","textPreview":"9:41","textChars":4,"textLines":1,"bbox":[545,220,36,10]}
+{"kind":"textbox","id":"sh/y98jilwj","slide":7,"text":"●  ▰","textPreview":"●  ▰","textChars":4,"textLines":1,"bbox":[695,220,38,10]}
+{"kind":"textbox","id":"sh/lcz2t0fa","slide":7,"text":"Select a pitch","textPreview":"Select a pitch","textChars":14,"textLines":1,"bbox":[545,287,190,28]}
+{"kind":"textbox","id":"sh/kbq1kvep","slide":7,"text":"Football facilities","textPreview":"Football facilities","textChars":19,"textLines":1,"bbox":[545,319,190,16]}
+{"kind":"shape","id":"sh/zed0f6xk","slide":7,"bbox":[545,350,190,58]}
+{"kind":"textbox","id":"sh/ed4z61gf","slide":7,"text":"Training Pitch 1","textPreview":"Training Pitch 1","textChars":16,"textLines":1,"bbox":[559,360,162,17]}
+{"kind":"textbox","id":"sh/qx8jm1ov","slide":7,"text":"Available today","textPreview":"Available today","textChars":15,"textLines":1,"bbox":[559,380,100,14]}
+{"kind":"textbox","id":"sh/ryh0v65g","slide":7,"text":"25,000 IQD","textPreview":"25,000 IQD","textChars":10,"textLines":1,"bbox":[650,380,72,14]}
+{"kind":"shape","id":"sh/szq1ob61","slide":7,"bbox":[545,420,190,58]}
+{"kind":"textbox","id":"sh/d0jixgnm","slide":7,"text":"Training Pitch 2","textPreview":"Training Pitch 2","textChars":16,"textLines":1,"bbox":[559,430,162,17]}
+{"kind":"textbox","id":"sh/e1sjqlo7","slide":7,"text":"Next: 20:00","textPreview":"Next: 20:00","textChars":11,"textLines":1,"bbox":[559,450,100,14]}
+{"kind":"textbox","id":"sh/f21kz65s","slide":7,"text":"25,000 IQD","textPreview":"25,000 IQD","textChars":10,"textLines":1,"bbox":[650,450,72,14]}
+{"kind":"shape","id":"sh/03a1sb6d","slide":7,"bbox":[545,490,190,58]}
+{"kind":"textbox","id":"sh/14j21gny","slide":7,"text":"Main Pitch","textPreview":"Main Pitch","textChars":10,"textLines":1,"bbox":[559,500,162,17]}
+{"kind":"textbox","id":"sh/2psjulo3","slide":7,"text":"Staff approval","textPreview":"Staff approval","textChars":14,"textLines":1,"bbox":[559,520,100,14]}
+{"kind":"textbox","id":"sh/nq1k3q5o","slide":7,"text":"Request","textPreview":"Request","textChars":7,"textLines":1,"bbox":[650,520,72,14]}
+{"kind":"shape","id":"sh/xw7u9ob2","slide":7,"bbox":[545,565,190,32]}
+{"kind":"textbox","id":"sh/wvedgjuh","slide":7,"text":"VIEW AVAILABILITY","textPreview":"VIEW AVAILABILITY","textChars":17,"textLines":1,"bbox":[555,572,170,15]}
+{"kind":"shape","id":"sh/bu5c7etc","slide":7,"bbox":[920,205,230,414]}
+{"kind":"shape","id":"sh/a9wve9cr","slide":7,"bbox":[928,213,214,398]}
+{"kind":"shape","id":"sh/l07udobe","slide":7,"bbox":[1008,219,54,7]}
+{"kind":"textbox","id":"sh/jypcbet8","slide":7,"text":"ERBIL SC","textPreview":"ERBIL SC","textChars":8,"textLines":1,"bbox":[977,243,148,18]}
+{"kind":"textbox","id":"sh/yxgvi9cn","slide":7,"text":"9:41","textPreview":"9:41","textChars":4,"textLines":1,"bbox":[940,220,36,10]}
+{"kind":"textbox","id":"sh/t4reh8ba","slide":7,"text":"●  ▰","textPreview":"●  ▰","textChars":4,"textLines":1,"bbox":[1090,220,38,10]}
+{"kind":"textbox","id":"sh/83ydo3up","slide":7,"text":"Book a football pitch","textPreview":"Book a football pitch","textChars":21,"textLines":1,"bbox":[940,285,190,28]}
+{"kind":"textbox","id":"sh/s76xk7i1","slide":7,"text":"Select date","textPreview":"Select date","textChars":11,"textLines":1,"bbox":[940,329,190,16]}
+{"kind":"shape","id":"sh/d8zydcjm","slide":7,"bbox":[940,353,52,58]}
+{"kind":"textbox","id":"sh/q5ofix0v","slide":7,"text":"THU","textPreview":"THU","textChars":3,"textLines":1,"bbox":[945,362,42,12]}
+{"kind":"textbox","id":"sh/r6xwr21g","slide":7,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[945,381,42,18]}
+{"kind":"shape","id":"sh/0bqxorix","slide":7,"bbox":[1001,353,52,58]}
+{"kind":"textbox","id":"sh/1wzyhcji","slide":7,"text":"FRI","textPreview":"FRI","textChars":3,"textLines":1,"bbox":[1006,362,42,12]}
+{"kind":"textbox","id":"sh/e98fmh07","slide":7,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1006,381,42,18]}
+{"kind":"shape","id":"sh/fahgfm1s","slide":7,"bbox":[1062,353,52,58]}
+{"kind":"textbox","id":"sh/gfmxcnit","slide":7,"text":"SAT","textPreview":"SAT","textChars":3,"textLines":1,"bbox":[1067,362,42,12]}
+{"kind":"textbox","id":"sh/hgfelsje","slide":7,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1067,381,42,18]}
+{"kind":"textbox","id":"sh/zul0rqlw","slide":7,"text":"Available time","textPreview":"Available time","textChars":14,"textLines":1,"bbox":[940,431,190,16]}
+{"kind":"shape","id":"sh/ytczilkb","slide":7,"bbox":[940,456,190,38]}
+{"kind":"textbox","id":"sh/lw3it032","slide":7,"text":"17:00","textPreview":"17:00","textChars":5,"textLines":1,"bbox":[952,466,166,16]}
+{"kind":"shape","id":"sh/kvu1kv2h","slide":7,"bbox":[940,504,190,38]}
+{"kind":"textbox","id":"sh/bq10nql0","slide":7,"text":"18:30","textPreview":"18:30","textChars":5,"textLines":1,"bbox":[952,514,166,16]}
+{"kind":"shape","id":"sh/a5szelkf","slide":7,"bbox":[940,565,190,32]}
+{"kind":"textbox","id":"sh/xs3ipg3q","slide":7,"text":"CONFIRM TIME","textPreview":"CONFIRM TIME","textChars":12,"textLines":1,"bbox":[950,572,170,15]}
+{"kind":"shape","id":"sh/cruhgb25","slide":7,"bbox":[374,402,125,0]}
+{"kind":"shape","id":"sh/n210j6lo","slide":7,"bbox":[769,402,125,0]}
+{"kind":"textbox","id":"sh/21sza1k3","slide":7,"text":"APP HOME","textPreview":"APP HOME","textChars":8,"textLines":1,"bbox":[130,635,230,18]}
+{"kind":"textbox","id":"sh/ehwrm5wb","slide":7,"text":"PITCH SELECTION","textPreview":"PITCH SELECTION","textChars":15,"textLines":1,"bbox":[525,635,230,18]}
+{"kind":"textbox","id":"sh/fipsfaxw","slide":7,"text":"BOOKING CALENDAR","textPreview":"BOOKING CALENDAR","textChars":16,"textLines":1,"bbox":[920,635,230,18]}
+{"kind":"textbox","id":"sh/0jy9ofeh","slide":7,"text":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textPreview":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textChars":34,"textLines":1,"bbox":[72,681,520,16]}
+{"kind":"shape","id":"sh/1k7ahkf2","slide":7,"bbox":[1188,681,20,3]}
+{"kind":"image","id":"im/gfqdon6x","slide":7,"name":"","bbox":[149,237.21,30,31.57]}
+{"kind":"image","id":"im/q9oru14z","slide":7,"name":"","bbox":[544,237.21,30,31.57]}
+{"kind":"image","id":"im/fa1gvyl0","slide":7,"name":"","bbox":[939,237.21,30,31.57]}
+{"kind":"notes","id":"nt/nuomk5","slide":7,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n- Official Erbil Sports Club crest supplied by the user. All interface screens are proposal concepts.\n[/Sources]"}
+{"kind":"slide","id":"sl/8kzhdv","slide":8,"title":"BOOKING & PAYMENT FLOW","textShapes":49}
+{"kind":"textbox","id":"sh/tobi18ji","slide":8,"text":"BOOKING & PAYMENT FLOW","textPreview":"BOOKING & PAYMENT FLOW","textChars":22,"textLines":1,"bbox":[72,42,500,24]}
+{"kind":"textbox","id":"sh/6l0j6t07","slide":8,"text":"Payment and booking confirmation stay in one clear journey","textPreview":"Payment and booking confirmation stay in one clear journey","textChars":58,"textLines":1,"bbox":[72,72,1080,52]}
+{"kind":"shape","id":"sh/rm90zy1c","slide":8,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/4zi14ji1","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1165,43,42,22]}
+{"kind":"textbox","id":"sh/50rixojm","slide":8,"text":"Phase 1 includes online payment integration, confirmation, a digital receipt and QR booking entry.","textPreview":"Phase 1 includes online payment integration, confirmation, a digital receipt and QR booking entry.","textChars":98,"textLines":1,"bbox":[72,151,1080,38]}
+{"kind":"shape","id":"sh/ix0j2t0v","slide":8,"bbox":[72,202,220,408]}
+{"kind":"shape","id":"sh/jy90vy1g","slide":8,"bbox":[80,210,204,392]}
+{"kind":"shape","id":"sh/wvi10jip","slide":8,"bbox":[155,216,54,7]}
+{"kind":"textbox","id":"sh/h03i1gnq","slide":8,"text":"ERBIL SC","textPreview":"ERBIL SC","textChars":8,"textLines":1,"bbox":[129,240,138,18]}
+{"kind":"textbox","id":"sh/gzu1sbm5","slide":8,"text":"9:41","textPreview":"9:41","textChars":4,"textLines":1,"bbox":[92,217,36,10]}
+{"kind":"textbox","id":"sh/vyl0zq5k","slide":8,"text":"●  ▰","textPreview":"●  ▰","textChars":4,"textLines":1,"bbox":[232,217,38,10]}
+{"kind":"textbox","id":"sh/udcjqlof","slide":8,"text":"Review and pay","textPreview":"Review and pay","textChars":14,"textLines":1,"bbox":[92,284,180,28]}
+{"kind":"shape","id":"sh/tcjixgnu","slide":8,"bbox":[92,326,180,102]}
+{"kind":"textbox","id":"sh/8ba1ob69","slide":8,"text":"Training Pitch 1","textPreview":"Training Pitch 1","textChars":16,"textLines":1,"bbox":[106,341,152,18]}
+{"kind":"textbox","id":"sh/7a10v65o","slide":8,"text":"Friday 18:30-20:00","textPreview":"Friday 18:30-20:00","textChars":18,"textLines":1,"bbox":[106,368,152,16]}
+{"kind":"textbox","id":"sh/69sjm1o3","slide":8,"text":"25,000 IQD","textPreview":"25,000 IQD","textChars":10,"textLines":1,"bbox":[106,396,152,18]}
+{"kind":"textbox","id":"sh/l8jitwni","slide":8,"text":"PAYMENT METHOD","textPreview":"PAYMENT METHOD","textChars":14,"textLines":1,"bbox":[92,450,180,14]}
+{"kind":"shape","id":"sh/k7a1kr6x","slide":8,"bbox":[92,471,180,48]}
+{"kind":"textbox","id":"sh/cre1gbet","slide":8,"text":"Card ending 4242","textPreview":"Card ending 4242","textChars":16,"textLines":1,"bbox":[107,486,150,18]}
+{"kind":"shape","id":"sh/xsn29wve","slide":8,"bbox":[92,556,180,32]}
+{"kind":"textbox","id":"sh/apcje1w3","slide":8,"text":"PAY 25,000 IQD","textPreview":"PAY 25,000 IQD","textChars":14,"textLines":1,"bbox":[102,563,160,15]}
+{"kind":"textbox","id":"sh/bql076d8","slide":8,"text":"PAYMENT","textPreview":"PAYMENT","textChars":7,"textLines":1,"bbox":[72,626,220,18]}
+{"kind":"shape","id":"sh/onu1crex","slide":8,"bbox":[363,202,220,408]}
+{"kind":"shape","id":"sh/po3i5wvi","slide":8,"bbox":[371,210,204,392]}
+{"kind":"shape","id":"sh/2lcjahwr","slide":8,"bbox":[446,216,54,7]}
+{"kind":"textbox","id":"sh/8jy1ove1","slide":8,"text":"ERBIL SC","textPreview":"ERBIL SC","textChars":8,"textLines":1,"bbox":[420,240,138,18]}
+{"kind":"textbox","id":"sh/9k72h0vm","slide":8,"text":"9:41","textPreview":"9:41","textChars":4,"textLines":1,"bbox":[383,217,36,10]}
+{"kind":"textbox","id":"sh/je947uxo","slide":8,"text":"●  ▰","textPreview":"●  ▰","textChars":4,"textLines":1,"bbox":[523,217,38,10]}
+{"kind":"shape","id":"sh/id03epg3","slide":8,"bbox":[446,284,54,54]}
+{"kind":"textbox","id":"sh/5grm9kfu","slide":8,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[457,297,32,26]}
+{"kind":"textbox","id":"sh/4fi5gzy9","slide":8,"text":"Payment successful","textPreview":"Payment successful","textChars":18,"textLines":1,"bbox":[383,355,180,26]}
+{"kind":"textbox","id":"sh/rit4bux0","slide":8,"text":"25,000 IQD","textPreview":"25,000 IQD","textChars":10,"textLines":1,"bbox":[383,390,180,20]}
+{"kind":"shape","id":"sh/6hknipgf","slide":8,"bbox":[389,433,168,88]}
+{"kind":"textbox","id":"sh/d4bmd4fq","slide":8,"text":"STATUS","textPreview":"STATUS","textChars":6,"textLines":1,"bbox":[403,448,70,14]}
+{"kind":"textbox","id":"sh/s325kzel","slide":8,"text":"PAID","textPreview":"PAID","textChars":4,"textLines":1,"bbox":[497,448,46,14]}
+{"kind":"textbox","id":"sh/7mp4zaxg","slide":8,"text":"Receipt ESC-P18472","textPreview":"Receipt ESC-P18472","textChars":18,"textLines":1,"bbox":[403,478,140,16]}
+{"kind":"textbox","id":"sh/mlg365gb","slide":8,"text":"Digital receipt saved","textPreview":"Digital receipt saved","textChars":21,"textLines":1,"bbox":[403,500,140,14]}
+{"kind":"shape","id":"sh/ypknm5or","slide":8,"bbox":[383,556,180,32]}
+{"kind":"textbox","id":"sh/zqt4fa5c","slide":8,"text":"VIEW BOOKING","textPreview":"VIEW BOOKING","textChars":12,"textLines":1,"bbox":[393,563,160,15]}
+{"kind":"textbox","id":"sh/0r25of6x","slide":8,"text":"PAYMENT SUCCESS","textPreview":"PAYMENT SUCCESS","textChars":15,"textLines":1,"bbox":[363,626,220,18]}
+{"kind":"shape","id":"sh/lsbmhkni","slide":8,"bbox":[654,202,220,408]}
+{"kind":"shape","id":"sh/mtknq5o3","slide":8,"bbox":[662,210,204,392]}
+{"kind":"shape","id":"sh/nut4ja5o","slide":8,"bbox":[737,216,54,7]}
+{"kind":"textbox","id":"sh/9wvmlkne","slide":8,"text":"ERBIL SC","textPreview":"ERBIL SC","textChars":8,"textLines":1,"bbox":[711,240,138,18]}
+{"kind":"textbox","id":"sh/ax4nupoz","slide":8,"text":"9:41","textPreview":"9:41","textChars":4,"textLines":1,"bbox":[674,217,36,10]}
+{"kind":"textbox","id":"sh/vyd4nu5k","slide":8,"text":"●  ▰","textPreview":"●  ▰","textChars":4,"textLines":1,"bbox":[814,217,38,10]}
+{"kind":"shape","id":"sh/5ozy9sby","slide":8,"bbox":[737,280,54,54]}
+{"kind":"textbox","id":"sh/43qx0nud","slide":8,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[748,293,32,26]}
+{"kind":"textbox","id":"sh/32hg7its","slide":8,"text":"Booking confirmed","textPreview":"Booking confirmed","textChars":17,"textLines":1,"bbox":[674,350,180,26]}
+{"kind":"textbox","id":"sh/i18fydcn","slide":8,"text":"Training Pitch 1 | Fri 18:30-20:00","textPreview":"Training Pitch 1 | Fri 18:30-20:00","textChars":34,"textLines":1,"bbox":[676,381,176,30]}
+{"kind":"shape","id":"sh/dsjydsba","slide":8,"bbox":[703,422,122,130]}
+{"kind":"textbox","id":"sh/rqhgbit4","slide":8,"text":"BOOKING ID  ESC-18472","textPreview":"BOOKING ID  ESC-18472","textChars":21,"textLines":1,"bbox":[674,562,180,14]}
+{"kind":"textbox","id":"sh/qp8z2dcj","slide":8,"text":"Scan at reception","textPreview":"Scan at reception","textChars":17,"textLines":1,"bbox":[674,582,180,16]}
+{"kind":"textbox","id":"sh/1wjyhcb6","slide":8,"text":"QR CONFIRMATION","textPreview":"QR CONFIRMATION","textChars":15,"textLines":1,"bbox":[654,626,220,18]}
+{"kind":"shape","id":"sh/0vah87ul","slide":8,"bbox":[945,202,220,408]}
+{"kind":"shape","id":"sh/0zi1kbix","slide":8,"bbox":[953,210,204,392]}
+{"kind":"shape","id":"sh/l0ridgji","slide":8,"bbox":[1028,216,54,7]}
+{"kind":"textbox","id":"sh/zy90b61c","slide":8,"text":"ERBIL SC","textPreview":"ERBIL SC","textChars":8,"textLines":1,"bbox":[1002,240,138,18]}
+{"kind":"textbox","id":"sh/8321obit","slide":8,"text":"9:41","textPreview":"9:41","textChars":4,"textLines":1,"bbox":[965,217,36,10]}
+{"kind":"textbox","id":"sh/94bihgje","slide":8,"text":"●  ▰","textPreview":"●  ▰","textChars":4,"textLines":1,"bbox":[1105,217,38,10]}
+{"kind":"textbox","id":"sh/m10jml03","slide":8,"text":"My bookings","textPreview":"My bookings","textChars":11,"textLines":1,"bbox":[965,284,180,28]}
+{"kind":"shape","id":"sh/n290fq18","slide":8,"bbox":[965,328,180,130]}
+{"kind":"textbox","id":"sh/o7yhcr2p","slide":8,"text":"CONFIRMED","textPreview":"CONFIRMED","textChars":9,"textLines":1,"bbox":[979,343,90,14]}
+{"kind":"textbox","id":"sh/p87i5wja","slide":8,"text":"Training Pitch 1","textPreview":"Training Pitch 1","textChars":16,"textLines":1,"bbox":[979,369,152,18]}
+{"kind":"textbox","id":"sh/7mx4buls","slide":8,"text":"Friday 18:30-20:00","textPreview":"Friday 18:30-20:00","textChars":18,"textLines":1,"bbox":[979,395,152,16]}
+{"kind":"textbox","id":"sh/6l43ipk7","slide":8,"text":"25,000 IQD  |  PAID","textPreview":"25,000 IQD  |  PAID","textChars":19,"textLines":1,"bbox":[979,421,152,16]}
+{"kind":"shape","id":"sh/tofmd43y","slide":8,"bbox":[965,474,180,78]}
+{"kind":"textbox","id":"sh/sn6lkz2d","slide":8,"text":"Previous booking","textPreview":"Previous booking","textChars":16,"textLines":1,"bbox":[979,489,152,16]}
+{"kind":"textbox","id":"sh/jyd47alg","slide":8,"text":"Training Pitch 2  |  Completed","textPreview":"Training Pitch 2  |  Completed","textChars":30,"textLines":1,"bbox":[979,516,152,16]}
+{"kind":"shape","id":"sh/ix43epkb","slide":8,"bbox":[971,576,168,0]}
+{"kind":"textbox","id":"sh/5kvm9k3m","slide":8,"text":"HOME       BOOKINGS       PROFILE","textPreview":"HOME       BOOKINGS       PROFILE","textChars":33,"textLines":1,"bbox":[970,584,170,11]}
+{"kind":"textbox","id":"sh/kzmlgf21","slide":8,"text":"MY BOOKINGS","textPreview":"MY BOOKINGS","textChars":11,"textLines":1,"bbox":[945,626,220,18]}
+{"kind":"textbox","id":"sh/vutk3alk","slide":8,"text":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textPreview":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textChars":34,"textLines":1,"bbox":[72,681,520,16]}
+{"kind":"shape","id":"sh/atk3a5kz","slide":8,"bbox":[1188,681,20,3]}
+{"kind":"image","id":"im/ozex8r6l","slide":8,"name":"","bbox":[91,234.21,30,31.57]}
+{"kind":"image","id":"im/07u5sfal","slide":8,"name":"","bbox":[382,234.21,30,31.57]}
+{"kind":"image","id":"im/ni9476d8","slide":8,"name":"","bbox":[673,234.21,30,31.57]}
+{"kind":"image","id":"im/j6lsfyps","slide":8,"name":"","bbox":[709,432,110,110]}
+{"kind":"image","id":"im/loz6lkne","slide":8,"name":"","bbox":[964,234.21,30,31.57]}
+{"kind":"notes","id":"nt/8kzhdv","slide":8,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n- The QR code is a functional proposal demonstration linked to booking ID ESC-18472.\n[/Sources]"}
+{"kind":"slide","id":"sl/r4bots","slide":9,"title":"ADMIN DASHBOARD","textShapes":35}
+{"kind":"textbox","id":"sh/q9g7m9w7","slide":9,"text":"ADMIN DASHBOARD","textPreview":"ADMIN DASHBOARD","textChars":15,"textLines":1,"bbox":[72,42,500,24]}
+{"kind":"textbox","id":"sh/dc76h4vy","slide":9,"text":"The dashboard connects bookings, payments and daily operations","textPreview":"The dashboard connects bookings, payments and daily operations","textChars":62,"textLines":1,"bbox":[72,72,1080,52]}
+{"kind":"shape","id":"sh/sbypozed","slide":9,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/3m5obudg","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1165,43,42,22]}
+{"kind":"shape","id":"sh/ilw7ipwb","slide":9,"bbox":[72,170,750,414]}
+{"kind":"shape","id":"sh/5876d4vm","slide":9,"bbox":[72,170,150,414]}
+{"kind":"textbox","id":"sh/47epkze1","slide":9,"text":"ESC ADMIN","textPreview":"ESC ADMIN","textChars":9,"textLines":1,"bbox":[94,195,108,22]}
+{"kind":"shape","id":"sh/n29oned0","slide":9,"bbox":[86,238,122,30]}
+{"kind":"textbox","id":"sh/2h07utwf","slide":9,"text":"Overview","textPreview":"Overview","textChars":8,"textLines":1,"bbox":[101,245,96,18]}
+{"kind":"textbox","id":"sh/srelwvul","slide":9,"text":"Bookings","textPreview":"Bookings","textChars":8,"textLines":1,"bbox":[101,287,96,18]}
+{"kind":"textbox","id":"sh/tsnm50v6","slide":9,"text":"Facilities","textPreview":"Facilities","textChars":10,"textLines":1,"bbox":[101,329,96,18]}
+{"kind":"textbox","id":"sh/6pw3ulcf","slide":9,"text":"Customers","textPreview":"Customers","textChars":9,"textLines":1,"bbox":[101,371,96,18]}
+{"kind":"textbox","id":"sh/rq543qd0","slide":9,"text":"Payments","textPreview":"Payments","textChars":8,"textLines":1,"bbox":[101,413,96,18]}
+{"kind":"textbox","id":"sh/4nelsbup","slide":9,"text":"Reports","textPreview":"Reports","textChars":7,"textLines":1,"bbox":[101,455,96,18]}
+{"kind":"textbox","id":"sh/5onm1gva","slide":9,"text":"Today at a glance","textPreview":"Today at a glance","textChars":17,"textLines":1,"bbox":[252,194,300,28]}
+{"kind":"shape","id":"sh/ilc3q1cj","slide":9,"bbox":[252,238,157,76]}
+{"kind":"textbox","id":"sh/jm5kz6d4","slide":9,"text":"48","textPreview":"48","textChars":2,"textLines":1,"bbox":[264,251,133,26]}
+{"kind":"textbox","id":"sh/wjulobud","slide":9,"text":"Bookings","textPreview":"Bookings","textChars":8,"textLines":1,"bbox":[264,282,133,18]}
+{"kind":"shape","id":"sh/hk32xgvy","slide":9,"bbox":[429,238,157,76]}
+{"kind":"textbox","id":"sh/xgvi1snm","slide":9,"text":"72%","textPreview":"72%","textChars":3,"textLines":1,"bbox":[441,251,133,26]}
+{"kind":"textbox","id":"sh/wfm1sn6h","slide":9,"text":"Utilization","textPreview":"Utilization","textChars":11,"textLines":1,"bbox":[441,282,133,18]}
+{"kind":"shape","id":"sh/bed0z25w","slide":9,"bbox":[606,238,157,76]}
+{"kind":"textbox","id":"sh/ad4jqxob","slide":9,"text":"1.2M","textPreview":"1.2M","textChars":4,"textLines":1,"bbox":[618,251,133,26]}
+{"kind":"textbox","id":"sh/9cvixsnq","slide":9,"text":"IQD revenue","textPreview":"IQD revenue","textChars":11,"textLines":1,"bbox":[618,282,133,18]}
+{"kind":"textbox","id":"sh/orm1on65","slide":9,"text":"Recent booking","textPreview":"Recent booking","textChars":14,"textLines":1,"bbox":[252,340,220,22]}
+{"kind":"shape","id":"sh/nqt0vi5k","slide":9,"bbox":[252,375,520,96]}
+{"kind":"textbox","id":"sh/mpkjmdoz","slide":9,"text":"ESC-18472","textPreview":"ESC-18472","textChars":9,"textLines":1,"bbox":[270,391,110,18]}
+{"kind":"textbox","id":"sh/t8f29cnu","slide":9,"text":"Training Pitch 1","textPreview":"Training Pitch 1","textChars":16,"textLines":1,"bbox":[388,391,160,18]}
+{"kind":"textbox","id":"sh/8n6107mp","slide":9,"text":"Fri 18:30-20:00","textPreview":"Fri 18:30-20:00","textChars":15,"textLines":1,"bbox":[270,424,150,16]}
+{"kind":"textbox","id":"sh/qhg7ep0v","slide":9,"text":"25,000 IQD","textPreview":"25,000 IQD","textChars":10,"textLines":1,"bbox":[438,424,100,16]}
+{"kind":"shape","id":"sh/rip87uhg","slide":9,"bbox":[630,388,116,28]}
+{"kind":"textbox","id":"sh/sjypgfil","slide":9,"text":"PAID / CONFIRMED","textPreview":"PAID / CONFIRMED","textChars":16,"textLines":1,"bbox":[639,396,98,13]}
+{"kind":"textbox","id":"sh/dk7q9kz6","slide":9,"text":"Manage","textPreview":"Manage","textChars":6,"textLines":1,"bbox":[865,174,190,28]}
+{"kind":"shape","id":"sh/idw7a50j","slide":9,"bbox":[865,230,9,9]}
+{"kind":"textbox","id":"sh/jepo3ah4","slide":9,"text":"Bookings","textPreview":"Bookings","textChars":8,"textLines":1,"bbox":[885,224,310,24]}
+{"kind":"textbox","id":"sh/4fypcfip","slide":9,"text":"Status, cancellations and history","textPreview":"Status, cancellations and history","textChars":33,"textLines":1,"bbox":[885,250,310,39]}
+{"kind":"shape","id":"sh/5g765kza","slide":9,"bbox":[865,306,9,9]}
+{"kind":"textbox","id":"sh/2907m9g3","slide":9,"text":"Facilities","textPreview":"Facilities","textChars":10,"textLines":1,"bbox":[885,300,310,24]}
+{"kind":"textbox","id":"sh/na98feh8","slide":9,"text":"Schedules, availability and capacity","textPreview":"Schedules, availability and capacity","textChars":36,"textLines":1,"bbox":[885,326,310,39]}
+{"kind":"shape","id":"sh/n2p4b6lo","slide":9,"bbox":[865,382,9,9]}
+{"kind":"textbox","id":"sh/m1g321k3","slide":9,"text":"Customers","textPreview":"Customers","textChars":9,"textLines":1,"bbox":[885,376,310,24]}
+{"kind":"textbox","id":"sh/947mdg3u","slide":9,"text":"Profiles, access and activity","textPreview":"Profiles, access and activity","textChars":29,"textLines":1,"bbox":[885,402,310,39]}
+{"kind":"shape","id":"sh/83yl4b29","slide":9,"bbox":[865,458,9,9]}
+{"kind":"textbox","id":"sh/zy547mls","slide":9,"text":"Pricing & payments","textPreview":"Pricing & payments","textChars":18,"textLines":1,"bbox":[885,452,310,24]}
+{"kind":"textbox","id":"sh/ydw3y1k7","slide":9,"text":"Rates, receipts and payment status","textPreview":"Rates, receipts and payment status","textChars":34,"textLines":1,"bbox":[885,478,310,39]}
+{"kind":"shape","id":"sh/l07m9w3y","slide":9,"bbox":[865,534,9,9]}
+{"kind":"textbox","id":"sh/0zel0r2d","slide":9,"text":"Reports","textPreview":"Reports","textChars":7,"textLines":1,"bbox":[885,528,310,24]}
+{"kind":"textbox","id":"sh/ju94jqlw","slide":9,"text":"Revenue, bookings and peak hours","textPreview":"Revenue, bookings and peak hours","textChars":32,"textLines":1,"bbox":[885,554,310,39]}
+{"kind":"textbox","id":"sh/i903alkb","slide":9,"text":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textPreview":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textChars":34,"textLines":1,"bbox":[72,681,520,16]}
+{"kind":"shape","id":"sh/gfa14nit","slide":9,"bbox":[1188,681,20,3]}
+{"kind":"notes","id":"nt/r4bots","slide":9,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/at601n","slide":10,"title":"BUSINESS BENEFITS","textShapes":23}
+{"kind":"textbox","id":"sh/ahsnuhsj","slide":10,"text":"BUSINESS BENEFITS","textPreview":"BUSINESS BENEFITS","textChars":17,"textLines":1,"bbox":[72,42,500,24]}
+{"kind":"textbox","id":"sh/xk3m5wra","slide":10,"text":"Member convenience translates into stronger decisions","textPreview":"Member convenience translates into stronger decisions","textChars":53,"textLines":1,"bbox":[72,72,1080,52]}
+{"kind":"shape","id":"sh/wju5wrap","slide":10,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/jml47690","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1165,43,42,22]}
+{"kind":"textbox","id":"sh/ylcny18v","slide":10,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,182,54,32]}
+{"kind":"shape","id":"sh/lo3m9gr6","slide":10,"bbox":[72,228,318,0]}
+{"kind":"textbox","id":"sh/knu50bql","slide":10,"text":"Better experience","textPreview":"Better experience","textChars":17,"textLines":1,"bbox":[72,247,318,28]}
+{"kind":"textbox","id":"sh/7a5ob69c","slide":10,"text":"Fast self-service booking with payment and clear confirmation.","textPreview":"Fast self-service booking with payment and clear confirmation.","textChars":62,"textLines":1,"bbox":[72,286,318,54]}
+{"kind":"textbox","id":"sh/69cn218r","slide":10,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[454,182,54,32]}
+{"kind":"shape","id":"sh/kfqhc3ih","slide":10,"bbox":[454,228,318,0]}
+{"kind":"textbox","id":"sh/5gjy58z2","slide":10,"text":"Lean operations","textPreview":"Lean operations","textChars":15,"textLines":1,"bbox":[454,247,318,28]}
+{"kind":"textbox","id":"sh/id8zat0b","slide":10,"text":"Fewer calls, repetitive tasks and manual schedule checks.","textPreview":"Fewer calls, repetitive tasks and manual schedule checks.","textChars":57,"textLines":1,"bbox":[454,286,318,54]}
+{"kind":"textbox","id":"sh/jehg3yhw","slide":10,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[836,182,54,32]}
+{"kind":"shape","id":"sh/sjahgnid","slide":10,"bbox":[836,228,318,0]}
+{"kind":"textbox","id":"sh/tkjy9szy","slide":10,"text":"Higher utilization","textPreview":"Higher utilization","textChars":18,"textLines":1,"bbox":[836,247,318,28]}
+{"kind":"textbox","id":"sh/6hszed07","slide":10,"text":"Live availability helps staff use open capacity.","textPreview":"Live availability helps staff use open capacity.","textChars":48,"textLines":1,"bbox":[836,286,318,54]}
+{"kind":"textbox","id":"sh/7i1g7ihs","slide":10,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[72,390,54,32]}
+{"kind":"shape","id":"sh/g7uhknip","slide":10,"bbox":[72,436,318,0]}
+{"kind":"textbox","id":"sh/h83ydszu","slide":10,"text":"Fewer mistakes","textPreview":"Fewer mistakes","textChars":14,"textLines":1,"bbox":[72,455,318,28]}
+{"kind":"textbox","id":"sh/psfqhon2","slide":10,"text":"One schedule reduces conflicts and duplicated bookings.","textPreview":"One schedule reduces conflicts and duplicated bookings.","textChars":55,"textLines":1,"bbox":[72,494,318,54]}
+{"kind":"textbox","id":"sh/4r6p8jmh","slide":10,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[454,390,54,32]}
+{"kind":"shape","id":"sh/3qx8fy5w","slide":10,"bbox":[454,436,318,0]}
+{"kind":"textbox","id":"sh/2po76tob","slide":10,"text":"Commercial clarity","textPreview":"Commercial clarity","textChars":18,"textLines":1,"bbox":[454,455,318,28]}
+{"kind":"textbox","id":"sh/dgfql8ny","slide":10,"text":"Track payment status, pricing, revenue and demand.","textPreview":"Track payment status, pricing, revenue and demand.","textChars":50,"textLines":1,"bbox":[454,494,318,54]}
+{"kind":"textbox","id":"sh/cf6pc3md","slide":10,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[836,390,54,32]}
+{"kind":"shape","id":"sh/rux8jy58","slide":10,"bbox":[836,436,318,0]}
+{"kind":"textbox","id":"sh/qto7at4n","slide":10,"text":"Stronger brand","textPreview":"Stronger brand","textChars":14,"textLines":1,"bbox":[836,455,318,28]}
+{"kind":"textbox","id":"sh/tkv694nu","slide":10,"text":"A premium digital experience reflects the club’s ambition.","textPreview":"A premium digital experience reflects the club’s ambition.","textChars":58,"textLines":1,"bbox":[836,494,318,54]}
+{"kind":"shape","id":"sh/sjmp0z69","slide":10,"bbox":[72,592,1136,54]}
+{"kind":"textbox","id":"sh/ip0na547","slide":10,"text":"The platform improves service and visibility without assuming guaranteed revenue growth.","textPreview":"The platform improves service and visibility without assuming guaranteed revenue growth.","textChars":88,"textLines":1,"bbox":[96,608,1088,22]}
+{"kind":"textbox","id":"sh/jqt4jals","slide":10,"text":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textPreview":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textChars":34,"textLines":1,"bbox":[72,681,520,16]}
+{"kind":"shape","id":"sh/kr25cfmd","slide":10,"bbox":[1188,681,20,3]}
+{"kind":"notes","id":"nt/at601n","slide":10,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/jyvgvm","slide":11,"title":"PHASE 1 TIMELINE","textShapes":36}
+{"kind":"textbox","id":"sh/buh0belo","slide":11,"text":"PHASE 1 TIMELINE","textPreview":"PHASE 1 TIMELINE","textChars":16,"textLines":1,"bbox":[72,42,500,24]}
+{"kind":"textbox","id":"sh/cvq1kj29","slide":11,"text":"Phase 1 targets launch in 10-12 weeks","textPreview":"Phase 1 targets launch in 10-12 weeks","textChars":37,"textLines":1,"bbox":[72,72,1080,52]}
+{"kind":"shape","id":"sh/dwzid43u","slide":11,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/25ozepk7","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1165,43,42,22]}
+{"kind":"textbox","id":"sh/36x07uls","slide":11,"text":"Workstreams overlap where practical, with review points for design, the core demo and final deployment.","textPreview":"Workstreams overlap where practical, with review points for design, the core demo and final deployment.","textChars":103,"textLines":1,"bbox":[72,151,1020,45]}
+{"kind":"textbox","id":"sh/or61gz2x","slide":11,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[390,214,66,18]}
+{"kind":"shape","id":"sh/pszi943i","slide":11,"bbox":[390,245,0,340]}
+{"kind":"textbox","id":"sh/m1sjqtkb","slide":11,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[456,214,66,18]}
+{"kind":"shape","id":"sh/n210jylw","slide":11,"bbox":[456,245,0,340]}
+{"kind":"textbox","id":"sh/zqlkzm98","slide":11,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[522,214,66,18]}
+{"kind":"shape","id":"sh/ypc36hsn","slide":11,"bbox":[522,245,0,340]}
+{"kind":"textbox","id":"sh/ls321wry","slide":11,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[588,214,66,18]}
+{"kind":"shape","id":"sh/0rul8rad","slide":11,"bbox":[588,245,0,340]}
+{"kind":"textbox","id":"sh/7u5k3m94","slide":11,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[654,214,66,18]}
+{"kind":"shape","id":"sh/mtw3a1sj","slide":11,"bbox":[654,245,0,340]}
+{"kind":"textbox","id":"sh/9wn25wra","slide":11,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[720,214,66,18]}
+{"kind":"shape","id":"sh/8velcrap","slide":11,"bbox":[720,245,0,340]}
+{"kind":"textbox","id":"sh/vi547690","slide":11,"text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[786,214,66,18]}
+{"kind":"shape","id":"sh/uhw3e1sv","slide":11,"bbox":[786,245,0,340]}
+{"kind":"textbox","id":"sh/6d0n65c3","slide":11,"text":"8","textPreview":"8","textChars":1,"textLines":1,"bbox":[852,214,66,18]}
+{"kind":"shape","id":"sh/re9ofat8","slide":11,"bbox":[852,245,0,340]}
+{"kind":"textbox","id":"sh/sfi58fut","slide":11,"text":"9","textPreview":"9","textChars":1,"textLines":1,"bbox":[918,214,66,18]}
+{"kind":"shape","id":"sh/tgr6hkbe","slide":11,"bbox":[918,245,0,340]}
+{"kind":"textbox","id":"sh/ipgn25cr","slide":11,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[984,214,66,18]}
+{"kind":"shape","id":"sh/jqpobqtc","slide":11,"bbox":[984,245,0,340]}
+{"kind":"textbox","id":"sh/4by54vux","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1050,214,66,18]}
+{"kind":"shape","id":"sh/5cr6d0bi","slide":11,"bbox":[1050,245,0,340]}
+{"kind":"textbox","id":"sh/2lk7epsv","slide":11,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1116,214,66,18]}
+{"kind":"shape","id":"sh/3mtonutg","slide":11,"bbox":[1116,245,0,340]}
+{"kind":"textbox","id":"sh/dgvqdovy","slide":11,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[72,270,30,22]}
+{"kind":"textbox","id":"sh/cfm94jed","slide":11,"text":"Analysis & planning","textPreview":"Analysis & planning","textChars":19,"textLines":1,"bbox":[112,268,235,24]}
+{"kind":"textbox","id":"sh/bed8beds","slide":11,"text":"1 week","textPreview":"1 week","textChars":6,"textLines":1,"bbox":[112,292,160,18]}
+{"kind":"shape","id":"sh/qd4r29w7","slide":11,"bbox":[395,270,56,28]}
+{"kind":"textbox","id":"sh/pcvq9ovm","slide":11,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[72,325,30,22]}
+{"kind":"textbox","id":"sh/obm90je1","slide":11,"text":"UI/UX design","textPreview":"UI/UX design","textChars":12,"textLines":1,"bbox":[112,323,235,24]}
+{"kind":"textbox","id":"sh/3at87edg","slide":11,"text":"2 weeks","textPreview":"2 weeks","textChars":7,"textLines":1,"bbox":[112,347,160,18]}
+{"kind":"shape","id":"sh/29kry9wb","slide":11,"bbox":[461,325,122,28]}
+{"kind":"textbox","id":"sh/98fal8v6","slide":11,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[72,380,30,22]}
+{"kind":"textbox","id":"sh/8769c3ul","slide":11,"text":"Core platform & website","textPreview":"Core platform & website","textChars":23,"textLines":1,"bbox":[112,378,235,24]}
+{"kind":"textbox","id":"sh/gbuhc3e1","slide":11,"text":"3-4 weeks","textPreview":"3-4 weeks","textChars":9,"textLines":1,"bbox":[112,402,160,18]}
+{"kind":"shape","id":"sh/hc3y58vm","slide":11,"bbox":[527,380,254,28]}
+{"kind":"textbox","id":"sh/u9czadwv","slide":11,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[72,435,30,22]}
+{"kind":"textbox","id":"sh/falg3ydg","slide":11,"text":"Mobile application","textPreview":"Mobile application","textChars":18,"textLines":1,"bbox":[112,433,235,24]}
+{"kind":"textbox","id":"sh/4fehgnud","slide":11,"text":"4-5 weeks","textPreview":"4-5 weeks","textChars":9,"textLines":1,"bbox":[112,457,160,18]}
+{"kind":"shape","id":"sh/pgni9svy","slide":11,"bbox":[659,435,320,28]}
+{"kind":"textbox","id":"sh/2dczedc7","slide":11,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[72,490,30,22]}
+{"kind":"textbox","id":"sh/3e507ids","slide":11,"text":"Payment & system integration","textPreview":"Payment & system integration","textChars":28,"textLines":1,"bbox":[112,488,235,24]}
+{"kind":"textbox","id":"sh/cjehknu9","slide":11,"text":"1-2 weeks","textPreview":"1-2 weeks","textChars":9,"textLines":1,"bbox":[112,512,160,18]}
+{"kind":"shape","id":"sh/dknidsvu","slide":11,"bbox":[923,490,122,28]}
+{"kind":"textbox","id":"sh/ne9k3mxw","slide":11,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[72,545,30,22]}
+{"kind":"textbox","id":"sh/md0jahwb","slide":11,"text":"Testing, deployment & training","textPreview":"Testing, deployment & training","textChars":30,"textLines":1,"bbox":[112,543,235,24]}
+{"kind":"textbox","id":"sh/90r25wf2","slide":11,"text":"1-2 weeks","textPreview":"1-2 weeks","textChars":9,"textLines":1,"bbox":[112,567,160,18]}
+{"kind":"shape","id":"sh/8zi1creh","slide":11,"bbox":[1055,545,122,28]}
+{"kind":"shape","id":"sh/zapkzmx0","slide":11,"bbox":[72,616,1136,34]}
+{"kind":"textbox","id":"sh/e9gj6hgf","slide":11,"text":"The schedule assumes timely approvals, content delivery and access to required third-party accounts.","textPreview":"The schedule assumes timely approvals, content delivery and access to required third-party accounts.","textChars":100,"textLines":1,"bbox":[92,624,1096,18]}
+{"kind":"textbox","id":"sh/1c721wf6","slide":11,"text":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textPreview":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textChars":34,"textLines":1,"bbox":[72,681,520,16]}
+{"kind":"shape","id":"sh/0by18rel","slide":11,"bbox":[1188,681,20,3]}
+{"kind":"notes","id":"nt/jyvgvm","slide":11,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/lbifb9","slide":12,"title":"PHASE 1 COMMERCIAL PROPOSAL","textShapes":23}
+{"kind":"textbox","id":"sh/2t07y9cf","slide":12,"text":"PHASE 1 COMMERCIAL PROPOSAL","textPreview":"PHASE 1 COMMERCIAL PROPOSAL","textChars":27,"textLines":1,"bbox":[72,40,500,24]}
+{"kind":"textbox","id":"sh/pgrqtob6","slide":12,"text":"The complete Core Digital Platform is priced at $6,900 USD","textPreview":"The complete Core Digital Platform is priced at $6,900 USD","textChars":58,"textLines":1,"bbox":[72,76,1050,52]}
+{"kind":"shape","id":"sh/ofip0jul","slide":12,"bbox":[72,156,360,150]}
+{"kind":"textbox","id":"sh/fq9onet4","slide":12,"text":"PHASE 1 INVESTMENT","textPreview":"PHASE 1 INVESTMENT","textChars":18,"textLines":1,"bbox":[100,181,300,20]}
+{"kind":"textbox","id":"sh/ep07u9cj","slide":12,"text":"$6,900 USD","textPreview":"$6,900 USD","textChars":10,"textLines":1,"bbox":[100,215,300,52]}
+{"kind":"textbox","id":"sh/1sr6pobu","slide":12,"text":"Target delivery: 10-12 weeks","textPreview":"Target delivery: 10-12 weeks","textChars":28,"textLines":1,"bbox":[100,273,300,18]}
+{"kind":"textbox","id":"sh/gripwjup","slide":12,"text":"INCLUDED IN PHASE 1","textPreview":"INCLUDED IN PHASE 1","textChars":19,"textLines":1,"bbox":[486,160,260,20]}
+{"kind":"textbox","id":"sh/zmt8zyt8","slide":12,"text":"Website, Android and iOS app\nBooking, live availability and QR confirmation\nOnline payment integration and digital receipt\nAdmin dashboard, reports and Backend APIs\nDeployment and staff training","textPreview":"Website, Android and iOS app | Booking, live availability and QR confirmation | Online payment integration and digital receipt | Admin da...","textChars":194,"textLines":5,"bbox":[486,194,650,136]}
+{"kind":"shape","id":"sh/ylk76tcn","slide":12,"bbox":[72,342,1136,84]}
+{"kind":"textbox","id":"sh/ory54vq9","slide":12,"text":"PAYMENT TERMS","textPreview":"PAYMENT TERMS","textChars":13,"textLines":1,"bbox":[96,359,170,18]}
+{"kind":"textbox","id":"sh/9s76x07u","slide":12,"text":"30% on approval","textPreview":"30% on approval","textChars":15,"textLines":1,"bbox":[282,356,220,24]}
+{"kind":"textbox","id":"sh/mpgn2l83","slide":12,"text":"40% after core system demo","textPreview":"40% after core system demo","textChars":26,"textLines":1,"bbox":[520,356,300,24]}
+{"kind":"textbox","id":"sh/nqpovq9o","slide":12,"text":"30% after final deployment","textPreview":"30% after final deployment","textChars":26,"textLines":1,"bbox":[840,356,320,24]}
+{"kind":"textbox","id":"sh/0ne50bqd","slide":12,"text":"Phase 2 and Phase 3","textPreview":"Phase 2 and Phase 3","textChars":19,"textLines":1,"bbox":[96,394,200,18]}
+{"kind":"textbox","id":"sh/1o76tgry","slide":12,"text":"Future optional modules. Not included in this price and quoted separately.","textPreview":"Future optional modules. Not included in this price and quoted separately.","textChars":74,"textLines":1,"bbox":[282,391,860,24]}
+{"kind":"textbox","id":"sh/elwnyl87","slide":12,"text":"THIRD-PARTY FEES EXCLUDED","textPreview":"THIRD-PARTY FEES EXCLUDED","textChars":25,"textLines":1,"bbox":[72,462,300,20]}
+{"kind":"shape","id":"sh/zm5orq9s","slide":12,"bbox":[78,505,10,10]}
+{"kind":"textbox","id":"sh/cje5wbq1","slide":12,"text":"Payment gateway transaction fees","textPreview":"Payment gateway transaction fees","textChars":32,"textLines":1,"bbox":[98,497,500,24]}
+{"kind":"shape","id":"sh/dkn6pgrm","slide":12,"bbox":[638,505,10,10]}
+{"kind":"textbox","id":"sh/t4vud8fe","slide":12,"text":"Bank or provider fees","textPreview":"Bank or provider fees","textChars":21,"textLines":1,"bbox":[658,497,500,24]}
+{"kind":"shape","id":"sh/83md43et","slide":12,"bbox":[78,539,10,10]}
+{"kind":"textbox","id":"sh/72dcbyx8","slide":12,"text":"SMS and OTP usage fees","textPreview":"SMS and OTP usage fees","textChars":22,"textLines":1,"bbox":[98,531,500,24]}
+{"kind":"shape","id":"sh/614v2twn","slide":12,"bbox":[638,539,10,10]}
+{"kind":"textbox","id":"sh/lgvu9of2","slide":12,"text":"Apple Developer fees","textPreview":"Apple Developer fees","textChars":20,"textLines":1,"bbox":[658,531,500,24]}
+{"kind":"shape","id":"sh/kfmt03eh","slide":12,"bbox":[78,573,10,10]}
+{"kind":"textbox","id":"sh/jetc7yxc","slide":12,"text":"Google Play fees","textPreview":"Google Play fees","textChars":16,"textLines":1,"bbox":[98,565,500,24]}
+{"kind":"shape","id":"sh/ydkbytwr","slide":12,"bbox":[638,573,10,10]}
+{"kind":"textbox","id":"sh/5cfulsfm","slide":12,"text":"Hosting renewal","textPreview":"Hosting renewal","textChars":15,"textLines":1,"bbox":[658,565,500,24]}
+{"kind":"shape","id":"sh/4b6dcne1","slide":12,"bbox":[78,607,10,10]}
+{"kind":"textbox","id":"sh/mh0r6pcj","slide":12,"text":"Domain renewal","textPreview":"Domain renewal","textChars":14,"textLines":1,"bbox":[98,599,500,24]}
+{"kind":"textbox","id":"sh/ni9sfud4","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1165,43,42,22]}
+{"kind":"textbox","id":"sh/oji98zu9","slide":12,"text":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textPreview":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textChars":34,"textLines":1,"bbox":[72,681,520,16]}
+{"kind":"shape","id":"sh/9krah4vu","slide":12,"bbox":[1188,681,20,3]}
+{"kind":"notes","id":"nt/lbifb9","slide":12,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/ym55wu","slide":13,"title":"FUTURE OPTIONAL PHASES","textShapes":33}
+{"kind":"textbox","id":"sh/21ormhgf","slide":13,"text":"FUTURE OPTIONAL PHASES","textPreview":"FUTURE OPTIONAL PHASES","textChars":22,"textLines":1,"bbox":[72,42,500,24]}
+{"kind":"textbox","id":"sh/p4fqhcz6","slide":13,"text":"Future phases include additional recommended club services","textPreview":"Future phases include additional recommended club services","textChars":58,"textLines":1,"bbox":[72,72,1080,52]}
+{"kind":"shape","id":"sh/o36987yl","slide":13,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/bqx8jmhc","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1165,43,42,22]}
+{"kind":"shape","id":"sh/q5orahgr","slide":13,"bbox":[72,174,554,390]}
+{"kind":"textbox","id":"sh/dszqlwz2","slide":13,"text":"PHASE 2","textPreview":"PHASE 2","textChars":7,"textLines":1,"bbox":[102,204,120,20]}
+{"kind":"textbox","id":"sh/cr69cryx","slide":13,"text":"Membership & Growth","textPreview":"Membership & Growth","textChars":19,"textLines":1,"bbox":[102,239,470,36]}
+{"kind":"shape","id":"sh/zuhsnmh8","slide":13,"bbox":[104,296,9,9]}
+{"kind":"textbox","id":"sh/yt8re1gn","slide":13,"text":"Digital membership","textPreview":"Digital membership","textChars":18,"textLines":1,"bbox":[126,290,450,20]}
+{"kind":"shape","id":"sh/8bmlo3e1","slide":13,"bbox":[104,318,9,9]}
+{"kind":"textbox","id":"sh/9cfmh8v6","slide":13,"text":"Membership subscriptions","textPreview":"Membership subscriptions","textChars":24,"textLines":1,"bbox":[126,312,450,20]}
+{"kind":"shape","id":"sh/m943mtwv","slide":13,"bbox":[104,340,9,9]}
+{"kind":"textbox","id":"sh/nad4fydg","slide":13,"text":"Digital membership card","textPreview":"Digital membership card","textChars":23,"textLines":1,"bbox":[126,334,450,20]}
+{"kind":"shape","id":"sh/wf6lsnex","slide":13,"bbox":[104,362,9,9]}
+{"kind":"textbox","id":"sh/xgfml8vi","slide":13,"text":"Loyalty points and rewards","textPreview":"Loyalty points and rewards","textChars":26,"textLines":1,"bbox":[126,356,450,20]}
+{"kind":"shape","id":"sh/ado3qdwr","slide":13,"bbox":[104,384,9,9]}
+{"kind":"textbox","id":"sh/vex4jidc","slide":13,"text":"Promotions and offers","textPreview":"Promotions and offers","textChars":21,"textLines":1,"bbox":[126,378,450,20]}
+{"kind":"shape","id":"sh/4j6lwnut","slide":13,"bbox":[104,406,9,9]}
+{"kind":"textbox","id":"sh/54zmpsve","slide":13,"text":"Advanced reports and analytics","textPreview":"Advanced reports and analytics","textChars":30,"textLines":1,"bbox":[126,400,450,20]}
+{"kind":"shape","id":"sh/d0vm9sni","slide":13,"bbox":[104,428,9,9]}
+{"kind":"textbox","id":"sh/szmlgnmd","slide":13,"text":"Corporate and family memberships","textPreview":"Corporate and family memberships","textChars":32,"textLines":1,"bbox":[126,422,450,20]}
+{"kind":"shape","id":"sh/rytk7i5s","slide":13,"bbox":[104,450,9,9]}
+{"kind":"textbox","id":"sh/qxk3ed47","slide":13,"text":"Referral and invitation program","textPreview":"Referral and invitation program","textChars":31,"textLines":1,"bbox":[126,444,450,20]}
+{"kind":"shape","id":"sh/14vmdsnu","slide":13,"bbox":[104,472,9,9]}
+{"kind":"textbox","id":"sh/03mlknm9","slide":13,"text":"Member surveys and feedback","textPreview":"Member surveys and feedback","textChars":27,"textLines":1,"bbox":[126,466,450,20]}
+{"kind":"shape","id":"sh/f2d4bi5o","slide":13,"bbox":[104,494,9,9]}
+{"kind":"textbox","id":"sh/e143ix43","slide":13,"text":"Automated renewal reminders","textPreview":"Automated renewal reminders","textChars":27,"textLines":1,"bbox":[126,488,450,20]}
+{"kind":"shape","id":"sh/h8b218nq","slide":13,"bbox":[104,516,9,9]}
+{"kind":"textbox","id":"sh/w72l8365","slide":13,"text":"Sponsor benefits and partner offers","textPreview":"Sponsor benefits and partner offers","textChars":35,"textLines":1,"bbox":[126,510,450,20]}
+{"kind":"shape","id":"sh/mdgj29kn","slide":13,"bbox":[654,174,554,390]}
+{"kind":"textbox","id":"sh/7ep0bel8","slide":13,"text":"PHASE 3","textPreview":"PHASE 3","textChars":7,"textLines":1,"bbox":[684,204,120,20]}
+{"kind":"textbox","id":"sh/8zy14z2t","slide":13,"text":"Smart Club Services","textPreview":"Smart Club Services","textChars":19,"textLines":1,"bbox":[684,239,470,36]}
+{"kind":"shape","id":"sh/90rid43e","slide":13,"bbox":[686,296,9,9]}
+{"kind":"textbox","id":"sh/u10j69kz","slide":13,"text":"Academy management","textPreview":"Academy management","textChars":18,"textLines":1,"bbox":[708,290,450,20]}
+{"kind":"shape","id":"sh/v290felk","slide":13,"bbox":[686,318,9,9]}
+{"kind":"textbox","id":"sh/w3i18j25","slide":13,"text":"Coach booking","textPreview":"Coach booking","textChars":13,"textLines":1,"bbox":[708,312,450,20]}
+{"kind":"shape","id":"sh/h4riho3a","slide":13,"bbox":[686,340,9,9]}
+{"kind":"textbox","id":"sh/a5wzup4v","slide":13,"text":"Event ticketing","textPreview":"Event ticketing","textChars":15,"textLines":1,"bbox":[708,334,450,20]}
+{"kind":"shape","id":"sh/b6503ul0","slide":13,"bbox":[686,362,9,9]}
+{"kind":"textbox","id":"sh/rqdobm9s","slide":13,"text":"Restaurant ordering","textPreview":"Restaurant ordering","textChars":19,"textLines":1,"bbox":[708,356,450,20]}
+{"kind":"shape","id":"sh/qp47ihs7","slide":13,"bbox":[686,384,9,9]}
+{"kind":"textbox","id":"sh/dsf6dcry","slide":13,"text":"Smart access control","textPreview":"Smart access control","textChars":20,"textLines":1,"bbox":[708,378,450,20]}
+{"kind":"shape","id":"sh/sr6pkrad","slide":13,"bbox":[686,406,9,9]}
+{"kind":"textbox","id":"sh/fux8fm9o","slide":13,"text":"Parking management","textPreview":"Parking management","textChars":18,"textLines":1,"bbox":[708,400,450,20]}
+{"kind":"shape","id":"sh/eto7mhsj","slide":13,"bbox":[686,428,9,9]}
+{"kind":"textbox","id":"sh/1wfqhwru","slide":13,"text":"Club merchandise store","textPreview":"Club merchandise store","textChars":22,"textLines":1,"bbox":[708,422,450,20]}
+{"kind":"shape","id":"sh/0v6pora9","slide":13,"bbox":[686,450,9,9]}
+{"kind":"textbox","id":"sh/nih8j690","slide":13,"text":"Digital wallet and cashless payments","textPreview":"Digital wallet and cashless payments","textChars":36,"textLines":1,"bbox":[708,444,450,20]}
+{"kind":"shape","id":"sh/2ho7q1sf","slide":13,"bbox":[686,472,9,9]}
+{"kind":"textbox","id":"sh/knqpgb6d","slide":13,"text":"Digital guest passes","textPreview":"Digital guest passes","textChars":20,"textLines":1,"bbox":[708,466,450,20]}
+{"kind":"shape","id":"sh/loz69g7y","slide":13,"bbox":[686,494,9,9]}
+{"kind":"textbox","id":"sh/yl8ne1on","slide":13,"text":"Maintenance request management","textPreview":"Maintenance request management","textChars":30,"textLines":1,"bbox":[708,488,450,20]}
+{"kind":"shape","id":"sh/zmho76p8","slide":13,"bbox":[686,516,9,9]}
+{"kind":"textbox","id":"sh/cjq5cr6h","slide":13,"text":"Live match center and club media","textPreview":"Live match center and club media","textChars":32,"textLines":1,"bbox":[708,510,450,20]}
+{"kind":"shape","id":"sh/xkz65w72","slide":13,"bbox":[686,538,9,9]}
+{"kind":"textbox","id":"sh/axona1ob","slide":13,"text":"Additional club services","textPreview":"Additional club services","textChars":24,"textLines":1,"bbox":[708,532,450,20]}
+{"kind":"shape","id":"sh/byho3mpw","slide":13,"bbox":[72,590,1136,64]}
+{"kind":"textbox","id":"sh/ov658r6l","slide":13,"text":"FUTURE SCOPE","textPreview":"FUTURE SCOPE","textChars":12,"textLines":1,"bbox":[96,606,180,18]}
+{"kind":"textbox","id":"sh/pwf61w7q","slide":13,"text":"Phase 2 and Phase 3 are optional future modules outside the current Phase 1 scope. No pricing is presented for these phases.","textPreview":"Phase 2 and Phase 3 are optional future modules outside the current Phase 1 scope. No pricing is presented for these phases.","textChars":124,"textLines":1,"bbox":[286,602,890,38]}
+{"kind":"textbox","id":"sh/pc7m58zu","slide":13,"text":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textPreview":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textChars":34,"textLines":1,"bbox":[72,681,520,16]}
+{"kind":"shape","id":"sh/4rylc3i9","slide":13,"bbox":[1188,681,20,3]}
+{"kind":"notes","id":"nt/ym55wu","slide":13,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/qzsr5e","slide":14,"title":"CONCLUSION","textShapes":16}
+{"kind":"textbox","id":"sh/qdwfudkv","slide":14,"text":"CONCLUSION","textPreview":"CONCLUSION","textChars":10,"textLines":1,"bbox":[72,42,500,24]}
+{"kind":"textbox","id":"sh/dg7y58j6","slide":14,"text":"Phase 1 gives Erbil Sports Club a complete digital operating foundation","textPreview":"Phase 1 gives Erbil Sports Club a complete digital operating foundation","textChars":71,"textLines":1,"bbox":[72,72,1080,52]}
+{"kind":"shape","id":"sh/sfyxw32l","slide":14,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/3a5gzy14","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1165,43,42,22]}
+{"kind":"textbox","id":"sh/i9wfqtkj","slide":14,"text":"The proposed scope connects the club website, mobile booking, online payment and administration in one coordinated platform.","textPreview":"The proposed scope connects the club website, mobile booking, online payment and administration in one coordinated platform.","textChars":124,"textLines":1,"bbox":[72,164,1080,58]}
+{"kind":"textbox","id":"sh/5cny18ja","slide":14,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,270,48,28]}
+{"kind":"textbox","id":"sh/4bexs32p","slide":14,"text":"Member experience","textPreview":"Member experience","textChars":17,"textLines":1,"bbox":[148,268,260,28]}
+{"kind":"textbox","id":"sh/vmlwvy18","slide":14,"text":"Supporters can find football services, pay online and receive a confirmed booking with a QR code.","textPreview":"Supporters can find football services, pay online and receive a confirmed booking with a QR code.","textChars":97,"textLines":1,"bbox":[430,268,700,50]}
+{"kind":"shape","id":"sh/ulcfmtkn","slide":14,"bbox":[148,335,960,0]}
+{"kind":"textbox","id":"sh/o3yx8vux","slide":14,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[72,378,48,28]}
+{"kind":"textbox","id":"sh/947yh0vi","slide":14,"text":"Operational control","textPreview":"Operational control","textChars":19,"textLines":1,"bbox":[148,376,260,28]}
+{"kind":"textbox","id":"sh/m1gf6lc7","slide":14,"text":"Staff can manage schedules, customers, payment status and basic reports from one dashboard.","textPreview":"Staff can manage schedules, customers, payment status and basic reports from one dashboard.","textChars":91,"textLines":1,"bbox":[430,376,700,50]}
+{"kind":"shape","id":"sh/n2pgfqds","slide":14,"bbox":[148,443,960,0]}
+{"kind":"textbox","id":"sh/0zex4bu1","slide":14,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,486,48,28]}
+{"kind":"textbox","id":"sh/107ydgvm","slide":14,"text":"Room to expand","textPreview":"Room to expand","textChars":14,"textLines":1,"bbox":[148,484,260,28]}
+{"kind":"textbox","id":"sh/edwf21cv","slide":14,"text":"Future membership and smart club modules can be added under separately approved scopes.","textPreview":"Future membership and smart club modules can be added under separately approved scopes.","textChars":87,"textLines":1,"bbox":[430,484,700,50]}
+{"kind":"shape","id":"sh/ze5gb6dg","slide":14,"bbox":[148,551,960,0]}
+{"kind":"shape","id":"sh/kvihgfu5","slide":14,"bbox":[72,604,1136,52]}
+{"kind":"textbox","id":"sh/lwrypkvq","slide":14,"text":"PROPOSED NEXT STEP","textPreview":"PROPOSED NEXT STEP","textChars":18,"textLines":1,"bbox":[96,619,190,18]}
+{"kind":"textbox","id":"sh/tsnyt0nu","slide":14,"text":"Approve Phase 1 and begin analysis, content collection and experience design.","textPreview":"Approve Phase 1 and begin analysis, content collection and experience design.","textChars":77,"textLines":1,"bbox":[300,615,870,26]}
+{"kind":"textbox","id":"sh/srex0fm9","slide":14,"text":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textPreview":"ERBIL SPORTS CLUB DIGITAL PLATFORM","textChars":34,"textLines":1,"bbox":[72,681,520,16]}
+{"kind":"shape","id":"sh/7q5gra54","slide":14,"bbox":[1188,681,20,3]}
+{"kind":"notes","id":"nt/qzsr5e","slide":14,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}

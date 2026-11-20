@@ -1,0 +1,1506 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/5zt5e3",
+    "id": "5zt5e3",
+    "slide": 6,
+    "layoutId": "47576284-375e-419d-8122-4377efe687d9",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "b1f0cefb-84bc-41d0-8f84-39414e8dfe16",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#073B55",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "47576284-375e-419d-8122-4377efe687d9",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "b1f0cefb-84bc-41d0-8f84-39414e8dfe16",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "b1f0cefb-84bc-41d0-8f84-39414e8dfe16",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/7idgbqpw",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "alt": "Conceptual football players using the proposed mobile experience",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "307d6574-3969-4563-a0f2-afbdc4310ab6",
+        "contentType": "image/png",
+        "byteLength": 2186606
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l8jql4re",
+      "id": "2",
+      "bbox": [
+        748,
+        58,
+        440,
+        22
+      ],
+      "geometry": "rect",
+      "text": "MOBILE EXPERIENCE • CONCEPT",
+      "textPreview": "MOBILE EXPERIENCE • CONCEPT",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#FFD000",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MOBILE EXPERIENCE • CONCEPT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MOBILE EXPERIENCE • CONCEPT",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#FFD000",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MOBILE EXPERIENCE • CONCEPT",
+              "fontSize": 13,
+              "color": "#FFD000",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/07q9czqt",
+      "id": "3",
+      "bbox": [
+        748,
+        91,
+        450,
+        108
+      ],
+      "geometry": "rect",
+      "text": "Football access,\nright in the member’s pocket",
+      "textPreview": "Football access, | right in the member’s pocket",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "fontSize": 36,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Football access,"
+          },
+          {
+            "index": 2,
+            "text": "right in the member’s"
+          },
+          {
+            "index": 3,
+            "text": "pocket"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Football access,",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Football access,",
+              "fontSize": 36,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "right in the member’s pocket",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "right in the member’s pocket",
+              "fontSize": 36,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7a18ne9k",
+      "id": "4",
+      "bbox": [
+        748,
+        215,
+        430,
+        68
+      ],
+      "geometry": "rect",
+      "text": "Follow the club, view football facilities, reserve a pitch and receive confirmation from one mobile experience.",
+      "textPreview": "Follow the club, view football facilities, reserve a pitch and receive confirmation from one mobile experience.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#FFF2A8",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Follow the club, view football facilities, reserve a pitch"
+          },
+          {
+            "index": 2,
+            "text": "and receive confirmation from one mobile experience."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Follow the club, view football facilities, reserve a pitch and receive confirmation from one mobile experience.",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFF2A8",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Follow the club, view football facilities, reserve a pitch and receive confirmation from one mobile experience.",
+              "fontSize": 17,
+              "color": "#FFF2A8",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m9sre98z",
+      "id": "5",
+      "bbox": [
+        918,
+        260,
+        224,
+        400
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#111111",
+      "lineColor": "#111111",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cjqpora",
+      "id": "6",
+      "bbox": [
+        926,
+        268,
+        208,
+        384
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8ba9gjq5",
+      "id": "7",
+      "bbox": [
+        1003,
+        274,
+        54,
+        7
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#111111",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/apkfu183",
+      "id": "8",
+      "bbox": [
+        937,
+        292,
+        30,
+        32
+      ],
+      "alt": "Erbil Sports Club crest",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "0eb41c8f-4710-4ff0-892f-f1cff555f6b1",
+        "contentType": "image/png",
+        "byteLength": 262181
+      }
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udsrit8v",
+      "id": "9",
+      "bbox": [
+        975,
+        298,
+        142,
+        18
+      ],
+      "geometry": "rect",
+      "text": "ERBIL SC",
+      "textPreview": "ERBIL SC",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ERBIL SC"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ERBIL SC",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ERBIL SC",
+              "fontSize": 11,
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gfatkf25",
+      "id": "10",
+      "bbox": [
+        938,
+        275,
+        36,
+        10
+      ],
+      "geometry": "rect",
+      "text": "9:41",
+      "textPreview": "9:41",
+      "resolvedFontSize": 7,
+      "resolvedTextStyle": {
+        "fontSize": 7,
+        "typeface": "+mn-lt",
+        "color": "#6B6B66",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "9:41"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "9:41",
+          "resolvedTextStyle": {
+            "fontSize": 7,
+            "color": "#6B6B66",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "9:41",
+              "fontSize": 7,
+              "color": "#6B6B66",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgjadkja",
+      "id": "11",
+      "bbox": [
+        1082,
+        275,
+        38,
+        10
+      ],
+      "geometry": "rect",
+      "text": "●  ▰",
+      "textPreview": "●  ▰",
+      "resolvedFontSize": 7,
+      "resolvedTextStyle": {
+        "fontSize": 7,
+        "typeface": "+mn-lt",
+        "color": "#6B6B66",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "●  ▰"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "●  ▰",
+          "resolvedTextStyle": {
+            "fontSize": 7,
+            "color": "#6B6B66",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "●  ▰",
+              "fontSize": 7,
+              "color": "#6B6B66",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udsri5kz",
+      "id": "12",
+      "bbox": [
+        938,
+        339,
+        184,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Welcome back",
+      "textPreview": "Welcome back",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#6B6B66",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Welcome back"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Welcome back",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#6B6B66",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Welcome back",
+              "fontSize": 11,
+              "color": "#6B6B66",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ve1sba1k",
+      "id": "13",
+      "bbox": [
+        938,
+        361,
+        184,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Your club, all in\none place",
+      "textPreview": "Your club, all in | one place",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Your club, all in"
+          },
+          {
+            "index": 2,
+            "text": "one place"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Your club, all in",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Your club, all in",
+              "fontSize": 18,
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "one place",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "one place",
+              "fontSize": 18,
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4jutof21",
+      "id": "14",
+      "bbox": [
+        938,
+        428,
+        184,
+        64
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#111111",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pk3ahkjm",
+      "id": "15",
+      "bbox": [
+        952,
+        441,
+        156,
+        15
+      ],
+      "geometry": "rect",
+      "text": "NEXT MATCH",
+      "textPreview": "NEXT MATCH",
+      "resolvedFontSize": 9,
+      "resolvedTextStyle": {
+        "fontSize": 9,
+        "typeface": "+mn-lt",
+        "color": "#FFF2A8",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "NEXT MATCH"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "NEXT MATCH",
+          "resolvedTextStyle": {
+            "fontSize": 9,
+            "color": "#FFF2A8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NEXT MATCH",
+              "fontSize": 9,
+              "color": "#FFF2A8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hcbmpkv",
+      "id": "16",
+      "bbox": [
+        952,
+        464,
+        156,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Match center",
+      "textPreview": "Match center",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Match center"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Match center",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Match center",
+              "fontSize": 13,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ilsfa1g",
+      "id": "17",
+      "bbox": [
+        938,
+        500,
+        184,
+        36
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFF2A8",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cnutsz2x",
+      "id": "18",
+      "bbox": [
+        950,
+        510,
+        15,
+        15
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#FFD000",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/do3al4ji",
+      "id": "19",
+      "bbox": [
+        975,
+        508,
+        136,
+        17
+      ],
+      "geometry": "rect",
+      "text": "Training pitches",
+      "textPreview": "Training pitches",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Training pitches"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Training pitches",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Training pitches",
+              "fontSize": 11,
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l4ja54bm",
+      "id": "20",
+      "bbox": [
+        938,
+        544,
+        184,
+        36
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAF9F3",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/03q9czuh",
+      "id": "21",
+      "bbox": [
+        950,
+        554,
+        15,
+        15
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#FFD000",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z2hs3utw",
+      "id": "22",
+      "bbox": [
+        975,
+        552,
+        136,
+        17
+      ],
+      "geometry": "rect",
+      "text": "Academy",
+      "textPreview": "Academy",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Academy"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Academy",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Academy",
+              "fontSize": 11,
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y18rapcb",
+      "id": "23",
+      "bbox": [
+        938,
+        588,
+        184,
+        36
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAF9F3",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/98ja94by",
+      "id": "24",
+      "bbox": [
+        950,
+        598,
+        15,
+        15
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#FFD000",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/87atgzud",
+      "id": "25",
+      "bbox": [
+        975,
+        596,
+        136,
+        17
+      ],
+      "geometry": "rect",
+      "text": "Club news",
+      "textPreview": "Club news",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Club news"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Club news",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Club news",
+              "fontSize": 11,
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n61s7uts",
+      "id": "26",
+      "bbox": [
+        944,
+        626,
+        172,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#E7E0C4",
+      "lineWidth": 1
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m5sbepc7",
+      "id": "27",
+      "bbox": [
+        943,
+        634,
+        174,
+        11
+      ],
+      "geometry": "rect",
+      "text": "HOME       FIXTURES       PROFILE",
+      "textPreview": "HOME       FIXTURES       PROFILE",
+      "resolvedFontSize": 7,
+      "resolvedTextStyle": {
+        "fontSize": 7,
+        "typeface": "+mn-lt",
+        "color": "#6B6B66",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HOME       FIXTURES       PROFILE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HOME       FIXTURES       PROFILE",
+          "resolvedTextStyle": {
+            "fontSize": 7,
+            "color": "#6B6B66",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "HOME       FIXTURES       PROFILE",
+              "fontSize": 7,
+              "color": "#6B6B66",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pczax0bu",
+      "id": "28",
+      "bbox": [
+        748,
+        322,
+        134,
+        34
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFD000",
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ob694fu9",
+      "id": "29",
+      "bbox": [
+        760,
+        331,
+        110,
+        15
+      ],
+      "geometry": "rect",
+      "text": "ANDROID + iOS",
+      "textPreview": "ANDROID + iOS",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ANDROID + iOS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ANDROID + iOS",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#111111",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ANDROID + iOS",
+              "fontSize": 10,
+              "color": "#111111",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uh47y1sr",
+      "id": "30",
+      "bbox": [
+        748,
+        383,
+        155,
+        118
+      ],
+      "geometry": "rect",
+      "text": "Registration & OTP\nFootball news and fixtures\nFacility discovery\nPush notifications",
+      "textPreview": "Registration & OTP | Football news and fixtures | Facility discovery | Push notifications",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Registration &"
+          },
+          {
+            "index": 2,
+            "text": "OTP"
+          },
+          {
+            "index": 3,
+            "text": "Football news and"
+          },
+          {
+            "index": 4,
+            "text": "fixtures"
+          },
+          {
+            "index": 5,
+            "text": "Facility discovery"
+          },
+          {
+            "index": 6,
+            "text": "Push notifications"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Registration & OTP",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Registration & OTP",
+              "fontSize": 15,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Football news and fixtures",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Football news and fixtures",
+              "fontSize": 15,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Facility discovery",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Facility discovery",
+              "fontSize": 15,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "Push notifications",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Push notifications",
+              "fontSize": 15,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fid8769c",
+      "id": "31",
+      "bbox": [
+        1165,
+        43,
+        42,
+        22
+      ],
+      "geometry": "rect",
+      "text": "06",
+      "textPreview": "06",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#D8D5C8",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "06"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "06",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#D8D5C8",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "06",
+              "fontSize": 13,
+              "color": "#D8D5C8",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

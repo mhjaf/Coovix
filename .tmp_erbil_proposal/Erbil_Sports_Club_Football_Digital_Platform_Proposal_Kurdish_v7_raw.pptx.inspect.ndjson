@@ -1,0 +1,659 @@
+{"kind":"deck","id":"pr/zxdrxg","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"پێشنیاری بازرگانی • تۆپی پێ","textShapes":7}
+{"kind":"shape","id":"sh/5sfepcfe","slide":1,"bbox":[0,0,18,720]}
+{"kind":"shape","id":"sh/547294r6","slide":1,"bbox":[930,0,350,350]}
+{"kind":"shape","id":"sh/k3yl0zql","slide":1,"bbox":[1010,0,270,270]}
+{"kind":"shape","id":"sh/65g3298r","slide":1,"bbox":[72,50,198,92]}
+{"kind":"textbox","id":"sh/sryl4zqx","slide":1,"text":"پێشنیاری بازرگانی • تۆپی پێ","textPreview":"پێشنیاری بازرگانی • تۆپی پێ","textChars":27,"textLines":1,"bbox":[78,226,520,26]}
+{"kind":"textbox","id":"sh/fu94fe98","slide":1,"text":"پلاتفۆرمی دیجیتاڵی تۆپی پێ\nیانەی وەرزشی هەولێر","textPreview":"پلاتفۆرمی دیجیتاڵی تۆپی پێ | یانەی وەرزشی هەولێر","textChars":46,"textLines":2,"bbox":[78,262,820,145]}
+{"kind":"textbox","id":"sh/utg3698n","slide":1,"text":"ماڵپەڕ، ئەپی مۆبایل و حجزکردنی زیرەکانەی یاریگا","textPreview":"ماڵپەڕ، ئەپی مۆبایل و حجزکردنی زیرەکانەی یاریگا","textChars":47,"textLines":1,"bbox":[82,420,770,45]}
+{"kind":"shape","id":"sh/wn6dc7eh","slide":1,"bbox":[82,495,650,0]}
+{"kind":"textbox","id":"sh/hofulsf2","slide":1,"text":"ئامادەکراوە لەلایەن: Coovix","textPreview":"ئامادەکراوە لەلایەن: Coovix","textChars":27,"textLines":1,"bbox":[82,525,250,24]}
+{"kind":"textbox","id":"sh/ul4vaxgb","slide":1,"text":"ئەیلوولی ٢٠٢٦","textPreview":"ئەیلوولی ٢٠٢٦","textChars":13,"textLines":1,"bbox":[340,525,210,24]}
+{"kind":"textbox","id":"sh/vmdcj2xw","slide":1,"text":"ئەزموونێکی پەیوەست بۆ هاندەران و ئەندامان.\nسیستەمێکی ڕوونتر بۆ بەڕێوەبردن.","textPreview":"ئەزموونێکی پەیوەست بۆ هاندەران و ئەندامان. | سیستەمێکی ڕوونتر بۆ بەڕێوەبردن.","textChars":74,"textLines":2,"bbox":[850,458,335,104]}
+{"kind":"textbox","id":"sh/4r6dg7et","slide":1,"text":"COOVIX • پێشنیار • هەولێر، هەرێمی کوردستانی عێراق","textPreview":"COOVIX • پێشنیار • هەولێر، هەرێمی کوردستانی عێراق","textChars":49,"textLines":1,"bbox":[82,665,620,16]}
+{"kind":"image","id":"im/xofe5sve","slide":1,"name":"","bbox":[1074,59.28,142,149.43]}
+{"kind":"image","id":"im/wn6xcnut","slide":1,"name":"","bbox":[94,74.91,154,41.17]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n- Official Coovix logo from the Coovix project workspace.\n- Official Erbil Sports Club crest supplied by the user.\n[/Sources]"}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"پوختەی بەڕێوەبەرایەتی","textShapes":18}
+{"kind":"textbox","id":"sh/fadgzu58","slide":2,"text":"پوختەی بەڕێوەبەرایەتی","textPreview":"پوختەی بەڕێوەبەرایەتی","textChars":21,"textLines":1,"bbox":[708,42,500,24]}
+{"kind":"textbox","id":"sh/9072xkry","slide":2,"text":"یەک پلاتفۆرم دەبێتە دەروازەی دیجیتاڵی یانە","textPreview":"یەک پلاتفۆرم دەبێتە دەروازەی دیجیتاڵی یانە","textChars":42,"textLines":1,"bbox":[128,72,1080,52]}
+{"kind":"shape","id":"sh/ozy1ofad","slide":2,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[73,43,42,22]}
+{"kind":"textbox","id":"sh/a10jqpsj","slide":2,"text":"پلاتفۆرمە پێشنیارکراوەکە هەواڵی تۆپی پێ، حجزکردنی یاریگا، پەیوەندی لەگەڵ هاندەران و بەڕێوەبردن لە یەک ئەزموونی پەیوەستدا کۆدەکاتەوە.","textPreview":"پلاتفۆرمە پێشنیارکراوەکە هەواڵی تۆپی پێ، حجزکردنی یاریگا، پەیوەندی لەگەڵ هاندەران و بەڕێوەبردن لە یەک ئەزموونی پەیوەستدا کۆدەکاتەوە.","textChars":132,"textLines":1,"bbox":[448,165,760,70]}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1160,282,48,30]}
+{"kind":"shape","id":"sh/w3i1sfa9","slide":2,"bbox":[1088,294,60,0]}
+{"kind":"textbox","id":"sh/r65knqtk","slide":2,"text":"ئەندامان","textPreview":"ئەندامان","textChars":8,"textLines":1,"bbox":[896,280,170,26]}
+{"kind":"textbox","id":"sh/q5wjelsz","slide":2,"text":"چالاکییەکانی یانە ببینن، یاریگا بدۆزنەوە و لە چەند خولەکێکدا حجزەکە پشتڕاست بکەنەوە.","textPreview":"چالاکییەکانی یانە ببینن، یاریگا بدۆزنەوە و لە چەند خولەکێکدا حجزەکە پشتڕاست بکەنەوە.","textChars":84,"textLines":1,"bbox":[460,280,430,48]}
+{"kind":"textbox","id":"sh/ove9o7yd","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1160,386,48,30]}
+{"kind":"shape","id":"sh/9wnqhczy","slide":2,"bbox":[1088,398,60,0]}
+{"kind":"textbox","id":"sh/mtwrmxg7","slide":2,"text":"کارگێڕی","textPreview":"کارگێڕی","textChars":7,"textLines":1,"bbox":[896,384,170,26]}
+{"kind":"textbox","id":"sh/nu58f2hs","slide":2,"text":"خشتەی کات، نرخ و تۆماری کڕیاران لە یەک شوێن بەڕێوەببەن.","textPreview":"خشتەی کات، نرخ و تۆماری کڕیاران لە یەک شوێن بەڕێوەببەن.","textChars":55,"textLines":1,"bbox":[460,384,430,48]}
+{"kind":"textbox","id":"sh/wjy9sry9","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1160,490,48,30]}
+{"kind":"shape","id":"sh/xk7qlczu","slide":2,"bbox":[1088,502,60,0]}
+{"kind":"textbox","id":"sh/ahwrqhgj","slide":2,"text":"بەڕێوەبردن","textPreview":"بەڕێوەبردن","textChars":10,"textLines":1,"bbox":[896,488,170,26]}
+{"kind":"textbox","id":"sh/bip8jmho","slide":2,"text":"حجزەکان، داهات و کاتە پڕداواکارییەکان بە ڕوونی ببینن.","textPreview":"حجزەکان، داهات و کاتە پڕداواکارییەکان بە ڕوونی ببینن.","textChars":53,"textLines":1,"bbox":[460,488,430,48]}
+{"kind":"shape","id":"sh/cnupgny5","slide":2,"bbox":[72,162,330,430]}
+{"kind":"textbox","id":"sh/do3q9szq","slide":2,"text":"پێشنیارەکە","textPreview":"پێشنیارەکە","textChars":10,"textLines":1,"bbox":[120,196,250,22]}
+{"kind":"textbox","id":"sh/t8byxkn2","slide":2,"text":"ماڵپەڕێکی مۆدێرن\n+ ئەپی Android و iOS\n+ داشبۆردی بەڕێوەبەر\n+ سیستەمی زیرەکی حجز","textPreview":"ماڵپەڕێکی مۆدێرن | + ئەپی Android و iOS | + داشبۆردی بەڕێوەبەر | + سیستەمی زیرەکی حجز","textChars":79,"textLines":4,"bbox":[120,242,250,166]}
+{"kind":"shape","id":"sh/s72xofmh","slide":2,"bbox":[120,454,250,88]}
+{"kind":"textbox","id":"sh/76twva5c","slide":2,"text":"ئامادە بۆ گەشەکردن","textPreview":"ئامادە بۆ گەشەکردن","textChars":18,"textLines":1,"bbox":[140,471,210,18]}
+{"kind":"textbox","id":"sh/65kfmpor","slide":2,"text":"بناغەیەک بۆ خزمەتگوزارییە دیجیتاڵییەکانی داهاتوو.","textPreview":"بناغەیەک بۆ خزمەتگوزارییە دیجیتاڵییەکانی داهاتوو.","textChars":49,"textLines":1,"bbox":[145,499,205,34]}
+{"kind":"textbox","id":"sh/hcvy14ne","slide":2,"text":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textPreview":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textChars":38,"textLines":1,"bbox":[688,681,520,16]}
+{"kind":"shape","id":"sh/gbmxszmt","slide":2,"bbox":[72,681,20,3]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"دەرفەتەکانی ئێستا","textShapes":23}
+{"kind":"textbox","id":"sh/z2d07mh4","slide":3,"text":"دەرفەتەکانی ئێستا","textPreview":"دەرفەتەکانی ئێستا","textChars":17,"textLines":1,"bbox":[708,42,500,24]}
+{"kind":"textbox","id":"sh/cza94vmx","slide":3,"text":"کێشەکانی ئەمڕۆ دەرفەتی ڕوونن بۆ باشترکردن","textPreview":"کێشەکانی ئەمڕۆ دەرفەتی ڕوونن بۆ باشترکردن","textChars":41,"textLines":1,"bbox":[128,72,1080,52]}
+{"kind":"shape","id":"sh/d0jax03i","slide":3,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[73,43,42,22]}
+{"kind":"textbox","id":"sh/3ah8rqlg","slide":3,"text":"ئامانج پاراستنی خزمەتگوزاریی نزیکی یانەیە، لەگەڵ خێراتر و ڕوونترکردنی مامەڵە ڕۆژانەکان.","textPreview":"ئامانج پاراستنی خزمەتگوزاریی نزیکی یانەیە، لەگەڵ خێراتر و ڕوونترکردنی مامەڵە ڕۆژانەکان.","textChars":87,"textLines":1,"bbox":[168,154,1040,52]}
+{"kind":"shape","id":"sh/obq90bml","slide":3,"bbox":[672,238,536,94]}
+{"kind":"textbox","id":"sh/pcjqtg36","slide":3,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1146,256,42,24]}
+{"kind":"textbox","id":"sh/m5cra54z","slide":3,"text":"بەردەستبوون","textPreview":"بەردەستبوون","textChars":11,"textLines":1,"bbox":[884,253,250,24]}
+{"kind":"textbox","id":"sh/n6ls3alk","slide":3,"text":"پشکنینی کاتە بەردەستەکان بەبێ پەیوەندی تەلەفۆنی ئاسان نییە.","textPreview":"پشکنینی کاتە بەردەستەکان بەبێ پەیوەندی تەلەفۆنی ئاسان نییە.","textChars":59,"textLines":1,"bbox":[704,281,430,36]}
+{"kind":"shape","id":"sh/n2l4fq98","slide":3,"bbox":[102,238,536,94]}
+{"kind":"textbox","id":"sh/m1c3mlsn","slide":3,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[576,256,42,24]}
+{"kind":"textbox","id":"sh/943mhgre","slide":3,"text":"حجزەکان","textPreview":"حجزەکان","textChars":7,"textLines":1,"bbox":[314,253,250,24]}
+{"kind":"textbox","id":"sh/83ulovat","slide":3,"text":"حجزی تەلەفۆنی و دەستی کاتی ستاف دەبات.","textPreview":"حجزی تەلەفۆنی و دەستی کاتی ستاف دەبات.","textChars":38,"textLines":1,"bbox":[134,281,430,36]}
+{"kind":"shape","id":"sh/v6l4jq94","slide":3,"bbox":[672,362,536,94]}
+{"kind":"textbox","id":"sh/a5c3ql8z","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1146,380,42,24]}
+{"kind":"textbox","id":"sh/x8nml0ra","slide":3,"text":"وردی","textPreview":"وردی","textChars":4,"textLines":1,"bbox":[884,377,250,24]}
+{"kind":"textbox","id":"sh/w7ulsvqp","slide":3,"text":"خشتەکاتی نەپەیوەست هەڵەی حجز زیاد دەکات.","textPreview":"خشتەکاتی نەپەیوەست هەڵەی حجز زیاد دەکات.","textChars":40,"textLines":1,"bbox":[704,405,430,36]}
+{"kind":"shape","id":"sh/ja54na9g","slide":3,"bbox":[102,362,536,94]}
+{"kind":"textbox","id":"sh/i9w3u58v","slide":3,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[576,380,42,24]}
+{"kind":"textbox","id":"sh/e10f2twf","slide":3,"text":"پەیوەندی","textPreview":"پەیوەندی","textChars":8,"textLines":1,"bbox":[314,377,250,24]}
+{"kind":"textbox","id":"sh/f29gbyx0","slide":3,"text":"نوێکاری و بیرخستنەوەکان بە یەکسانی ناگەنە هەموو کڕیاران.","textPreview":"نوێکاری و بیرخستنەوەکان بە یەکسانی ناگەنە هەموو کڕیاران.","textChars":56,"textLines":1,"bbox":[134,405,430,36]}
+{"kind":"shape","id":"sh/03ix43e5","slide":3,"bbox":[672,486,536,94]}
+{"kind":"textbox","id":"sh/14ryd8fq","slide":3,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1146,504,42,24]}
+{"kind":"textbox","id":"sh/6d0fytg3","slide":3,"text":"داتا","textPreview":"داتا","textChars":4,"textLines":1,"bbox":[884,501,250,24]}
+{"kind":"textbox","id":"sh/re9g7yxo","slide":3,"text":"کۆکردنەوە و گەڕان بە زانیاریی حجز قورسترە.","textPreview":"کۆکردنەوە و گەڕان بە زانیاریی حجز قورسترە.","textChars":42,"textLines":1,"bbox":[704,529,430,36]}
+{"kind":"shape","id":"sh/sfix03y9","slide":3,"bbox":[102,486,536,94]}
+{"kind":"textbox","id":"sh/tgry9ofu","slide":3,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[576,504,42,24]}
+{"kind":"textbox","id":"sh/a9kfadwn","slide":3,"text":"ڕاپۆرت","textPreview":"ڕاپۆرت","textChars":6,"textLines":1,"bbox":[314,501,250,24]}
+{"kind":"textbox","id":"sh/batgjixs","slide":3,"text":"دەتوانرێت ڕوونی داهات، داواکاری و کاتە پڕکارەکان زیاد بکرێت.","textPreview":"دەتوانرێت ڕوونی داهات، داواکاری و کاتە پڕکارەکان زیاد بکرێت.","textChars":60,"textLines":1,"bbox":[134,529,430,36]}
+{"kind":"textbox","id":"sh/l4fi9cza","slide":3,"text":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textPreview":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textChars":38,"textLines":1,"bbox":[688,681,520,16]}
+{"kind":"shape","id":"sh/k3m1g7yp","slide":3,"bbox":[72,681,20,3]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"چارەسەری پێشنیارکراو","textShapes":16}
+{"kind":"textbox","id":"sh/sri9s7q9","slide":4,"text":"چارەسەری پێشنیارکراو","textPreview":"چارەسەری پێشنیارکراو","textChars":20,"textLines":1,"bbox":[708,42,500,24]}
+{"kind":"textbox","id":"sh/1cj2d8b6","slide":4,"text":"یەک سیستەمی پەیوەست هەموو کەناڵەکان هاوتا دەکات","textPreview":"یەک سیستەمی پەیوەست هەموو کەناڵەکان هاوتا دەکات","textChars":47,"textLines":1,"bbox":[128,72,1080,52]}
+{"kind":"shape","id":"sh/0ba143al","slide":4,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/rm1k7yt4","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[73,43,42,22]}
+{"kind":"textbox","id":"sh/ql8jytsj","slide":4,"text":"ئەندامان یەک ئەزموونی یەکگرتوو دەبینن و ستاف یەک سەرچاوەی باوەڕپێکراوی حجز بەڕێوەدەبات.","textPreview":"ئەندامان یەک ئەزموونی یەکگرتوو دەبینن و ستاف یەک سەرچاوەی باوەڕپێکراوی حجز بەڕێوەدەبات.","textChars":87,"textLines":1,"bbox":[288,151,920,42]}
+{"kind":"shape","id":"sh/doj29oba","slide":4,"bbox":[745,313,235,64]}
+{"kind":"shape","id":"sh/sna103ap","slide":4,"bbox":[745,421,235,60]}
+{"kind":"shape","id":"sh/3ihk3et8","slide":4,"bbox":[292,313,213,63]}
+{"kind":"shape","id":"sh/ih8ju9sn","slide":4,"bbox":[292,424,213,57]}
+{"kind":"shape","id":"sh/kbm987y5","slide":4,"bbox":[980,258,210,110]}
+{"kind":"textbox","id":"sh/5cva1cfq","slide":4,"text":"ماڵپەڕ","textPreview":"ماڵپەڕ","textChars":6,"textLines":1,"bbox":[998,278,174,24]}
+{"kind":"textbox","id":"sh/i94r6xgz","slide":4,"text":"زانیاری • هەواڵ\nئەندامێتی • حجز","textPreview":"زانیاری • هەواڵ | ئەندامێتی • حجز","textChars":31,"textLines":2,"bbox":[998,310,174,45]}
+{"kind":"shape","id":"sh/jadsz2xk","slide":4,"bbox":[980,426,210,110]}
+{"kind":"textbox","id":"sh/w72947yt","slide":4,"text":"ئەپی مۆبایل","textPreview":"ئەپی مۆبایل","textChars":11,"textLines":1,"bbox":[998,446,174,24]}
+{"kind":"textbox","id":"sh/x8vaxsfe","slide":4,"text":"Android • iOS\nQR • ئاگادارکردنەوە","textPreview":"Android • iOS | QR • ئاگادارکردنەوە","textChars":33,"textLines":2,"bbox":[998,478,174,45]}
+{"kind":"shape","id":"sh/a5kr2xg3","slide":4,"bbox":[505,328,240,146]}
+{"kind":"textbox","id":"sh/v6tsv2xo","slide":4,"text":"خزمەتگوزارییەکانی یانە","textPreview":"خزمەتگوزارییەکانی یانە","textChars":22,"textLines":1,"bbox":[523,348,204,24]}
+{"kind":"textbox","id":"sh/g36tgryd","slide":4,"text":"بەردەستبوون\nحجزەکان\nئەندامان و نرخ","textPreview":"بەردەستبوون | حجزەکان | ئەندامان و نرخ","textChars":34,"textLines":3,"bbox":[523,380,204,45]}
+{"kind":"shape","id":"sh/h4fa9wfy","slide":4,"bbox":[82,258,210,110]}
+{"kind":"textbox","id":"sh/p0batw72","slide":4,"text":"بەڕێوەبەر","textPreview":"بەڕێوەبەر","textChars":9,"textLines":1,"bbox":[100,278,174,24]}
+{"kind":"textbox","id":"sh/oz29krqh","slide":4,"text":"خشتەکات • ئەندامان\nڕاپۆرت • داهات","textPreview":"خشتەکات • ئەندامان | ڕاپۆرت • داهات","textChars":33,"textLines":2,"bbox":[100,310,174,45]}
+{"kind":"shape","id":"sh/3ytsrmpw","slide":4,"bbox":[82,426,210,110]}
+{"kind":"textbox","id":"sh/2xkrih8b","slide":4,"text":"ستاف","textPreview":"ستاف","textChars":4,"textLines":1,"bbox":[100,446,174,24]}
+{"kind":"textbox","id":"sh/1wbapc7q","slide":4,"text":"کارگێڕی\nتۆمارکردنی هاتن • پشتگیری","textPreview":"کارگێڕی | تۆمارکردنی هاتن • پشتگیری","textChars":33,"textLines":2,"bbox":[100,478,174,45]}
+{"kind":"shape","id":"sh/gv29g7q5","slide":4,"bbox":[430,558,420,50]}
+{"kind":"textbox","id":"sh/fu9sn2p0","slide":4,"text":"خزمەتگوزاریی هاوبەشی ئەندام، ناوەڕۆک و حجز","textPreview":"خزمەتگوزاریی هاوبەشی ئەندام، ناوەڕۆک و حجز","textChars":42,"textLines":1,"bbox":[450,573,380,20]}
+{"kind":"textbox","id":"sh/et0reh8f","slide":4,"text":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textPreview":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textChars":38,"textLines":1,"bbox":[688,681,520,16]}
+{"kind":"shape","id":"sh/tsrqlc7u","slide":4,"bbox":[72,681,20,3]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"قۆناغەکانی پڕۆژە","textShapes":45}
+{"kind":"textbox","id":"sh/mdoza9o3","slide":5,"text":"قۆناغەکانی پڕۆژە","textPreview":"قۆناغەکانی پڕۆژە","textChars":16,"textLines":1,"bbox":[708,42,500,24]}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"text":"قۆناغی ١ بنەمای پارەدراو دەگەیەنێت و قۆناغەکانی دواتر پلاتفۆرمەکە فراوان دەکەن","textPreview":"قۆناغی ١ بنەمای پارەدراو دەگەیەنێت و قۆناغەکانی دواتر پلاتفۆرمەکە فراوان دەکەن","textChars":78,"textLines":1,"bbox":[128,72,1080,52]}
+{"kind":"shape","id":"sh/cf2tcr61","slide":5,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[73,43,42,22]}
+{"kind":"shape","id":"sh/yhkbe1o7","slide":5,"bbox":[682,174,526,420]}
+{"kind":"textbox","id":"sh/l4bupwny","slide":5,"text":"قۆناغی ١","textPreview":"قۆناغی ١","textChars":8,"textLines":1,"bbox":[1062,198,120,20]}
+{"kind":"textbox","id":"sh/032tgr6d","slide":5,"text":"پلاتفۆرمی دیجیتاڵی سەرەکی","textPreview":"پلاتفۆرمی دیجیتاڵی سەرەکی","textChars":25,"textLines":1,"bbox":[762,228,420,34]}
+{"kind":"textbox","id":"sh/n6dcr65o","slide":5,"text":"مەودای پارەدراوی ئێستا","textPreview":"مەودای پارەدراوی ئێستا","textChars":22,"textLines":1,"bbox":[1002,270,180,18]}
+{"kind":"textbox","id":"sh/m5kbi1oj","slide":5,"text":"• ماڵپەڕی وەڵامدەرەوە","textPreview":"• ماڵپەڕی وەڵامدەرەوە","textChars":21,"textLines":1,"bbox":[957,307,225,19]}
+{"kind":"textbox","id":"sh/w32dkbuh","slide":5,"text":"• ئەپی Android و iOS","textPreview":"• ئەپی Android و iOS","textChars":20,"textLines":1,"bbox":[957,335,225,19]}
+{"kind":"textbox","id":"sh/x4vedgvm","slide":5,"text":"• تۆمارکردن، چوونەژوورەوە و OTP","textPreview":"• تۆمارکردن، چوونەژوورەوە و OTP","textChars":31,"textLines":1,"bbox":[957,363,225,19]}
+{"kind":"textbox","id":"sh/ahkvi1cb","slide":5,"text":"• حجزکردنی یاریگا و شوێنەکان","textPreview":"• حجزکردنی یاریگا و شوێنەکان","textChars":28,"textLines":1,"bbox":[957,391,225,19]}
+{"kind":"textbox","id":"sh/v2twb6dw","slide":5,"text":"• بەردەستبوونی ڕاستەوخۆ","textPreview":"• بەردەستبوونی ڕاستەوخۆ","textChars":23,"textLines":1,"bbox":[957,419,225,19]}
+{"kind":"textbox","id":"sh/k7mxovud","slide":5,"text":"• مێژووی حجز و هەڵوەشاندنەوە","textPreview":"• مێژووی حجز و هەڵوەشاندنەوە","textChars":28,"textLines":1,"bbox":[957,447,225,19]}
+{"kind":"textbox","id":"sh/58vehgvy","slide":5,"text":"• ئاگادارکردنەوەی Push","textPreview":"• ئاگادارکردنەوەی Push","textChars":22,"textLines":1,"bbox":[957,475,225,19]}
+{"kind":"textbox","id":"sh/i54fmlc7","slide":5,"text":"• پشتڕاستکردنەوەی حجز بە QR","textPreview":"• پشتڕاستکردنەوەی حجز بە QR","textChars":27,"textLines":1,"bbox":[957,503,225,19]}
+{"kind":"textbox","id":"sh/j6dwfqds","slide":5,"text":"• پەیوەستکردنی پارەدانی ئۆنلاین","textPreview":"• پەیوەستکردنی پارەدانی ئۆنلاین","textChars":31,"textLines":1,"bbox":[957,531,225,19]}
+{"kind":"textbox","id":"sh/sb6xsvu9","slide":5,"text":"• پشتڕاستکردنەوەی پارەدان و پسوڵە","textPreview":"• پشتڕاستکردنەوەی پارەدان و پسوڵە","textChars":33,"textLines":1,"bbox":[708,307,240,19]}
+{"kind":"textbox","id":"sh/tcfel0vu","slide":5,"text":"• داشبۆردی بەڕێوەبەر","textPreview":"• داشبۆردی بەڕێوەبەر","textChars":20,"textLines":1,"bbox":[708,335,240,19]}
+{"kind":"textbox","id":"sh/hgrmpwj2","slide":5,"text":"• بەڕێوەبردنی حجز","textPreview":"• بەڕێوەبردنی حجز","textChars":17,"textLines":1,"bbox":[708,363,240,19]}
+{"kind":"textbox","id":"sh/gfi5grih","slide":5,"text":"• بەڕێوەبردنی شوێن و خشتەکات","textPreview":"• بەڕێوەبردنی شوێن و خشتەکات","textChars":28,"textLines":1,"bbox":[708,391,240,19]}
+{"kind":"textbox","id":"sh/fe94nm1w","slide":5,"text":"• بەڕێوەبردنی کڕیار و نرخ","textPreview":"• بەڕێوەبردنی کڕیار و نرخ","textChars":25,"textLines":1,"bbox":[708,419,240,19]}
+{"kind":"textbox","id":"sh/ud0ne10b","slide":5,"text":"• دۆخی پارەدان","textPreview":"• دۆخی پارەدان","textChars":14,"textLines":1,"bbox":[708,447,240,19]}
+{"kind":"textbox","id":"sh/pkr6tgjy","slide":5,"text":"• ڕاپۆرتی سەرەتایی داهات و حجز","textPreview":"• ڕاپۆرتی سەرەتایی داهات و حجز","textChars":30,"textLines":1,"bbox":[708,475,240,19]}
+{"kind":"textbox","id":"sh/4ji5kbid","slide":5,"text":"• API ـەکانی پاشبنەما","textPreview":"• API ـەکانی پاشبنەما","textChars":21,"textLines":1,"bbox":[708,503,240,19]}
+{"kind":"textbox","id":"sh/3i94r61s","slide":5,"text":"• بڵاوکردنەوە و ڕاهێنانی ستاف","textPreview":"• بڵاوکردنەوە و ڕاهێنانی ستاف","textChars":29,"textLines":1,"bbox":[708,531,240,19]}
+{"kind":"shape","id":"sh/2h0ni107","slide":5,"bbox":[391,174,263,420]}
+{"kind":"textbox","id":"sh/5o7mhcju","slide":5,"text":"قۆناغی ٢","textPreview":"قۆناغی ٢","textChars":8,"textLines":1,"bbox":[530,198,100,20]}
+{"kind":"textbox","id":"sh/kny587i9","slide":5,"text":"ئەندامێتی و گەشە","textPreview":"ئەندامێتی و گەشە","textChars":16,"textLines":1,"bbox":[415,230,215,52]}
+{"kind":"textbox","id":"sh/atcjidg7","slide":5,"text":"هەڵبژاردەی داهاتوو","textPreview":"هەڵبژاردەی داهاتوو","textChars":18,"textLines":1,"bbox":[470,292,160,18]}
+{"kind":"textbox","id":"sh/vu5kbihc","slide":5,"text":"• ئەندامێتی دیجیتاڵی","textPreview":"• ئەندامێتی دیجیتاڵی","textChars":20,"textLines":1,"bbox":[415,329,215,24]}
+{"kind":"textbox","id":"sh/wve1knyx","slide":5,"text":"• بەشداریکردن","textPreview":"• بەشداریکردن","textChars":13,"textLines":1,"bbox":[415,363,215,24]}
+{"kind":"textbox","id":"sh/xwn2dszi","slide":5,"text":"• کارتی ئەندامێتی دیجیتاڵی","textPreview":"• کارتی ئەندامێتی دیجیتاڵی","textChars":26,"textLines":1,"bbox":[415,397,215,24]}
+{"kind":"textbox","id":"sh/ihw3mxg3","slide":5,"text":"• خاڵی دڵسۆزی","textPreview":"• خاڵی دڵسۆزی","textChars":13,"textLines":1,"bbox":[415,431,215,24]}
+{"kind":"textbox","id":"sh/ji5kf2ho","slide":5,"text":"• ئۆفەر و بانگەشە","textPreview":"• ئۆفەر و بانگەشە","textChars":17,"textLines":1,"bbox":[415,465,215,24]}
+{"kind":"textbox","id":"sh/kjelony9","slide":5,"text":"• شیکاریی پێشکەوتوو","textPreview":"• شیکاریی پێشکەوتوو","textChars":19,"textLines":1,"bbox":[415,499,215,24]}
+{"kind":"shape","id":"sh/5kn2hszu","slide":5,"bbox":[100,174,263,420]}
+{"kind":"textbox","id":"sh/e1sjatgz","slide":5,"text":"قۆناغی ٣","textPreview":"قۆناغی ٣","textChars":8,"textLines":1,"bbox":[239,198,100,20]}
+{"kind":"textbox","id":"sh/zmlk3yhk","slide":5,"text":"خزمەتگوزاریی زیرەکی یانە","textPreview":"خزمەتگوزاریی زیرەکی یانە","textChars":24,"textLines":1,"bbox":[124,230,215,52]}
+{"kind":"textbox","id":"sh/fid07u98","slide":5,"text":"هەڵبژاردەی داهاتوو","textPreview":"هەڵبژاردەی داهاتوو","textChars":18,"textLines":1,"bbox":[179,292,160,18]}
+{"kind":"textbox","id":"sh/ehkzepsn","slide":5,"text":"• بەڕێوەبردنی ئەکادیمی","textPreview":"• بەڕێوەبردنی ئەکادیمی","textChars":22,"textLines":1,"bbox":[124,329,215,24]}
+{"kind":"textbox","id":"sh/1kvi94re","slide":5,"text":"• حجزکردنی ڕاهێنەر","textPreview":"• حجزکردنی ڕاهێنەر","textChars":18,"textLines":1,"bbox":[124,363,215,24]}
+{"kind":"textbox","id":"sh/gjmhgzqt","slide":5,"text":"• بلیتی بۆنەکان","textPreview":"• بلیتی بۆنەکان","textChars":15,"textLines":1,"bbox":[124,397,215,24]}
+{"kind":"textbox","id":"sh/3md0bu94","slide":5,"text":"• داواکاریی چێشتخانە","textPreview":"• داواکاریی چێشتخانە","textChars":20,"textLines":1,"bbox":[124,431,215,24]}
+{"kind":"textbox","id":"sh/2l4zip8j","slide":5,"text":"• کۆنترۆڵی زیرەکی چوونەژوورەوە","textPreview":"• کۆنترۆڵی زیرەکی چوونەژوورەوە","textChars":30,"textLines":1,"bbox":[124,465,215,24]}
+{"kind":"textbox","id":"sh/povid4ra","slide":5,"text":"• بەڕێوەبردنی پارکینگ","textPreview":"• بەڕێوەبردنی پارکینگ","textChars":21,"textLines":1,"bbox":[124,499,215,24]}
+{"kind":"textbox","id":"sh/onmhkzqp","slide":5,"text":"• خزمەتگوزاریی زیاتر","textPreview":"• خزمەتگوزاریی زیاتر","textChars":20,"textLines":1,"bbox":[124,533,215,24]}
+{"kind":"shape","id":"sh/bqx0fe9g","slide":5,"bbox":[72,613,1136,40]}
+{"kind":"textbox","id":"sh/qp4jm98v","slide":5,"text":"قۆناغی ٢ و ٣ لە نرخی قۆناغی ١دا نیین. Coovix مەودا و نرخەکانیان بە جیا دیاری دەکات.","textPreview":"قۆناغی ٢ و ٣ لە نرخی قۆناغی ١دا نیین. Coovix مەودا و نرخەکانیان بە جیا دیاری دەکات.","textChars":83,"textLines":1,"bbox":[94,624,1092,18]}
+{"kind":"textbox","id":"sh/8f6hcj6t","slide":5,"text":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textPreview":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textChars":38,"textLines":1,"bbox":[688,681,520,16]}
+{"kind":"shape","id":"sh/9gfy5o7e","slide":5,"bbox":[72,681,20,3]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"ئەزموونی ماڵپەڕ","textShapes":40}
+{"kind":"textbox","id":"sh/n21ojets","slide":6,"text":"ئەزموونی ماڵپەڕ","textPreview":"ئەزموونی ماڵپەڕ","textChars":15,"textLines":1,"bbox":[72,42,500,24]}
+{"kind":"textbox","id":"sh/yhg7epsj","slide":6,"text":"ماڵپەڕەکە ناوەڕۆکی یانە و حجزی ڕاستەوخۆی یاریگا پشتیوانی دەکات","textPreview":"ماڵپەڕەکە ناوەڕۆکی یانە و حجزی ڕاستەوخۆی یاریگا پشتیوانی دەکات","textChars":62,"textLines":1,"bbox":[72,72,1080,52]}
+{"kind":"shape","id":"sh/zi98nu94","slide":6,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/87ipkzal","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1165,43,42,22]}
+{"kind":"shape","id":"sh/98rqt4r6","slide":6,"bbox":[72,176,690,382]}
+{"kind":"shape","id":"sh/ml07i9sv","slide":6,"bbox":[72,176,690,46]}
+{"kind":"textbox","id":"sh/oryp8fah","slide":6,"text":"یانەی وەرزشی هەولێر","textPreview":"یانەی وەرزشی هەولێر","textChars":19,"textLines":1,"bbox":[136,190,158,18]}
+{"kind":"textbox","id":"sh/pc76hkr2","slide":6,"text":"سەرەکی","textPreview":"سەرەکی","textChars":6,"textLines":1,"bbox":[322,191,55,16]}
+{"kind":"textbox","id":"sh/h4bupgn6","slide":6,"text":"تیم","textPreview":"تیم","textChars":3,"textLines":1,"bbox":[382,191,55,16]}
+{"kind":"textbox","id":"sh/w32twb6l","slide":6,"text":"یارییەکان","textPreview":"یارییەکان","textChars":9,"textLines":1,"bbox":[442,191,55,16]}
+{"kind":"textbox","id":"sh/v2tcn650","slide":6,"text":"هەواڵ","textPreview":"هەواڵ","textChars":5,"textLines":1,"bbox":[502,191,55,16]}
+{"kind":"textbox","id":"sh/u1kbu1ov","slide":6,"text":"شوێنەکان","textPreview":"شوێنەکان","textChars":8,"textLines":1,"bbox":[562,191,55,16]}
+{"kind":"shape","id":"sh/5svutgni","slide":6,"bbox":[642,185,102,28]}
+{"kind":"textbox","id":"sh/47mt0b6x","slide":6,"text":"چوونەژوورەوەی ئەندام","textPreview":"چوونەژوورەوەی ئەندام","textChars":20,"textLines":1,"bbox":[648,193,90,12]}
+{"kind":"shape","id":"sh/j6dcr65c","slide":6,"bbox":[88,238,658,166]}
+{"kind":"textbox","id":"sh/i54bylor","slide":6,"text":"بەخێربێن بۆ یانەی وەرزشی هەولێر","textPreview":"بەخێربێن بۆ یانەی وەرزشی هەولێر","textChars":31,"textLines":1,"bbox":[106,256,300,16]}
+{"kind":"textbox","id":"sh/twfux0ne","slide":6,"text":"شانازیی هەولێر،\nلە ناو و دەرەوەی یاریگا.","textPreview":"شانازیی هەولێر، | لە ناو و دەرەوەی یاریگا.","textChars":40,"textLines":2,"bbox":[106,281,330,54]}
+{"kind":"textbox","id":"sh/svmt4v6t","slide":6,"text":"یارییەکان، هەواڵ، ئەندامێتی و حجزی یاریگا لە یەک شوێن.","textPreview":"یارییەکان، هەواڵ، ئەندامێتی و حجزی یاریگا لە یەک شوێن.","textChars":54,"textLines":1,"bbox":[106,342,330,34]}
+{"kind":"shape","id":"sh/cbe5g3ih","slide":6,"bbox":[106,378,112,22]}
+{"kind":"textbox","id":"sh/dcnm98zm","slide":6,"text":"یانە بناسە","textPreview":"یانە بناسە","textChars":10,"textLines":1,"bbox":[114,383,96,11]}
+{"kind":"shape","id":"sh/bq547yhw","slide":6,"bbox":[88,422,208.67,112]}
+{"kind":"textbox","id":"sh/0fy5k3id","slide":6,"text":"یاریی داهاتوو","textPreview":"یاریی داهاتوو","textChars":13,"textLines":1,"bbox":[104,438,176.67,14]}
+{"kind":"textbox","id":"sh/lg76d8zy","slide":6,"text":"هەولێر بەرامبەر دهۆک","textPreview":"هەولێر بەرامبەر دهۆک","textChars":20,"textLines":1,"bbox":[104,463,176.67,25]}
+{"kind":"textbox","id":"sh/ydgnit07","slide":6,"text":"هەینی | ٧:٣٠ پ.ن","textPreview":"هەینی | ٧:٣٠ پ.ن","textChars":16,"textLines":1,"bbox":[104,500,176.67,16]}
+{"kind":"shape","id":"sh/zep4byhs","slide":6,"bbox":[312.67,422,208.67,112]}
+{"kind":"textbox","id":"sh/gju58ji9","slide":6,"text":"نوێترین هەواڵ","textPreview":"نوێترین هەواڵ","textChars":13,"textLines":1,"bbox":[328.67,438,176.67,14]}
+{"kind":"textbox","id":"sh/1k3mhozu","slide":6,"text":"نوێکاریی تیمی یەکەم","textPreview":"نوێکاریی تیمی یەکەم","textChars":19,"textLines":1,"bbox":[328.67,463,176.67,25]}
+{"kind":"textbox","id":"sh/jet8nm1c","slide":6,"text":"هەواڵەکە بخوێنەوە","textPreview":"هەواڵەکە بخوێنەوە","textChars":17,"textLines":1,"bbox":[328.67,500,176.67,16]}
+{"kind":"shape","id":"sh/idk7ehkr","slide":6,"bbox":[537.33,422,208.67,112]}
+{"kind":"textbox","id":"sh/50bqpcj2","slide":6,"text":"حجزی یاریگا","textPreview":"حجزی یاریگا","textChars":11,"textLines":1,"bbox":[553.33,438,176.67,14]}
+{"kind":"textbox","id":"sh/4f2pgr2h","slide":6,"text":"یاریگاکانی ڕاهێنان","textPreview":"یاریگاکانی ڕاهێنان","textChars":18,"textLines":1,"bbox":[553.33,463,176.67,25]}
+{"kind":"textbox","id":"sh/va98j210","slide":6,"text":"بەردەستبوون بپشکنە","textPreview":"بەردەستبوون بپشکنە","textChars":18,"textLines":1,"bbox":[553.33,500,176.67,16]}
+{"kind":"shape","id":"sh/u907axkf","slide":6,"bbox":[790,176,418,382]}
+{"kind":"shape","id":"sh/hcrqlcj6","slide":6,"bbox":[790,176,418,46]}
+{"kind":"textbox","id":"sh/7698f214","slide":6,"text":"حجزی یاریگا","textPreview":"حجزی یاریگا","textChars":11,"textLines":1,"bbox":[855,190,150,18]}
+{"kind":"shape","id":"sh/m5076xkj","slide":6,"bbox":[1102,186,88,26]}
+{"kind":"textbox","id":"sh/2dkbalg3","slide":6,"text":"حجزەکانی من","textPreview":"حجزەکانی من","textChars":11,"textLines":1,"bbox":[1109,193,74,12]}
+{"kind":"textbox","id":"sh/netcjqxo","slide":6,"text":"یاریگای تۆپی پێ حجز بکە","textPreview":"یاریگای تۆپی پێ حجز بکە","textChars":23,"textLines":1,"bbox":[814,244,370,28]}
+{"kind":"textbox","id":"sh/of2tcvy9","slide":6,"text":"شوێن و کاتی بەردەست هەڵبژێرە","textPreview":"شوێن و کاتی بەردەست هەڵبژێرە","textChars":28,"textLines":1,"bbox":[814,274,370,18]}
+{"kind":"textbox","id":"sh/pgbul0fu","slide":6,"text":"شوێن","textPreview":"شوێن","textChars":4,"textLines":1,"bbox":[814,308,100,14]}
+{"kind":"shape","id":"sh/ep0b6lg7","slide":6,"bbox":[814,327,370,46]}
+{"kind":"textbox","id":"sh/fq9cfqxc","slide":6,"text":"یاریگای ڕاهێنان ١","textPreview":"یاریگای ڕاهێنان ١","textChars":17,"textLines":1,"bbox":[830,341,338,18]}
+{"kind":"textbox","id":"sh/0r2t8vyx","slide":6,"text":"بەروار","textPreview":"بەروار","textChars":6,"textLines":1,"bbox":[814,391,80,14]}
+{"kind":"textbox","id":"sh/1sbuh0fi","slide":6,"text":"کات","textPreview":"کات","textChars":3,"textLines":1,"bbox":[995,391,80,14]}
+{"kind":"shape","id":"sh/ql0b21gv","slide":6,"bbox":[814,410,160,42]}
+{"kind":"textbox","id":"sh/rm9sb6xg","slide":6,"text":"هەینی، ١٣ی ئەیلوول","textPreview":"هەینی، ١٣ی ئەیلوول","textChars":18,"textLines":1,"bbox":[828,422,132,18]}
+{"kind":"shape","id":"sh/9gfeh4zy","slide":6,"bbox":[995,410,189,42]}
+{"kind":"textbox","id":"sh/8f6x8jid","slide":6,"text":"18:30-20:00","textPreview":"18:30-20:00","textChars":11,"textLines":1,"bbox":[1006,422,167,18]}
+{"kind":"shape","id":"sh/7exwfehs","slide":6,"bbox":[814,472,370,48]}
+{"kind":"textbox","id":"sh/mdof6907","slide":6,"text":"کۆی گشتی","textPreview":"کۆی گشتی","textChars":8,"textLines":1,"bbox":[830,482,80,14]}
+{"kind":"textbox","id":"sh/lcfed4z2","slide":6,"text":"٢٥,٠٠٠ دینار","textPreview":"٢٥,٠٠٠ دینار","textChars":12,"textLines":1,"bbox":[830,498,120,16]}
+{"kind":"shape","id":"sh/kb6d4zih","slide":6,"bbox":[1058,481,110,30]}
+{"kind":"textbox","id":"sh/zaxwbuhw","slide":6,"text":"بەردەوام بە","textPreview":"بەردەوام بە","textChars":11,"textLines":1,"bbox":[1068,489,90,14]}
+{"kind":"textbox","id":"sh/y94v2p0b","slide":6,"text":"پەڕەی سەرەکی","textPreview":"پەڕەی سەرەکی","textChars":12,"textLines":1,"bbox":[72,575,690,18]}
+{"kind":"textbox","id":"sh/x8ve9kzq","slide":6,"text":"پەڕەی حجز","textPreview":"پەڕەی حجز","textChars":9,"textLines":1,"bbox":[790,575,418,18]}
+{"kind":"shape","id":"sh/c7md0zi5","slide":6,"bbox":[72,612,1136,40]}
+{"kind":"textbox","id":"sh/o3a5cjud","slide":6,"text":"مێژووی یانە • یارییەکان • هەواڵ • ئەندامان • بەردەستبوون • پارەدانی ئۆنلاین","textPreview":"مێژووی یانە • یارییەکان • هەواڵ • ئەندامان • بەردەستبوون • پارەدانی ئۆنلاین","textChars":75,"textLines":1,"bbox":[96,623,1088,18]}
+{"kind":"textbox","id":"sh/p4j6loby","slide":6,"text":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textPreview":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textChars":38,"textLines":1,"bbox":[72,681,520,16]}
+{"kind":"shape","id":"sh/21snatc7","slide":6,"bbox":[1188,681,20,3]}
+{"kind":"image","id":"im/fu18jqxw","slide":6,"name":"","bbox":[90.95,181,36.11,38]}
+{"kind":"image","id":"im/ets7qlwb","slide":6,"name":"","bbox":[452,238,294,166]}
+{"kind":"image","id":"im/1wjql0f2","slide":6,"name":"","bbox":[806.95,181,36.11,38]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n- Official Erbil Sports Club crest supplied by the user.\n- Erbil Sports Club football team photograph supplied by the user.\n[/Sources]"}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"ئەپی مۆبایل","textShapes":49}
+{"kind":"textbox","id":"sh/4nmdsjux","slide":7,"text":"ئەپی مۆبایل","textPreview":"ئەپی مۆبایل","textChars":11,"textLines":1,"bbox":[72,42,500,24]}
+{"kind":"textbox","id":"sh/cb2tkvap","slide":7,"text":"ئەپی مۆبایل دۆزینەوە و حجزی خزمەتگوزارییەکانی تۆپی پێ ئاسان دەکات","textPreview":"ئەپی مۆبایل دۆزینەوە و حجزی خزمەتگوزارییەکانی تۆپی پێ ئاسان دەکات","textChars":65,"textLines":1,"bbox":[72,72,1080,52]}
+{"kind":"shape","id":"sh/dcbud0ra","slide":7,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/ydkbm5sv","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1165,43,42,22]}
+{"kind":"textbox","id":"sh/zedcfa9g","slide":7,"text":"ڕێڕەوی سەرەکی لە پەڕەی سەرەکیی یانەوە بۆ هەڵبژاردنی یاریگا و بەردەستبوونی ڕاستەوخۆ دەچێت.","textPreview":"ڕێڕەوی سەرەکی لە پەڕەی سەرەکیی یانەوە بۆ هەڵبژاردنی یاریگا و بەردەستبوونی ڕاستەوخۆ دەچێت.","textChars":89,"textLines":1,"bbox":[72,151,1040,38]}
+{"kind":"shape","id":"sh/kzmdova1","slide":7,"bbox":[130,205,230,414]}
+{"kind":"shape","id":"sh/l0vuh0rm","slide":7,"bbox":[138,213,214,398]}
+{"kind":"shape","id":"sh/eh0ba1sr","slide":7,"bbox":[218,219,54,7]}
+{"kind":"textbox","id":"sh/baxkjqlk","slide":7,"text":"ERBIL SC","textPreview":"ERBIL SC","textChars":8,"textLines":1,"bbox":[187,243,148,18]}
+{"kind":"textbox","id":"sh/a9ojq5kz","slide":7,"text":"9:41","textPreview":"9:41","textChars":4,"textLines":1,"bbox":[150,220,36,10]}
+{"kind":"textbox","id":"sh/xcz2l03q","slide":7,"text":"●  ▰","textPreview":"●  ▰","textChars":4,"textLines":1,"bbox":[300,220,38,10]}
+{"kind":"textbox","id":"sh/cbq1sv25","slide":7,"text":"بەخێربێیتەوە","textPreview":"بەخێربێیتەوە","textChars":12,"textLines":1,"bbox":[150,284,190,18]}
+{"kind":"textbox","id":"sh/n6x0fqlo","slide":7,"text":"یانەکەت، هەموو شتێک\nلە یەک شوێن","textPreview":"یانەکەت، هەموو شتێک | لە یەک شوێن","textChars":31,"textLines":2,"bbox":[150,306,190,48]}
+{"kind":"shape","id":"sh/25ojml43","slide":7,"bbox":[150,373,190,64]}
+{"kind":"textbox","id":"sh/p8fih03e","slide":7,"text":"یاریی داهاتوو","textPreview":"یاریی داهاتوو","textChars":13,"textLines":1,"bbox":[164,386,162,15]}
+{"kind":"textbox","id":"sh/o761ov2t","slide":7,"text":"ناوەندی یاری","textPreview":"ناوەندی یاری","textChars":12,"textLines":1,"bbox":[164,409,162,18]}
+{"kind":"shape","id":"sh/f2d0b6lc","slide":7,"bbox":[150,445,190,36]}
+{"kind":"shape","id":"sh/eh4jil4r","slide":7,"bbox":[162,455,15,15]}
+{"kind":"textbox","id":"sh/id4ju1oz","slide":7,"text":"یاریگاکانی ڕاهێنان","textPreview":"یاریگاکانی ڕاهێنان","textChars":18,"textLines":1,"bbox":[187,453,142,17]}
+{"kind":"shape","id":"sh/jedkn654","slide":7,"bbox":[150,489,190,36]}
+{"kind":"shape","id":"sh/4fm1wb6p","slide":7,"bbox":[162,499,15,15]}
+{"kind":"textbox","id":"sh/50v2pgna","slide":7,"text":"ئەکادیمی","textPreview":"ئەکادیمی","textChars":8,"textLines":1,"bbox":[187,497,142,17]}
+{"kind":"shape","id":"sh/q143ylov","slide":7,"bbox":[150,533,190,36]}
+{"kind":"shape","id":"sh/r2dkrq5g","slide":7,"bbox":[162,543,15,15]}
+{"kind":"textbox","id":"sh/s3ml0v61","slide":7,"text":"هەواڵی یانە","textPreview":"هەواڵی یانە","textChars":11,"textLines":1,"bbox":[187,541,142,17]}
+{"kind":"shape","id":"sh/d4f2t0nm","slide":7,"bbox":[156,585,178,0]}
+{"kind":"textbox","id":"sh/e5o32lor","slide":7,"text":"سەرەکی       یارییەکان       پرۆفایل","textPreview":"سەرەکی       یارییەکان       پرۆفایل","textChars":36,"textLines":1,"bbox":[155,593,180,11]}
+{"kind":"shape","id":"sh/f6xkvq5c","slide":7,"bbox":[525,205,230,414]}
+{"kind":"shape","id":"sh/p0zmlk7u","slide":7,"bbox":[533,213,214,398]}
+{"kind":"shape","id":"sh/ozq5szq9","slide":7,"bbox":[613,219,54,7]}
+{"kind":"textbox","id":"sh/2x8nqp83","slide":7,"text":"ERBIL SC","textPreview":"ERBIL SC","textChars":8,"textLines":1,"bbox":[582,243,148,18]}
+{"kind":"textbox","id":"sh/x4j6p47q","slide":7,"text":"9:41","textPreview":"9:41","textChars":4,"textLines":1,"bbox":[545,220,36,10]}
+{"kind":"textbox","id":"sh/c3a5wzq5","slide":7,"text":"●  ▰","textPreview":"●  ▰","textChars":4,"textLines":1,"bbox":[695,220,38,10]}
+{"kind":"textbox","id":"sh/b2h4nupk","slide":7,"text":"یاریگایەک هەڵبژێرە","textPreview":"یاریگایەک هەڵبژێرە","textChars":18,"textLines":1,"bbox":[545,287,190,28]}
+{"kind":"textbox","id":"sh/a18nup8z","slide":7,"text":"شوێنەکانی تۆپی پێ","textPreview":"شوێنەکانی تۆپی پێ","textChars":17,"textLines":1,"bbox":[545,319,190,16]}
+{"kind":"shape","id":"sh/lsj6t47m","slide":7,"bbox":[545,350,190,58]}
+{"kind":"textbox","id":"sh/kra50jqh","slide":7,"text":"یاریگای ڕاهێنان ١","textPreview":"یاریگای ڕاهێنان ١","textChars":17,"textLines":1,"bbox":[559,360,162,17]}
+{"kind":"textbox","id":"sh/wneps3ap","slide":7,"text":"ئەمڕۆ بەردەستە","textPreview":"ئەمڕۆ بەردەستە","textChars":14,"textLines":1,"bbox":[559,380,100,14]}
+{"kind":"textbox","id":"sh/honq18ru","slide":7,"text":"٢٥,٠٠٠ دینار","textPreview":"٢٥,٠٠٠ دینار","textChars":12,"textLines":1,"bbox":[650,380,72,14]}
+{"kind":"shape","id":"sh/ulc7qdsj","slide":7,"bbox":[545,420,190,58]}
+{"kind":"textbox","id":"sh/vm58zi94","slide":7,"text":"یاریگای ڕاهێنان ٢","textPreview":"یاریگای ڕاهێنان ٢","textChars":17,"textLines":1,"bbox":[559,430,162,17]}
+{"kind":"textbox","id":"sh/8jupo3ad","slide":7,"text":"دواتر: ٢٠:٠٠","textPreview":"دواتر: ٢٠:٠٠","textChars":12,"textLines":1,"bbox":[559,450,100,14]}
+{"kind":"textbox","id":"sh/9k3qx8ry","slide":7,"text":"٢٥,٠٠٠ دینار","textPreview":"٢٥,٠٠٠ دینار","textChars":12,"textLines":1,"bbox":[650,450,72,14]}
+{"kind":"shape","id":"sh/mxc7mts7","slide":7,"bbox":[545,490,190,58]}
+{"kind":"textbox","id":"sh/7yl8vy9s","slide":7,"text":"یاریگای سەرەکی","textPreview":"یاریگای سەرەکی","textChars":14,"textLines":1,"bbox":[559,500,162,17]}
+{"kind":"textbox","id":"sh/sfy907ah","slide":7,"text":"پەسەندی ستاف","textPreview":"پەسەندی ستاف","textChars":12,"textLines":1,"bbox":[559,520,100,14]}
+{"kind":"textbox","id":"sh/tg7q9sr2","slide":7,"text":"داواکاری","textPreview":"داواکاری","textChars":8,"textLines":1,"bbox":[650,520,72,14]}
+{"kind":"shape","id":"sh/na9sz6tk","slide":7,"bbox":[545,565,190,32]}
+{"kind":"textbox","id":"sh/290bq1cz","slide":7,"text":"بەردەستبوون ببینە","textPreview":"بەردەستبوون ببینە","textChars":17,"textLines":1,"bbox":[555,572,170,15]}
+{"kind":"shape","id":"sh/pcra1wba","slide":7,"bbox":[920,205,230,414]}
+{"kind":"shape","id":"sh/obitsrup","slide":7,"bbox":[928,213,214,398]}
+{"kind":"shape","id":"sh/betc36tg","slide":7,"bbox":[1008,219,54,7]}
+{"kind":"textbox","id":"sh/xgbu5gbm","slide":7,"text":"ERBIL SC","textPreview":"ERBIL SC","textChars":8,"textLines":1,"bbox":[977,243,148,18]}
+{"kind":"textbox","id":"sh/cf2twbu1","slide":7,"text":"9:41","textPreview":"9:41","textChars":4,"textLines":1,"bbox":[940,220,36,10]}
+{"kind":"textbox","id":"sh/ripsrmtc","slide":7,"text":"●  ▰","textPreview":"●  ▰","textChars":4,"textLines":1,"bbox":[1090,220,38,10]}
+{"kind":"textbox","id":"sh/6hgbihcr","slide":7,"text":"یاریگای تۆپی پێ حجز بکە","textPreview":"یاریگای تۆپی پێ حجز بکە","textChars":23,"textLines":1,"bbox":[940,285,190,28]}
+{"kind":"textbox","id":"sh/uponm90b","slide":7,"text":"بەروار هەڵبژێرە","textPreview":"بەروار هەڵبژێرە","textChars":15,"textLines":1,"bbox":[940,329,190,16]}
+{"kind":"shape","id":"sh/vah4fehw","slide":7,"bbox":[940,353,52,58]}
+{"kind":"textbox","id":"sh/gbq5ojih","slide":7,"text":"پێنج","textPreview":"پێنج","textChars":4,"textLines":1,"bbox":[945,362,42,12]}
+{"kind":"textbox","id":"sh/hczmhoz2","slide":7,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[945,381,42,18]}
+{"kind":"shape","id":"sh/6loni90f","slide":7,"bbox":[1001,353,52,58]}
+{"kind":"textbox","id":"sh/7mx4buh0","slide":7,"text":"هەینی","textPreview":"هەینی","textChars":5,"textLines":1,"bbox":[1006,362,42,12]}
+{"kind":"textbox","id":"sh/8n65kzil","slide":7,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1006,381,42,18]}
+{"kind":"shape","id":"sh/tofmd4z6","slide":7,"bbox":[1062,353,52,58]}
+{"kind":"textbox","id":"sh/yh4nep0j","slide":7,"text":"شەممە","textPreview":"شەممە","textChars":5,"textLines":1,"bbox":[1067,362,42,12]}
+{"kind":"textbox","id":"sh/jix47uho","slide":7,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1067,381,42,18]}
+{"kind":"textbox","id":"sh/1c3qdsj6","slide":7,"text":"کاتی بەردەست","textPreview":"کاتی بەردەست","textChars":12,"textLines":1,"bbox":[940,431,190,16]}
+{"kind":"shape","id":"sh/0bupkn21","slide":7,"bbox":[940,456,190,38]}
+{"kind":"textbox","id":"sh/fal8bi1g","slide":7,"text":"17:00","textPreview":"17:00","textChars":5,"textLines":1,"bbox":[952,466,166,16]}
+{"kind":"shape","id":"sh/e9c7ixkv","slide":7,"bbox":[940,504,190,38]}
+{"kind":"textbox","id":"sh/d8jq9sja","slide":7,"text":"18:30","textPreview":"18:30","textChars":5,"textLines":1,"bbox":[952,514,166,16]}
+{"kind":"shape","id":"sh/s7apgn2p","slide":7,"bbox":[940,565,190,32]}
+{"kind":"textbox","id":"sh/r6187i14","slide":7,"text":"کات پشتڕاست بکەوە","textPreview":"کات پشتڕاست بکەوە","textChars":17,"textLines":1,"bbox":[950,572,170,15]}
+{"kind":"shape","id":"sh/q5s7edkj","slide":7,"bbox":[374,402,125,0]}
+{"kind":"shape","id":"sh/54jq58je","slide":7,"bbox":[769,402,125,0]}
+{"kind":"textbox","id":"sh/4japc32t","slide":7,"text":"سەرەکیی ئەپ","textPreview":"سەرەکیی ئەپ","textChars":11,"textLines":1,"bbox":[130,635,230,18]}
+{"kind":"textbox","id":"sh/gj2doje1","slide":7,"text":"هەڵبژاردنی یاریگا","textPreview":"هەڵبژاردنی یاریگا","textChars":17,"textLines":1,"bbox":[525,635,230,18]}
+{"kind":"textbox","id":"sh/hkvuxovm","slide":7,"text":"ڕۆژژمێری حجز","textPreview":"ڕۆژژمێری حجز","textChars":12,"textLines":1,"bbox":[920,635,230,18]}
+{"kind":"textbox","id":"sh/uhkvm9wv","slide":7,"text":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textPreview":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textChars":38,"textLines":1,"bbox":[72,681,520,16]}
+{"kind":"shape","id":"sh/fitcvedg","slide":7,"bbox":[1188,681,20,3]}
+{"kind":"image","id":"im/il83258v","slide":7,"name":"","bbox":[149,237.21,30,31.57]}
+{"kind":"image","id":"im/5oj2dk7m","slide":7,"name":"","bbox":[544,237.21,30,31.57]}
+{"kind":"image","id":"im/4nql4fq1","slide":7,"name":"","bbox":[939,237.21,30,31.57]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n- Official Erbil Sports Club crest supplied by the user. All interface screens are proposal concepts.\n[/Sources]"}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"ڕێڕەوی حجز و پارەدان","textShapes":49}
+{"kind":"textbox","id":"sh/rix4n6dw","slide":8,"text":"ڕێڕەوی حجز و پارەدان","textPreview":"ڕێڕەوی حجز و پارەدان","textChars":20,"textLines":1,"bbox":[72,42,500,24]}
+{"kind":"textbox","id":"sh/18byd4zy","slide":8,"text":"پارەدان و پشتڕاستکردنەوەی حجز لە یەک ڕێڕەوی ڕووندا دەبن","textPreview":"پارەدان و پشتڕاستکردنەوەی حجز لە یەک ڕێڕەوی ڕووندا دەبن","textChars":55,"textLines":1,"bbox":[72,72,1080,52]}
+{"kind":"shape","id":"sh/g72x4zyd","slide":8,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/ri9g7uhw","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1165,43,42,22]}
+{"kind":"textbox","id":"sh/6h0fypgb","slide":8,"text":"قۆناغی ١ پەیوەستکردنی پارەدانی ئۆنلاین، پشتڕاستکردنەوە، پسوڵەی دیجیتاڵی و QR ـی چوونەژوورەوە دەگرێتەوە.","textPreview":"قۆناغی ١ پەیوەستکردنی پارەدانی ئۆنلاین، پشتڕاستکردنەوە، پسوڵەی دیجیتاڵی و QR ـی چوونەژوورەوە دەگرێتەوە.","textChars":103,"textLines":1,"bbox":[72,151,1080,38]}
+{"kind":"shape","id":"sh/tkby9kzm","slide":8,"bbox":[72,202,220,408]}
+{"kind":"shape","id":"sh/sjix0zy1","slide":8,"bbox":[80,210,204,392]}
+{"kind":"shape","id":"sh/je9g3ahk","slide":8,"bbox":[155,216,54,7]}
+{"kind":"textbox","id":"sh/o7ydoret","slide":8,"text":"ERBIL SC","textPreview":"ERBIL SC","textChars":8,"textLines":1,"bbox":[129,240,138,18]}
+{"kind":"textbox","id":"sh/98rehwve","slide":8,"text":"9:41","textPreview":"9:41","textChars":4,"textLines":1,"bbox":[92,217,36,10]}
+{"kind":"textbox","id":"sh/m5gvmhwn","slide":8,"text":"●  ▰","textPreview":"●  ▰","textChars":4,"textLines":1,"bbox":[232,217,38,10]}
+{"kind":"textbox","id":"sh/n6pwfmd8","slide":8,"text":"پێداچوونەوە و پارەدان","textPreview":"پێداچوونەوە و پارەدان","textChars":21,"textLines":1,"bbox":[92,284,180,28]}
+{"kind":"shape","id":"sh/0jydkreh","slide":8,"bbox":[92,326,180,102]}
+{"kind":"textbox","id":"sh/1k7edwv2","slide":8,"text":"یاریگای ڕاهێنان ١","textPreview":"یاریگای ڕاهێنان ١","textChars":17,"textLines":1,"bbox":[106,341,152,18]}
+{"kind":"textbox","id":"sh/ehgvihwr","slide":8,"text":"هەینی ١٨:٣٠-٢٠:٠٠","textPreview":"هەینی ١٨:٣٠-٢٠:٠٠","textChars":17,"textLines":1,"bbox":[106,368,152,16]}
+{"kind":"textbox","id":"sh/zipwbmdc","slide":8,"text":"٢٥,٠٠٠ دینار","textPreview":"٢٥,٠٠٠ دینار","textChars":12,"textLines":1,"bbox":[106,396,152,18]}
+{"kind":"textbox","id":"sh/kfixwbe1","slide":8,"text":"شێوازی پارەدان","textPreview":"شێوازی پارەدان","textChars":14,"textLines":1,"bbox":[92,450,180,14]}
+{"kind":"shape","id":"sh/lgbepgvm","slide":8,"bbox":[92,471,180,48]}
+{"kind":"textbox","id":"sh/tw7e9gnq","slide":8,"text":"کارت کۆتایی بە ٤٢٤٢","textPreview":"کارت کۆتایی بە ٤٢٤٢","textChars":19,"textLines":1,"bbox":[107,486,150,18]}
+{"kind":"shape","id":"sh/svydgb65","slide":8,"bbox":[92,556,180,32]}
+{"kind":"textbox","id":"sh/7u5w765k","slide":8,"text":"٢٥,٠٠٠ دینار بدە","textPreview":"٢٥,٠٠٠ دینار بدە","textChars":16,"textLines":1,"bbox":[102,563,160,15]}
+{"kind":"textbox","id":"sh/6twve1oz","slide":8,"text":"پارەدان","textPreview":"پارەدان","textChars":7,"textLines":1,"bbox":[72,626,220,18]}
+{"kind":"shape","id":"sh/5sne5wne","slide":8,"bbox":[363,202,220,408]}
+{"kind":"shape","id":"sh/kredcr6t","slide":8,"bbox":[371,210,204,392]}
+{"kind":"shape","id":"sh/jq5w365o","slide":8,"bbox":[446,216,54,7]}
+{"kind":"textbox","id":"sh/x4ne1wni","slide":8,"text":"ERBIL SC","textPreview":"ERBIL SC","textChars":8,"textLines":1,"bbox":[420,240,138,18]}
+{"kind":"textbox","id":"sh/w3ed8r6x","slide":8,"text":"9:41","textPreview":"9:41","textChars":4,"textLines":1,"bbox":[383,217,36,10]}
+{"kind":"textbox","id":"sh/m9sb2x4v","slide":8,"text":"●  ▰","textPreview":"●  ▰","textChars":4,"textLines":1,"bbox":[523,217,38,10]}
+{"kind":"shape","id":"sh/na1sb2lg","slide":8,"bbox":[446,284,54,54]}
+{"kind":"textbox","id":"sh/8bat47ml","slide":8,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[457,297,32,26]}
+{"kind":"textbox","id":"sh/9w3uds36","slide":8,"text":"پارەدان سەرکەوتوو بوو","textPreview":"پارەدان سەرکەوتوو بوو","textChars":21,"textLines":1,"bbox":[383,355,180,26]}
+{"kind":"textbox","id":"sh/y5sbed4j","slide":8,"text":"٢٥,٠٠٠ دینار","textPreview":"٢٥,٠٠٠ دینار","textChars":12,"textLines":1,"bbox":[383,390,180,20]}
+{"kind":"shape","id":"sh/z61s7il4","slide":8,"bbox":[389,433,168,88]}
+{"kind":"textbox","id":"sh/07atgnmp","slide":8,"text":"دۆخ","textPreview":"دۆخ","textChars":3,"textLines":1,"bbox":[403,448,70,14]}
+{"kind":"textbox","id":"sh/l8ja9s3a","slide":8,"text":"پارەدراو","textPreview":"پارەدراو","textChars":8,"textLines":1,"bbox":[497,448,46,14]}
+{"kind":"textbox","id":"sh/q18bad4n","slide":8,"text":"پسوڵە ESC-P18472","textPreview":"پسوڵە ESC-P18472","textChars":16,"textLines":1,"bbox":[403,478,140,16]}
+{"kind":"textbox","id":"sh/b2hs3il8","slide":8,"text":"پسوڵەی دیجیتاڵی پاشەکەوت کرا","textPreview":"پسوڵەی دیجیتاڵی پاشەکەوت کرا","textChars":28,"textLines":1,"bbox":[403,500,140,14]}
+{"kind":"shape","id":"sh/3u18fepo","slide":8,"bbox":[383,556,180,32]}
+{"kind":"textbox","id":"sh/2ts769o3","slide":8,"text":"حجزەکە ببینە","textPreview":"حجزەکە ببینە","textChars":12,"textLines":1,"bbox":[393,563,160,15]}
+{"kind":"textbox","id":"sh/pwjqho7u","slide":8,"text":"سەرکەوتنی پارەدان","textPreview":"سەرکەوتنی پارەدان","textChars":17,"textLines":1,"bbox":[363,626,220,18]}
+{"kind":"shape","id":"sh/4vap8j69","slide":8,"bbox":[654,202,220,408]}
+{"kind":"shape","id":"sh/fq1obeps","slide":8,"bbox":[662,210,204,392]}
+{"kind":"shape","id":"sh/up872987","slide":8,"bbox":[737,216,54,7]}
+{"kind":"textbox","id":"sh/grap4zqd","slide":8,"text":"ERBIL SC","textPreview":"ERBIL SC","textChars":8,"textLines":1,"bbox":[711,240,138,18]}
+{"kind":"textbox","id":"sh/72ho7upg","slide":8,"text":"9:41","textPreview":"9:41","textChars":4,"textLines":1,"bbox":[674,217,36,10]}
+{"kind":"textbox","id":"sh/6187yp8b","slide":8,"text":"●  ▰","textPreview":"●  ▰","textChars":4,"textLines":1,"bbox":[814,217,38,10]}
+{"kind":"shape","id":"sh/cvmdsb2h","slide":8,"bbox":[737,280,54,54]}
+{"kind":"textbox","id":"sh/xwvelwj2","slide":8,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[748,293,32,26]}
+{"kind":"textbox","id":"sh/at4vq1kr","slide":8,"text":"حجز پشتڕاست کرایەوە","textPreview":"حجز پشتڕاست کرایەوە","textChars":19,"textLines":1,"bbox":[674,350,180,26]}
+{"kind":"textbox","id":"sh/budwj61c","slide":8,"text":"یاریگای ڕاهێنان ١ | هەینی ١٨:٣٠-٢٠:٠٠","textPreview":"یاریگای ڕاهێنان ١ | هەینی ١٨:٣٠-٢٠:٠٠","textChars":37,"textLines":1,"bbox":[676,381,176,30]}
+{"kind":"shape","id":"sh/kjmdwbit","slide":8,"bbox":[703,422,122,130]}
+{"kind":"textbox","id":"sh/yx4vu10n","slide":8,"text":"ناسنامەی حجز ESC-18472","textPreview":"ناسنامەی حجز ESC-18472","textChars":22,"textLines":1,"bbox":[674,562,180,14]}
+{"kind":"textbox","id":"sh/zidwn618","slide":8,"text":"لە پێشوازی سکان بکە","textPreview":"لە پێشوازی سکان بکە","textChars":19,"textLines":1,"bbox":[674,582,180,16]}
+{"kind":"textbox","id":"sh/0n2dkr2p","slide":8,"text":"پشتڕاستکردنەوەی QR","textPreview":"پشتڕاستکردنەوەی QR","textChars":18,"textLines":1,"bbox":[654,626,220,18]}
+{"kind":"shape","id":"sh/1obudcju","slide":8,"bbox":[945,202,220,408]}
+{"kind":"shape","id":"sh/hk3ah8by","slide":8,"bbox":[953,210,204,392]}
+{"kind":"shape","id":"sh/gjuto3ud","slide":8,"bbox":[1028,216,54,7]}
+{"kind":"textbox","id":"sh/uhsbmtc7","slide":8,"text":"ERBIL SC","textPreview":"ERBIL SC","textChars":8,"textLines":1,"bbox":[1002,240,138,18]}
+{"kind":"textbox","id":"sh/po3ulsbu","slide":8,"text":"9:41","textPreview":"9:41","textChars":4,"textLines":1,"bbox":[965,217,36,10]}
+{"kind":"textbox","id":"sh/4nutsnu9","slide":8,"text":"●  ▰","textPreview":"●  ▰","textChars":4,"textLines":1,"bbox":[1105,217,38,10]}
+{"kind":"textbox","id":"sh/3mlcjit4","slide":8,"text":"حجزەکانی من","textPreview":"حجزەکانی من","textChars":11,"textLines":1,"bbox":[965,284,180,28]}
+{"kind":"shape","id":"sh/2lcbqdcj","slide":8,"bbox":[965,328,180,130]}
+{"kind":"textbox","id":"sh/dcnupsb6","slide":8,"text":"پشتڕاستکراو","textPreview":"پشتڕاستکراو","textChars":11,"textLines":1,"bbox":[979,343,90,14]}
+{"kind":"textbox","id":"sh/cbetwnul","slide":8,"text":"یاریگای ڕاهێنان ١","textPreview":"یاریگای ڕاهێنان ١","textChars":17,"textLines":1,"bbox":[979,369,152,18]}
+{"kind":"textbox","id":"sh/axo7qps3","slide":8,"text":"هەینی ١٨:٣٠-٢٠:٠٠","textPreview":"هەینی ١٨:٣٠-٢٠:٠٠","textChars":17,"textLines":1,"bbox":[979,395,152,16]}
+{"kind":"textbox","id":"sh/vyx8ju9o","slide":8,"text":"٢٥,٠٠٠ دینار | پارەدراو","textPreview":"٢٥,٠٠٠ دینار | پارەدراو","textChars":23,"textLines":1,"bbox":[979,421,152,16]}
+{"kind":"shape","id":"sh/wzq9szat","slide":8,"bbox":[965,474,180,78]}
+{"kind":"textbox","id":"sh/x0zql4re","slide":8,"text":"حجزی پێشوو","textPreview":"حجزی پێشوو","textChars":10,"textLines":1,"bbox":[979,489,152,16]}
+{"kind":"textbox","id":"sh/i18ru9sz","slide":8,"text":"یاریگای ڕاهێنان ٢ | تەواوبوو","textPreview":"یاریگای ڕاهێنان ٢ | تەواوبوو","textChars":28,"textLines":1,"bbox":[979,516,152,16]}
+{"kind":"shape","id":"sh/jmh8nu9k","slide":8,"bbox":[971,576,168,0]}
+{"kind":"textbox","id":"sh/knq9wza5","slide":8,"text":"سەرەکی       حجزەکان       پرۆفایل","textPreview":"سەرەکی       حجزەکان       پرۆفایل","textChars":34,"textLines":1,"bbox":[970,584,170,11]}
+{"kind":"textbox","id":"sh/5ozqp4rq","slide":8,"text":"حجزەکانی من","textPreview":"حجزەکانی من","textChars":11,"textLines":1,"bbox":[945,626,220,18]}
+{"kind":"textbox","id":"sh/6p8ry9sb","slide":8,"text":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textPreview":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textChars":38,"textLines":1,"bbox":[72,681,520,16]}
+{"kind":"shape","id":"sh/7q18re9g","slide":8,"bbox":[1188,681,20,3]}
+{"kind":"image","id":"im/9snylkje","slide":8,"name":"","bbox":[91,234.21,30,31.57]}
+{"kind":"image","id":"im/mpczapkn","slide":8,"name":"","bbox":[382,234.21,30,31.57]}
+{"kind":"image","id":"im/nqlgju18","slide":8,"name":"","bbox":[673,234.21,30,31.57]}
+{"kind":"image","id":"im/0nuh8f2x","slide":8,"name":"","bbox":[709,432,110,110]}
+{"kind":"image","id":"im/lo3yhkji","slide":8,"name":"","bbox":[964,234.21,30,31.57]}
+{"kind":"notes","id":"nt/fu1gfa1s","slide":8,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n- The QR code is a functional proposal demonstration linked to booking ID ESC-18472.\n[/Sources]"}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"داشبۆردی بەڕێوەبەر","textShapes":35}
+{"kind":"textbox","id":"sh/1wnm1sru","slide":9,"text":"داشبۆردی بەڕێوەبەر","textPreview":"داشبۆردی بەڕێوەبەر","textChars":18,"textLines":1,"bbox":[72,42,500,24]}
+{"kind":"textbox","id":"sh/1cfmhgne","slide":9,"text":"داشبۆردەکە حجز، پارەدان و کارگێڕیی ڕۆژانە پەیوەست دەکات","textPreview":"داشبۆردەکە حجز، پارەدان و کارگێڕیی ڕۆژانە پەیوەست دەکات","textChars":55,"textLines":1,"bbox":[72,72,1080,52]}
+{"kind":"shape","id":"sh/0b65obm9","slide":9,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/nex4jq5k","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1165,43,42,22]}
+{"kind":"shape","id":"sh/mdonql4z","slide":9,"bbox":[72,170,750,414]}
+{"kind":"shape","id":"sh/9gzml0nq","slide":9,"bbox":[72,170,150,414]}
+{"kind":"textbox","id":"sh/ofq5svm5","slide":9,"text":"بەڕێوەبەری ESC","textPreview":"بەڕێوەبەری ESC","textChars":14,"textLines":1,"bbox":[94,195,108,22]}
+{"kind":"shape","id":"sh/bih4na5w","slide":9,"bbox":[86,238,122,30]}
+{"kind":"textbox","id":"sh/ah8nu54b","slide":9,"text":"پوختە","textPreview":"پوختە","textChars":5,"textLines":1,"bbox":[101,245,96,18]}
+{"kind":"textbox","id":"sh/oza1gfyh","slide":9,"text":"حجزەکان","textPreview":"حجزەکان","textChars":7,"textLines":1,"bbox":[101,287,96,18]}
+{"kind":"textbox","id":"sh/p0ji9kf2","slide":9,"text":"شوێنەکان","textPreview":"شوێنەکان","textChars":8,"textLines":1,"bbox":[101,329,96,18]}
+{"kind":"textbox","id":"sh/2xsjepgb","slide":9,"text":"کڕیاران","textPreview":"کڕیاران","textChars":7,"textLines":1,"bbox":[101,371,96,18]}
+{"kind":"textbox","id":"sh/3y107axw","slide":9,"text":"پارەدانەکان","textPreview":"پارەدانەکان","textChars":11,"textLines":1,"bbox":[101,413,96,18]}
+{"kind":"textbox","id":"sh/cnu1kzyd","slide":9,"text":"ڕاپۆرتەکان","textPreview":"ڕاپۆرتەکان","textChars":10,"textLines":1,"bbox":[101,455,96,18]}
+{"kind":"textbox","id":"sh/do3id4fy","slide":9,"text":"پوختەی ئەمڕۆ","textPreview":"پوختەی ئەمڕۆ","textChars":12,"textLines":1,"bbox":[252,194,300,28]}
+{"kind":"shape","id":"sh/qlcjipgn","slide":9,"bbox":[252,238,157,76]}
+{"kind":"textbox","id":"sh/bml0buxs","slide":9,"text":"48","textPreview":"48","textChars":2,"textLines":1,"bbox":[264,251,133,26]}
+{"kind":"textbox","id":"sh/0ru1ozyp","slide":9,"text":"حجزەکان","textPreview":"حجزەکان","textChars":7,"textLines":1,"bbox":[264,282,133,18]}
+{"kind":"shape","id":"sh/lsn2h4fa","slide":9,"bbox":[429,238,157,76]}
+{"kind":"textbox","id":"sh/98ji147e","slide":9,"text":"72%","textPreview":"72%","textChars":3,"textLines":1,"bbox":[441,251,133,26]}
+{"kind":"textbox","id":"sh/87a18zqt","slide":9,"text":"بەکارهێنان","textPreview":"بەکارهێنان","textChars":10,"textLines":1,"bbox":[441,282,133,18]}
+{"kind":"shape","id":"sh/76h0zup8","slide":9,"bbox":[606,238,157,76]}
+{"kind":"textbox","id":"sh/ml8j6p8n","slide":9,"text":"1.2M","textPreview":"1.2M","textChars":4,"textLines":1,"bbox":[618,251,133,26]}
+{"kind":"textbox","id":"sh/hcji5o7a","slide":9,"text":"داهات بە دینار","textPreview":"داهات بە دینار","textChars":14,"textLines":1,"bbox":[618,282,133,18]}
+{"kind":"textbox","id":"sh/wba1cjqp","slide":9,"text":"نوێترین حجز","textPreview":"نوێترین حجز","textChars":11,"textLines":1,"bbox":[252,340,220,22]}
+{"kind":"shape","id":"sh/va103ep4","slide":9,"bbox":[252,375,520,96]}
+{"kind":"textbox","id":"sh/u9sja98z","slide":9,"text":"ESC-18472","textPreview":"ESC-18472","textChars":9,"textLines":1,"bbox":[270,391,110,18]}
+{"kind":"textbox","id":"sh/xgzitk76","slide":9,"text":"یاریگای ڕاهێنان ١","textPreview":"یاریگای ڕاهێنان ١","textChars":17,"textLines":1,"bbox":[388,391,160,18]}
+{"kind":"textbox","id":"sh/cf6h0fql","slide":9,"text":"هەینی ١٨:٣٠-٢٠:٠٠","textPreview":"هەینی ١٨:٣٠-٢٠:٠٠","textChars":17,"textLines":1,"bbox":[270,424,150,16]}
+{"kind":"textbox","id":"sh/2l4faloj","slide":9,"text":"٢٥,٠٠٠ دینار","textPreview":"٢٥,٠٠٠ دینار","textChars":12,"textLines":1,"bbox":[438,424,100,16]}
+{"kind":"shape","id":"sh/nmdg3q54","slide":9,"bbox":[630,388,116,28]}
+{"kind":"textbox","id":"sh/onmxcv69","slide":9,"text":"پارەدراو / پشتڕاستکراو","textPreview":"پارەدراو / پشتڕاستکراو","textChars":22,"textLines":1,"bbox":[639,396,98,13]}
+{"kind":"textbox","id":"sh/pofy50nu","slide":9,"text":"بەڕێوەبردن","textPreview":"بەڕێوەبردن","textChars":10,"textLines":1,"bbox":[865,174,190,28]}
+{"kind":"shape","id":"sh/apofe5of","slide":9,"bbox":[865,230,9,9]}
+{"kind":"textbox","id":"sh/bqxg7q50","slide":9,"text":"حجزەکان","textPreview":"حجزەکان","textChars":7,"textLines":1,"bbox":[885,224,310,24]}
+{"kind":"textbox","id":"sh/cr6xgv6l","slide":9,"text":"دۆخ، هەڵوەشاندنەوە و مێژوو","textPreview":"دۆخ، هەڵوەشاندنەوە و مێژوو","textChars":26,"textLines":1,"bbox":[885,250,310,39]}
+{"kind":"shape","id":"sh/xcfy90n6","slide":9,"bbox":[865,306,9,9]}
+{"kind":"textbox","id":"sh/qtkf21ob","slide":9,"text":"شوێنەکان","textPreview":"شوێنەکان","textChars":8,"textLines":1,"bbox":[885,300,310,24]}
+{"kind":"textbox","id":"sh/rutwv65w","slide":9,"text":"خشتەکات، بەردەستبوون و ظرفیت","textPreview":"خشتەکات، بەردەستبوون و ظرفیت","textChars":28,"textLines":1,"bbox":[885,326,310,39]}
+{"kind":"shape","id":"sh/7y14jyd8","slide":9,"bbox":[865,382,9,9]}
+{"kind":"textbox","id":"sh/mdsnatcn","slide":9,"text":"کڕیاران","textPreview":"کڕیاران","textChars":7,"textLines":1,"bbox":[885,376,310,24]}
+{"kind":"textbox","id":"sh/903ml8be","slide":9,"text":"پرۆفایل، دەستگەیشتن و چالاکی","textPreview":"پرۆفایل، دەستگەیشتن و چالاکی","textChars":28,"textLines":1,"bbox":[885,402,310,39]}
+{"kind":"shape","id":"sh/8zu5c3ut","slide":9,"bbox":[865,458,9,9]}
+{"kind":"textbox","id":"sh/v2l4nitk","slide":9,"text":"نرخ و پارەدان","textPreview":"نرخ و پارەدان","textChars":13,"textLines":1,"bbox":[885,452,310,24]}
+{"kind":"textbox","id":"sh/u1cnedcz","slide":9,"text":"نرخ، پسوڵە و دۆخی پارەدان","textPreview":"نرخ، پسوڵە و دۆخی پارەدان","textChars":25,"textLines":1,"bbox":[885,478,310,39]}
+{"kind":"shape","id":"sh/h43mp8ba","slide":9,"bbox":[865,534,9,9]}
+{"kind":"textbox","id":"sh/w3u5g3u5","slide":9,"text":"ڕاپۆرتەکان","textPreview":"ڕاپۆرتەکان","textChars":10,"textLines":1,"bbox":[885,528,310,24]}
+{"kind":"textbox","id":"sh/j6l4ritg","slide":9,"text":"داهات، حجز و کاتە پڕکارەکان","textPreview":"داهات، حجز و کاتە پڕکارەکان","textChars":27,"textLines":1,"bbox":[885,554,310,39]}
+{"kind":"textbox","id":"sh/i5cnidcv","slide":9,"text":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textPreview":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textChars":38,"textLines":1,"bbox":[72,681,520,16]}
+{"kind":"shape","id":"sh/0bel8na9","slide":9,"bbox":[1188,681,20,3]}
+{"kind":"notes","id":"nt/udsvah03","slide":9,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"سوودە بازرگانییەکان","textShapes":23}
+{"kind":"textbox","id":"sh/dwjqtcbu","slide":10,"text":"سوودە بازرگانییەکان","textPreview":"سوودە بازرگانییەکان","textChars":19,"textLines":1,"bbox":[708,42,500,24]}
+{"kind":"textbox","id":"sh/xc3mho32","slide":10,"text":"ئاسانیی ئەندامان بڕیاری باشتر دروست دەکات","textPreview":"ئاسانیی ئەندامان بڕیاری باشتر دروست دەکات","textChars":41,"textLines":1,"bbox":[128,72,1080,52]}
+{"kind":"shape","id":"sh/cbu58j2h","slide":10,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/zelojyl8","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[73,43,42,22]}
+{"kind":"textbox","id":"sh/ydcnatkn","slide":10,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1154,182,54,32]}
+{"kind":"shape","id":"sh/l036l83y","slide":10,"bbox":[890,228,318,0]}
+{"kind":"textbox","id":"sh/kzu5c32t","slide":10,"text":"ئەزموونی باشتر","textPreview":"ئەزموونی باشتر","textChars":14,"textLines":1,"bbox":[890,247,318,28]}
+{"kind":"textbox","id":"sh/725onyl4","slide":10,"text":"حجزی خۆخزمەتگوزاریی خێرا لەگەڵ پارەدان و پشتڕاستکردنەوەی ڕوون.","textPreview":"حجزی خۆخزمەتگوزاریی خێرا لەگەڵ پارەدان و پشتڕاستکردنەوەی ڕوون.","textChars":62,"textLines":1,"bbox":[890,286,318,54]}
+{"kind":"textbox","id":"sh/m1cnetkj","slide":10,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[772,182,54,32]}
+{"kind":"shape","id":"sh/s7yt4b21","slide":10,"bbox":[508,228,318,0]}
+{"kind":"textbox","id":"sh/d87uxg3m","slide":10,"text":"کارگێڕیی کاراتر","textPreview":"کارگێڕیی کاراتر","textChars":15,"textLines":1,"bbox":[508,247,318,28]}
+{"kind":"textbox","id":"sh/q5gb21kb","slide":10,"text":"پەیوەندی و کاری دووبارە کەمتر، لەگەڵ پشکنینی ئۆتۆماتیکی خشتەکات.","textPreview":"پەیوەندی و کاری دووبارە کەمتر، لەگەڵ پشکنینی ئۆتۆماتیکی خشتەکات.","textChars":64,"textLines":1,"bbox":[508,286,318,54]}
+{"kind":"textbox","id":"sh/r6pcv6lw","slide":10,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[390,182,54,32]}
+{"kind":"shape","id":"sh/0bit8b2d","slide":10,"bbox":[126,228,318,0]}
+{"kind":"textbox","id":"sh/1cru1g3y","slide":10,"text":"بەکارهێنانی زیاتر","textPreview":"بەکارهێنانی زیاتر","textChars":17,"textLines":1,"bbox":[126,247,318,28]}
+{"kind":"textbox","id":"sh/e9gb61k7","slide":10,"text":"بەردەستبوونی ڕاستەوخۆ یارمەتی ستاف دەدات کاتە بەتاڵەکان پڕ بکاتەوە.","textPreview":"بەردەستبوونی ڕاستەوخۆ یارمەتی ستاف دەدات کاتە بەتاڵەکان پڕ بکاتەوە.","textChars":67,"textLines":1,"bbox":[126,286,318,54]}
+{"kind":"textbox","id":"sh/fapcz6ls","slide":10,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1154,390,54,32]}
+{"kind":"shape","id":"sh/ozitcv29","slide":10,"bbox":[890,436,318,0]}
+{"kind":"textbox","id":"sh/p0ru503u","slide":10,"text":"هەڵەی کەمتر","textPreview":"هەڵەی کەمتر","textChars":11,"textLines":1,"bbox":[890,455,318,28]}
+{"kind":"textbox","id":"sh/xwnupgvy","slide":10,"text":"یەک خشتەکات ناکۆکی و حجزە دووبارەکان کەم دەکاتەوە.","textPreview":"یەک خشتەکات ناکۆکی و حجزە دووبارەکان کەم دەکاتەوە.","textChars":50,"textLines":1,"bbox":[890,494,318,54]}
+{"kind":"textbox","id":"sh/wvetgbud","slide":10,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[772,390,54,32]}
+{"kind":"shape","id":"sh/bu5cnqd8","slide":10,"bbox":[508,436,318,0]}
+{"kind":"textbox","id":"sh/atwbelcn","slide":10,"text":"ڕوونیی بازرگانی","textPreview":"ڕوونیی بازرگانی","textChars":15,"textLines":1,"bbox":[508,455,318,28]}
+{"kind":"textbox","id":"sh/lk7ut0va","slide":10,"text":"دۆخی پارەدان، نرخ، داهات و داواکاری بەدواداچوون بکە.","textPreview":"دۆخی پارەدان، نرخ، داهات و داواکاری بەدواداچوون بکە.","textChars":52,"textLines":1,"bbox":[508,494,318,54]}
+{"kind":"textbox","id":"sh/kjytkvup","slide":10,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[390,390,54,32]}
+{"kind":"shape","id":"sh/jypcrqd4","slide":10,"bbox":[126,436,318,0]}
+{"kind":"textbox","id":"sh/yxgbilcj","slide":10,"text":"براندێکی بەهێزتر","textPreview":"براندێکی بەهێزتر","textChars":16,"textLines":1,"bbox":[126,455,318,28]}
+{"kind":"textbox","id":"sh/1o3ahwvq","slide":10,"text":"ئەزموونێکی دیجیتاڵی پێشکەوتوو ئامانجی یانە پیشان دەدات.","textPreview":"ئەزموونێکی دیجیتاڵی پێشکەوتوو ئامانجی یانە پیشان دەدات.","textChars":55,"textLines":1,"bbox":[126,494,318,54]}
+{"kind":"shape","id":"sh/0nut8rul","slide":10,"bbox":[72,592,1136,54]}
+{"kind":"textbox","id":"sh/q9srixs3","slide":10,"text":"پلاتفۆرمەکە خزمەتگوزاری و ڕوونی باشتر دەکات بەبێ بەڵێنی زیادبوونی داهات.","textPreview":"پلاتفۆرمەکە خزمەتگوزاری و ڕوونی باشتر دەکات بەبێ بەڵێنی زیادبوونی داهات.","textChars":72,"textLines":1,"bbox":[96,608,1088,22]}
+{"kind":"textbox","id":"sh/ru18r2to","slide":10,"text":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textPreview":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textChars":38,"textLines":1,"bbox":[688,681,520,16]}
+{"kind":"shape","id":"sh/cva9k7a9","slide":10,"bbox":[72,681,20,3]}
+{"kind":"notes","id":"nt/m90b6t0r","slide":10,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/jetc3ut0","slide":11,"title":"خشتەکاتی قۆناغی ١","textShapes":36}
+{"kind":"textbox","id":"sh/8b69wzm9","slide":11,"text":"خشتەکاتی قۆناغی ١","textPreview":"خشتەکاتی قۆناغی ١","textChars":17,"textLines":1,"bbox":[708,42,500,24]}
+{"kind":"textbox","id":"sh/xcryxg7y","slide":11,"text":"ئامانجی دەستپێکردنی قۆناغی ١ لە ١٠-١٢ هەفتەدایە","textPreview":"ئامانجی دەستپێکردنی قۆناغی ١ لە ١٠-١٢ هەفتەدایە","textChars":47,"textLines":1,"bbox":[128,72,1080,52]}
+{"kind":"shape","id":"sh/wbih4b6d","slide":11,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/n69grmpw","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[73,43,42,22]}
+{"kind":"textbox","id":"sh/250zy18b","slide":11,"text":"کارەکان لە شوێنی گونجاودا هاوکات دەچن، لەگەڵ پێداچوونەوەی دیزاین، دیمۆی سەرەکی و بڵاوکردنەوەی کۆتایی.","textPreview":"کارەکان لە شوێنی گونجاودا هاوکات دەچن، لەگەڵ پێداچوونەوەی دیزاین، دیمۆی سەرەکی و بڵاوکردنەوەی کۆتایی.","textChars":101,"textLines":1,"bbox":[188,151,1020,45]}
+{"kind":"textbox","id":"sh/98rytw72","slide":11,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[824,214,66,18]}
+{"kind":"shape","id":"sh/o7ih0r6h","slide":11,"bbox":[890,245,0,340]}
+{"kind":"textbox","id":"sh/72t03qp0","slide":11,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[758,214,66,18]}
+{"kind":"shape","id":"sh/61kzalof","slide":11,"bbox":[824,245,0,340]}
+{"kind":"textbox","id":"sh/ofqtgnyt","slide":11,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[692,214,66,18]}
+{"kind":"shape","id":"sh/9gza9sze","slide":11,"bbox":[758,245,0,340]}
+{"kind":"textbox","id":"sh/mdobedg3","slide":11,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[626,214,66,18]}
+{"kind":"shape","id":"sh/nehs7iho","slide":11,"bbox":[692,245,0,340]}
+{"kind":"textbox","id":"sh/0b6tc3yx","slide":11,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[560,214,66,18]}
+{"kind":"shape","id":"sh/1cfa58zi","slide":11,"bbox":[626,245,0,340]}
+{"kind":"textbox","id":"sh/epobatgr","slide":11,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[494,214,66,18]}
+{"kind":"shape","id":"sh/zaxs3yhc","slide":11,"bbox":[560,245,0,340]}
+{"kind":"textbox","id":"sh/cn6t83y1","slide":11,"text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[428,214,66,18]}
+{"kind":"shape","id":"sh/dofa18z6","slide":11,"bbox":[494,245,0,340]}
+{"kind":"textbox","id":"sh/tsnip0ny","slide":11,"text":"8","textPreview":"8","textChars":1,"textLines":1,"bbox":[362,214,66,18]}
+{"kind":"shape","id":"sh/87ehgv6d","slide":11,"bbox":[428,245,0,340]}
+{"kind":"textbox","id":"sh/7650nq5s","slide":11,"text":"9","textPreview":"9","textChars":1,"textLines":1,"bbox":[296,214,66,18]}
+{"kind":"shape","id":"sh/65wzelo7","slide":11,"bbox":[362,245,0,340]}
+{"kind":"textbox","id":"sh/l43ilgn2","slide":11,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[230,214,66,18]}
+{"kind":"shape","id":"sh/k3uhcb6h","slide":11,"bbox":[296,245,0,340]}
+{"kind":"textbox","id":"sh/j2lgjq5w","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[164,214,66,18]}
+{"kind":"shape","id":"sh/y1czalob","slide":11,"bbox":[230,245,0,340]}
+{"kind":"textbox","id":"sh/p07ixkn6","slide":11,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[98,214,66,18]}
+{"kind":"shape","id":"sh/4zyhofml","slide":11,"bbox":[164,245,0,340]}
+{"kind":"textbox","id":"sh/m58fih43","slide":11,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[1178,270,30,22]}
+{"kind":"textbox","id":"sh/n61wbmlo","slide":11,"text":"شیکردنەوە و پلاندانان","textPreview":"شیکردنەوە و پلاندانان","textChars":21,"textLines":1,"bbox":[933,268,235,24]}
+{"kind":"textbox","id":"sh/o7axk7m9","slide":11,"text":"١ هەفتە","textPreview":"١ هەفتە","textChars":7,"textLines":1,"bbox":[1008,292,160,18]}
+{"kind":"shape","id":"sh/98jedc3u","slide":11,"bbox":[829,270,56,28]}
+{"kind":"textbox","id":"sh/eh8fex47","slide":11,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[1178,325,30,22]}
+{"kind":"textbox","id":"sh/z2hw72lc","slide":11,"text":"دیزاینی UI/UX","textPreview":"دیزاینی UI/UX","textChars":13,"textLines":1,"bbox":[933,323,235,24]}
+{"kind":"textbox","id":"sh/03qxg7mx","slide":11,"text":"٢ هەفتە","textPreview":"٢ هەفتە","textChars":7,"textLines":1,"bbox":[1008,347,160,18]}
+{"kind":"shape","id":"sh/14ze9c3i","slide":11,"bbox":[697,325,122,28]}
+{"kind":"textbox","id":"sh/ydcfq1kb","slide":11,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1178,380,30,22]}
+{"kind":"textbox","id":"sh/jylwj6lw","slide":11,"text":"پلاتفۆرمی سەرەکی و ماڵپەڕ","textPreview":"پلاتفۆرمی سەرەکی و ماڵپەڕ","textChars":25,"textLines":1,"bbox":[933,378,235,24]}
+{"kind":"textbox","id":"sh/3qhsfypc","slide":11,"text":"٣-٤ هەفتە","textPreview":"٣-٤ هەفتە","textChars":9,"textLines":1,"bbox":[1008,402,160,18]}
+{"kind":"shape","id":"sh/ip8bmtor","slide":11,"bbox":[499,380,254,28]}
+{"kind":"textbox","id":"sh/5sjah872","slide":11,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1178,435,30,22]}
+{"kind":"textbox","id":"sh/4rato36h","slide":11,"text":"ئەپی مۆبایل","textPreview":"ئەپی مۆبایل","textChars":11,"textLines":1,"bbox":[933,433,235,24]}
+{"kind":"textbox","id":"sh/v2hsbyp0","slide":11,"text":"٤-٥ هەفتە","textPreview":"٤-٥ هەفتە","textChars":9,"textLines":1,"bbox":[1008,457,160,18]}
+{"kind":"shape","id":"sh/u18bit8f","slide":11,"bbox":[301,435,320,28]}
+{"kind":"textbox","id":"sh/h4zado76","slide":11,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1178,490,30,22]}
+{"kind":"textbox","id":"sh/g3qtkj6l","slide":11,"text":"پارەدان و پەیوەستکردنی سیستەم","textPreview":"پارەدان و پەیوەستکردنی سیستەم","textChars":29,"textLines":1,"bbox":[933,488,235,24]}
+{"kind":"textbox","id":"sh/fy1cnipk","slide":11,"text":"١-٢ هەفتە","textPreview":"١-٢ هەفتە","textChars":9,"textLines":1,"bbox":[1008,512,160,18]}
+{"kind":"shape","id":"sh/exsbudoz","slide":11,"bbox":[235,490,122,28]}
+{"kind":"textbox","id":"sh/c3mpof6h","slide":11,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1178,545,30,22]}
+{"kind":"textbox","id":"sh/x4vqhknm","slide":11,"text":"تاقیکردنەوە، بڵاوکردنەوە و ڕاهێنان","textPreview":"تاقیکردنەوە، بڵاوکردنەوە و ڕاهێنان","textChars":34,"textLines":1,"bbox":[933,543,235,24]}
+{"kind":"textbox","id":"sh/a147m5ob","slide":11,"text":"١-٢ هەفتە","textPreview":"١-٢ هەفتە","textChars":9,"textLines":1,"bbox":[1008,567,160,18]}
+{"kind":"shape","id":"sh/b2d8fa5w","slide":11,"bbox":[103,545,122,28]}
+{"kind":"shape","id":"sh/k7mpsfmd","slide":11,"bbox":[72,616,1136,34]}
+{"kind":"textbox","id":"sh/l8fqlkny","slide":11,"text":"خشتەکاتەکە پەسەندکردنی بەکات، گەیاندنی ناوەڕۆک و دەستگەیشتن بە هەژمارە پێویستەکانی لایەنی سێیەم وەک بنەما دەگرێت.","textPreview":"خشتەکاتەکە پەسەندکردنی بەکات، گەیاندنی ناوەڕۆک و دەستگەیشتن بە هەژمارە پێویستەکانی لایەنی سێیەم وەک بنەما دەگرێت.","textChars":113,"textLines":1,"bbox":[92,624,1096,18]}
+{"kind":"textbox","id":"sh/y547qp47","slide":11,"text":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textPreview":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textChars":38,"textLines":1,"bbox":[688,681,520,16]}
+{"kind":"shape","id":"sh/z6d8ju5s","slide":11,"bbox":[72,681,20,3]}
+{"kind":"notes","id":"nt/jetc3ut0","slide":11,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/8f2psfyx","slide":12,"title":"پێشنیاری بازرگانیی قۆناغی ١","textShapes":23}
+{"kind":"textbox","id":"sh/mhcbe9sr","slide":12,"text":"پێشنیاری بازرگانیی قۆناغی ١","textPreview":"پێشنیاری بازرگانیی قۆناغی ١","textChars":27,"textLines":1,"bbox":[708,40,500,24]}
+{"kind":"textbox","id":"sh/1gbm9s3a","slide":12,"text":"نرخی پلاتفۆرمی دیجیتاڵی سەرەکی: ٦,٩٠٠ دۆلار","textPreview":"نرخی پلاتفۆرمی دیجیتاڵی سەرەکی: ٦,٩٠٠ دۆلار","textChars":43,"textLines":1,"bbox":[158,76,1050,52]}
+{"kind":"shape","id":"sh/0f2lgnmp","slide":12,"bbox":[848,156,360,150]}
+{"kind":"textbox","id":"sh/ra943il8","slide":12,"text":"وەبەرهێنانی قۆناغی ١","textPreview":"وەبەرهێنانی قۆناغی ١","textChars":20,"textLines":1,"bbox":[880,181,300,20]}
+{"kind":"textbox","id":"sh/q903ad4n","slide":12,"text":"٦,٩٠٠ دۆلار","textPreview":"٦,٩٠٠ دۆلار","textChars":11,"textLines":1,"bbox":[880,215,300,52]}
+{"kind":"textbox","id":"sh/dcbm583y","slide":12,"text":"گەیاندنی ئامانج: ١٠-١٢ هەفتە","textPreview":"گەیاندنی ئامانج: ١٠-١٢ هەفتە","textChars":28,"textLines":1,"bbox":[880,273,300,18]}
+{"kind":"textbox","id":"sh/sb2lcnmd","slide":12,"text":"لە قۆناغی ١دا لەخۆدەگرێت","textPreview":"لە قۆناغی ١دا لەخۆدەگرێت","textChars":24,"textLines":1,"bbox":[534,160,260,20]}
+{"kind":"textbox","id":"sh/b6d4f2lc","slide":12,"text":"ماڵپەڕ و ئەپی Android و iOS\nحجز، بەردەستبوونی ڕاستەوخۆ و QR\nپارەدانی ئۆنلاین و پسوڵەی دیجیتاڵی\nداشبۆرد، ڕاپۆرت و API ـەکانی پاشبنەما\nبڵاوکردنەوە و ڕاهێنانی ستاف","textPreview":"ماڵپەڕ و ئەپی Android و iOS | حجز، بەردەستبوونی ڕاستەوخۆ و QR | پارەدانی ئۆنلاین و پسوڵەی دیجیتاڵی | داشبۆرد، ڕاپۆرت و API ـەکانی پاشبنەم...","textChars":160,"textLines":5,"bbox":[144,194,650,136]}
+{"kind":"shape","id":"sh/a543mx4r","slide":12,"bbox":[72,342,1136,84]}
+{"kind":"textbox","id":"sh/wvupgz6t","slide":12,"text":"مەرجەکانی پارەدان","textPreview":"مەرجەکانی پارەدان","textChars":17,"textLines":1,"bbox":[1014,359,170,18]}
+{"kind":"textbox","id":"sh/xw3q94ne","slide":12,"text":"٣٠٪ لە پەسەندکردن","textPreview":"٣٠٪ لە پەسەندکردن","textChars":17,"textLines":1,"bbox":[778,356,220,24]}
+{"kind":"textbox","id":"sh/atc7epon","slide":12,"text":"٤٠٪ دوای دیمۆی سیستەمی سەرەکی","textPreview":"٤٠٪ دوای دیمۆی سیستەمی سەرەکی","textChars":29,"textLines":1,"bbox":[460,356,300,24]}
+{"kind":"textbox","id":"sh/bulo7u58","slide":12,"text":"٣٠٪ دوای بڵاوکردنەوەی کۆتایی","textPreview":"٣٠٪ دوای بڵاوکردنەوەی کۆتایی","textChars":28,"textLines":1,"bbox":[120,356,320,24]}
+{"kind":"textbox","id":"sh/orapcf6h","slide":12,"text":"قۆناغی ٢ و قۆناغی ٣","textPreview":"قۆناغی ٢ و قۆناغی ٣","textChars":19,"textLines":1,"bbox":[984,394,200,18]}
+{"kind":"textbox","id":"sh/9sj65kn2","slide":12,"text":"مۆدیولی هەڵبژاردەی داهاتوون و لە نرخی قۆناغی ١دا نیین.","textPreview":"مۆدیولی هەڵبژاردەی داهاتوون و لە نرخی قۆناغی ١دا نیین.","textChars":54,"textLines":1,"bbox":[138,391,860,24]}
+{"kind":"textbox","id":"sh/mps7a5or","slide":12,"text":"تێچووی لایەنی سێیەم لەخۆناگرێت","textPreview":"تێچووی لایەنی سێیەم لەخۆناگرێت","textChars":30,"textLines":1,"bbox":[908,462,300,20]}
+{"kind":"shape","id":"sh/nq1o3a5w","slide":12,"bbox":[1192,505,10,10]}
+{"kind":"textbox","id":"sh/0nap8f6l","slide":12,"text":"کرێی مامەڵەی دەروازەی پارەدان","textPreview":"کرێی مامەڵەی دەروازەی پارەدان","textChars":29,"textLines":1,"bbox":[682,497,500,24]}
+{"kind":"shape","id":"sh/1oj61kn6","slide":12,"bbox":[632,505,10,10]}
+{"kind":"textbox","id":"sh/hkbm5wzu","slide":12,"text":"کرێی بانک یان دابینکەر","textPreview":"کرێی بانک یان دابینکەر","textChars":22,"textLines":1,"bbox":[122,497,500,24]}
+{"kind":"shape","id":"sh/gj25cry9","slide":12,"bbox":[1192,539,10,10]}
+{"kind":"textbox","id":"sh/fit436ho","slide":12,"text":"کرێی بەکارهێنانی SMS و OTP","textPreview":"کرێی بەکارهێنانی SMS و OTP","textChars":26,"textLines":1,"bbox":[682,531,500,24]}
+{"kind":"shape","id":"sh/uh0na1g3","slide":12,"bbox":[632,539,10,10]}
+{"kind":"textbox","id":"sh/tgrm1wzy","slide":12,"text":"کرێی Apple Developer","textPreview":"کرێی Apple Developer","textChars":20,"textLines":1,"bbox":[122,531,500,24]}
+{"kind":"shape","id":"sh/sfi58ryd","slide":12,"bbox":[1192,573,10,10]}
+{"kind":"textbox","id":"sh/7u94zmhs","slide":12,"text":"کرێی Google Play","textPreview":"کرێی Google Play","textChars":16,"textLines":1,"bbox":[682,565,500,24]}
+{"kind":"shape","id":"sh/6t0n6hg7","slide":12,"bbox":[632,573,10,10]}
+{"kind":"textbox","id":"sh/dcv6dgz2","slide":12,"text":"نوێکردنەوەی هۆستینگ","textPreview":"نوێکردنەوەی هۆستینگ","textChars":19,"textLines":1,"bbox":[122,565,500,24]}
+{"kind":"shape","id":"sh/cbm5kbyh","slide":12,"bbox":[1192,607,10,10]}
+{"kind":"textbox","id":"sh/alwbitsn","slide":12,"text":"نوێکردنەوەی دۆمەین","textPreview":"نوێکردنەوەی دۆمەین","textChars":18,"textLines":1,"bbox":[682,599,500,24]}
+{"kind":"textbox","id":"sh/bm5sryt8","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[73,43,42,22]}
+{"kind":"textbox","id":"sh/wnetkjat","slide":12,"text":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textPreview":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textChars":38,"textLines":1,"bbox":[688,681,520,16]}
+{"kind":"shape","id":"sh/xonutobe","slide":12,"bbox":[72,681,20,3]}
+{"kind":"notes","id":"nt/8f2psfyx","slide":12,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/hgzapcr6","slide":13,"title":"قۆناغە هەڵبژاردەکانی داهاتوو","textShapes":33}
+{"kind":"textbox","id":"sh/y9cfa50v","slide":13,"text":"قۆناغە هەڵبژاردەکانی داهاتوو","textPreview":"قۆناغە هەڵبژاردەکانی داهاتوو","textChars":28,"textLines":1,"bbox":[708,42,500,24]}
+{"kind":"textbox","id":"sh/q50nydsj","slide":13,"text":"قۆناغەکانی داهاتوو خزمەتگوزاریی پێشنیارکراوی زیاتری یانە دەگرنەوە","textPreview":"قۆناغەکانی داهاتوو خزمەتگوزاریی پێشنیارکراوی زیاتری یانە دەگرنەوە","textChars":65,"textLines":1,"bbox":[128,72,1080,52]}
+{"kind":"shape","id":"sh/bq9orito","slide":13,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/o3i5w3ad","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[73,43,42,22]}
+{"kind":"shape","id":"sh/p4r6p8by","slide":13,"bbox":[654,174,554,390]}
+{"kind":"textbox","id":"sh/21gnuts7","slide":13,"text":"قۆناغی ٢","textPreview":"قۆناغی ٢","textChars":8,"textLines":1,"bbox":[1058,204,120,20]}
+{"kind":"textbox","id":"sh/32ponyts","slide":13,"text":"ئەندامێتی و گەشە","textPreview":"ئەندامێتی و گەشە","textChars":16,"textLines":1,"bbox":[708,239,470,36]}
+{"kind":"shape","id":"sh/gzy5s3a1","slide":13,"bbox":[1167,296,9,9]}
+{"kind":"textbox","id":"sh/1076lobm","slide":13,"text":"ئەندامێتی دیجیتاڵی","textPreview":"ئەندامێتی دیجیتاڵی","textChars":18,"textLines":1,"bbox":[704,290,450,20]}
+{"kind":"shape","id":"sh/hcfy9k3u","slide":13,"bbox":[1167,318,9,9]}
+{"kind":"textbox","id":"sh/gb6x0zm9","slide":13,"text":"بەشداریکردنی ئەندامێتی","textPreview":"بەشداریکردنی ئەندامێتی","textChars":22,"textLines":1,"bbox":[704,312,450,20]}
+{"kind":"shape","id":"sh/vaxg7ulo","slide":13,"bbox":[1167,340,9,9]}
+{"kind":"textbox","id":"sh/u9ofyp43","slide":13,"text":"کارتی ئەندامێتی دیجیتاڵی","textPreview":"کارتی ئەندامێتی دیجیتاڵی","textChars":24,"textLines":1,"bbox":[704,334,450,20]}
+{"kind":"shape","id":"sh/t8fy5k3i","slide":13,"bbox":[1167,362,9,9]}
+{"kind":"textbox","id":"sh/876xwfmx","slide":13,"text":"خاڵ و خەڵاتی دڵسۆزی","textPreview":"خاڵ و خەڵاتی دڵسۆزی","textChars":19,"textLines":1,"bbox":[704,356,450,20]}
+{"kind":"shape","id":"sh/7mdg3als","slide":13,"bbox":[1167,384,9,9]}
+{"kind":"textbox","id":"sh/6l4fu547","slide":13,"text":"بانگەشە و ئۆفەر","textPreview":"بانگەشە و ئۆفەر","textChars":15,"textLines":1,"bbox":[704,378,450,20]}
+{"kind":"shape","id":"sh/lkvy103m","slide":13,"bbox":[1167,406,9,9]}
+{"kind":"textbox","id":"sh/kjmxsfm1","slide":13,"text":"ڕاپۆرت و شیکاریی پێشکەوتوو","textPreview":"ڕاپۆرت و شیکاریی پێشکەوتوو","textChars":26,"textLines":1,"bbox":[704,400,450,20]}
+{"kind":"shape","id":"sh/cnqh8fux","slide":13,"bbox":[1167,428,9,9]}
+{"kind":"textbox","id":"sh/xozyhkbi","slide":13,"text":"ئەندامێتی کۆمپانیا و خێزان","textPreview":"ئەندامێتی کۆمپانیا و خێزان","textChars":26,"textLines":1,"bbox":[704,422,450,20]}
+{"kind":"shape","id":"sh/q18f65cr","slide":13,"bbox":[1167,450,9,9]}
+{"kind":"textbox","id":"sh/bmhgfatc","slide":13,"text":"بەرنامەی ناساندن و بانگهێشت","textPreview":"بەرنامەی ناساندن و بانگهێشت","textChars":27,"textLines":1,"bbox":[704,444,450,20]}
+{"kind":"shape","id":"sh/oz6x4vul","slide":13,"bbox":[1167,472,9,9]}
+{"kind":"textbox","id":"sh/p0zyd0b6","slide":13,"text":"ڕاپرسی و فیدباکی ئەندامان","textPreview":"ڕاپرسی و فیدباکی ئەندامان","textChars":25,"textLines":1,"bbox":[704,466,450,20]}
+{"kind":"shape","id":"sh/2xof2lcv","slide":13,"bbox":[1167,494,9,9]}
+{"kind":"textbox","id":"sh/3yxgbqdg","slide":13,"text":"بیرخستنەوەی ئۆتۆماتیکی نوێکردنەوە","textPreview":"بیرخستنەوەی ئۆتۆماتیکی نوێکردنەوە","textChars":33,"textLines":1,"bbox":[704,488,450,20]}
+{"kind":"shape","id":"sh/8vahgzu5","slide":13,"bbox":[1167,516,9,9]}
+{"kind":"textbox","id":"sh/9wjyp4bq","slide":13,"text":"سوودی سپۆنسەر و ئۆفەری هاوبەش","textPreview":"سوودی سپۆنسەر و ئۆفەری هاوبەش","textChars":29,"textLines":1,"bbox":[704,510,450,20]}
+{"kind":"shape","id":"sh/jqlkfyds","slide":13,"bbox":[72,174,554,390]}
+{"kind":"textbox","id":"sh/ipcjmtw7","slide":13,"text":"قۆناغی ٣","textPreview":"قۆناغی ٣","textChars":8,"textLines":1,"bbox":[476,204,120,20]}
+{"kind":"textbox","id":"sh/5cn2h8vy","slide":13,"text":"خزمەتگوزاریی زیرەکی یانە","textPreview":"خزمەتگوزاریی زیرەکی یانە","textChars":24,"textLines":1,"bbox":[126,239,470,36]}
+{"kind":"shape","id":"sh/4re1o3ed","slide":13,"bbox":[585,296,9,9]}
+{"kind":"textbox","id":"sh/re5kjydo","slide":13,"text":"بەڕێوەبردنی ئەکادیمی","textPreview":"بەڕێوەبردنی ئەکادیمی","textChars":20,"textLines":1,"bbox":[122,290,450,20]}
+{"kind":"shape","id":"sh/6dwjqtw3","slide":13,"bbox":[585,318,9,9]}
+{"kind":"textbox","id":"sh/tgn2l8vu","slide":13,"text":"حجزکردنی ڕاهێنەر","textPreview":"حجزکردنی ڕاهێنەر","textChars":16,"textLines":1,"bbox":[122,312,450,20]}
+{"kind":"shape","id":"sh/sfe1s3e9","slide":13,"bbox":[585,340,9,9]}
+{"kind":"textbox","id":"sh/7i107edk","slide":13,"text":"بلیتی بۆنەکان","textPreview":"بلیتی بۆنەکان","textChars":13,"textLines":1,"bbox":[122,334,450,20]}
+{"kind":"shape","id":"sh/mhsje9wz","slide":13,"bbox":[585,362,9,9]}
+{"kind":"textbox","id":"sh/y1wju94v","slide":13,"text":"داواکاریی چێشتخانە","textPreview":"داواکاریی چێشتخانە","textChars":18,"textLines":1,"bbox":[122,356,450,20]}
+{"kind":"shape","id":"sh/z25kne5g","slide":13,"bbox":[585,384,9,9]}
+{"kind":"textbox","id":"sh/03e1wjm1","slide":13,"text":"کۆنترۆڵی زیرەکی چوونەژوورەوە","textPreview":"کۆنترۆڵی زیرەکی چوونەژوورەوە","textChars":28,"textLines":1,"bbox":[122,378,450,20]}
+{"kind":"shape","id":"sh/l4n2po3m","slide":13,"bbox":[585,406,9,9]}
+{"kind":"textbox","id":"sh/m5gjyt4r","slide":13,"text":"بەڕێوەبردنی پارکینگ","textPreview":"بەڕێوەبردنی پارکینگ","textChars":19,"textLines":1,"bbox":[122,400,450,20]}
+{"kind":"shape","id":"sh/n6pkrelc","slide":13,"bbox":[585,428,9,9]}
+{"kind":"textbox","id":"sh/8ry10jmx","slide":13,"text":"فرۆشگای بەرهەمەکانی یانە","textPreview":"فرۆشگای بەرهەمەکانی یانە","textChars":24,"textLines":1,"bbox":[122,422,450,20]}
+{"kind":"shape","id":"sh/9s72to3i","slide":13,"bbox":[585,450,9,9]}
+{"kind":"textbox","id":"sh/atgj2t43","slide":13,"text":"جزدانی دیجیتاڵی و پارەدانی بێ کاش","textPreview":"جزدانی دیجیتاڵی و پارەدانی بێ کاش","textChars":33,"textLines":1,"bbox":[122,444,450,20]}
+{"kind":"shape","id":"sh/vupkvylo","slide":13,"bbox":[585,472,9,9]}
+{"kind":"textbox","id":"sh/50behwr2","slide":13,"text":"مۆڵەتی دیجیتاڵی میوان","textPreview":"مۆڵەتی دیجیتاڵی میوان","textChars":21,"textLines":1,"bbox":[122,466,450,20]}
+{"kind":"shape","id":"sh/4z2d8rah","slide":13,"bbox":[585,494,9,9]}
+{"kind":"textbox","id":"sh/jytcfmtw","slide":13,"text":"بەڕێوەبردنی داواکاریی چاککردنەوە","textPreview":"بەڕێوەبردنی داواکاریی چاککردنەوە","textChars":32,"textLines":1,"bbox":[122,488,450,20]}
+{"kind":"shape","id":"sh/ixkv6hsb","slide":13,"bbox":[585,516,9,9]}
+{"kind":"textbox","id":"sh/t4velwry","slide":13,"text":"ناوەندی ڕاستەوخۆی یاری و میدیای یانە","textPreview":"ناوەندی ڕاستەوخۆی یاری و میدیای یانە","textChars":36,"textLines":1,"bbox":[122,510,450,20]}
+{"kind":"shape","id":"sh/s3mdcrad","slide":13,"bbox":[585,538,9,9]}
+{"kind":"textbox","id":"sh/r2dwjm98","slide":13,"text":"خزمەتگوزاریی زیاتری یانە","textPreview":"خزمەتگوزاریی زیاتری یانە","textChars":24,"textLines":1,"bbox":[122,532,450,20]}
+{"kind":"shape","id":"sh/614va1sn","slide":13,"bbox":[72,590,1136,64]}
+{"kind":"textbox","id":"sh/1svepgra","slide":13,"text":"مەودای داهاتوو","textPreview":"مەودای داهاتوو","textChars":14,"textLines":1,"bbox":[1004,606,180,18]}
+{"kind":"textbox","id":"sh/g7mdgbap","slide":13,"text":"قۆناغی ٢ و ٣ مۆدیولی هەڵبژاردەی داهاتوون و لە مەودای قۆناغی ١دا نیین. هیچ نرخێک بۆ ئەم قۆناغانە پیشان نەدراوە.","textPreview":"قۆناغی ٢ و ٣ مۆدیولی هەڵبژاردەی داهاتوون و لە مەودای قۆناغی ١دا نیین. هیچ نرخێک بۆ ئەم قۆناغانە پیشان نەدراوە.","textChars":110,"textLines":1,"bbox":[104,602,890,38]}
+{"kind":"textbox","id":"sh/0buxcfil","slide":13,"text":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textPreview":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textChars":38,"textLines":1,"bbox":[688,681,520,16]}
+{"kind":"shape","id":"sh/lc3ylkz6","slide":13,"bbox":[72,681,20,3]}
+{"kind":"notes","id":"nt/hgzapcr6","slide":13,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}
+{"kind":"slide","id":"sl/6lsnupw7","slide":14,"title":"کۆتایی","textShapes":16}
+{"kind":"textbox","id":"sh/up4fal83","slide":14,"text":"کۆتایی","textPreview":"کۆتایی","textChars":6,"textLines":1,"bbox":[708,42,500,24]}
+{"kind":"textbox","id":"sh/xc7eds76","slide":14,"text":"قۆناغی ١ بناغەیەکی دیجیتاڵی تەواو بۆ یانەی وەرزشی هەولێر دابین دەکات","textPreview":"قۆناغی ١ بناغەیەکی دیجیتاڵی تەواو بۆ یانەی وەرزشی هەولێر دابین دەکات","textChars":68,"textLines":1,"bbox":[128,72,1080,52]}
+{"kind":"shape","id":"sh/wbydknq1","slide":14,"bbox":[72,132,1136,0]}
+{"kind":"textbox","id":"sh/jepwf2pc","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[73,43,42,22]}
+{"kind":"textbox","id":"sh/idgvmx8r","slide":14,"text":"مەودای پێشنیارکراو ماڵپەڕ، حجزی مۆبایل، پارەدانی ئۆنلاین و بەڕێوەبردن لە یەک پلاتفۆرمدا پەیوەست دەکات.","textPreview":"مەودای پێشنیارکراو ماڵپەڕ، حجزی مۆبایل، پارەدانی ئۆنلاین و بەڕێوەبردن لە یەک پلاتفۆرمدا پەیوەست دەکات.","textChars":102,"textLines":1,"bbox":[128,164,1080,58]}
+{"kind":"textbox","id":"sh/5grehs7i","slide":14,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1160,270,48,28]}
+{"kind":"textbox","id":"sh/kfidonqx","slide":14,"text":"ئەزموونی ئەندام","textPreview":"ئەزموونی ئەندام","textChars":15,"textLines":1,"bbox":[872,268,260,28]}
+{"kind":"textbox","id":"sh/zi5c3y98","slide":14,"text":"هاندەران دەتوانن خزمەتگوزاریی تۆپی پێ بدۆزنەوە، ئۆنلاین پارە بدەن و حجزێکی پشتڕاستکراو بە QR وەربگرن.","textPreview":"هاندەران دەتوانن خزمەتگوزاریی تۆپی پێ بدۆزنەوە، ئۆنلاین پارە بدەن و حجزێکی پشتڕاستکراو بە QR وەربگرن.","textChars":101,"textLines":1,"bbox":[150,268,700,50]}
+{"kind":"shape","id":"sh/ehwvat8n","slide":14,"bbox":[172,335,960,0]}
+{"kind":"textbox","id":"sh/c3e1gjyd","slide":14,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1160,378,48,28]}
+{"kind":"textbox","id":"sh/x4ni9ofy","slide":14,"text":"کۆنترۆڵی کارگێڕی","textPreview":"کۆنترۆڵی کارگێڕی","textChars":16,"textLines":1,"bbox":[872,376,260,28]}
+{"kind":"textbox","id":"sh/a1wze9g7","slide":14,"text":"ستاف دەتوانێت خشتەکات، کڕیاران، دۆخی پارەدان و ڕاپۆرتە سەرەتاییەکان لە یەک داشبۆرد بەڕێوەببات.","textPreview":"ستاف دەتوانێت خشتەکات، کڕیاران، دۆخی پارەدان و ڕاپۆرتە سەرەتاییەکان لە یەک داشبۆرد بەڕێوەببات.","textChars":94,"textLines":1,"bbox":[150,376,700,50]}
+{"kind":"shape","id":"sh/b2507exs","slide":14,"bbox":[172,443,960,0]}
+{"kind":"textbox","id":"sh/kre1k3y9","slide":14,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1160,486,48,28]}
+{"kind":"textbox","id":"sh/ls7idofu","slide":14,"text":"توانای فراوانبوون","textPreview":"توانای فراوانبوون","textChars":17,"textLines":1,"bbox":[872,484,260,28]}
+{"kind":"textbox","id":"sh/y5wjitgj","slide":14,"text":"مۆدیولی ئەندامێتی و خزمەتگوزاریی زیرەکی داهاتوو دەتوانرێت بە مەودای جیاواز زیاد بکرێت.","textPreview":"مۆدیولی ئەندامێتی و خزمەتگوزاریی زیرەکی داهاتوو دەتوانرێت بە مەودای جیاواز زیاد بکرێت.","textChars":86,"textLines":1,"bbox":[150,484,700,50]}
+{"kind":"shape","id":"sh/z650byxo","slide":14,"bbox":[172,551,960,0]}
+{"kind":"shape","id":"sh/0buh8zy5","slide":14,"bbox":[72,604,1136,52]}
+{"kind":"textbox","id":"sh/1w3i14fq","slide":14,"text":"هەنگاوی داهاتووی پێشنیارکراو","textPreview":"هەنگاوی داهاتووی پێشنیارکراو","textChars":28,"textLines":1,"bbox":[994,619,190,18]}
+{"kind":"textbox","id":"sh/hsvy50re","slide":14,"text":"قۆناغی ١ پەسەند بکەن و شیکردنەوە، کۆکردنەوەی ناوەڕۆک و دیزاینی ئەزموون دەستپێبکەن.","textPreview":"قۆناغی ١ پەسەند بکەن و شیکردنەوە، کۆکردنەوەی ناوەڕۆک و دیزاینی ئەزموون دەستپێبکەن.","textChars":82,"textLines":1,"bbox":[110,615,870,26]}
+{"kind":"textbox","id":"sh/grmxwvqt","slide":14,"text":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textPreview":"پلاتفۆرمی دیجیتاڵی یانەی وەرزشی هەولێر","textChars":38,"textLines":1,"bbox":[688,681,520,16]}
+{"kind":"shape","id":"sh/fqdg3q98","slide":14,"bbox":[72,681,20,3]}
+{"kind":"notes","id":"nt/6lsnupw7","slide":14,"text":"[Sources]\n- User-provided Erbil Sports Club digital platform brief, September 2026.\n- Coovix local brand palette and official Coovix logo from the project workspace.\n[/Sources]"}

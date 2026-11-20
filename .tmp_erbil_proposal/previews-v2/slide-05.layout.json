@@ -1,0 +1,1646 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/i8gqp5",
+    "id": "i8gqp5",
+    "slide": 5,
+    "layoutId": "8bce1abe-743b-4c89-80d8-05d7fb5fd5a7",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "fc0b310a-ee49-46e8-8fc5-e3b2dafd25f4",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FAF9F3",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8bce1abe-743b-4c89-80d8-05d7fb5fd5a7",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "fc0b310a-ee49-46e8-8fc5-e3b2dafd25f4",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "fc0b310a-ee49-46e8-8fc5-e3b2dafd25f4",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sjqpgrid",
+      "id": "1",
+      "bbox": [
+        72,
+        42,
+        500,
+        24
+      ],
+      "geometry": "rect",
+      "text": "WEBSITE EXPERIENCE",
+      "textPreview": "WEBSITE EXPERIENCE",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#C79600",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "WEBSITE EXPERIENCE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "WEBSITE EXPERIENCE",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#C79600",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "WEBSITE EXPERIENCE",
+              "fontSize": 13,
+              "color": "#C79600",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ih8nm1s",
+      "id": "2",
+      "bbox": [
+        72,
+        72,
+        1080,
+        52
+      ],
+      "geometry": "rect",
+      "text": "The website becomes the digital home of Erbil football",
+      "textPreview": "The website becomes the digital home of Erbil football",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "fontSize": 36,
+        "typeface": "+mn-lt",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The website becomes the digital home of Erbil football"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The website becomes the digital home of Erbil football",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The website becomes the digital home of Erbil football",
+              "fontSize": 36,
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6h87eh07",
+      "id": "3",
+      "bbox": [
+        72,
+        132,
+        1136,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#E7E0C4",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5gzqlcjm",
+      "id": "4",
+      "bbox": [
+        1165,
+        43,
+        42,
+        22
+      ],
+      "geometry": "rect",
+      "text": "05",
+      "textPreview": "05",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#6B6B66",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "05"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "05",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#6B6B66",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "05",
+              "fontSize": 13,
+              "color": "#6B6B66",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kf6pc7i1",
+      "id": "5",
+      "bbox": [
+        72,
+        176,
+        690,
+        382
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#E7E0C4",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jex8jm1g",
+      "id": "6",
+      "bbox": [
+        72,
+        176,
+        690,
+        38
+      ],
+      "geometry": "rect",
+      "fillColor": "#111111",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ito7ah0b",
+      "id": "7",
+      "bbox": [
+        90,
+        190,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#C79600",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xsfqhcjq",
+      "id": "8",
+      "bbox": [
+        106,
+        190,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wr6p87i5",
+      "id": "9",
+      "bbox": [
+        122,
+        190,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6p8zulsz",
+      "id": "10",
+      "bbox": [
+        144,
+        187,
+        596,
+        18
+      ],
+      "geometry": "rect",
+      "text": "ERBIL SPORTS CLUB",
+      "textPreview": "ERBIL SPORTS CLUB",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ERBIL SPORTS CLUB"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ERBIL SPORTS CLUB",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ERBIL SPORTS CLUB",
+              "fontSize": 11,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ah0nq9k",
+      "id": "11",
+      "bbox": [
+        88,
+        230,
+        658,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#FAF9F3",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bqhwba5",
+      "id": "12",
+      "bbox": [
+        102,
+        248,
+        630,
+        22
+      ],
+      "geometry": "rect",
+      "text": "FOOTBALL. COMMUNITY. ERBIL.",
+      "textPreview": "FOOTBALL. COMMUNITY. ERBIL.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FOOTBALL. COMMUNITY. ERBIL."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FOOTBALL. COMMUNITY. ERBIL.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FOOTBALL. COMMUNITY. ERBIL.",
+              "fontSize": 18,
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcjipgrq",
+      "id": "13",
+      "bbox": [
+        102,
+        280,
+        110,
+        20
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#C79600",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yl8zq1s3",
+      "id": "14",
+      "bbox": [
+        112,
+        283,
+        92,
+        12
+      ],
+      "geometry": "rect",
+      "text": "BOOK A FACILITY",
+      "textPreview": "BOOK A FACILITY",
+      "resolvedFontSize": 8,
+      "resolvedTextStyle": {
+        "fontSize": 8,
+        "typeface": "+mn-lt",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BOOK A FACILITY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BOOK A FACILITY",
+          "resolvedTextStyle": {
+            "fontSize": 8,
+            "color": "#111111",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BOOK A FACILITY",
+              "fontSize": 8,
+              "color": "#111111",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jmh0j698",
+      "id": "15",
+      "bbox": [
+        88,
+        324,
+        212.67,
+        66
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAF9F3",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/knqhsbat",
+      "id": "16",
+      "bbox": [
+        96,
+        348,
+        207.33,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Facilities",
+      "textPreview": "Facilities",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#1B1B1B",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Facilities"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Facilities",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#1B1B1B",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Facilities",
+              "fontSize": 11,
+              "color": "#1B1B1B",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lozilgre",
+      "id": "17",
+      "bbox": [
+        303.33,
+        324,
+        212.67,
+        66
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFF2A8",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahozm1sr",
+      "id": "18",
+      "bbox": [
+        311.33,
+        348,
+        207.33,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Events",
+      "textPreview": "Events",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#1B1B1B",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Events"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Events",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#1B1B1B",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Events",
+              "fontSize": 11,
+              "color": "#1B1B1B",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bix0f69c",
+      "id": "19",
+      "bbox": [
+        518.67,
+        324,
+        212.67,
+        66
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FAF9F3",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zmdwn2p4",
+      "id": "20",
+      "bbox": [
+        526.67,
+        348,
+        207.33,
+        18
+      ],
+      "geometry": "rect",
+      "text": "News",
+      "textPreview": "News",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#1B1B1B",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "News"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "News",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#1B1B1B",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "News",
+              "fontSize": 11,
+              "color": "#1B1B1B",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/h43q9cvy",
+      "id": "21",
+      "bbox": [
+        100,
+        185,
+        44,
+        47
+      ],
+      "alt": "Official Erbil Sports Club crest",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "6a9d900e-b9b3-4f3f-b287-fb7a692cae5b",
+        "contentType": "image/png",
+        "byteLength": 262181
+      }
+    },
+    {
+      "order": 22,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ahcryxw7",
+      "id": "22",
+      "bbox": [
+        520,
+        236,
+        210,
+        190
+      ],
+      "geometry": "roundRect",
+      "alt": "Erbil Sports Club football team photo supplied by the user",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 5263"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "bd3c6ec8-df31-4ee1-9a5c-e5bbec8eabaf",
+        "contentType": "image/jpeg",
+        "byteLength": 47101
+      }
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0nmxg7qp",
+      "id": "23",
+      "bbox": [
+        820,
+        178,
+        360,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Built around the club and its supporters",
+      "textPreview": "Built around the club and its supporters",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Built around the club and its"
+          },
+          {
+            "index": 2,
+            "text": "supporters"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Built around the club and its supporters",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Built around the club and its supporters",
+              "fontSize": 22,
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nqdwr2p0",
+      "id": "24",
+      "bbox": [
+        820,
+        241,
+        9,
+        9
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#C79600",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mp4fix8v",
+      "id": "25",
+      "bbox": [
+        840,
+        235,
+        355,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Club identity",
+      "textPreview": "Club identity",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#1B1B1B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Club identity"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Club identity",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#1B1B1B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Club identity",
+              "fontSize": 17,
+              "color": "#1B1B1B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9svytc76",
+      "id": "26",
+      "bbox": [
+        840,
+        261,
+        355,
+        39
+      ],
+      "geometry": "rect",
+      "text": "Home, history, leadership and contact information.",
+      "textPreview": "Home, history, leadership and contact information.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#6B6B66",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Home, history, leadership and contact information."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Home, history, leadership and contact information.",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#6B6B66",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Home, history, leadership and contact information.",
+              "fontSize": 14,
+              "color": "#6B6B66",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ormxk7ql",
+      "id": "27",
+      "bbox": [
+        820,
+        323,
+        9,
+        9
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#C79600",
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3utwfipw",
+      "id": "28",
+      "bbox": [
+        840,
+        317,
+        355,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Football content",
+      "textPreview": "Football content",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#1B1B1B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Football content"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Football content",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#1B1B1B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Football content",
+              "fontSize": 17,
+              "color": "#1B1B1B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/it0v6d8b",
+      "id": "29",
+      "bbox": [
+        840,
+        343,
+        355,
+        39
+      ],
+      "geometry": "rect",
+      "text": "First team, academy, fixtures, results, news and events.",
+      "textPreview": "First team, academy, fixtures, results, news and events.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#6B6B66",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "First team, academy, fixtures, results, news and"
+          },
+          {
+            "index": 2,
+            "text": "events."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "First team, academy, fixtures, results, news and events.",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#6B6B66",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "First team, academy, fixtures, results, news and events.",
+              "fontSize": 14,
+              "color": "#6B6B66",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8zytgj69",
+      "id": "30",
+      "bbox": [
+        820,
+        405,
+        9,
+        9
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#C79600",
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t07up4nu",
+      "id": "31",
+      "bbox": [
+        840,
+        399,
+        355,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Member services",
+      "textPreview": "Member services",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#1B1B1B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Member services"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Member services",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#1B1B1B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Member services",
+              "fontSize": 17,
+              "color": "#1B1B1B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6xgbe9o3",
+      "id": "32",
+      "bbox": [
+        840,
+        425,
+        355,
+        39
+      ],
+      "geometry": "rect",
+      "text": "Membership information, login and profile access.",
+      "textPreview": "Membership information, login and profile access.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#6B6B66",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Membership information, login and profile access."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Membership information, login and profile access.",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#6B6B66",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Membership information, login and profile access.",
+              "fontSize": 14,
+              "color": "#6B6B66",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ypcne5o",
+      "id": "33",
+      "bbox": [
+        820,
+        487,
+        9,
+        9
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#E0AD00",
+      "lineWidth": 0
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kvytcz6x",
+      "id": "34",
+      "bbox": [
+        840,
+        481,
+        355,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Facility booking",
+      "textPreview": "Facility booking",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#1B1B1B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Facility booking"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Facility booking",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#1B1B1B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Facility booking",
+              "fontSize": 17,
+              "color": "#1B1B1B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lw7ul4ni",
+      "id": "35",
+      "bbox": [
+        840,
+        507,
+        355,
+        39
+      ],
+      "geometry": "rect",
+      "text": "Pitch details, live availability and reservations.",
+      "textPreview": "Pitch details, live availability and reservations.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#6B6B66",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Pitch details, live availability and reservations."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Pitch details, live availability and reservations.",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#6B6B66",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Pitch details, live availability and reservations.",
+              "fontSize": 14,
+              "color": "#6B6B66",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y9wbapo7",
+      "id": "36",
+      "bbox": [
+        72,
+        596,
+        1120,
+        50
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#111111",
+      "lineWidth": 0
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ja5cjups",
+      "id": "37",
+      "bbox": [
+        96,
+        611,
+        1072,
+        22
+      ],
+      "geometry": "rect",
+      "text": "FOOTBALL STORY • FIXTURES • CLUB NEWS • MEMBERSHIP • PITCH BOOKING",
+      "textPreview": "FOOTBALL STORY • FIXTURES • CLUB NEWS • MEMBERSHIP • PITCH BOOKING",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FOOTBALL STORY • FIXTURES • CLUB NEWS • MEMBERSHIP • PITCH BOOKING"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FOOTBALL STORY • FIXTURES • CLUB NEWS • MEMBERSHIP • PITCH BOOKING",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FOOTBALL STORY • FIXTURES • CLUB NEWS • MEMBERSHIP • PITCH BOOKING",
+              "fontSize": 15,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4rido36h",
+      "id": "38",
+      "bbox": [
+        72,
+        681,
+        520,
+        16
+      ],
+      "geometry": "rect",
+      "text": "ERBIL SPORTS CLUB DIGITAL PLATFORM",
+      "textPreview": "ERBIL SPORTS CLUB DIGITAL PLATFORM",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#6B6B66",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ERBIL SPORTS CLUB DIGITAL PLATFORM"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ERBIL SPORTS CLUB DIGITAL PLATFORM",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#6B6B66",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ERBIL SPORTS CLUB DIGITAL PLATFORM",
+              "fontSize": 10,
+              "color": "#6B6B66",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 39,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5srux8n2",
+      "id": "39",
+      "bbox": [
+        1188,
+        681,
+        20,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#C79600",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="720" viewBox="0 0 1800 720">
+  <rect width="1800" height="720" fill="#ffffff"/>
+  <defs><style>
+    .ui{font-family:Arial,"Noto Sans Arabic",sans-serif;fill:#111}.muted{fill:#6b6b66}.blue{fill:#0099d8}.gold{fill:#c49100}.white{fill:#fff}.rtl{unicode-bidi:normal}.b{font-weight:700}.tiny{font-size:13px}.sm{font-size:16px}.md{font-size:20px}.lg{font-size:27px}
+  </style></defs>
+  <g transform="translate(30 10)">
+    <rect width="395" height="650" rx="58" fill="#111"/><rect x="16" y="18" width="363" height="614" rx="44" fill="#fff"/><rect x="145" y="12" width="105" height="17" rx="8" fill="#111"/>
+    <text x="48" y="60" class="ui tiny b">9:41</text><image href="file:///Applications/MAMP/htdocs/coovix/deliverables/assets/erbil-sports-club-logo.png" x="38" y="70" width="48" height="55"/><text x="345" y="105" text-anchor="end" class="ui md b">ERBIL SC</text>
+    <text x="345" y="180" text-anchor="end" class="ui lg b rtl">پێداچوونەوە و پارەدان</text>
+    <rect x="36" y="215" width="323" height="150" rx="18" fill="#f7f6f1" stroke="#eadca6"/>
+    <text x="330" y="255" text-anchor="end" class="ui md b rtl">یاریگای ڕاهێنان ١</text><text x="330" y="292" text-anchor="end" class="ui sm muted rtl">هەینی ١٨:٣٠–٢٠:٠٠</text><text x="330" y="335" text-anchor="end" class="ui lg b rtl">٢٥,٠٠٠ دینار</text>
+    <text x="345" y="415" text-anchor="end" class="ui sm b gold rtl">شێوازی پارەدان</text><rect x="36" y="435" width="323" height="68" rx="16" fill="#fff" stroke="#eadca6"/><text x="330" y="477" text-anchor="end" class="ui sm b rtl">کارت کۆتایی بە ٤٢٤٢</text>
+    <rect x="36" y="545" width="323" height="58" rx="16" fill="#ffd000"/><text x="197" y="582" text-anchor="middle" class="ui sm b rtl">٢٥,٠٠٠ دینار بدە</text>
+    <text x="197" y="686" text-anchor="middle" class="ui sm b blue rtl">پارەدان</text>
+  </g>
+  <g transform="translate(475 10)">
+    <rect width="395" height="650" rx="58" fill="#111"/><rect x="16" y="18" width="363" height="614" rx="44" fill="#fff"/><rect x="145" y="12" width="105" height="17" rx="8" fill="#111"/>
+    <text x="48" y="60" class="ui tiny b">9:41</text><image href="file:///Applications/MAMP/htdocs/coovix/deliverables/assets/erbil-sports-club-logo.png" x="38" y="70" width="48" height="55"/><text x="345" y="105" text-anchor="end" class="ui md b">ERBIL SC</text>
+    <circle cx="197" cy="210" r="58" fill="#ffd000"/><text x="197" y="228" text-anchor="middle" class="ui lg b">✓</text>
+    <text x="197" y="320" text-anchor="middle" class="ui lg b rtl">پارەدان سەرکەوتوو بوو</text><text x="197" y="365" text-anchor="middle" class="ui md b rtl">٢٥,٠٠٠ دینار</text>
+    <rect x="36" y="408" width="323" height="118" rx="18" fill="#f7f6f1" stroke="#eadca6"/><text x="330" y="445" text-anchor="end" class="ui sm gold b rtl">پارەدراو</text><text x="330" y="480" text-anchor="end" class="ui sm b">ESC-P18472</text><text x="330" y="510" text-anchor="end" class="ui sm muted rtl">پسوڵەی دیجیتاڵی پاشەکەوت کرا</text>
+    <rect x="36" y="545" width="323" height="58" rx="16" fill="#111"/><text x="197" y="582" text-anchor="middle" class="ui sm b white">حجزەکە ببینە</text>
+    <text x="197" y="686" text-anchor="middle" class="ui sm b blue rtl">سەرکەوتنی پارەدان</text>
+  </g>
+  <g transform="translate(920 10)">
+    <rect width="395" height="650" rx="58" fill="#111"/><rect x="16" y="18" width="363" height="614" rx="44" fill="#fff"/><rect x="145" y="12" width="105" height="17" rx="8" fill="#111"/>
+    <text x="48" y="60" class="ui tiny b">9:41</text><image href="file:///Applications/MAMP/htdocs/coovix/deliverables/assets/erbil-sports-club-logo.png" x="38" y="70" width="48" height="55"/><text x="345" y="105" text-anchor="end" class="ui md b">ERBIL SC</text>
+    <circle cx="197" cy="182" r="50" fill="#ffd000"/><text x="197" y="200" text-anchor="middle" class="ui lg b">✓</text>
+    <text x="197" y="280" text-anchor="middle" class="ui lg b rtl">حجز پشتڕاست کرایەوە</text><text x="197" y="320" text-anchor="middle" class="ui sm muted rtl">یاریگای ڕاهێنان ١ • هەینی ١٨:٣٠–٢٠:٠٠</text>
+    <rect x="108" y="355" width="180" height="180" rx="18" fill="#fff" stroke="#eadca6"/><image href="file:///Applications/MAMP/htdocs/coovix/deliverables/assets/erbil-booking-qr.png" x="125" y="372" width="146" height="146"/>
+    <text x="197" y="568" text-anchor="middle" class="ui sm b">ESC-18472</text><text x="197" y="596" text-anchor="middle" class="ui sm muted rtl">لە پێشوازی سکان بکە</text>
+    <text x="197" y="686" text-anchor="middle" class="ui sm b blue rtl">پشتڕاستکردنەوەی QR</text>
+  </g>
+  <g transform="translate(1365 10)">
+    <rect width="395" height="650" rx="58" fill="#111"/><rect x="16" y="18" width="363" height="614" rx="44" fill="#fff"/><rect x="145" y="12" width="105" height="17" rx="8" fill="#111"/>
+    <text x="48" y="60" class="ui tiny b">9:41</text><image href="file:///Applications/MAMP/htdocs/coovix/deliverables/assets/erbil-sports-club-logo.png" x="38" y="70" width="48" height="55"/><text x="345" y="105" text-anchor="end" class="ui md b">ERBIL SC</text>
+    <text x="345" y="180" text-anchor="end" class="ui lg b rtl">حجزەکانی من</text>
+    <rect x="36" y="215" width="323" height="185" rx="18" fill="#fff0a8" stroke="#eadca6"/><text x="330" y="250" text-anchor="end" class="ui sm gold b rtl">پشتڕاستکراو</text><text x="330" y="290" text-anchor="end" class="ui md b rtl">یاریگای ڕاهێنان ١</text><text x="330" y="328" text-anchor="end" class="ui sm muted rtl">هەینی ١٨:٣٠–٢٠:٠٠</text><text x="330" y="370" text-anchor="end" class="ui md b rtl">٢٥,٠٠٠ دینار • پارەدراو</text>
+    <rect x="36" y="430" width="323" height="120" rx="18" fill="#f7f6f1" stroke="#eadca6"/><text x="330" y="470" text-anchor="end" class="ui sm b rtl">حجزی پێشوو</text><text x="330" y="510" text-anchor="end" class="ui sm muted rtl">یاریگای ڕاهێنان ٢ • تەواوبوو</text>
+    <text x="197" y="600" text-anchor="middle" class="ui tiny muted rtl">سەرەکی     حجزەکان     پرۆفایل</text>
+    <text x="197" y="686" text-anchor="middle" class="ui sm b blue rtl">حجزەکانی من</text>
+  </g>
+</svg>

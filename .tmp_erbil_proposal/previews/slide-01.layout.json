@@ -1,0 +1,698 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/y6u8oq",
+    "id": "y6u8oq",
+    "slide": 1,
+    "layoutId": "49d82ae1-ff4b-4085-8796-b165775265fb",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d8b4da26-983c-49a8-b6c2-a7676d0b2221",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#073B55",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "49d82ae1-ff4b-4085-8796-b165775265fb",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d8b4da26-983c-49a8-b6c2-a7676d0b2221",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d8b4da26-983c-49a8-b6c2-a7676d0b2221",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sf21kji5",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        18,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#0099D8",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7et0re1k",
+      "id": "2",
+      "bbox": [
+        930,
+        0,
+        350,
+        350
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#12384C",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6dkji90z",
+      "id": "3",
+      "bbox": [
+        1010,
+        0,
+        270,
+        270
+      ],
+      "geometry": "ellipse",
+      "lineColor": "#E6F5FC",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5cbip4je",
+      "id": "4",
+      "bbox": [
+        78,
+        72,
+        132,
+        96
+      ],
+      "geometry": "roundRect",
+      "lineColor": "#0099D8",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kb21gzit",
+      "id": "5",
+      "bbox": [
+        95,
+        105,
+        98,
+        28
+      ],
+      "geometry": "rect",
+      "text": "LOGO",
+      "textPreview": "LOGO",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#E6F5FC",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LOGO"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LOGO",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#E6F5FC",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LOGO",
+              "fontSize": 18,
+              "color": "#E6F5FC",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jat0ne1o",
+      "id": "6",
+      "bbox": [
+        78,
+        222,
+        520,
+        26
+      ],
+      "geometry": "rect",
+      "text": "BUSINESS PROPOSAL",
+      "textPreview": "BUSINESS PROPOSAL",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#0099D8",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BUSINESS PROPOSAL"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BUSINESS PROPOSAL",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#0099D8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BUSINESS PROPOSAL",
+              "fontSize": 14,
+              "color": "#0099D8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y90ze903",
+      "id": "7",
+      "bbox": [
+        78,
+        258,
+        820,
+        145
+      ],
+      "geometry": "rect",
+      "text": "Erbil Sports Club\nDigital Platform",
+      "textPreview": "Erbil Sports Club | Digital Platform",
+      "resolvedFontSize": 55,
+      "resolvedTextStyle": {
+        "fontSize": 55,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Erbil Sports Club"
+          },
+          {
+            "index": 2,
+            "text": "Digital Platform"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Erbil Sports Club",
+          "resolvedTextStyle": {
+            "fontSize": 55,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Erbil Sports Club",
+              "fontSize": 55,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Digital Platform",
+          "resolvedTextStyle": {
+            "fontSize": 55,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Digital Platform",
+              "fontSize": 55,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x8ril4ji",
+      "id": "8",
+      "bbox": [
+        82,
+        420,
+        740,
+        45
+      ],
+      "geometry": "rect",
+      "text": "Website, Mobile Application & Smart Booking System",
+      "textPreview": "Website, Mobile Application & Smart Booking System",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#E6F5FC",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Website, Mobile Application & Smart Booking System"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Website, Mobile Application & Smart Booking System",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#E6F5FC",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Website, Mobile Application & Smart Booking System",
+              "fontSize": 23,
+              "color": "#E6F5FC",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wnihczix",
+      "id": "9",
+      "bbox": [
+        82,
+        495,
+        650,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#2A6177",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qdgjuhcz",
+      "id": "10",
+      "bbox": [
+        82,
+        522,
+        560,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Prepared by: Coovix",
+      "textPreview": "Prepared by: Coovix",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Prepared by: Coovix"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Prepared by: Coovix",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Prepared by: Coovix",
+              "fontSize": 16,
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/repk3md4",
+      "id": "11",
+      "bbox": [
+        82,
+        555,
+        260,
+        24
+      ],
+      "geometry": "rect",
+      "text": "September 2026",
+      "textPreview": "September 2026",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#B9D4DF",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "September 2026"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "September 2026",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#B9D4DF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "September 2026",
+              "fontSize": 16,
+              "color": "#B9D4DF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sfy1wrup",
+      "id": "12",
+      "bbox": [
+        850,
+        470,
+        335,
+        82
+      ],
+      "geometry": "rect",
+      "text": "A connected experience for members.\nA clearer operating system for management.",
+      "textPreview": "A connected experience for members. | A clearer operating system for management.",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A connected experience for"
+          },
+          {
+            "index": 2,
+            "text": "members."
+          },
+          {
+            "index": 3,
+            "text": "A clearer operating system"
+          },
+          {
+            "index": 4,
+            "text": "for management."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A connected experience for members.",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A connected experience for members.",
+              "fontSize": 22,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "A clearer operating system for management.",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A clearer operating system for management.",
+              "fontSize": 22,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dg725wva",
+      "id": "13",
+      "bbox": [
+        82,
+        665,
+        620,
+        16
+      ],
+      "geometry": "rect",
+      "text": "COOVIX • PROPOSAL • ERBIL, KURDISTAN REGION OF IRAQ",
+      "textPreview": "COOVIX • PROPOSAL • ERBIL, KURDISTAN REGION OF IRAQ",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#93BDCE",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "COOVIX • PROPOSAL • ERBIL, KURDISTAN REGION OF IRAQ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "COOVIX • PROPOSAL • ERBIL, KURDISTAN REGION OF IRAQ",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#93BDCE",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "COOVIX • PROPOSAL • ERBIL, KURDISTAN REGION OF IRAQ",
+              "fontSize": 10,
+              "color": "#93BDCE",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
